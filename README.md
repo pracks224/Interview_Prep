@@ -88,9 +88,9 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
 <details>
   <summary>Remove a Loop from a Single List </summary>
   
-  ### Algorithm
-  1. Foo
-  2. Bar
+  ### Algorithm -> Hint : Floyd Cycle Detection
+  1. Visited Node Technique
+  2. Hashing
      * Baz
      * Qux
 
