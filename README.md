@@ -301,6 +301,62 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
 ## Kubernetes
 
 ## Kafka
+<details>
+  <summary>Important Notes to revise</summary>  
+ 
+  ```diff
+    a) What is kafka Cluster? 
+       - Group of Kafka brokers.  
+    b) What is Kafka broker -> Its the server where Kafka instances are running.
+    c) Producer -> Writes new data to the kafka cluster (data dal dega)
+    d) Consumer - > Kaffka cluster se data utha ta hai
+    e) Zookeeper -> Monitors the Kafka cluster health
+    f) Connects -> If you have to pull data from external source ( configurable ). We dont need to write any code
+    g) Stream -> to transformation the data 
+ ```
+ ##### Kafka Topics 
+    - These are like tables of databse
+    - They live inside the broker
+    -  Producers produces the messages and send to topics
+    -  Topics has partions
+    - Producers can directly send the data to partion or topics
+ 
+ ##### Kafka Partiontions 
+ 
+    - Topics has many partions like p0 p1 p2 ..
+    - Partions where actual messages stores.
+    - While creating topics,number partions will be decided
+    -  Partions are ordered and immutable sequence
+    - Partions are in increased order id called offset
+    - Each partion is independent of each other.
+    - All the trannsactions stores in distributed log files.
+ 
+ ##### How and why to send messages to KAFKA keys ?
+ 
+    - When producers send messages to Topics/Partions , It will insert into Partions in  round robin fashion
+      Producer - Send messages m1,m2,m3, m4
+    - Let's say Topics has p1,p2 partions,Then messages will insert into p1 - m1 -> p2 - m2  -> p1- m3 -> p2 - m4 etc
+      The problem with this approach is it fetches in unorders fashion. To avoid we have to pass the message with keys
+ 
+   -  When message passed with keys, partiotoner created a hash and bind it to a prticular partion.
+ 
+   - Key is optional . With out key sending messages wont guarntees the ordering of the message as the consumer poll the
+     messages from all partions at the same time.
+ 
+ #### Steps to work on Kafka
+     
+     -  Start zookeeper
+     -  start the broker
+     -  create the topic 
+         > kafka-topics.bat --create --topic fruit --bootstrap-server localhost:9092 --replication-factor 1 -- partions 4
+     - create producers
+         > kafka-console-producers.bat --broker-list localhost:9092 --topic fruit --property "key.separator = -" --property "parse-key=true
+     - same way create/register producers
+      
+ **[⬆ Back to Top](#table-of-contents)** 
+ 
+ </details>
+
 
 ## Docker
 
