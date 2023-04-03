@@ -79,9 +79,7 @@ console.log(person.address.country) // It will pring India ,even though it is al
 
   ```
   3. #### How to deep-freeze an object in JavaScript ?
-  ### Ans
-   ```
-   ```
+  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
 </details>
 
 ## Java OOps
