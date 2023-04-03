@@ -130,6 +130,11 @@ console.log(person.address.country) // It will pring India ,even though it is al
 
 ## Data Structure Using Java
 
+| Algorithms       | link to solutions           | Remarks  |
+| ------------- |:-------------:| -----:|
+| Invert the Binary Tree      | Tree | First Attempt - Fail |
+| Reverse Level Order     | Tree      |   First Attempt - Done |
+
 <details>
   <summary>Scramble String </summary>
   
