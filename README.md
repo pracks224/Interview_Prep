@@ -141,6 +141,7 @@ console.log(person.address.country) // It will pring India ,even though it is al
 | Connect Nodes at same level    | Binary Tree     |   First Attempt - Fail |
 | Kth smallest BST    | Binary SearchTree     |   First Attempt - Done |
 |  Check Valid BST    | Binary SearchTree     |   First Attempt - ? |
+|  Optimal String Partion    | Bit Manipulation,Hashing   |   First Attempt - done//Bit Manipulation Approach is much faster |
 
 <details>
   <summary>Scramble String </summary>
