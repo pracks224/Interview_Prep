@@ -82,6 +82,9 @@ console.log(person.address.country) // It will pring India ,even though it is al
   ```
   3. #### How to deep-freeze an object in JavaScript ?
   ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+  
+  4. #### Implement sum(2)(3)() (Currying funtions- is also a higher order function ?
+  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
 </details>
 
 ## Java OOps
