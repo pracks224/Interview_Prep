@@ -470,6 +470,13 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  ### [Why Kafka is very fast](https://www.youtube.com/watch?v=UNUz1-msbOM)
  ### [Kafka Stream - Must reacd Book](https://assets.confluent.io/m/7997a914c1a19b5?mkt_tok=NTgyLVFIWC0yNjIAAAGGApzv7utiTseX[…]yqvKtp86XezuCYCO30eyP63XV8MjOSS5737KVpPO1BXbiPx5soDrNGE3YDA )
  ### [How linkedin works?](https://engineering.linkedin.com/blog/2019/apache-kafka-trillion-messages)
+ ### [POC](https://github.com/hardikSinghBehl/kafka-java-spring-boot-poc)
+ ### [Blogs](https://www.linkedin.com/pulse/kafka-idempotent-producer-rob-golder/)
+ ### [Blogs-2](https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9)
+ 
+ ``` Real time question
+ Concern is that I have key i.e. uuid along with that key I published the AVRO model to a topic if I republished with same key it is still getting published and I could see the message in Kafka Topic. I am using confluent kafka version 7.2.1 which uses Kafka version 3.2. If kafka version is greater and 3.0. It has by default safe producer where it enable.idempotance = true acks  = all.
+ ```
  
 | No.       | Questions         |
 | ------------- |:-------------|
