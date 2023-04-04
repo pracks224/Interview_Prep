@@ -19,6 +19,9 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 **[JavaScript ES6](#java-script)**<br>
 **[AWS](#aws)**<br>
 **[ChatBot](#chatbot)**<br>
+**[BigQuery](#big-query)**<br>
+
+## Big Query
 
 ## Miscellenous
 
@@ -426,6 +429,62 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
+ 
+ <details>
+  <summary>Interview Questions</summary>
+ 
+  ### Usages
+ 
+ ```
+ a.Kafka is a useful solution for scenarios that require real-time data processing, application activity tracking, and monitoring. 
+ b.At the same time, Kafka  should not be utilized for on-the-fly data conversions, 
+ data storage, or when a simple task queue is all that is required.
+ 
+ ```
+ ### Important Link and Use cases - https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000
+ ### Why Kafka is very fast - https://www.youtube.com/watch?v=UNUz1-msbOM
+ 
+| No.       | Questions         |
+| ------------- |:-------------|
+ |1. | Tell me about some of the use cases where Kafka is not suitable.|
+ |2. | Describe message compression in Kafka. What is the need of message compression in Kafka? |
+ |3. | What do you understand about log compaction and quotas in Kafka?|
+ |4. | Explain the four core API architecture that Kafka uses.|
+ |5. | What do you mean by a Partition in Kafka?|
+ |6. | What do you mean by zookeeper in Kafka and what are its uses?|
+ |7. | Differentiate between Rabbitmq and Kafka.|
+ |8. | What do you understand about Kafka MirrorMaker? |
+ |9. | What do you mean by confluent kafka? What are its advantages?|
+ |10. | How are partitions distributed in an Apache Kafka cluster? |
+ |11. | What is the purpose of ISR in Apache Kafka?|
+ |12. | [How you will handle 50K req per second because coping 50K messages to kafka will also take some time](#12)|
+ |13. | Tell me about some of the use cases where Kafka is not suitable.|
+ |14. | Describe message compression in Kafka. What is the need of message|
+ |15. | Tell me about some of the use cases where Kafka is not suitable.|
+ |16. | Describe message compression in Kafka. What is the need of message |
+ |17. | Tell me about some of the use cases where Kafka is not suitable.|
+ |18. | Describe message compression in Kafka. What is the need of message|
+ |19. | Tell me about some of the use cases where Kafka is not suitable.|
+ |20. | Describe message compression in Kafka. What is the need of message |
+ 
+  ### 12
+  
+  ```Solutions:
+   
+ - To update metadata in Cassandra using Kafka with a high throughput of 50K requests per second, we can use the following strategies:
+
+ - Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
+ - Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
+ - Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
+ - Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
+ - Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
+  ```
+
+   There are many ways to create objects in javascript as below
+ 
+**[⬆ Back to Top](#table-of-contents)**
+ 
+</details>
 
 
 ## Docker
