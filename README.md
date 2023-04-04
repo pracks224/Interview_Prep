@@ -401,6 +401,21 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  
     -  Actually data stores in .log file in encoded format and consumer decode it before uses.
  
+ #### How to Make a Kafka Cluster with 3 Brokers: Understand Replication Factor.
+    
+    - A Kafka cluster is a distributed system that consists of multiple Kafka brokers. Each broker is a server that runs Kafka to manage and store message       data.
+    - The replication factor refers to the number of copies of each message that are stored in the Kafka cluster for fault tolerance.
+ 
+    -  When a topic is created with a replication factor of N, Kafka ensures that there are N replicas of each message distributed across the brokers in         the cluster. This allows for high availability and fault tolerance, as well as scalability for handling large volumes of data.
+    -  E.g.  One Zoo keeper and 3 Brokers 
+        Create topic command 
+        kafka-topics.bat --create --topic gadgets --bootstrap-server localhost:9092,localhost:9093,localhost:9094 --replication-factor 3 --partition 3
+        In this 9092/9093/9094 are the brokers and replication fator 3 means creates 3 copies
+        But when producer sends message,It will send to one broker who is the leader for that partion and then it will replicate inn other two.
+        Similarly we can create prodcuers using command
+        kafka -consumer-console.bat --bootsrtap-server --from-begining
+ 
+ 
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
