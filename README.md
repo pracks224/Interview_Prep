@@ -379,7 +379,13 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
      -  when consumer created - > it will assigned with a group id . One consumer grouop can have multiple consumers.
      -  Ok, Each consumer mantains its own offset that is nothing but the bookmark of the last read . 
      - All the offset stores in _consumer_offset named topic. _consumer_offset is the builtin topic in apache kafka that keeps track of the latest offset commited forv each partion of each consumer group.
-      
+     - The information in _consumer_offset used by kafka for reliabity of the consumet groups and to ensure that messages are not lost or duplicated.
+     - Important - There is separate __consumer_offset for each consumer group.
+     - The group co ordinator uses this information to manage the assignment of partitions to consumers and ensure that each partion is being consumed 
+     by exactly one consumer in the group.
+     - when consumer joins a consumer group,it sends the join request to the group coordinator
+     - The G.C will determine which partition the consumer assigned to be.
+     - STICKY FASHION --> Consumer will assigned to the same partion until its on the same Consumer group.
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
