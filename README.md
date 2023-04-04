@@ -20,6 +20,30 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 **[AWS](#aws)**<br>
 **[ChatBot](#chatbot)**<br>
 **[BigQuery](#big-query)**<br>
+**[Debezium](#debezium)**<br>
+
+## Debezium
+
+<details>
+ <summary>Debezium</summary>
+ 
+ ### What is it?
+ 
+ - Debezium is a set of distributed services to capture changes in your databases so that your applications can see those changes and respond to them. Debezium records all row-level changes within each database table in a change event stream, and applications simply read these streams to see the change events in the same order in which they occurred.
+ - Debezium Architecture
+ - Most commonly, you deploy Debezium by means of Apache Kafka Connect. Kafka Connect is a framework and runtime for implementing and operating:
+ - Source connectors such as Debezium that send records into Kafka
+ - Sink connectors that propagate records from Kafka topics to other systems
+ - As shown in the image, the Debezium connectors for MySQL and PostgresSQL are deployed to capture changes to these two types of databases. Each Debezium connector establishes a connection to its source database:
+ - The MySQL connector uses a client library for accessing the binlog.
+ - The PostgreSQL connector reads from a logical replication stream.
+ - Kafka Connect operates as a separate service besides the Kafka broker.
+ Reference :
+ https://debezium.io/documentation/reference/stable/architecture.html
+ https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8#:~:text=Debezium%20is%20an%20open%2Dsource,apps%20commit%20to%20your%20databases.
+ https://debezium.io/blog/2019/12/18/debezium-1-0-0-final-released/
+ 
+ </details>
 
 ## Big Query
 
