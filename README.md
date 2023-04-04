@@ -386,6 +386,21 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
      - when consumer joins a consumer group,it sends the join request to the group coordinator
      - The G.C will determine which partition the consumer assigned to be.
      - STICKY FASHION --> Consumer will assigned to the same partion until its on the same Consumer group.
+ 
+ #### Understanding Segments, Commit Log, and Retention Policy
+     - Segments : Particular set of messages ,Ek partition me bahut sare messages rehete hai. Ek segement ka size we can define.
+     - Commit Log : In the server.properties -> directory for commit log
+                    All the messages stored in the commit log folder as .log files
+                    As manay partions for a topic ,that many folders will be created
+                    E.g. -> Topic name food with 4 partitions
+                          food_0
+                          food_1
+     - Retentions Policy  : Two types 
+                             Data Based policy -> after a size it will delete 
+                            Time Based policy -> By default 168 hours and after that the file will deleted
+ 
+    -  Actually data stores in .log file in encoded format and consumer decode it before uses.
+ 
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
