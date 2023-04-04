@@ -403,7 +403,7 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  
  #### How to Make a Kafka Cluster with 3 Brokers: Understand Replication Factor.
     
-    - A Kafka cluster is a distributed system that consists of multiple Kafka brokers. Each broker is a server that runs Kafka to manage and store message       data.
+    - A Kafka cluster is a distributed system that consists of multiple Kafka brokers. Each broker is a server that runs Kafka to manage and store message       data. Each will unique broker Id.
     - The replication factor refers to the number of copies of each message that are stored in the Kafka cluster for fault tolerance.
  
     -  When a topic is created with a replication factor of N, Kafka ensures that there are N replicas of each message distributed across the brokers in         the cluster. This allows for high availability and fault tolerance, as well as scalability for handling large volumes of data.
@@ -414,6 +414,15 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
         But when producer sends message,It will send to one broker who is the leader for that partion and then it will replicate inn other two.
         Similarly we can create prodcuers using command
         kafka -consumer-console.bat --bootsrtap-server --from-begining
+ 
+ #### ISR in Kafka
+ 
+ -  In Sync Replica . To see the list of topics kafka-topics.bat --describe
+    Lets say one broker down ,the automatically leader will be assigned in sync
+ 
+ #### Kafka Producer And Consumer Example In Java Spring Boot
+ 
+ - Will share the link later here (main depencey is springframework-kafka )
  
  
  **[⬆ Back to Top](#table-of-contents)** 
