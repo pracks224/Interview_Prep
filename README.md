@@ -426,6 +426,7 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  
  For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
  
+ 
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
@@ -441,8 +442,9 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  data storage, or when a simple task queue is all that is required.
  
  ```
- ### Important Link and Use cases - https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000
- ### Why Kafka is very fast - https://www.youtube.com/watch?v=UNUz1-msbOM
+ ### [Important Link and Use cases Paypal](https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000)
+ ### [Why Kafka is very fast](https://www.youtube.com/watch?v=UNUz1-msbOM)
+ ### [Kafka Stream - Must reacd Book](https://assets.confluent.io/m/7997a914c1a19b5?mkt_tok=NTgyLVFIWC0yNjIAAAGGApzv7utiTseX[…]yqvKtp86XezuCYCO30eyP63XV8MjOSS5737KVpPO1BXbiPx5soDrNGE3YDA )
  
 | No.       | Questions         |
 | ------------- |:-------------|
