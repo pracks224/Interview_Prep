@@ -421,6 +421,7 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  
  - Will share the link later here (main depencey is springframework-kafka )
  
+ For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
  
  **[⬆ Back to Top](#table-of-contents)** 
  
