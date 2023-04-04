@@ -370,6 +370,15 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
      - create producers
          > kafka-console-producers.bat --broker-list localhost:9092 --topic fruit --property "key.separator = -" --property "parse-key=true
      - same way create/register producers
+ 
+ #### Understanding Consumer Offset, Consumer Groups, and Message Consumption in Apache Kafka
+     
+     -  In this section ,I will write about the process consumer consuing information from Partions
+     -  Consumer Offset - Position of a consumer in a specific partition of topic. It represents the latest message consumer has read.
+     -  When a consumer group reads a message from a topic, each member of the group mantains its own offset and updates it as it consumes message.
+     -  when consumer created - > it will assigned with a group id . One consumer grouop can have multiple consumers.
+     -  Ok, Each consumer mantains its own offset that is nothing but the bookmark of the last read . 
+     - All the offset stores in _consumer_offset named topic. _consumer_offset is the builtin topic in apache kafka that keeps track of the latest offset commited forv each partion of each consumer group.
       
  **[⬆ Back to Top](#table-of-contents)** 
  
