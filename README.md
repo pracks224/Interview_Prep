@@ -478,6 +478,14 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
  Concern is that I have key i.e. uuid along with that key I published the AVRO model to a topic if I republished with same key it is still getting published and I could see the message in Kafka Topic. I am using confluent kafka version 7.2.1 which uses Kafka version 3.2. If kafka version is greater and 3.0. It has by default safe producer where it enable.idempotance = true acks  = all.
  ```
  
+ ```
+ can we create dynamic consumer in kafka
+?
+My producer generates topics where prefix will be fixed
+And I want all of those topics to be consumed by one consumer
+Is it possible in kafka?
+ ```
+ 
 | No.       | Questions         |
 | ------------- |:-------------|
  |1. | Tell me about some of the use cases where Kafka is not suitable.|
