@@ -139,7 +139,8 @@ console.log(person.address.country) // It will pring India ,even though it is al
 | Reverse Level Order     | Tree      |   First Attempt - Done |
 | Boat Two Save    | 2 pointer,Array      |   First Attempt - Done |
 | Connect Nodes at same level    | Binary Tree     |   First Attempt - Fail |
-| Kth smallest BST    | Binary SearchTree     |   First Attempt - ? |
+| Kth smallest BST    | Binary SearchTree     |   First Attempt - Done |
+|  Check Valid BST    | Binary SearchTree     |   First Attempt - ? |
 
 <details>
   <summary>Scramble String </summary>
