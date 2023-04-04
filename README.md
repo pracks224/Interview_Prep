@@ -3,6 +3,7 @@
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
 ### Table of Contents
+**[Miscellenous](#miscellenous)**<br>
 **[Core Java/OOPs](#java-oops)**<br>
 **[Functional Program](#functional-programming-using-java)**<br>
 **[Collections](#java-collections)**<br>
@@ -18,6 +19,10 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 **[JavaScript ES6](#java-script)**<br>
 **[AWS](#aws)**<br>
 **[ChatBot](#chatbot)**<br>
+
+## Miscellenous
+
+   -  << of any number is like multiplying by two. For ex : 3<<2 //12 -> 3 *2 = 6 then 6*2 = 12
 
 ## Java Script
 <details>
