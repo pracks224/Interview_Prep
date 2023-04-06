@@ -125,6 +125,51 @@ console.log(person.address.country) // It will pring India ,even though it is al
 
 ## Java Collections
 
+<details>
+  <summary>How ConcurrentHashMap works ? </summary>
+ 
+  #### Answer : 
+ - Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
+  * HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
+ - HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
+           -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
+ - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
+ - However,Synchronized hashmap lock the complete HashMap. 
+ 
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+</details>
+
+<details>
+  <summary>How HashSet works internally ? </summary>
+ 
+  #### Answer : 
+ - It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
+ - It doesnt guarantees the order of the elements
+ - HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
+ - [How HashSet will ignore the duplicates?] - This is important to understand
+ - When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
+
+- Please note below important points about put(key, value):
+
+- If the Key is unique and added to the map, then it will return null
+- If the Key is duplicate, then it will return the old value of the key.
+- If the method map.put(key, value) returns null, then the method map.put(e, PRESENT)==null will return true internally, and the element added to the HashSet.
+- If the method map.put(key, value) returns the old value of the key, then the method map.put(e, PRESENT)==null will return false internally, and the element will not add to the HashSet.
+ 
+``` code add method HashSet
+ // Dummy value to associate with an Object in the backing Map  
+    private static final Object PRESENT = new Object();
+   public boolean add(E e) {
+          return map.put(e, PRESENT) == null;
+      }
+```
+  
+ 
+ **[⬆ Back to Top](#table-of-contents)**
+ 
+</details>
+
 ## Java Multi Threading
 
 ## System Design
