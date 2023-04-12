@@ -572,4 +572,38 @@ Is it possible in kafka?
 
 ## AWS
 
+## How to Prepare
+
+- Prepare DS/Algo very well: If you are absolute beginner then solve atleast 400 questions of varying difficulty across topics. if you have been a competitive programmer and knows basic level of coding (liek you can solve easy and easy-med questions within short span of time), then solve atleast 150-200 questions of medium and hard level. Topics to focus on are Dynamic Programming, BFS, DFS, Dijkstra, Topological Sorting, Union Find, Two pointer, Maps, Heap/Priority Queue, some good applications of stack and queues like largest area of histogram, rain trapping, maximum of subarrays of K size etc, backtracking, Binary Tree and Binary Search. Solve atleast 40-50 problems of each topic.
+- For system designing: You can refer to these blogs and roadmap:
+- https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
+- https://medium.com/system-design-blog
+- highscalability.com
+- Infoq.com
+- youtube videos of gaurav sen, kode karle etc.
+- https://github.com/alex-xu-system/bytebytego
+- https://blog.pragmaticengineer.com/
+- https://github.com/yanhan/reading-list
+- https://www.slideshare.net/jboner/scalability-availability-stability-patterns -> must read
+- https://github.com/kilimchoi/engineering-blogs
+## For every engineer:
+- https://12factor.net/
+## For higher roles like tech-lead, principal architecture, etc:
+- https://www.cse.iitb.ac.in/~mythili/teaching/cs695_spring2021/index.html
+- https://xzhu0027.gitbook.io/blog/misc/index/system-design
+### Books:
+- Data Intensive applications
+- Building Evolutionary Architecture
+- Building MicroServices
+- 7 databases in 7 weeks
+- https://diveintosystems.org/book/index.html
+- blog.pragmaticengineer.comblog.pragmaticengineer.com
+## The Pragmatic Engineer
+## Observations across the software engineering industry. (83 kB)
+- https://blog.pragmaticengineer.com/
+
+## slideshare.netslideshare.net
+- Scalability, Availability & Stability Patterns
+Overview of scalability, availability and stability patterns, techniques and products. (35 kB)
+
 **[⬆ Back to Top](#table-of-contents)**
