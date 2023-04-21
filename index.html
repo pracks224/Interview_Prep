@@ -4,12 +4,35 @@
   <meta charset="UTF-8">
   <title>Five Tabs Example</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+  <style>
+    /* Set the default styles for the menu */
+    #menu {
+      width: 200px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    /* Style the links in the menu */
+    #menu a {
+      display: block;
+      padding: 10px;
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    /* Highlight the active link in the menu */
+    #menu a.active {
+      background-color: #ddd;
+    }
+  </style>
 </head>
 <body>
   <nav class="justify-content-end">
     <div class="nav nav-tabs" id="nav-tab" role="tablist">
       <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Thread</button>
       <button class="nav-link" id="nav-messages-tab" data-bs-toggle="tab" data-bs-target="#nav-messages" type="button" role="tab" aria-controls="nav-messages" aria-selected="false">Messages</button>
       <button class="nav-link" id="nav-settings-tab" data-bs-toggle="tab" data-bs-target="#nav-settings" type="button" role="tab" aria-controls="nav-settings" aria-selected="false">Settings</button>
       <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
@@ -21,8 +44,9 @@
       <p>This is the home tab.</p>
     </div>
     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-      <h1>Profile</h1>
-      <p>This is the profile tab.</p>
+      <h3>Multi Threading</h3>
+    <!-- Create the list of links for the menu items -->
+    <div id="menu-placeholder"></div>
     </div>
     <div class="tab-pane fade" id="nav-messages" role="tabpanel" aria-labelledby="nav-messages-tab">
       <h1>Messages</h1>
@@ -38,5 +62,11 @@
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function(){
+      $("#menu-placeholder").load("./thread.html");
+    });
+    </script>
 </body>
 </html>
