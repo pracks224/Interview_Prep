@@ -1,3 +1,16 @@
+Git Questions: 
+~~~~~~~~~~~~~~~
+Q1. If git clone remote fails becoz of private key,what you should do?
+Solutions :  1. First you'll want to cd into your .ssh directory. Open up the terminal and run:
+                cd ~/.ssh && ssh-keygen
+             2. Next you need to copy this to your clipboard.
+                On OS X run: cat id_rsa.pub | pbcopy
+                On Linux run: cat id_rsa.pub | xclip
+                On Windows (via Cygwin/Git Bash) run: cat id_rsa.pub | clip
+             3. Add your key to your account via the website.
+                Finally setup your .gitconfig.
+                git config --global user.name "bob"
+
 Basic Thread Questions 
 ~~~~~~~~~~~~~~~~~~~~~~
 1. What is a thread in Java?
@@ -89,3 +102,87 @@ Thread Synchronization Questions
 43. Can you explain how the java.util.concurrent.Exchanger class allows two threads to exchange data in a synchronized manner?
 44. Discuss the java.util.concurrent.DelayQueue and how it is useful for scheduling delayed tasks in concurrent applications.
 45. How do you ensure thread safety when working with the java.util.concurrent.PriorityBlockingQueue class?
+
+SpringBoot Interview Questions
+~~~~~~~~~   ~~~~~~~   ~~~~~~~~
+What is Spring Boot and what are its Benefits?
+What makes Spring Boot superior to JAX-RS?
+What Spring Boot features help develop Microservices Applications?
+Why Spring Boot is preferred over any other framework?
+What are the key dependencies of Spring Boot?
+What are the advantages of Spring Boot?
+What are the features of Spring Boot?
+How do you create a Spring Boot application using Maven?
+How do you create a Spring Boot project using Spring Initializer?
+How do you create a Spring Boot project using boot CLI?
+How do you create a simple Spring Boot application?
+What are the Spring Boot Annotations?
+What are the Spring Boot properties?
+What are the Spring Boot Starters?
+What is Spring Boot Actuator?
+What is thyme leaf?
+How to use thyme leaf?
+How do you connect Spring Boot to the database using JPA?
+How to connect the Spring Boot application to a database using JDBC?
+What is @RestController annotation in Spring Boot?
+What is @RequestMapping annotation in Spring Boot?
+How do you create a Spring Boot application using Spring Starter Project Wizard?
+Spring Vs Spring Boot? Or Why Spring Boot over Spring?
+What annotations are used to create an Interceptor?
+What is a Swagger in Spring Boot?
+What are Profiles in Spring Boot?
+What differentiates Spring Data JPA and Hibernate?
+How are the @RestController and @Controller Annotation different?
+How does Spring Boot works?
+What does the @SpringBootApplication annotation do internally?
+What is the purpose of using @ComponentScan in the class files?
+How does a spring boot application get started?
+Can we create a non-web application in Spring Boot?
+Can we override or replace the Embedded tomcat server in Spring Boot?
+Can we disable the default web server in the Spring boot application?
+How to disable a specific auto-configuration class?
+Describe the flow of HTTPS requests through the Spring Boot application?
+What is the difference between RequestMapping and GetMapping?
+What is the use of Profiles in spring boot?
+What is Spring Actuator? What are its advantages?
+How to enable Actuator in Spring boot application?
+What are the actuator-provided endpoints used for monitoring the Spring boot application?
+How to get the list of all the beans in your Spring boot application?
+How to check the environment properties in your Spring boot application?
+How to enable debugging log in the spring boot application?
+Where do we define properties in the Spring Boot application?
+What is dependency Injection?
+What is an IOC container?
+What are some essential features of Spring Security?
+What is Spring security authentication and authorization?
+What do you mean by basic authentication?
+What do you mean by digest authentication?
+What do you mean by session management in Spring Security?
+Explain SecurityContext and SecurityContext Holder in Spring security.
+Explain spring security OAuth2.
+What do you mean by OAuth2 Authorization code grant type?
+What is method security and why do we need it?
+What do you mean by HASHING in spring security?
+Explain salting and its usage.
+What is PasswordEncoder?
+Explain AbstractSecurityInterceptor in spring security?
+Is security a cross-cutting concern?
+What is SpEL (Spring Expression Language)?
+Name security annotations that are allowed to use SpEL.
+Explain what is AuthenticationManager in Spring security.
+Explain what is ProviderManager in Spring security.
+What is JWT?
+What is Spring Security Filter Chain?
+Explain how the security filter chain works.
+Name some predefined filters used in spring security and write their functions.
+What do you mean by principal in Spring security?
+Can you explain what is DelegatingFilterProxy in spring security?
+Can you explain what is FilterChainProxy in spring security?
+What is the intercept-url pattern and why do we need it?
+Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
+State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
+State the difference between @PreAuthorize and @Secured in Spring security.
+State the difference between @Secured and @RolesAllowed.
+
+Microservice Patterns and Interview Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
