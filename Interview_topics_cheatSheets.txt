@@ -206,12 +206,22 @@ A. SAGA Patterns  - It's an ingenious solution to manage the transactions in the
                  More details - https://www.baeldung.com/cs/saga-pattern-microservices#:~:text=7.1.,performed%20by%20a%20Saga%20participant.
 
 B. API Gateway Pattern - API Gateway Pattern is a design paradigm that serves as a single-entry point into a system
+C. API Gateway Vs ReverseProxy 
+   In summary, a reverse proxy is primarily focused on handling client requests and forwarding them to backend servers, providing load balancing, 
+   caching, SSL termination, and security benefits. On the other hand, an API Gateway is more focused on managing APIs, routing requests to microservices, and providing additional functionalities like request/response transformation, rate limiting, and analytics.
+   Example: Nginx and Apache HTTP Server can be used as reverse proxies.
+    In some cases, an API Gateway might use a reverse proxy as one of its components to handle low-level tasks, 
+   such as load balancing and SSL termination. The decision to use one or both depends on the specific requirements and complexity of the application architecture.
 
-
-
-
-
-
+   Example: Netflix Zuul, Kong, and Amazon API Gateway are examples of API Gateway solutions.
 
 Java Collection - advanced
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+JavaScript - Interview 
+~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~ ~~
+
+System Design Questions
+~~~~~~~~ ~~~~~ ~~~~~~~~
+1. How DNS Works?
+DNS_WORK.gif
