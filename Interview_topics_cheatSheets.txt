@@ -223,5 +223,4 @@ JavaScript - Interview
 
 System Design Questions
 ~~~~~~~~ ~~~~~ ~~~~~~~~
-1. How DNS Works?
-DNS_WORK.gif
+1. How DNS Works? PDF attacheds
