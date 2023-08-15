@@ -1,20 +1,13 @@
-## About me
+ ## About me
 
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
 ### Table of Contents
 
-| **Section 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Section2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <table><tr><td> **[Core Java/OOPs](#java-oops)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr><tr><td> **[Functional Program](#functional-programming-using-java)** <details> <summary> Topics </summary><ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr><tr><td> **[Collections](#java-collections)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Multi Threading](#java-multi-threading)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li><li>- [ ] 8</li><li>- [ ] 9 </li><li>- [ ] 10</li></ul> </details> </td></tr> <tr><td> **[System Design](#system-design)** <details> <summary> Topics </summary> <ul><li>- [X] **[ Distributed System By Dimos Raptis ](#distributed-system-fundamental)** </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr> <tr><td>**[Data Structure](#data-structure-using-java)** <details> <summary> Topics </summary> <ul><li>- [ ] **[Stack and Queue](#stack-and-queue)** </li><li>- [ ] Hashing</li><li>- [ ] Graph </li><li>- [ ] Dynamic programingming </li></ul> </details> </td></tr> <tr><td> **[Micro Services Using Spring-Boot](#microservices-using-spring-boot)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> | <table> <tr><td> **[SQL](#sql)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Kubernetes](#kubernetes)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr> <tr><td> **[Kafka](#kafka)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Docker](#docker)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li></ul> </details> </td></tr> <tr><td> **[React Js](#react-js)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li>></ul> </details></td></tr> <tr><td> **[JavaScript ES6](#java-script)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details></td></tr> <tr><td> **[AWS](#aws)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> |
+| **Section 1** | **Section2** |
+|:--|:--|
+| <table><tr><td> **[Core Java/OOPs](#java-oops)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr><tr><td> **[Functional Program](#functional-programming-using-java)**  <details> <summary> Topics </summary><ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr><tr><td> **[Collections](#java-collections)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Multi Threading](#java-multi-threading)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li><li>- [ ] 8</li><li>- [ ] 9 </li><li>- [ ] 10</li></ul> </details> </td></tr> <tr><td> **[System Design](#system-design)** <details> <summary> Topics </summary> <ul><li>- [X] **[ Distributed System By Dimos Raptis ](#distributed-system-fundamental)** </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr> <tr><td>**[Data Structure](#data-structure-using-java)** <details> <summary> Topics </summary> <ul><li>- [ ] **[Stack and Queue](#stack-and-queue)** </li><li>- [ ] Hashing</li><li>- [ ] Graph </li><li>- [ ] Dynamic programingming </li></ul> </details> </td></tr> <tr><td> **[Micro Services Using Spring-Boot](#microservices-using-spring-boot)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> | <table> <tr><td> **[SQL](#sql)** <details> <summary> Topics </summary>  <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Kubernetes](#kubernetes)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr> <tr><td> **[Kafka](#kafka)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Docker](#docker)**  <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li></ul> </details> </td></tr> <tr><td> **[React Js](#react-js)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li>></ul> </details></td></tr> <tr><td> **[JavaScript ES6](#java-script)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details></td></tr> <tr><td> **[AWS](#aws)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table>
 
-## 15-08-2023
-
-### What is Flattening?
-
-### Return a list of all unique characters for a list of words?
-
-###
 
 ## Debezium
 
@@ -44,10 +37,9 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 ## Miscellenous
 
 - To make the API end point faster https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9
-  - << of any number is like multiplying by two. For ex : 3<<2 //12 -> 3 *2 = 6 then 6*2 = 12
+   -  << of any number is like multiplying by two. For ex : 3<<2 //12 -> 3 *2 = 6 then 6*2 = 12
 
 ## Java Script
-
 <details>
   <summary>Important Interview Questions/Concepts!! </summary>
   
@@ -80,45 +72,42 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
               console.log(employee.name); // "EmployeeOne"
      e) Using Object.assign() to create new objects
         The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
-
 const orgObject = { company: 'ABC Corp' }
 const carObject = { carName: 'Ford' }
 const employee = Object.assign({}, orgObject, carObject);
-
-```
-2. #### Difference between Object.freeze() and const in JavaScript ?
-### Ans
-```
-
+  
+  ```
+  2. #### Difference between Object.freeze() and const in JavaScript ?
+  ### Ans
+  ```
      The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError.
-     const name = "test"
+     const name = "test" 
      name = "rrr" //TypeError: Assignment to constant variable.
      The const keyword ensures that the variable created is read-only. But It doesn’t mean that the actual value to which the const variable reference is immutable.
      const person = { name:"xyz"
      }
      person.name = "abc" - > no type error
-
-     Object.freeze() method: If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.
+     
+     Object.freeze() method: If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method. 
      But it freeze only the existing values,however we can add new properties.
      const person = Object.freeze({
     name: 'Geeksforgeeks',
     address: {
         city:"Noida"
     }
-
 });
 person.address.country = "India"
 console.log(person.address.country) // It will pring India ,even though it is already freezed.
 
-````
-3. #### How to deep-freeze an object in JavaScript ?
-### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-4. #### Implement sum(2)(3)() (Currying funtions- is also a higher order function ?
-### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-5. #### What is the difference between call(),apply() and bind() methods?
-
+  ```
+  3. #### How to deep-freeze an object in JavaScript ?
+  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+  
+  4. #### Implement sum(2)(3)() (Currying funtions- is also a higher order function ?
+  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+  
+  5. #### What is the difference between call(),apply() and bind() methods?
+  
 </details>
 
 ## Java OOps
@@ -128,29 +117,29 @@ console.log(person.address.country) // It will pring India ,even though it is al
 ## Java Collections
 
 <details>
-<summary>How ConcurrentHashMap works ? </summary>
-
-#### Answer :
-- Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
-* HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
-- HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
-         -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
-- ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
-- However,Synchronized hashmap lock the complete HashMap.
-
-**[⬆ Back to Top](#table-of-contents)**
-
+  <summary>How ConcurrentHashMap works ? </summary>
+ 
+  #### Answer : 
+ - Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
+  * HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
+ - HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
+           -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
+ - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
+ - However,Synchronized hashmap lock the complete HashMap. 
+ 
+ **[⬆ Back to Top](#table-of-contents)**
+ 
 </details>
 
 <details>
-<summary>How HashSet works internally ? </summary>
-
-#### Answer :
-- It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
-- It doesnt guarantees the order of the elements
-- HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
-- [How HashSet will ignore the duplicates?] - This is important to understand
-- When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
+  <summary>How HashSet works internally ? </summary>
+ 
+  #### Answer : 
+ - It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
+ - It doesnt guarantees the order of the elements
+ - HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
+ - [How HashSet will ignore the duplicates?] - This is important to understand
+ - When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
 
 - Please note below important points about put(key, value):
 
@@ -158,17 +147,18 @@ console.log(person.address.country) // It will pring India ,even though it is al
 - If the Key is duplicate, then it will return the old value of the key.
 - If the method map.put(key, value) returns null, then the method map.put(e, PRESENT)==null will return true internally, and the element added to the HashSet.
 - If the method map.put(key, value) returns the old value of the key, then the method map.put(e, PRESENT)==null will return false internally, and the element will not add to the HashSet.
-
+ 
 ``` code add method HashSet
-// Dummy value to associate with an Object in the backing Map
-  private static final Object PRESENT = new Object();
- public boolean add(E e) {
-        return map.put(e, PRESENT) == null;
-    }
-````
-
-**[⬆ Back to Top](#table-of-contents)**
-
+ // Dummy value to associate with an Object in the backing Map  
+    private static final Object PRESENT = new Object();
+   public boolean add(E e) {
+          return map.put(e, PRESENT) == null;
+      }
+```
+  
+ 
+ **[⬆ Back to Top](#table-of-contents)**
+ 
 </details>
 
 ## Java Multi Threading
@@ -184,14 +174,12 @@ console.log(person.address.country) // It will pring India ,even though it is al
      * Baz
      * Qux
 
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
 </details>
 
 <details>
@@ -203,21 +191,18 @@ function logSomething(something) {
      * Baz
      * Qux
 
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
 </details>
 <details>
 <summary>Distributed system fundamental</summary>
 
 ### Distributed system fundamental
-
--
+- 
 
 </details>
 
@@ -225,11 +210,11 @@ function logSomething(something) {
 
 ### Stack and Queue
 
-| Problems                                                     |
-| :----------------------------------------------------------- |
-| 1. Design a stack that supports push, pop, top, and retrieve |
-| 2. Evaluate Expression                                       |
-| 3. Sort Stack                                                |
+Problems|
+| :------------- |
+| 1. Design a stack that supports push, pop, top, and retrieve     |
+| 2. Evaluate Expression |
+| 3. Sort Stack |
 
 <details>
   <summary>Scramble String </summary>
@@ -237,10 +222,9 @@ function logSomething(something) {
   ### Algorithm
   Given two strings s1 and s2 of the same length, return true if s2 is a scrambled string of s1, otherwise, return false.
 
-### Some Details
-
-```
-Input: s1 = "great", s2 = "rgeat"
+  ### Some Details
+  ```
+  Input: s1 = "great", s2 = "rgeat"
 Output: true
 Explanation: One possible scenario applied on s1 is:
 "great" --> "gr/eat" // divide at random index.
@@ -251,8 +235,7 @@ Explanation: One possible scenario applied on s1 is:
 "r/g / e/ a/t" --> "r/g / e/ a/t" // random decision is to keep both substrings in the same order.
 The algorithm stops now, and the result string is "rgeat" which is s2.
 As one possible scenario led s1 to be scrambled to s2, we return true.
-```
-
+  ```
 </details>
 
 <details>
@@ -264,20 +247,17 @@ As one possible scenario led s1 to be scrambled to s2, we return true.
      * Baz
      * Qux
 
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
+  ### Some Code
+  ```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
 </details>
 
 **[⬆ Back to Top](#table-of-contents)**
-
+                                                                                                               
 ## Microservices Using Spring Boot
-
 <details>
   <summary>Basic Interview Question</summary>
   
@@ -407,7 +387,6 @@ function logSomething(something) {
 ## Kubernetes
 
 ## Kafka
-
 <details>
   <summary>Important Notes to revise</summary>  
  
@@ -577,18 +556,17 @@ Is it possible in kafka?
    
  - To update metadata in Cassandra using Kafka with a high throughput of 50K requests per second, we can use the following strategies:
 
-- Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
-- Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
-- Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
-- Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
-- Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
+ - Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
+ - Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
+ - Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
+ - Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
+ - Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
+  ```
 
-```
-
- There are many ways to create objects in javascript as below
-
+   There are many ways to create objects in javascript as below
+ 
 **[⬆ Back to Top](#table-of-contents)**
-
+ 
 </details>
 
 
@@ -633,4 +611,3 @@ Is it possible in kafka?
 Overview of scalability, availability and stability patterns, techniques and products. (35 kB)
 
 **[⬆ Back to Top](#table-of-contents)**
-```
