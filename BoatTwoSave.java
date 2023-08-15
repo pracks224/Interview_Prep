@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class BoatTwoSave{
   /*
   * You are given an array people where people[i] is the weight of the ith person, and an infinite number of
@@ -8,7 +10,7 @@ class BoatTwoSave{
   public static void main(String args[]){
     int[] people = {5,1,4,2};
     int limit = 6;
-    numRescueBoats(int[] people, int limit)   
+   // numRescueBoats(int[] people, int limit)
   }
   public int numRescueBoats(int[] people, int limit) {
         int ans = 0;
