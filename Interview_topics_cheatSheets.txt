@@ -224,3 +224,12 @@ JavaScript - Interview
 System Design Questions
 ~~~~~~~~ ~~~~~ ~~~~~~~~
 1. How DNS Works? PDF attacheds
+
+
+JWT
+~~~~~~~~~~~~~~~~~~~~~~~~~
+1. What is Refresh Token?
+Ans :
+
+Kafka Interview Questions
+--------------------------

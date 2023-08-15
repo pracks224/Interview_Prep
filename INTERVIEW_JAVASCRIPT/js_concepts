@@ -1,0 +1,39 @@
+𝐖𝐡𝐲 𝐝𝐨 𝐰𝐞 𝐮𝐬𝐞 𝐎𝐛𝐣𝐞𝐜𝐭 𝐜𝐥𝐨𝐧𝐢𝐧𝐠 𝐦𝐞𝐭𝐡𝐨𝐝𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭?
+
+•  Understanding and implementing deep copy and shallow copy in JavaScript is important for creating reliable and 
+   maintainable code, particularly when working with complex data structures that may be modified by multiple parts 
+   of your application.
+•  Objects and arrays are reference types. When you create a new variable that points to an object or an array, it 
+   doesnot create a new copy of that object or array in memory but rather creates a reference to the same object or 
+   array.
+• In javascript,we have two ways to copy - ShallowCopy and DeepCopy
+    Copy By Value (Data) and Copy By reference
+• When we assign an object to another it copies the references,hence we need deep and shallow.
+  e.g. 
+       let person = {
+        name: "Prakash Sharma"
+       }
+       let user = person;
+       user.name = "Sharma"
+       console.log(person.name); // output: Sharma
+
+SHALLOW COPY
+METHOD 1 - Object.assigne() -> Copy by value,it wont change the original object
+        
+        let person = {
+        name: "Prakash Sharma"
+       }
+       let user = Object.assigne({},person);
+       user.name = "Sharma"
+       console.log(person.name); // output: "Prakash Sharma"
+
+METHOD 2 - Destrcutring,using spread operator
+       
+       let person = {
+        name: "Prakash Sharma"
+       }
+       let user = (...person);
+       user.name = "Sharma"
+       console.log(person.name); // output: "Prakash Sharma"
+DEEP COPY
+     stringify,structuredcopy

@@ -1,0 +1,11 @@
+How to Effectively Scale Microservices in a Cloud-Native World ?
+
+Ans: Scaling methods For Microservices 
+     ----- ------ ------ ------ -----
+     • Vertical Scaling
+     • Horizontal Scaling
+    Manual methods
+    Automated methods
+    Scaling Mircoservices using Caching
+    Four Golden Signals for Microservices  to decide  which type Scaling to consider
+    
