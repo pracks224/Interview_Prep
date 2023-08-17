@@ -19,6 +19,33 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 - When to use findFirst and findAny.
 - Summing all the element of a list.
 
+### JS
+
+- Javascript Event Loop and Call Stack Explain?
+
+### DS
+
+String/Array
+
+- Implement an algorithm to determine if a string has all unique characters. What if you
+  cannot use additional data structures? (Bitwise way to understand)
+- One string permutaion of other
+- URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
+- Palindrom Permutation
+- One Away: There are three types of edits that can be performed on strings: insert a character,
+  remove a character, or replace a character. Given two strings, write a function to check if they are
+  one edit (or zero edits) away.
+  EXAMPLE
+  pale, ple -> true
+  pales, pale -> true
+  pale, bale -> true
+  pale, bae -> false
+
+- String compression For example, the string aabcccccaaa would become a2blc5a3
+- String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
+  of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+  call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
+
 ###
 
 ## Debezium
