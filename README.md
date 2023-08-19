@@ -18,6 +18,18 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 - What is Short-circuiting evaluation in stream ?
 - When to use findFirst and findAny.
 - Summing all the element of a list.
+- ***
+- Describe the use of Optional in Java?
+- Describe the differnce between map,flatmap and reducce
+
+### Spring Boot and Mircoservices
+
+- Describe the use case of JSON Web Token?
+- How can you disable the Autoconfiguration in Spring boot Application?
+- How do Microservice communicate each other?
+- Describe the API Gateway design pattern for Micro service?
+- Describe some principle of Mircro Service deployment?
+- Describe the Circuit Breaker Design Pattern?
 
 ### JS
 
@@ -46,7 +58,14 @@ String/Array
   of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
   call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
-###
+### System Design
+
+- https://github.com/black-shadows/System-Design - Well documented
+- Design Data Intensive Application Book Overview
+- Consistency Hashing
+- CAP theorem
+- Isolation levels
+- 2PL
 
 ## Debezium
 

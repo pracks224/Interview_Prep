@@ -1,58 +1,187 @@
 ## Java 8 in Action Book Review Points :
 
-1. Why Java is changing again? Java 1.1 in 1997 - Java 7 in 2011 - Java 8 2014. Java 8 is profound than any other releases.
-2. In java 8 we can write code more concise mannner , small and better way of writing.
-3. Also, one reason for change is hardware influence. Earlier version of Java /or vast majority of the java programs only uses
-   one these cores only. Java 1.0 introduces thread,locks etc.
-   Java 5 introduces thread pool ,Concurrent collections
-   Java 7 introduces fork/join framewrok
-   Java 8 -> fill it later
-   Concise code and simpler use of multicore processor
+1.  Why Java is changing again? Java 1.1 in 1997 - Java 7 in 2011 - Java 8 2014. Java 8 is profound than any other releases.
+2.  In java 8 we can write code more concise mannner , small and better way of writing.
+3.  Also, one reason for change is hardware influence. Earlier version of Java /or vast majority of the java programs only uses
+    one these cores only. Java 1.0 introduces thread,locks etc.
+    Java 5 introduces thread pool ,Concurrent collections
+    Java 7 introduces fork/join framewrok
+    Java 8 -> fill it later
+    Concise code and simpler use of multicore processor
 
-4. What is BlockingQueue?
-
----
-
+4.  What is BlockingQueue?
     Answer :
     • A BlockingQueue is a data structure in Java that provides thread-safe operations for storing and retrieving elements. It allows multiple threads to interact with the queue, and when the queue is empty, the retrieval operation blocks until an element becomes available, ensuring synchronization and coordination between threads.
     • Mainly used for producer and consumer problems
     • It does not accept null value if we add it.
 
-2.  How can we create a synchronized collection from given collection?
-
----
-
+5.  How can we create a synchronized collection from given collection?
     Answer :
     To create a synchronized collection from a given collection in Java, you can use the Collections.synchronized method. This method wraps the original collection with a synchronized wrapper, ensuring thread safety for concurrent access.
-        // Creating a synchronized version of the collection
-        List<String> synchronizedList = Collections.synchronizedList(originalList);
+    // Creating a synchronized version of the collection
+    List<String> synchronizedList = Collections.synchronizedList(originalList);
 
         // Now, the synchronizedList can be safely accessed by multiple threads concurrently
         // It will automatically handle synchronization for thread safety
+
     It uses synchronized blocks to ensure thread safety, which means only one thread can access the map at a time.
     While it provides thread safety, it may result in reduced performance when multiple threads frequently access the map simultaneously, as other threads will be blocked during those operations.
 
-3. What are the different ways to create Synchronized Collections in Java ?
+6.  What are the different ways to create Synchronized Collections in Java ?
+    Answer :
+    ConcurrentHashMap,CopyOnWriteArrayList,CopyOnWriteArraySet,ConcurrentSkipListSet.
+    It provides fine-grained concurrency control without explicit synchronization.
 
----
+        ConcurrentHashMap: It provides a concurrent implementation of a hash map, allowing multiple threads to read and write concurrently without blocking.
 
-Answer :
+        CopyOnWriteArrayList: This list allows for safe concurrent access by creating a new copy of the list every time an element is modified, ensuring that modifications don't affect ongoing iterations.
 
-ConcurrentHashMap,CopyOnWriteArrayList,CopyOnWriteArraySet,ConcurrentSkipListSet.
-It provides fine-grained concurrency control without explicit synchronization.
+        CopyOnWriteArraySet: Similar to CopyOnWriteArrayList, this set implementation ensures safe concurrent access by creating a new copy of the set for each modification.
 
-    ConcurrentHashMap: It provides a concurrent implementation of a hash map, allowing multiple threads to read and write concurrently without blocking.
+        ConcurrentSkipListSet and ConcurrentSkipListMap: These are concurrent implementations of a skip list set and skip list map, respectively, offering better performance for concurrent access in sorted collections.
 
-    CopyOnWriteArrayList: This list allows for safe concurrent access by creating a new copy of the list every time an element is modified, ensuring that modifications don't affect ongoing iterations.
+7.  How ConcurrentHashMap works?
+    Answer :
+    Using Segenebtation,Hashing,Lock striping,
 
-    CopyOnWriteArraySet: Similar to CopyOnWriteArrayList, this set implementation ensures safe concurrent access by creating a new copy of the set for each modification.
+8.  Can we have a default method definition in the interface without specifying the keyword "default" ?
+9.  Can we declare a class static ? Ans : Only the inner classes not the top classes
+10. Can we declare an abstract method private ?
+    No,Only protected or public
+11. What kind of thread is garbage collector thread ? Daemon thread
+12. What is nested interface ? Ans: Interface declered inside class or interface. It's by defult Static in nature.
+13. Differnce between nested and inner class?
+    Ans :
+    In object-oriented programming, both nested and inner classes are used to define classes within other classes. However, they have different implications and behaviors based on their context and relationship with the enclosing class. Let's explore the differences between nested and inner classes:
 
-    ConcurrentSkipListSet and ConcurrentSkipListMap: These are concurrent implementations of a skip list set and skip list map, respectively, offering better performance for concurrent access in sorted collections.
+    Nested Classes:
+    A nested class is a class that is defined within the scope of another class. There are two main types of nested classes:
 
-4. How ConcurrentHashMap works?
+    Static Nested Class: Also known as a nested top-level class, a static nested class is a class that is defined within another class as a static member. It is essentially a separate class that is just enclosed within the outer class for organizational purposes. A static nested class can access only static members of the enclosing class.
 
----
+    Inner Class:
+    An inner class is a class that is defined within another class and has access to the instance members (both static and non-static) of the enclosing class. Inner classes are mainly used when you need a tightly coupled relationship between the inner class and its enclosing class.
+    Key Differnces :
+    Access to Enclosing Class Members:
+    • Static Nested Class: Can only access static members of the enclosing class.
+    • Inner Class: Can access both static and non-static members of the enclosing class.
+    Instance Relationship:
+    • Static Nested Class: Has no direct reference to an instance of the enclosing class. It's essentially a separate class within the namespace of the outer class.
+    • Inner Class: Has an implicit reference to an instance of the enclosing class. This allows the inner class to access the instance members of the enclosing class.
 
-Answer :
+14. Is constructor inheritaed? Ans No
+15. Explain the scenerios to choose between String , StringBuilder and StringBuffer ?
+    Ans:
+    • If the Object value will not change in a scenario use String Class because a String object is immutable.
+    • If the Object value can change and will only be modified from a single thread, use a StringBuilder because StringBuilder is unsynchronized(means faster).
+    • If the Object value may change, and can be modified by multiple threads, use a StringBuffer because StringBuffer is thread safe(synchronized).
+16. Describe the use of Optional in Java? Important
+    Ans:
+    Optional has been introduced in Java in order to model the absence of a value. We all know the notorious “NullPointerException” in java and various ways to write the code to avoid that, Optional models the NullPointerExecption and establishes a design pattern around that.
+    Without Optional:
+    public class Person {
+    private Car car;
+    public Car getCar() { return car; }
+    }
+    public class Car {
+    private Insurance insurance;
+    public Insurance getInsurance() { return insurance; }
+    }
+    public class Insurance {
+    private String name;
+    public String getName() { return name; }
+    }
+    ==============================================
+    public String getCarInsuranceName(Person person) {
+    return person.getCar().getInsurance().getName();
+    }
+    Above code will throw NPE
+    ==============================================
+    With Optional
+    public class Person {
+    private Optional<Car> car;
+    public Optional<Car> getCar() { return car; }
+    }
+    public class Car {
+    private Optional<Insurance> insurance;
+    public Optional<Insurance> getInsurance() { return insurance; }
+    }
+    public class Insurance {
+    private String name;
+    public String getName() { return name; }
+    }
+    ================================================
+    3 ways we can create 1. Empty Optional. :: Optional<Car> optCar = Optional.empty(); 2. Optional from a Non Null value. : Optional<Car> optCar = Optional.of(car); 3. Optional from Null.Ans: Optional<Car> optCar = Optional.ofNullable(car);
+17. Describe the difference between map,flatMap and reduce in stream?
+    Ans::
 
-     Using Segenebtation,Hashing,Lock striping,
+Map function take an input as an array and transform that an return the array of same length. Map creates a new version of transformed data and does not modify the original data. The below map function takes an argument as a Lambda expression to modify the data which is in this case to return the length of each word in the ArrayList.
+
+List<String> words = Arrays.asList("Modern", "Java", "In", "Action");
+List<Integer> wordLengths = words.stream()
+.map(String::length)
+.collect(toList());
+
+    For example, given the list of words [“Hello,” “World”] you’d like to return the list [“H,” “e,” “l,” “o,” “W,” “r,” “d”]. That means you need to find the unique characters in the given list of of words.
+
+    //The above example creates a stream of words.
+    List<String> words = Arrays.asList("Modern", "Java", "In", "Action");
+    words.stream()
+        .map(word -> word.split(""))
+        .map(Arrays::stream)
+        .distinct()
+        .collect(toList());
+
+    The problem with this approach is that the lambda passed to the map method returns a String[] (an array of String) for each word. The stream returned by the map method is of type Stream<String[]>. What we want is Stream<String> to represent a stream of characters
+
+    Fixing the problem with the flatMap, flatMap will provide you the Stream<String> not the Stream<String[]> as a result and then you can run distinct on that character array which is flattened using all the words in the List.
+
+    List<String> uniqueCharacters =
+
+words.stream()
+.map(word -> word.split(""))
+.flatMap(Arrays::stream)
+.distinct()
+.collect(toList());  
+ Another Example is that if Employee class has an email field and you want to find all the emails associated with each employee you would do something like this.
+public class Employee
+{
+private String empId;
+private List<String> emails;
+}
+
+emplist.stream().flatMap(x-> x.getEmails()).collect(toList);
+
+The above code will return you the flattened list of all the emails instead of returning the email arrays for each employee.
+
+Reduce is a stream operation accepts an input array and return an accumulator that. When you want to combine the values of the stream to get a single value is called reduce operation.
+
+int sum = numbers.stream().reduce(0, (a, b) -> a + b);
+
+Reduce takes two arguments:
+
+An initial value, here 0.
+A BinaryOperator<T> to combine two elements and produce a new value; here you use the lambda (a, b) -> a + b.
+
+18. String Pool in Java ? (https://medium.com/@ayushjung63/string-pool-in-java-1efd2eb21d70)
+19. Autoboxing and Unboxing in Java (https://medium.com/@ayushjung63/autoboxing-and-unboxing-in-java-7841a3c8144c)
+
+20. Is typecasting of Wrapper Object possible ?
+    Ans : No,Wrapper class is casted only to its corresponding primitive type.
+
+21. Explicit Casting ?
+    Upcast -> subType to Super type
+    downcast -> supertype to subtype
+22. How to create an immutable class in java?(https://rathod-ajay.medium.com/most-common-java-developer-interview-questions-series-12-core-java-oop-af5ff343b5e3)
+    Ans:
+    decalre class final,all instance variable final
+    do not provide any setter method
+    initilize all the variable in constructor
+    Advantage of it is thread safe
+23. Examples of immutable classes?
+    String,Integre,Double,Long,BigInteger,Locale,Optional etc
+24. How to create an Immutable HashMap in java?
+    Ans:
+    Using Collections.unmodifiableMap(pass the map created);
+    Attempt to modify it will get UnsupportedOperationException
+25.
