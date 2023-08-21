@@ -3,12 +3,8 @@
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
 ### Important Questions
-
-========================================================================================
-SpringBoot
-
----
-
+<details>
+  <summary>Set -1 : Interview Questions </summary>
 1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
 2. What is the @controllerAdvice in springboot? - Exception Handling
 3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
@@ -19,8 +15,7 @@ SpringBoot
 8. What is the use @Configuration? //Bean Definitions
 9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
 10. CQRS design patterns in Microservices?
-11.
-
+11. 
 12. Design a URL Shortner (tinyurl)
 13. Design a web crawler.(https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
 14. Design a notification System
@@ -46,16 +41,13 @@ SpringBoot
 34. Summing all the element of a list.
 35. Describe the use of Optional in Java?
 36. Describe the differnce between map,flatmap and reducce
-
-### Spring Boot and Mircoservices
-
 37. Describe the use case of JSON Web Token?
 38. How can you disable the Autoconfiguration in Spring boot Application?
 39. How do Microservice communicate each other?
 40. Describe the API Gateway design pattern for Micro service?
 41. Describe some principle of Mircro Service deployment?
 42. Describe the Circuit Breaker Design Pattern?
-
+</details>
 ### JS
 
 43. Javascript Event Loop and Call Stack Explain?
