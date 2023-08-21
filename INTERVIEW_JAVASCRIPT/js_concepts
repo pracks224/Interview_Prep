@@ -1,4 +1,60 @@
-𝐖𝐡𝐲 𝐝𝐨 𝐰𝐞 𝐮𝐬𝐞 𝐎𝐛𝐣𝐞𝐜𝐭 𝐜𝐥𝐨𝐧𝐢𝐧𝐠 𝐦𝐞𝐭𝐡𝐨𝐝𝐬 𝐢𝐧 𝐉𝐚𝐯𝐚𝐬𝐜𝐫𝐢𝐩𝐭?
+1.How to create object in Javascript?
+  ### Ans
+  ```
+   a) Creating objects using object literal syntax . key value pairs separated by ‘:’ inside a set of curly braces({ })
+     const person = {
+          firstName: 'testFirstName',
+          lastName: 'testLastName'
+          };
+   b) Using new keyword; const person = new Object(); person.firstname ="Prakash"  
+       Also, this practice is not recommended as there is a scope resolution that happens behind the scenes to find if the constructor function is built-in or user-defined. Difficult to create more object also.
+   c) Using ‘new’ with user defined constructor function
+      In this approach first create one function constructor and then create object.
+      ex. function Person (firstname,lastaname){
+                          this.firstname = firstname;
+                          this.lastname = lastname;
+                          }
+           const personOne = new Person('testFirstNameOne', 'testLastNameOne');
+           const personTwo = new Person('testFirstNameTwo', 'testLastNameTwo');
+    d) Using Object.create() to create new objects
+        This pattern comes in very handy when we are asked to create objects from other existing objects and not directly using the ‘new’ keyword.
+        Object.create method, just remember that it takes two parameters. The first parameter is a mandatory object that serves as the prototype of the new object to be created. The second parameter is an optional object which contains the properties to be added to the new object.
+        e.g. const orgObject = { company: 'ABC Corp' };
+              And you want to create employees for this organization. Clearly, you want all the employee objects.
+              const employee = Object.create(orgObject, { name: { value: 'EmployeeOne' } });
+
+              console.log(employee); // { company: "ABC Corp" }
+              console.log(employee.name); // "EmployeeOne"
+     e) Using Object.assign() to create new objects
+        The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
+
+const orgObject = { company: 'ABC Corp' }
+const carObject = { carName: 'Ford' }
+const employee = Object.assign({}, orgObject, carObject);
+
+2. Difference between Object.freeze() and const in JavaScript ?
+Ans:
+     The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError.
+     const name = "test"
+     name = "rrr" //TypeError: Assignment to constant variable.
+     The const keyword ensures that the variable created is read-only. But It doesn’t mean that the actual value to which the const variable reference is immutable.
+     const person = { name:"xyz"
+     }
+     person.name = "abc" - > no type error
+
+     Object.freeze() method: If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.
+     But it freeze only the existing values,however we can add new properties.
+     const person = Object.freeze({
+    name: 'Geeksforgeeks',
+    address: {
+        city:"Noida"
+    }
+
+});
+person.address.country = "India"
+console.log(person.address.country) // It will pring India ,even though it is already freezed.
+
+3. Why do we use Object cloning methods in Javascript?
 
 •  Understanding and implementing deep copy and shallow copy in JavaScript is important for creating reliable and 
    maintainable code, particularly when working with complex data structures that may be modified by multiple parts 

@@ -2,330 +2,120 @@
 
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
-### Table of Contents
-
-| **Section 1**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | **Section2**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <table><tr><td> **[Core Java/OOPs](#java-oops)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr><tr><td> **[Functional Program](#functional-programming-using-java)** <details> <summary> Topics </summary><ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr><tr><td> **[Collections](#java-collections)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Multi Threading](#java-multi-threading)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li><li>- [ ] 8</li><li>- [ ] 9 </li><li>- [ ] 10</li></ul> </details> </td></tr> <tr><td> **[System Design](#system-design)** <details> <summary> Topics </summary> <ul><li>- [X] **[ Distributed System By Dimos Raptis ](#distributed-system-fundamental)** </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr> <tr><td>**[Data Structure](#data-structure-using-java)** <details> <summary> Topics </summary> <ul><li>- [ ] **[Stack and Queue](#stack-and-queue)** </li><li>- [ ] Hashing</li><li>- [ ] Graph </li><li>- [ ] Dynamic programingming </li></ul> </details> </td></tr> <tr><td> **[Micro Services Using Spring-Boot](#microservices-using-spring-boot)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> | <table> <tr><td> **[SQL](#sql)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Kubernetes](#kubernetes)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr> <tr><td> **[Kafka](#kafka)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Docker](#docker)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li></ul> </details> </td></tr> <tr><td> **[React Js](#react-js)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li>></ul> </details></td></tr> <tr><td> **[JavaScript ES6](#java-script)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details></td></tr> <tr><td> **[AWS](#aws)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> |
-
 ### Important Questions
 
-- What is Flattening?
-- Return a list of all unique characters for a list of words?
-- Return Square of numbers of list of integers using Stream
-- Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
-- How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
-- What is Short-circuiting evaluation in stream ?
-- When to use findFirst and findAny.
-- Summing all the element of a list.
-- ***
-- Describe the use of Optional in Java?
-- Describe the differnce between map,flatmap and reducce
+========================================================================================
+SpringBoot
+
+---
+
+1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
+2. What is the @controllerAdvice in springboot? - Exception Handling
+3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
+5. SpringBoot with OAuth2.How it works? (https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+6. How to do CORS configuration in Spring Boot ?(https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+7. How to add Global CORS configuration for the application?
+8. What is the use @Configuration? //Bean Definitions
+9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+10. CQRS design patterns in Microservices?
+11.
+
+12. Design a URL Shortner (tinyurl)
+13. Design a web crawler.(https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+14. Design a notification System
+15. Method overloading vs Method Overiding.
+16. Method overriding passing null object . //Subclass object gets the preference which is String in this case
+17. Differnce between String,StringBuilder and StringBUffer?
+18. How String concatnation operator internally works ?
+19. Best/efficient way to join String ?
+20. What is Method references?
+21. Anagram check in Java?
+22. what is groupingBy? (https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+23. How can you create a comparator?
+24. What are SOLID principles of Object Oriented Programming? (https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+25. What is transient variable ?
+26. https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
+27. What is Flattening?
+28. Return a list of all unique characters for a list of words?
+29. Return Square of numbers of list of integers using Stream
+30. Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
+31. How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+32. What is Short-circuiting evaluation in stream ?
+33. When to use findFirst and findAny.
+34. Summing all the element of a list.
+35. Describe the use of Optional in Java?
+36. Describe the differnce between map,flatmap and reducce
 
 ### Spring Boot and Mircoservices
 
-- Describe the use case of JSON Web Token?
-- How can you disable the Autoconfiguration in Spring boot Application?
-- How do Microservice communicate each other?
-- Describe the API Gateway design pattern for Micro service?
-- Describe some principle of Mircro Service deployment?
-- Describe the Circuit Breaker Design Pattern?
+37. Describe the use case of JSON Web Token?
+38. How can you disable the Autoconfiguration in Spring boot Application?
+39. How do Microservice communicate each other?
+40. Describe the API Gateway design pattern for Micro service?
+41. Describe some principle of Mircro Service deployment?
+42. Describe the Circuit Breaker Design Pattern?
 
 ### JS
 
-- Javascript Event Loop and Call Stack Explain?
+43. Javascript Event Loop and Call Stack Explain?
 
 ### DS
 
 String/Array
 
-- Implement an algorithm to determine if a string has all unique characters. What if you
-  cannot use additional data structures? (Bitwise way to understand)
-- One string permutaion of other
-- URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
-- Palindrom Permutation
-- One Away: There are three types of edits that can be performed on strings: insert a character,
-  remove a character, or replace a character. Given two strings, write a function to check if they are
-  one edit (or zero edits) away.
-  EXAMPLE
-  pale, ple -> true
-  pales, pale -> true
-  pale, bale -> true
-  pale, bae -> false
+44. Implement an algorithm to determine if a string has all unique characters. What if you
+    cannot use additional data structures? (Bitwise way to understand)
+45. One string permutaion of other
+46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
+47. Palindrom Permutation
+48. One Away: There are three types of edits that can be performed on strings: insert a character,
+    remove a character, or replace a character. Given two strings, write a function to check if they are
+    one edit (or zero edits) away.
+    EXAMPLE
+    pale, ple -> true
+    pales, pale -> true
+    pale, bale -> true
+    pale, bae -> false
 
-- String compression For example, the string aabcccccaaa would become a2blc5a3
-- String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
-  of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
-  call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
+49. String compression For example, the string aabcccccaaa would become a2blc5a3
+50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
+    of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+    call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
 ### System Design
 
 - https://github.com/black-shadows/System-Design - Well documented
-- Design Data Intensive Application Book Overview
-- Consistency Hashing
-- CAP theorem
-- Isolation levels
-- 2PL
 
-## Debezium
-
-<details>
- <summary>Debezium</summary>
- 
- ### What is it?
- 
- - Debezium is a set of distributed services to capture changes in your databases so that your applications can see those changes and respond to them. Debezium records all row-level changes within each database table in a change event stream, and applications simply read these streams to see the change events in the same order in which they occurred.
- - Debezium Architecture
- - Most commonly, you deploy Debezium by means of Apache Kafka Connect. Kafka Connect is a framework and runtime for implementing and operating:
- - Source connectors such as Debezium that send records into Kafka
- - Sink connectors that propagate records from Kafka topics to other systems
- - As shown in the image, the Debezium connectors for MySQL and PostgresSQL are deployed to capture changes to these two types of databases. Each Debezium connector establishes a connection to its source database:
- - The MySQL connector uses a client library for accessing the binlog.
- - The PostgreSQL connector reads from a logical replication stream.
- - Kafka Connect operates as a separate service besides the Kafka broker.
- Reference :
- https://debezium.io/documentation/reference/stable/architecture.html
- https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8#:~:text=Debezium%20is%20an%20open%2Dsource,apps%20commit%20to%20your%20databases.
- https://debezium.io/blog/2019/12/18/debezium-1-0-0-final-released/
- 
- </details>
-
-## Big Query
-
-## Miscellenous
-
-- To make the API end point faster https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9
-  - << of any number is like multiplying by two. For ex : 3<<2 //12 -> 3 *2 = 6 then 6*2 = 12
+51. Design Data Intensive Application Book Overview
+52. Consistency Hashing
+53. CAP theorem
+54. Isolation levels
+55. 2PL
+56. How to make the API end point faster. (https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
 
 ## Java Script
 
-<details>
-  <summary>Important Interview Questions/Concepts!! </summary>
-  
-  1. #### How to create object in Javascript?
-  ### Ans
-  ```
-   a) Creating objects using object literal syntax . key value pairs separated by ‘:’ inside a set of curly braces({ })
-     const person = {
-          firstName: 'testFirstName',
-          lastName: 'testLastName'
-          };
-   b) Using new keyword; const person = new Object(); person.firstname ="Prakash"  
-       Also, this practice is not recommended as there is a scope resolution that happens behind the scenes to find if the constructor function is built-in or user-defined. Difficult to create more object also.
-   c) Using ‘new’ with user defined constructor function
-      In this approach first create one function constructor and then create object.
-      ex. function Person (firstname,lastaname){
-                          this.firstname = firstname;
-                          this.lastname = lastname;
-                          }
-           const personOne = new Person('testFirstNameOne', 'testLastNameOne');
-           const personTwo = new Person('testFirstNameTwo', 'testLastNameTwo');
-    d) Using Object.create() to create new objects
-        This pattern comes in very handy when we are asked to create objects from other existing objects and not directly using the ‘new’ keyword.
-        Object.create method, just remember that it takes two parameters. The first parameter is a mandatory object that serves as the prototype of the new object to be created. The second parameter is an optional object which contains the properties to be added to the new object.
-        e.g. const orgObject = { company: 'ABC Corp' };
-              And you want to create employees for this organization. Clearly, you want all the employee objects.
-              const employee = Object.create(orgObject, { name: { value: 'EmployeeOne' } });
+57. How to create object in Javascript?
+58. Difference between Object.freeze() and const in JavaScript ?
 
-              console.log(employee); // { company: "ABC Corp" }
-              console.log(employee.name); // "EmployeeOne"
-     e) Using Object.assign() to create new objects
-        The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
+59. How to deep-freeze an object in JavaScript ? hint (https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
 
-const orgObject = { company: 'ABC Corp' }
-const carObject = { carName: 'Ford' }
-const employee = Object.assign({}, orgObject, carObject);
+60. Implement sum(2)(3)() (Currying funtions- is also a higher order function ?(https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
 
-```
-2. #### Difference between Object.freeze() and const in JavaScript ?
-### Ans
-```
-
-     The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError.
-     const name = "test"
-     name = "rrr" //TypeError: Assignment to constant variable.
-     The const keyword ensures that the variable created is read-only. But It doesn’t mean that the actual value to which the const variable reference is immutable.
-     const person = { name:"xyz"
-     }
-     person.name = "abc" - > no type error
-
-     Object.freeze() method: If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method.
-     But it freeze only the existing values,however we can add new properties.
-     const person = Object.freeze({
-    name: 'Geeksforgeeks',
-    address: {
-        city:"Noida"
-    }
-
-});
-person.address.country = "India"
-console.log(person.address.country) // It will pring India ,even though it is already freezed.
-
-````
-3. #### How to deep-freeze an object in JavaScript ?
-### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-4. #### Implement sum(2)(3)() (Currying funtions- is also a higher order function ?
-### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-5. #### What is the difference between call(),apply() and bind() methods?
-
-</details>
+61. What is the difference between call(),apply() and bind() methods?
 
 ## Java OOps
 
-## Functional Programming Using Java
+62. Functional Programming Using Java
 
 ## Java Collections
 
-<details>
-<summary>How ConcurrentHashMap works ? </summary>
-
-#### Answer :
-- Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
-* HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
-- HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
-         -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
-- ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
-- However,Synchronized hashmap lock the complete HashMap.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-</details>
-
-<details>
-<summary>How HashSet works internally ? </summary>
-
-#### Answer :
-- It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
-- It doesnt guarantees the order of the elements
-- HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
-- [How HashSet will ignore the duplicates?] - This is important to understand
-- When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
-
-- Please note below important points about put(key, value):
-
-- If the Key is unique and added to the map, then it will return null
-- If the Key is duplicate, then it will return the old value of the key.
-- If the method map.put(key, value) returns null, then the method map.put(e, PRESENT)==null will return true internally, and the element added to the HashSet.
-- If the method map.put(key, value) returns the old value of the key, then the method map.put(e, PRESENT)==null will return false internally, and the element will not add to the HashSet.
-
-``` code add method HashSet
-// Dummy value to associate with an Object in the backing Map
-  private static final Object PRESENT = new Object();
- public boolean add(E e) {
-        return map.put(e, PRESENT) == null;
-    }
-````
-
-**[⬆ Back to Top](#table-of-contents)**
-
-</details>
-
-## Java Multi Threading
-
-## System Design
-
-<details>
-  <summary>What is Consisten Hashing </summary>
-  
-  ### Algorithm
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
-</details>
-
-<details>
-  <summary>Tiny Urls </summary>
-  
-  ### Design
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
-</details>
-<details>
-<summary>Distributed system fundamental</summary>
-
-### Distributed system fundamental
-
--
-
-</details>
+63. How ConcurrentHashMap works ?
+64. How HashSet works internally ?
+65. What is Consisten Hashing?
 
 ## Data Structure Using Java
-
-### Stack and Queue
-
-| Problems                                                     |
-| :----------------------------------------------------------- |
-| 1. Design a stack that supports push, pop, top, and retrieve |
-| 2. Evaluate Expression                                       |
-| 3. Sort Stack                                                |
-
-<details>
-  <summary>Scramble String </summary>
-  
-  ### Algorithm
-  Given two strings s1 and s2 of the same length, return true if s2 is a scrambled string of s1, otherwise, return false.
-
-### Some Details
-
-```
-Input: s1 = "great", s2 = "rgeat"
-Output: true
-Explanation: One possible scenario applied on s1 is:
-"great" --> "gr/eat" // divide at random index.
-"gr/eat" --> "gr/eat" // random decision is not to swap the two substrings and keep them in order.
-"gr/eat" --> "g/r / e/at" // apply the same algorithm recursively on both substrings. divide at random index each of them.
-"g/r / e/at" --> "r/g / e/at" // random decision was to swap the first substring and to keep the second substring in the same order.
-"r/g / e/at" --> "r/g / e/ a/t" // again apply the algorithm recursively, divide "at" to "a/t".
-"r/g / e/ a/t" --> "r/g / e/ a/t" // random decision is to keep both substrings in the same order.
-The algorithm stops now, and the result string is "rgeat" which is s2.
-As one possible scenario led s1 to be scrambled to s2, we return true.
-```
-
-</details>
-
-<details>
-  <summary>Remove a Loop from a Single List </summary>
-  
-  ### Algorithm -> Hint : Floyd Cycle Detection
-  1. Visited Node Technique
-  2. Hashing
-     * Baz
-     * Qux
-
-### Some Code
-
-```js
-function logSomething(something) {
-  console.log("Something", something);
-}
-```
-
-</details>
-
-**[⬆ Back to Top](#table-of-contents)**
 
 ## Microservices Using Spring Boot
 

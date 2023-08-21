@@ -34,5 +34,21 @@ Ans :  The difference lies in the response handling mechanism:
 @RequestMapping: This annotation is a generic annotation used to map a request to a method in a controller class. It can handle requests of any HTTP method (GET, POST, PUT, DELETE, etc.). You specify the HTTP method using the method attribute of the @RequestMapping annotation.
 @GetMapping: This annotation is a specialized version of @RequestMapping specifically for handling HTTP GET requests. It is a shortcut annotation that combines @RequestMapping with the GET HTTP method. It simplifies the mapping of GET requests to controller methods.
 
-6.
+6. Transaction Management in Springboot?
+   Ans: (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+       - Programmatic
+       - Declarative
+       - Declarative using @Transactional
+       - Programatic using TransactionalTemplate
+       - What happens after caller encounters @Transactional 
+          - It first invokes the proxy that uses the Transactional Interceptor
+          - Transactional Advisors associated 
+          - Target Method execution
+       - Properties of @Transactional
+          - Propagation -> It decides how new transaction will start 1. PROPAGATION_REQUIRED default one. Create new transaction or else use th existing. 2. PRPAGATION_REQUIRED_NEW 3. PrOPAGATION_SUPPORT  (never create new tx) 4. 
+          -Isolation
+          -Timeout
+          -RollbackFor
+          - NoRollbackFor
+          - ReadOnly
             
