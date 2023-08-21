@@ -3,6 +3,7 @@
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
 ### Important Questions
+
 <details>
   <summary>Set -1 : Interview Questions </summary>
   
@@ -53,57 +54,57 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 <details>
   <summary>Set -2 : Interview Questions </summary>
 
-  43. Javascript Event Loop and Call Stack Explain?
-  44. Implement an algorithm to determine if a string has all unique characters. What if you
-      cannot use additional data structures? (Bitwise way to understand)
-  45. One string permutaion of other
-  46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
-  47. Palindrom Permutation
-  48. One Away: There are three types of edits that can be performed on strings: insert a character,
-      remove a character, or replace a character. Given two strings, write a function to check if they are
-      one edit (or zero edits) away.
-      EXAMPLE
-      pale, ple -> true
-      pales, pale -> true
-      pale, bale -> true
-      pale, bae -> false
-  
-  49. String compression For example, the string aabcccccaaa would become a2blc5a3
-  50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
-      of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
-      call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
-  
-  ### System Design
-  
-  - https://github.com/black-shadows/System-Design - Well documented
-  
-  51. Design Data Intensive Application Book Overview
-  52. Consistency Hashing
-  53. CAP theorem
-  54. Isolation levels
-  55. 2PL
-  56. How to make the API end point faster. (https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
-  
-  ## Java Script
-  
-  57. How to create object in Javascript?
-  58. Difference between Object.freeze() and const in JavaScript ?
-  
-  59. How to deep-freeze an object in JavaScript ? hint (https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-  
-  60. Implement sum(2)(3)() (Currying funtions- is also a higher order function ?(https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-  
-  61. What is the difference between call(),apply() and bind() methods?
-  
-  ## Java OOps
-  
-  62. Functional Programming Using Java
-  
-  ## Java Collections
-  
-  63. How ConcurrentHashMap works ?
-  64. How HashSet works internally ?
-  65. What is Consisten Hashing?
+43. Javascript Event Loop and Call Stack Explain?
+44. Implement an algorithm to determine if a string has all unique characters. What if you
+    cannot use additional data structures? (Bitwise way to understand)
+45. One string permutaion of other
+46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
+47. Palindrom Permutation
+48. One Away: There are three types of edits that can be performed on strings: insert a character,
+    remove a character, or replace a character. Given two strings, write a function to check if they are
+    one edit (or zero edits) away.
+    EXAMPLE
+    pale, ple -> true
+    pales, pale -> true
+    pale, bale -> true
+    pale, bae -> false
+
+49. String compression For example, the string aabcccccaaa would become a2blc5a3
+50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
+    of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+    call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
+
+### System Design
+
+- https://github.com/black-shadows/System-Design - Well documented
+
+51. Design Data Intensive Application Book Overview
+52. Consistency Hashing
+53. CAP theorem
+54. Isolation levels
+55. 2PL
+56. How to make the API end point faster. (https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
+
+## Java Script
+
+57. How to create object in Javascript?
+58. Difference between Object.freeze() and const in JavaScript ?
+
+59. How to deep-freeze an object in JavaScript ? hint (https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+
+60. Implement sum(2)(3)() (Currying funtions- is also a higher order function ?(https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+
+61. What is the difference between call(),apply() and bind() methods?
+
+## Java OOps
+
+62. Functional Programming Using Java
+
+## Java Collections
+
+63. How ConcurrentHashMap works ?
+64. How HashSet works internally ?
+65. What is Consisten Hashing?
 </details>
 
 <details>
@@ -190,30 +191,29 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   </details>
   
   <details>
-    <summary>Building Microservices (Designing Fine Grained System </summary>
-  145. Domain Driven Design - Can you give one example
-            Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
- 146. What are Micro services?
-     Ans: Small,autonomus services that work together.
- 147. Key Benefits of Micro Services 
-     - Technology Heterogenity
-     - Resilinece -> If one component fails ,it wont cascade
-     - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
-     - Ease of deployment
-     - Organizational Allignments - NO large team,NO Large DB etc
-     - Optimizing of replacibility - Easy replacement after reaching end of life
- 
- 148. How to Model Services
-     1. Loose coupling and High cohesion makes a services good. 
-        -  Whats is Loose coupling? Ans: When services are loosly coupled, a change in one service should not require a change in another.
-        -  What is High cohesion? Ans: Related behaviors sit together. So we have to find out the boundaries within our problem domain that help ensures that related behaviours in one place.
-     2. What do you mean by Bounded Context?
-        Ans : A Bounded Context is a central pattern in DDD (Domain-Driven Design), which deals with collaboration across large models and teams. DDD breaks large models down into multiple contexts to make them more manageable. Additionally, it explains their relationship explicitly. The concept promotes an object-oriented approach to developing services bound to a data model and is also responsible for ensuring the integrity and mutability of said data model.   Eg. In Music corp - Finance and warehouse are two bounded context.
-    3.  https://github.com/rootusercop/Free-DevOps-Books-1/blob/master/book/Building%20Microservices%20-%20Designing%20Fine-Grained%20Systems.pdf Page - 34
- 
- **[⬆ Back to Top](#table-of-contents)**   
+    <summary>Set 4: Building Microservices (Designing Fine Grained System </summary>
+      145. Domain Driven Design - Can you give one example
+                Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
+      146. What are Micro services?
+        Ans: Small,autonomus services that work together.
+      147. Key Benefits of Micro Services 
+        - Technology Heterogenity
+        - Resilinece -> If one component fails ,it wont cascade
+        - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
+        - Ease of deployment
+        - Organizational Allignments - NO large team,NO Large DB etc
+        - Optimizing of replacibility - Easy replacement after reaching end of life
+    
+      148. How to Model Services
+        1. Loose coupling and High cohesion makes a services good. 
+            -  Whats is Loose coupling? Ans: When services are loosly coupled, a change in one service should not require a change in another.
+            -  What is High cohesion? Ans: Related behaviors sit together. So we have to find out the boundaries within our problem domain that help ensures that related behaviours in one place.
+        2. What do you mean by Bounded Context?
+            Ans : A Bounded Context is a central pattern in DDD (Domain-Driven Design), which deals with collaboration across large models and teams. DDD breaks large models down into multiple contexts to make them more manageable. Additionally, it explains their relationship explicitly. The concept promotes an object-oriented approach to developing services bound to a data model and is also responsible for ensuring the integrity and mutability of said data model.   Eg. In Music corp - Finance and warehouse are two bounded context.
+        3.  https://github.com/rootusercop/Free-DevOps-Books-1/blob/master/book/Building%20Microservices%20-%20Designing%20Fine-Grained%20Systems.pdf Page - 34
   </details>
-
+  
+**[⬆ Back to Top](#table-of-contents)**   
 ## Kafka
 
 <details>
