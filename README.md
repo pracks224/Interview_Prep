@@ -49,6 +49,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
     41. Describe some principle of Mircro Service deployment?
     42. Describe the Circuit Breaker Design Pattern?
 </details>
+
 <details>
   <summary>Set -2 : Interview Questions </summary>
 
