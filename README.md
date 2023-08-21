@@ -5,48 +5,48 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 ### Important Questions
 <details>
   <summary>Set -1 : Interview Questions </summary>
-1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
-2. What is the @controllerAdvice in springboot? - Exception Handling
-3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
-4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
-5. SpringBoot with OAuth2.How it works? (https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
-6. How to do CORS configuration in Spring Boot ?(https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
-7. How to add Global CORS configuration for the application?
-8. What is the use @Configuration? //Bean Definitions
-9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
-10. CQRS design patterns in Microservices?
-11. 
-12. Design a URL Shortner (tinyurl)
-13. Design a web crawler.(https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
-14. Design a notification System
-15. Method overloading vs Method Overiding.
-16. Method overriding passing null object . //Subclass object gets the preference which is String in this case
-17. Differnce between String,StringBuilder and StringBUffer?
-18. How String concatnation operator internally works ?
-19. Best/efficient way to join String ?
-20. What is Method references?
-21. Anagram check in Java?
-22. what is groupingBy? (https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
-23. How can you create a comparator?
-24. What are SOLID principles of Object Oriented Programming? (https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-25. What is transient variable ?
-26. https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
-27. What is Flattening?
-28. Return a list of all unique characters for a list of words?
-29. Return Square of numbers of list of integers using Stream
-30. Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
-31. How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
-32. What is Short-circuiting evaluation in stream ?
-33. When to use findFirst and findAny.
-34. Summing all the element of a list.
-35. Describe the use of Optional in Java?
-36. Describe the differnce between map,flatmap and reducce
-37. Describe the use case of JSON Web Token?
-38. How can you disable the Autoconfiguration in Spring boot Application?
-39. How do Microservice communicate each other?
-40. Describe the API Gateway design pattern for Micro service?
-41. Describe some principle of Mircro Service deployment?
-42. Describe the Circuit Breaker Design Pattern?
+    1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
+    2. What is the @controllerAdvice in springboot? - Exception Handling
+    3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+    4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
+    5. SpringBoot with OAuth2.How it works? (https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+    6. How to do CORS configuration in Spring Boot ?(https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+    7. How to add Global CORS configuration for the application?
+    8. What is the use @Configuration? //Bean Definitions
+    9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+    10. CQRS design patterns in Microservices?
+    11. 
+    12. Design a URL Shortner (tinyurl)
+    13. Design a web crawler.(https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+    14. Design a notification System
+    15. Method overloading vs Method Overiding.
+    16. Method overriding passing null object . //Subclass object gets the preference which is String in this case
+    17. Differnce between String,StringBuilder and StringBUffer?
+    18. How String concatnation operator internally works ?
+    19. Best/efficient way to join String ?
+    20. What is Method references?
+    21. Anagram check in Java?
+    22. what is groupingBy? (https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+    23. How can you create a comparator?
+    24. What are SOLID principles of Object Oriented Programming? (https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+    25. What is transient variable ?
+    26. https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
+    27. What is Flattening?
+    28. Return a list of all unique characters for a list of words?
+    29. Return Square of numbers of list of integers using Stream
+    30. Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
+    31. How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+    32. What is Short-circuiting evaluation in stream ?
+    33. When to use findFirst and findAny.
+    34. Summing all the element of a list.
+    35. Describe the use of Optional in Java?
+    36. Describe the differnce between map,flatmap and reducce
+    37. Describe the use case of JSON Web Token?
+    38. How can you disable the Autoconfiguration in Spring boot Application?
+    39. How do Microservice communicate each other?
+    40. Describe the API Gateway design pattern for Micro service?
+    41. Describe some principle of Mircro Service deployment?
+    42. Describe the Circuit Breaker Design Pattern?
 </details>
 ### JS
 
