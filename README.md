@@ -10,7 +10,12 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
     1. What is the diffence between cohesion and coupling ?
     2. What is 12-Factor App ? // if all these there then it's microservice enabled
     3. What are the type of Service Discovery ?
-    4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/)
+    4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/) .
+    5. Can we add consumer dynamically to Kafka ?
+    6. What are the differnet Partition Startergy ?
+    7. Mention the differnce between Kafak and JSM?
+    8. How to avoid duplicate event kafka ?
+    9. 
 
 </details>
 
