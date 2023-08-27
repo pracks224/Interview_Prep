@@ -331,3 +331,13 @@ Multi Threading
             -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
           - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
           - However,Synchronized hashmap lock the complete HashMap.
+40. Non-terminal Operations vs terminal Operations
+    • A non-terminal stream operation is an intermediate operation which creates a new Stream by transforming or filtering the original stream.
+
+    filter(),map(),flatMap(),distinct(),limit(),peek()
+    Terminal Operations
+
+    • A terminal stream operation is an operation that returns a result.
+
+    anyMatch(),allMatch(),noneMatch(),collect(),count(),findAny(),findFirst()
+    forEach(),min(),max(),reduce(),toArray()
