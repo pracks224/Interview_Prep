@@ -6,6 +6,15 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 <details>
   <summary>Set -1 : Interview Questions </summary>
+    1. What is the diffence between cohesion and coupling ?
+    2. What is 12-Factor App ? // if all these there then it's microservice enabled
+    3. What are the type of Service Discovery ?
+    4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/)
+
+</details>
+
+<details>
+  <summary>Set -1 : Interview Questions </summary>
   
     1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
     2. What is the @controllerAdvice in springboot? - Exception Handling
