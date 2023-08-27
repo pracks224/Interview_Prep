@@ -15,7 +15,8 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
     6. What are the differnet Partition Startergy ?
     7. Mention the differnce between Kafak and JSM?
     8. How to avoid duplicate event kafka ?
-    9. 
+    9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
+    10.
 
 </details>
 
