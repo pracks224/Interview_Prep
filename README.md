@@ -5,6 +5,20 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 ### Important Questions
 
 <details>
+  <summary>Set -6 : Interview Questions preparation for Luxsoft(7-Sep-2023) Fullstack Remote </summary>
+  
+  1. Could you explain what is the "deadly diamond of death"?
+  2. What's the difference between the Dependency Injection and Service Locator patterns?
+  3. What is the difference between the template patterns and the strategy pattern? ( https://github.com/aershov24/full-stack-interview-questions#DesignPatterns )
+  4. How Java Memory works? (https://blog.stackademic.com/how-java-memory-works-c751460e3cbd)
+  5. How G1GC works? (https://blog.stackademic.com/how-g1gc-works-in-java-390332333b2) G1GC is a concurrent collector
+  6. How are coping with changing requirements ? Predicates
+  7. Java Program to count the total number of characters in a string.
+  8. Java Program to count the vowel/consonants in a string
+  9. Java programs to determine to programs are anagram means they have same set of characters.
+  10. Java programs to divide a string equal N parts. (https://www.javatpoint.com/java-programs)
+
+</details>
   <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
   
     1. What is the diffence between cohesion and coupling ?
@@ -16,7 +30,6 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
     7. Mention the differnce between Kafak and JSM?
     8. How to avoid duplicate event kafka ?
     9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
-    10.
 
 </details>
 
