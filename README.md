@@ -17,6 +17,12 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   8. Java Program to count the vowel/consonants in a string
   9. Java programs to determine to programs are anagram means they have same set of characters.
   10. Java programs to divide a string equal N parts. (https://www.javatpoint.com/java-programs)
+  11. List of Functional Interfaces  like runnable,callable,comparator,ActionListners,supplier,consumer,Function,Predicate,BiFunction,BiPredicate,UnaryOperator,BinaryOperator,BiConsumer,LongConsumer etc.
+  12. Some time Interviewer asks the methods of the functional interfaces
+  13. What is Java Stream ?
+  14. Java Program to sort List of employee by salary using java 8?
+  15.  Java program to demonstrate all the functional interfaces like predicate/cosnumer/supplier etc. Predicate - test return boolean consumer - returns void and method accept for updating value/print etc and function has apply method return another object  like for transforming etc
+  16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p) 
 
 </details>
   <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
