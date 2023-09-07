@@ -42,6 +42,7 @@ Q.17) Find the minimum, the maximum, the average, and the standard deviation of 
 
 Q.18) Find the year where the maximum number of movie is available
 
+
 </details>
 <details>
   <summary>Set -6 : Interview Questions preparation for Luxsoft(7-Sep-2023) Fullstack Remote </summary>
@@ -61,7 +62,8 @@ Q.18) Find the year where the maximum number of movie is available
   13. What is Java Stream ?
   14. Java Program to sort List of employee by salary using java 8?
   15.  Java program to demonstrate all the functional interfaces like predicate/cosnumer/supplier etc. Predicate - test return boolean consumer - returns void and method accept for updating value/print etc and function has apply method return another object  like for transforming etc
-  16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p) 
+  16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p)
+  17.  What is Java record included in Java 14 ?(https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
 
 </details>
   <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
