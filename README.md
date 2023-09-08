@@ -3,6 +3,15 @@
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
 ### Important Questions
+
+<details>
+  <summary>Set -8 : Java 8 Features & Cloud Solution Architect Questions </summary> 
+  
+  Q.1) How to use Optional in Java coding?
+  
+  Q.2) 
+</details>
+
 <details>
   <summary>Set -7 : Stream API and Collection Questions- Programming </summary>
   
@@ -10,37 +19,37 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
   Q.2) Find the number of movies of each director
 
-Q.3) Find the number of genres of each director's movies
-
-Q.4) Find the highest populated capital city
-
-Q.5) Find the highest populated capital city of each continent
-
-Q.6) Sort the countries by number of their cities in descending order
-
-Q.7) Find the list of movies having the genres "Drama" and "Comedy" only
-
-Q.8) Group the movies by the year and list them
-
-Q.9) Sort the countries by their population densities in descending order ignoring zero population countries
-
-Q.10) Find the richest country of each continent with respect to their GNP (Gross National Product) values.
-
-Q.11) Find the minimum, the maximum and the average population of world countries.
-
-Q.12) Find the minimum, the maximum and the average population of each continent.
-
-Q.13) Find the countries with the minimum and the maximum population.
-
-Q.14) Find the countries of each continent with the minimum and the maximum population.
-
-Q.15) Group the countries by continent, and then sort the countries in continent by number of cities in each continent.
-
-Q.16) Find the cities with the minimum and the maximum population in countries.
-
-Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
-
-Q.18) Find the year where the maximum number of movie is available
+  Q.3) Find the number of genres of each director's movies
+  
+  Q.4) Find the highest populated capital city
+  
+  Q.5) Find the highest populated capital city of each continent
+  
+  Q.6) Sort the countries by number of their cities in descending order
+  
+  Q.7) Find the list of movies having the genres "Drama" and "Comedy" only
+  
+  Q.8) Group the movies by the year and list them
+  
+  Q.9) Sort the countries by their population densities in descending order ignoring zero population countries
+  
+  Q.10) Find the richest country of each continent with respect to their GNP (Gross National Product) values.
+  
+  Q.11) Find the minimum, the maximum and the average population of world countries.
+  
+  Q.12) Find the minimum, the maximum and the average population of each continent.
+  
+  Q.13) Find the countries with the minimum and the maximum population.
+  
+  Q.14) Find the countries of each continent with the minimum and the maximum population.
+  
+  Q.15) Group the countries by continent, and then sort the countries in continent by number of cities in each continent.
+  
+  Q.16) Find the cities with the minimum and the maximum population in countries.
+  
+  Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
+  
+  Q.18) Find the year where the maximum number of movie is available
 
 
 </details>
@@ -66,27 +75,37 @@ Q.18) Find the year where the maximum number of movie is available
   17.  What is Java record included in Java 14 ?(https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
 
 </details>
+
+<details>
   <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
   
-    1. What is the diffence between cohesion and coupling ?
-    2. What is 12-Factor App ? // if all these there then it's microservice enabled
-    3. What are the type of Service Discovery ?
-    4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/) .
-    5. Can we add consumer dynamically to Kafka ?
-    6. What are the differnet Partition Startergy ?
-    7. Mention the differnce between Kafak and JSM?
-    8. How to avoid duplicate event kafka ?
-    9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
+  1. What is the diffence between cohesion and coupling ?
+  
+  2. What is 12-Factor App ? // if all these there then it's microservice enabled
+  
+  3. What are the type of Service Discovery ?
+  
+  4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/) .
+  
+  5. Can we add consumer dynamically to Kafka ?
+  
+  6. What are the differnet Partition Startergy ?
+  
+  7. Mention the differnce between Kafak and JSM?
+  
+  8. How to avoid duplicate event kafka ?
+  
+  9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
 
 </details>
 
 <details>
   <summary>Set -1 : Interview Questions </summary>
   
-    1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
-    2. What is the @controllerAdvice in springboot? - Exception Handling
-    3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
-    4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
+  1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
+  2. What is the @controllerAdvice in springboot? - Exception Handling
+  3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+  4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
     5. SpringBoot with OAuth2.How it works? (https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
     6. How to do CORS configuration in Spring Boot ?(https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
     7. How to add Global CORS configuration for the application?
