@@ -7,7 +7,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 <details>
   <summary>Set -8 : Java 8 Features & Cloud Solution Architect Questions </summary> 
   
-  Q.1) How to use Optional in Java coding?
+  Q.1) How to use Optional in Java coding? (https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
   
   Q.2) 
 </details>
