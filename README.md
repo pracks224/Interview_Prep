@@ -5,7 +5,35 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 ### Important Questions
 
 <details>
-  <summary>Set -8 : Java 8 Features & Cloud Solution Architect Questions </summary> 
+  <summary>Set -12 : DSA </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -11 : Cloud Technologies </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -10 : ML/AI </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -9 : Performance Monitor Tools </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -8 : Java 8 Features  </summary> 
   
   Q.1) How to use Optional in Java coding? (https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
   
@@ -13,7 +41,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 </details>
 
 <details>
-  <summary>Set -7 : Stream API and Collection Questions- Programming </summary>
+  <summary>Set -7 : Java 8 Stream API </summary>
   
   Q.1) Find the most populated city of each continent
 
@@ -100,7 +128,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 </details>
 
 <details>
-  <summary>Set -1 : Interview Questions </summary>
+  <summary>Set -1 : Spring Boot </summary>
   
   1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
   2. What is the @controllerAdvice in springboot? - Exception Handling
@@ -147,7 +175,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 </details>
 
 <details>
-  <summary>Set -2 : Interview Questions </summary>
+  <summary>Set -2 : JavaScript </summary>
 
 43. Javascript Event Loop and Call Stack Explain?
 44. Implement an algorithm to determine if a string has all unique characters. What if you
