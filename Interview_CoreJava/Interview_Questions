@@ -1,0 +1,343 @@
+## Java 8 in Action Book Review Points :
+
+1.  Why Java is changing again? Java 1.1 in 1997 - Java 7 in 2011 - Java 8 2014. Java 8 is profound than any other releases.
+2.  In java 8 we can write code more concise mannner , small and better way of writing.
+3.  Also, one reason for change is hardware influence. Earlier version of Java /or vast majority of the java programs only uses
+    one these cores only. Java 1.0 introduces thread,locks etc.
+    Java 5 introduces thread pool ,Concurrent collections
+    Java 7 introduces fork/join framewrok
+    Java 8 -> fill it later
+    Concise code and simpler use of multicore processor
+
+4.  What is BlockingQueue?
+    Answer :
+    • A BlockingQueue is a data structure in Java that provides thread-safe operations for storing and retrieving elements. It allows multiple threads to interact with the queue, and when the queue is empty, the retrieval operation blocks until an element becomes available, ensuring synchronization and coordination between threads.
+    • Mainly used for producer and consumer problems
+    • It does not accept null value if we add it.
+
+5.  How can we create a synchronized collection from given collection?
+    Answer :
+    To create a synchronized collection from a given collection in Java, you can use the Collections.synchronized method. This method wraps the original collection with a synchronized wrapper, ensuring thread safety for concurrent access.
+    // Creating a synchronized version of the collection
+    List<String> synchronizedList = Collections.synchronizedList(originalList);
+
+        // Now, the synchronizedList can be safely accessed by multiple threads concurrently
+        // It will automatically handle synchronization for thread safety
+
+    It uses synchronized blocks to ensure thread safety, which means only one thread can access the map at a time.
+    While it provides thread safety, it may result in reduced performance when multiple threads frequently access the map simultaneously, as other threads will be blocked during those operations.
+
+6.  What are the different ways to create Synchronized Collections in Java ?
+    Answer :
+    ConcurrentHashMap,CopyOnWriteArrayList,CopyOnWriteArraySet,ConcurrentSkipListSet.
+    It provides fine-grained concurrency control without explicit synchronization.
+
+        ConcurrentHashMap: It provides a concurrent implementation of a hash map, allowing multiple threads to read and write concurrently without blocking.
+
+        CopyOnWriteArrayList: This list allows for safe concurrent access by creating a new copy of the list every time an element is modified, ensuring that modifications don't affect ongoing iterations.
+
+        CopyOnWriteArraySet: Similar to CopyOnWriteArrayList, this set implementation ensures safe concurrent access by creating a new copy of the set for each modification.
+
+        ConcurrentSkipListSet and ConcurrentSkipListMap: These are concurrent implementations of a skip list set and skip list map, respectively, offering better performance for concurrent access in sorted collections.
+
+7.  How ConcurrentHashMap works?
+    Answer : 
+    - ConcurrentHashMap is lock free ,scalable and all the operations are atomic.
+    - ConcurrentHashMap divides the data into segement and lock the segement,so that other areas
+      avaialble to access by other threads.
+    - ConcurrentHashMap is not a good choice if you would need to maintain insertion order 
+      of the elements. This is because the internal structure of a ConcurrentHashMap is based on hash codes, 
+      which means that the order in which elements are inserted is not preserved.
+    - 
+          
+    
+
+8.  Can we have a default method definition in the interface without specifying the keyword "default" ?
+9.  Can we declare a class static ? Ans : Only the inner classes not the top classes
+10. Can we declare an abstract method private ?
+    No,Only protected or public
+11. What kind of thread is garbage collector thread ? Daemon thread
+12. What is nested interface ? Ans: Interface declered inside class or interface. It's by defult Static in nature.
+13. Differnce between nested and inner class?
+    Ans :
+    In object-oriented programming, both nested and inner classes are used to define classes within other classes. However, they have different implications and behaviors based on their context and relationship with the enclosing class. Let's explore the differences between nested and inner classes:
+
+    Nested Classes:
+    A nested class is a class that is defined within the scope of another class. There are two main types of nested classes:
+
+    Static Nested Class: Also known as a nested top-level class, a static nested class is a class that is defined within another class as a static member. It is essentially a separate class that is just enclosed within the outer class for organizational purposes. A static nested class can access only static members of the enclosing class.
+
+    Inner Class:
+    An inner class is a class that is defined within another class and has access to the instance members (both static and non-static) of the enclosing class. Inner classes are mainly used when you need a tightly coupled relationship between the inner class and its enclosing class.
+    Key Differnces :
+    Access to Enclosing Class Members:
+    • Static Nested Class: Can only access static members of the enclosing class.
+    • Inner Class: Can access both static and non-static members of the enclosing class.
+    Instance Relationship:
+    • Static Nested Class: Has no direct reference to an instance of the enclosing class. It's essentially a separate class within the namespace of the outer class.
+    • Inner Class: Has an implicit reference to an instance of the enclosing class. This allows the inner class to access the instance members of the enclosing class.
+
+14. Is constructor inheritaed? Ans No
+15. Explain the scenerios to choose between String , StringBuilder and StringBuffer ?
+    Ans:
+    • If the Object value will not change in a scenario use String Class because a String object is immutable.
+    • If the Object value can change and will only be modified from a single thread, use a StringBuilder because StringBuilder is unsynchronized(means faster).
+    • If the Object value may change, and can be modified by multiple threads, use a StringBuffer because StringBuffer is thread safe(synchronized).
+16. Describe the use of Optional in Java? Important
+    Ans:
+    Optional has been introduced in Java in order to model the absence of a value. We all know the notorious “NullPointerException” in java and various ways to write the code to avoid that, Optional models the NullPointerExecption and establishes a design pattern around that.
+    Without Optional:
+    public class Person {
+    private Car car;
+    public Car getCar() { return car; }
+    }
+    public class Car {
+    private Insurance insurance;
+    public Insurance getInsurance() { return insurance; }
+    }
+    public class Insurance {
+    private String name;
+    public String getName() { return name; }
+    }
+    ==============================================
+    public String getCarInsuranceName(Person person) {
+    return person.getCar().getInsurance().getName();
+    }
+    Above code will throw NPE
+    ==============================================
+    With Optional
+    public class Person {
+    private Optional<Car> car;
+    public Optional<Car> getCar() { return car; }
+    }
+    public class Car {
+    private Optional<Insurance> insurance;
+    public Optional<Insurance> getInsurance() { return insurance; }
+    }
+    public class Insurance {
+    private String name;
+    public String getName() { return name; }
+    }
+    ================================================
+    3 ways we can create 1. Empty Optional. :: Optional<Car> optCar = Optional.empty(); 2. Optional from a Non Null value. : Optional<Car> optCar = Optional.of(car); 3. Optional from Null.Ans: Optional<Car> optCar = Optional.ofNullable(car);
+17. Describe the difference between map,flatMap and reduce in stream?
+    Ans::
+
+Map function take an input as an array and transform that an return the array of same length. Map creates a new version of transformed data and does not modify the original data. The below map function takes an argument as a Lambda expression to modify the data which is in this case to return the length of each word in the ArrayList.
+
+List<String> words = Arrays.asList("Modern", "Java", "In", "Action");
+List<Integer> wordLengths = words.stream()
+.map(String::length)
+.collect(toList());
+
+    For example, given the list of words [“Hello,” “World”] you’d like to return the list [“H,” “e,” “l,” “o,” “W,” “r,” “d”]. That means you need to find the unique characters in the given list of of words.
+
+    //The above example creates a stream of words.
+    List<String> words = Arrays.asList("Modern", "Java", "In", "Action");
+    words.stream()
+        .map(word -> word.split(""))
+        .map(Arrays::stream)
+        .distinct()
+        .collect(toList());
+
+    The problem with this approach is that the lambda passed to the map method returns a String[] (an array of String) for each word. The stream returned by the map method is of type Stream<String[]>. What we want is Stream<String> to represent a stream of characters
+
+    Fixing the problem with the flatMap, flatMap will provide you the Stream<String> not the Stream<String[]> as a result and then you can run distinct on that character array which is flattened using all the words in the List.
+
+    List<String> uniqueCharacters =
+
+words.stream()
+.map(word -> word.split(""))
+.flatMap(Arrays::stream)
+.distinct()
+.collect(toList());  
+ Another Example is that if Employee class has an email field and you want to find all the emails associated with each employee you would do something like this.
+public class Employee
+{
+private String empId;
+private List<String> emails;
+}
+
+emplist.stream().flatMap(x-> x.getEmails()).collect(toList);
+
+The above code will return you the flattened list of all the emails instead of returning the email arrays for each employee.
+
+Reduce is a stream operation accepts an input array and return an accumulator that. When you want to combine the values of the stream to get a single value is called reduce operation.
+
+int sum = numbers.stream().reduce(0, (a, b) -> a + b);
+
+Reduce takes two arguments:
+
+An initial value, here 0.
+A BinaryOperator<T> to combine two elements and produce a new value; here you use the lambda (a, b) -> a + b.
+
+18. String Pool in Java ? (https://medium.com/@ayushjung63/string-pool-in-java-1efd2eb21d70)
+19. Autoboxing and Unboxing in Java (https://medium.com/@ayushjung63/autoboxing-and-unboxing-in-java-7841a3c8144c)
+
+20. Is typecasting of Wrapper Object possible ?
+    Ans : No,Wrapper class is casted only to its corresponding primitive type.
+
+21. Explicit Casting ?
+    Upcast -> subType to Super type
+    downcast -> supertype to subtype
+22. How to create an immutable class in java?(https://rathod-ajay.medium.com/most-common-java-developer-interview-questions-series-12-core-java-oop-af5ff343b5e3)
+    Ans:
+    decalre class final,all instance variable final
+    do not provide any setter method
+    initilize all the variable in constructor
+    Advantage of it is thread safe
+23. Examples of immutable classes?
+    String,Integre,Double,Long,BigInteger,Locale,Optional etc
+24. How to create an Immutable HashMap in java?
+    Ans:
+    Using Collections.unmodifiableMap(pass the map created);
+    Attempt to modify it will get UnsupportedOperationException
+-----------------
+Multi Threading
+------------------
+25. Why do we need volatile keyword?
+    Ans :
+    - volatile shared variable tells the thread to read it from main memory not from local cache
+    - It can be used for fields only.
+    volatile variables never cached and read directly from main memory.
+    - if we declare count as volatile, each thread sees its latest updated value in the 
+    main memory without any delay.This is called the visibility guarantee 
+    of the volatile keyword. It helps in avoiding the above data inconsistency issue.
+    - volatile works fine with atomic operation,but non-atomic/composite volatile does not guarantee thread safety.
+
+26. Differnce between atomic,synchronized and volatile ?
+27.  What is meant by mutul exclusion? Ans:: No two process can exist in the critical section at any given
+    point of time.
+28. What is ThreadLocal?
+   Ans :
+   ThreadLocal is a class in Java that provides thread-local variables. 
+   These variables have a separate instance for each thread that accesses them. 
+   This can be particularly useful in scenarios where you want to store data that is 
+   specific to each thread without explicitly passing it around or managing 
+   synchronization.
+29. What is NavigableMap?
+    Ans :
+    1. It provides navigation methods to work with entries in a map that are sorted 
+       according to their natural ordering or a custom comparator.
+    2.  It's particularly useful when you need to maintain a sorted collection of key-value
+        pairs and perform various operations like finding ranges, ceiling or floor values, and 
+        navigating through the map in a sorted manner.
+    3.  Range Queries -> `subMap(fromKey, toKey)`
+    2.  Finding Closest Matches: NavigableMap -> `floorEntry(key)`
+    3. Here's an example of when you might use a NavigableMap:
+       Suppose you're building a scheduling application where you need to store events 
+       sorted by their start times. You want to quickly find all events within a certain 
+       time range, retrieve the next upcoming event, and maintain a sorted order as new 
+       events are added. In such a scenario, a NavigableMap would be beneficial, 
+       as it provides efficient methods for range queries, finding the closest entry, 
+       and maintaining sorted order.   
+30. Building an efficient, scalable result cache using Collection and multi threading ?
+    Ans :
+31. Syncronizers in Java Thread?
+    Ans:
+    Latches - CountDownLatch is used to make sure that a task waits for other threads before it starts.
+    FutureTask - Asynchronous task execution
+    Semaphores - A semaphore allows one to specify the maximum number of simultaneous threads accessing a given resource. It can also be used to implement bounded collections - collections with a maximum size.
+    Barrier
+32. FutureTask vs CountDownLatch
+    Ans:
+    FutureTask:
+    FutureTask is a class in Java that represents a computation that can be executed 
+    asynchronously. It's used when you have a task that takes some time to complete, 
+    and you want to offload its execution to a separate thread while allowing 
+    the main thread to continue its work. FutureTask also allows you to retrieve 
+    the result of the computation when it's done.
+    CountDownLatch::
+    CountDownLatch is a synchronization primitive that allows one or more threads to 
+    wait for a fixed number of events or signals before proceeding. It's typically used 
+    to coordinate the execution of multiple threads by making them wait until a specified 
+    number of tasks have been completed.
+33. Callable vs Runnable?
+    Ans:
+    • For implementing Runnable, the run() method needs to be implemented which does not 
+      return anything, while for a Callable, the call() method needs to be implemented 
+      which returns a result on completion. Note that a thread can’t be created with 
+      a Callable, it can only be created with a Runnable.
+    • Another difference is that the call() method can throw an exception whereas run() 
+      cannot.
+34. Inter Thread Communication ?>
+   Ans :  Java uses three methods, namely, wait(), notify(), and notifyAll(). 
+          All these methods belong to object class as final so that all classes have them. 
+          They must be used within a synchronized block only. 
+
+        >wait(): It tells the calling thread to give up the lock and go to sleep until some other thread enters the same monitor and calls notify().
+        >notify(): It wakes up one single thread called wait() on the same object. It should be noted that calling notify() does not give up a lock on a resource.
+        >notifyAll(): It wakes up all the threads called wait() on the same object.
+35. Effcieent way String Joining ?
+    Ans:
+    After Java 8 , 1)String.join(" ",strings);
+                   2)StringJoiner fruitJoiner = new StringJoiner(" "); // Delimiter
+                   fruitjoiner.add("apples")
+                   3) Collectors.joining
+36. What is Method references?
+    Ans : Another way of writing Lambda expression.
+          Method refernces for readbility.
+          4 kinds- Staic,Bound,Unbound,Constructor references
+37. String is anagram or not? like cat and atc are anagram
+    Ans : -sort it and compare
+          -count char and store it in array
+          - assign num to each char and then multiply it.
+          63. How ConcurrentHashMap works ? 
+
+          #### Answer :
+          
+          - Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
+          
+          * HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
+          
+          - HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
+            -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
+          - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
+          - However,Synchronized hashmap lock the complete HashMap.
+          
+          **[⬆ Back to Top](#table-of-contents)**
+          
+38. How HashSet works internally ? 
+    Answer :      
+          - It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
+          - It doesnt guarantees the order of the elements
+          - HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
+          - [How HashSet will ignore the duplicates?] - This is important to understand
+          - When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
+          
+          - Please note below important points about put(key, value):
+          
+          - If the Key is unique and added to the map, then it will return null
+          - If the Key is duplicate, then it will return the old value of the key.
+          - If the method map.put(key, value) returns null, then the method map.put(e, PRESENT)==null will return true internally, and the element added to the HashSet.
+          - If the method map.put(key, value) returns the old value of the key, then the method map.put(e, PRESENT)==null will return false internally, and the element will not add to the HashSet.
+          
+          ```code add method HashSet
+          // Dummy value to associate with an Object in the backing Map
+            private static final Object PRESENT = new Object();
+           public boolean add(E e) {
+                  return map.put(e, PRESENT) == null;
+              }
+          ```
+          
+39. How ConcurrentHashMap works ? 
+   Answer :
+          
+          - Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
+          
+          * HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
+          
+          - HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
+            -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
+          - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
+          - However,Synchronized hashmap lock the complete HashMap.
+40. Non-terminal Operations vs terminal Operations
+    • A non-terminal stream operation is an intermediate operation which creates a new Stream by transforming or filtering the original stream.
+
+    filter(),map(),flatMap(),distinct(),limit(),peek()
+    Terminal Operations
+
+    • A terminal stream operation is an operation that returns a result.
+
+    anyMatch(),allMatch(),noneMatch(),collect(),count(),findAny(),findFirst()
+    forEach(),min(),max(),reduce(),toArray()

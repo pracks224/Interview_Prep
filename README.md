@@ -1,392 +1,344 @@
- ## About me
+## About me
 
 Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
 
-### Table of Contents
-
-| **Section 1** | **Section2** |
-|:--|:--|
-| <table><tr><td> **[Core Java/OOPs](#java-oops)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr><tr><td> **[Functional Program](#functional-programming-using-java)**  <details> <summary> Topics </summary><ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr><tr><td> **[Collections](#java-collections)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Multi Threading](#java-multi-threading)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li><li>- [ ] 8</li><li>- [ ] 9 </li><li>- [ ] 10</li></ul> </details> </td></tr> <tr><td> **[System Design](#system-design)** <details> <summary> Topics </summary> <ul><li>- [X] **[ Distributed System By Dimos Raptis ](#distributed-system-fundamental)** </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> </details> </td></tr> <tr><td>**[Data Structure](#data-structure-using-java)** <details> <summary> Topics </summary> <ul><li>- [ ] **[Stack and Queue](#stack-and-queue)** </li><li>- [ ] Hashing</li><li>- [ ] Graph </li><li>- [ ] Dynamic programingming </li></ul> </details> </td></tr> <tr><td> **[Micro Services Using Spring-Boot](#microservices-using-spring-boot)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table> | <table> <tr><td> **[SQL](#sql)** <details> <summary> Topics </summary>  <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Kubernetes](#kubernetes)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li><li>- [ ] 7 </li></ul> **[⬆ Back to Top](#table-of-contents)** </details> </td></tr> <tr><td> **[Kafka](#kafka)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> <tr><td> **[Docker](#docker)**  <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li><li>- [ ] 6</li></ul> </details> </td></tr> <tr><td> **[React Js](#react-js)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li>></ul> </details></td></tr> <tr><td> **[JavaScript ES6](#java-script)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details></td></tr> <tr><td> **[AWS](#aws)** <details> <summary> Topics </summary> <ul><li>- [ ] 1 </li><li>- [ ] 2</li><li>- [ ] 3 </li><li>- [ ] 4</li><li>- [ ] 5 </li></ul> </details> </td></tr> </table>
-
-
-## Debezium
+### Important Questions
 
 <details>
- <summary>Debezium</summary>
- 
- ### What is it?
- 
- - Debezium is a set of distributed services to capture changes in your databases so that your applications can see those changes and respond to them. Debezium records all row-level changes within each database table in a change event stream, and applications simply read these streams to see the change events in the same order in which they occurred.
- - Debezium Architecture
- - Most commonly, you deploy Debezium by means of Apache Kafka Connect. Kafka Connect is a framework and runtime for implementing and operating:
- - Source connectors such as Debezium that send records into Kafka
- - Sink connectors that propagate records from Kafka topics to other systems
- - As shown in the image, the Debezium connectors for MySQL and PostgresSQL are deployed to capture changes to these two types of databases. Each Debezium connector establishes a connection to its source database:
- - The MySQL connector uses a client library for accessing the binlog.
- - The PostgreSQL connector reads from a logical replication stream.
- - Kafka Connect operates as a separate service besides the Kafka broker.
- Reference :
- https://debezium.io/documentation/reference/stable/architecture.html
- https://medium.com/event-driven-utopia/a-visual-introduction-to-debezium-32563e23c6b8#:~:text=Debezium%20is%20an%20open%2Dsource,apps%20commit%20to%20your%20databases.
- https://debezium.io/blog/2019/12/18/debezium-1-0-0-final-released/
- 
- </details>
-
-## Big Query
-
-## Miscellenous
-
-- To make the API end point faster https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9
-   -  << of any number is like multiplying by two. For ex : 3<<2 //12 -> 3 *2 = 6 then 6*2 = 12
-
-## Java Script
-<details>
-  <summary>Important Interview Questions/Concepts!! </summary>
+  <summary>Set -12 : DSA </summary> 
   
-  1. #### How to create object in Javascript?
-  ### Ans
-  ```
-   a) Creating objects using object literal syntax . key value pairs separated by ‘:’ inside a set of curly braces({ })
-     const person = {
-          firstName: 'testFirstName',
-          lastName: 'testLastName'
-          };
-   b) Using new keyword; const person = new Object(); person.firstname ="Prakash"  
-       Also, this practice is not recommended as there is a scope resolution that happens behind the scenes to find if the constructor function is built-in or user-defined. Difficult to create more object also.
-   c) Using ‘new’ with user defined constructor function
-      In this approach first create one function constructor and then create object.
-      ex. function Person (firstname,lastaname){
-                          this.firstname = firstname;
-                          this.lastname = lastname;
-                          }
-           const personOne = new Person('testFirstNameOne', 'testLastNameOne');
-           const personTwo = new Person('testFirstNameTwo', 'testLastNameTwo');
-    d) Using Object.create() to create new objects
-        This pattern comes in very handy when we are asked to create objects from other existing objects and not directly using the ‘new’ keyword.
-        Object.create method, just remember that it takes two parameters. The first parameter is a mandatory object that serves as the prototype of the new object to be created. The second parameter is an optional object which contains the properties to be added to the new object.
-        e.g. const orgObject = { company: 'ABC Corp' };
-              And you want to create employees for this organization. Clearly, you want all the employee objects.
-              const employee = Object.create(orgObject, { name: { value: 'EmployeeOne' } });
-
-              console.log(employee); // { company: "ABC Corp" }
-              console.log(employee.name); // "EmployeeOne"
-     e) Using Object.assign() to create new objects
-        The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object. It will return the target object.
-const orgObject = { company: 'ABC Corp' }
-const carObject = { carName: 'Ford' }
-const employee = Object.assign({}, orgObject, carObject);
-  
-  ```
-  2. #### Difference between Object.freeze() and const in JavaScript ?
-  ### Ans
-  ```
-     The const keyword creates a read-only reference to a value. Variables created by the const keyword are immutable. In other words, you can’t reassign them to different values. Trying to reassign a constant variable will result in a TypeError.
-     const name = "test" 
-     name = "rrr" //TypeError: Assignment to constant variable.
-     The const keyword ensures that the variable created is read-only. But It doesn’t mean that the actual value to which the const variable reference is immutable.
-     const person = { name:"xyz"
-     }
-     person.name = "abc" - > no type error
-     
-     Object.freeze() method: If you want the value of the person object to be immutable, you have to freeze it by using the Object.freeze() method. 
-     But it freeze only the existing values,however we can add new properties.
-     const person = Object.freeze({
-    name: 'Geeksforgeeks',
-    address: {
-        city:"Noida"
-    }
-});
-person.address.country = "India"
-console.log(person.address.country) // It will pring India ,even though it is already freezed.
-
-  ```
-  3. #### How to deep-freeze an object in JavaScript ?
-  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-  
-  4. #### Implement sum(2)(3)() (Currying funtions- is also a higher order function ?
-  ### Ans [code](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-  
-  5. #### What is the difference between call(),apply() and bind() methods?
+  Q.1) 
   
 </details>
+
+<details>
+  <summary>Set -11 : Cloud Technologies </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -10 : ML/AI </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -9 : Performance Monitor Tools </summary> 
+  
+  Q.1) 
+  
+</details>
+
+<details>
+  <summary>Set -8 : Java 8 Features  </summary> 
+  
+  Q.1) How to use Optional in Java coding? (https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
+  
+  Q.2) 
+</details>
+
+<details>
+  <summary>Set -7 : Java 8 Stream API </summary>
+  
+  Q.1) Find the most populated city of each continent
+
+  Q.2) Find the number of movies of each director
+
+  Q.3) Find the number of genres of each director's movies
+  
+  Q.4) Find the highest populated capital city
+  
+  Q.5) Find the highest populated capital city of each continent
+  
+  Q.6) Sort the countries by number of their cities in descending order
+  
+  Q.7) Find the list of movies having the genres "Drama" and "Comedy" only
+  
+  Q.8) Group the movies by the year and list them
+  
+  Q.9) Sort the countries by their population densities in descending order ignoring zero population countries
+  
+  Q.10) Find the richest country of each continent with respect to their GNP (Gross National Product) values.
+  
+  Q.11) Find the minimum, the maximum and the average population of world countries.
+  
+  Q.12) Find the minimum, the maximum and the average population of each continent.
+  
+  Q.13) Find the countries with the minimum and the maximum population.
+  
+  Q.14) Find the countries of each continent with the minimum and the maximum population.
+  
+  Q.15) Group the countries by continent, and then sort the countries in continent by number of cities in each continent.
+  
+  Q.16) Find the cities with the minimum and the maximum population in countries.
+  
+  Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
+  
+  Q.18) Find the year where the maximum number of movie is available
+
+
+</details>
+<details>
+  <summary>Set -6 : Interview Questions preparation for Luxsoft(7-Sep-2023) Fullstack Remote </summary>
+  
+  1. Could you explain what is the "deadly diamond of death"?
+  2. What's the difference between the Dependency Injection and Service Locator patterns?
+  3. What is the difference between the template patterns and the strategy pattern? ( https://github.com/aershov24/full-stack-interview-questions#DesignPatterns )
+  4. How Java Memory works? (https://blog.stackademic.com/how-java-memory-works-c751460e3cbd)
+  5. How G1GC works? (https://blog.stackademic.com/how-g1gc-works-in-java-390332333b2) G1GC is a concurrent collector
+  6. How are coping with changing requirements ? Predicates
+  7. Java Program to count the total number of characters in a string.
+  8. Java Program to count the vowel/consonants in a string
+  9. Java programs to determine to programs are anagram means they have same set of characters.
+  10. Java programs to divide a string equal N parts. (https://www.javatpoint.com/java-programs)
+  11. List of Functional Interfaces  like runnable,callable,comparator,ActionListners,supplier,consumer,Function,Predicate,BiFunction,BiPredicate,UnaryOperator,BinaryOperator,BiConsumer,LongConsumer etc.
+  12. Some time Interviewer asks the methods of the functional interfaces
+  13. What is Java Stream ?
+  14. Java Program to sort List of employee by salary using java 8?
+  15.  Java program to demonstrate all the functional interfaces like predicate/cosnumer/supplier etc. Predicate - test return boolean consumer - returns void and method accept for updating value/print etc and function has apply method return another object  like for transforming etc
+  16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p)
+  17.  What is Java record included in Java 14 ?(https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
+
+</details>
+
+<details>
+  <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
+  
+  1. What is the diffence between cohesion and coupling ?
+  
+  2. What is 12-Factor App ? // if all these there then it's microservice enabled
+  
+  3. What are the type of Service Discovery ?
+  
+  4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/) .
+  
+  5. Can we add consumer dynamically to Kafka ?
+  
+  6. What are the differnet Partition Startergy ?
+  
+  7. Mention the differnce between Kafak and JSM?
+  
+  8. How to avoid duplicate event kafka ?
+  
+  9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
+
+</details>
+
+<details>
+  <summary>Set -1 : Spring Boot </summary>
+  
+  1. How to handle Exception in SpringBoot? (hint. https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
+  2. What is the @controllerAdvice in springboot? - Exception Handling
+  3. How to do transaction management in Spring boot application? (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+  4. How Spring- Security works.(https://www.scaler.com/topics/spring-boot/spring-security/).
+    5. SpringBoot with OAuth2.How it works? (https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+    6. How to do CORS configuration in Spring Boot ?(https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+    7. How to add Global CORS configuration for the application?
+    8. What is the use @Configuration? //Bean Definitions
+    9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+    10. CQRS design patterns in Microservices?
+    11. 
+    12. Design a URL Shortner (tinyurl)
+    13. Design a web crawler.(https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+    14. Design a notification System
+    15. Method overloading vs Method Overiding.
+    16. Method overriding passing null object . //Subclass object gets the preference which is String in this case
+    17. Differnce between String,StringBuilder and StringBUffer?
+    18. How String concatnation operator internally works ?
+    19. Best/efficient way to join String ?
+    20. What is Method references?
+    21. Anagram check in Java?
+    22. what is groupingBy? (https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+    23. How can you create a comparator?
+    24. What are SOLID principles of Object Oriented Programming? (https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+    25. What is transient variable ?
+    26. https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
+    27. What is Flattening?
+    28. Return a list of all unique characters for a list of words?
+    29. Return Square of numbers of list of integers using Stream
+    30. Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
+    31. How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+    32. What is Short-circuiting evaluation in stream ?
+    33. When to use findFirst and findAny.
+    34. Summing all the element of a list.
+    35. Describe the use of Optional in Java?
+    36. Describe the differnce between map,flatmap and reducce
+    37. Describe the use case of JSON Web Token?
+    38. How can you disable the Autoconfiguration in Spring boot Application?
+    39. How do Microservice communicate each other?
+    40. Describe the API Gateway design pattern for Micro service?
+    41. Describe some principle of Mircro Service deployment?
+    42. Describe the Circuit Breaker Design Pattern?
+</details>
+
+<details>
+  <summary>Set -2 : JavaScript </summary>
+
+43. Javascript Event Loop and Call Stack Explain?
+44. Implement an algorithm to determine if a string has all unique characters. What if you
+    cannot use additional data structures? (Bitwise way to understand)
+45. One string permutaion of other
+46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
+47. Palindrom Permutation
+48. One Away: There are three types of edits that can be performed on strings: insert a character,
+    remove a character, or replace a character. Given two strings, write a function to check if they are
+    one edit (or zero edits) away.
+    EXAMPLE
+    pale, ple -> true
+    pales, pale -> true
+    pale, bale -> true
+    pale, bae -> false
+
+49. String compression For example, the string aabcccccaaa would become a2blc5a3
+50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
+    of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+    call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
+
+### System Design
+
+- https://github.com/black-shadows/System-Design - Well documented
+
+51. Design Data Intensive Application Book Overview
+52. Consistency Hashing
+53. CAP theorem
+54. Isolation levels
+55. 2PL
+56. How to make the API end point faster. (https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
+
+## Java Script
+
+57. How to create object in Javascript?
+58. Difference between Object.freeze() and const in JavaScript ?
+
+59. How to deep-freeze an object in JavaScript ? hint (https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+
+60. Implement sum(2)(3)() (Currying funtions- is also a higher order function ?(https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+
+61. What is the difference between call(),apply() and bind() methods?
 
 ## Java OOps
 
-## Functional Programming Using Java
+62. Functional Programming Using Java
 
 ## Java Collections
 
-<details>
-  <summary>How ConcurrentHashMap works ? </summary>
- 
-  #### Answer : 
- - Lets discuss HashMap Vs ConcurrentHashMap In Java. HashMap fast reterival and its not thread safe. It has one null key but ConcurrentHashMap can not have null keye
-  * HashMap is FailFast where as ConcurrentHashMap is FailSafe in nature .Meaning while iterating if we try to modifyy the hashmap we will get concurrent modification error .
- - HashMap -> Is array of nodes and each node has address to the next node and stores the key n value.
-           -> After Java 8, once the LL size increases to certain threashhold,it become self balance Tree (TreeFy)
- - ConcurrentHashMap is array of segments and by default each thread locks one segement for any update operations like modify or remove operation.
- - However,Synchronized hashmap lock the complete HashMap. 
- 
- **[⬆ Back to Top](#table-of-contents)**
- 
+63. How ConcurrentHashMap works ?
+64. How HashSet works internally ?
+65. What is Consisten Hashing?
 </details>
 
 <details>
-  <summary>How HashSet works internally ? </summary>
- 
-  #### Answer : 
- - It stores unique elements only. It uses HashMap to store and reterive elements. (Very Important)
- - It doesnt guarantees the order of the elements
- - HashSet does not have any method to retrieve the object from the HashSet. There is only a way to get objects from the HashSet via Iterator.
- - [How HashSet will ignore the duplicates?] - This is important to understand
- - When we add an element in HashSet like hs.add(“Daabra”), Java does internally is that it will put that element E here “Daabra” as a key into the HashMap (generated during HashSet object creation). It will also put some dummy value that is Object’s object is passed as a value to the key.
-
-- Please note below important points about put(key, value):
-
-- If the Key is unique and added to the map, then it will return null
-- If the Key is duplicate, then it will return the old value of the key.
-- If the method map.put(key, value) returns null, then the method map.put(e, PRESENT)==null will return true internally, and the element added to the HashSet.
-- If the method map.put(key, value) returns the old value of the key, then the method map.put(e, PRESENT)==null will return false internally, and the element will not add to the HashSet.
- 
-``` code add method HashSet
- // Dummy value to associate with an Object in the backing Map  
-    private static final Object PRESENT = new Object();
-   public boolean add(E e) {
-          return map.put(e, PRESENT) == null;
-      }
-```
+  <summary>Set-3 Microservices Using Spring Boot</summary>
   
- 
- **[⬆ Back to Top](#table-of-contents)**
- 
-</details>
-
-## Java Multi Threading
-
-## System Design
-
-<details>
-  <summary>What is Consisten Hashing </summary>
-  
-  ### Algorithm
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
-<details>
-  <summary>Tiny Urls </summary>
-  
-  ### Design
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
-
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-<details>
-<summary>Distributed system fundamental</summary>
-
-### Distributed system fundamental
-- 
-
-</details>
-
-## Data Structure Using Java
-
-### Stack and Queue
-
-Problems|
-| :------------- |
-| 1. Design a stack that supports push, pop, top, and retrieve     |
-| 2. Evaluate Expression |
-| 3. Sort Stack |
-
-<details>
-  <summary>Scramble String </summary>
-  
-  ### Algorithm
-  Given two strings s1 and s2 of the same length, return true if s2 is a scrambled string of s1, otherwise, return false.
-
-  ### Some Details
-  ```
-  Input: s1 = "great", s2 = "rgeat"
-Output: true
-Explanation: One possible scenario applied on s1 is:
-"great" --> "gr/eat" // divide at random index.
-"gr/eat" --> "gr/eat" // random decision is not to swap the two substrings and keep them in order.
-"gr/eat" --> "g/r / e/at" // apply the same algorithm recursively on both substrings. divide at random index each of them.
-"g/r / e/at" --> "r/g / e/at" // random decision was to swap the first substring and to keep the second substring in the same order.
-"r/g / e/at" --> "r/g / e/ a/t" // again apply the algorithm recursively, divide "at" to "a/t".
-"r/g / e/ a/t" --> "r/g / e/ a/t" // random decision is to keep both substrings in the same order.
-The algorithm stops now, and the result string is "rgeat" which is s2.
-As one possible scenario led s1 to be scrambled to s2, we return true.
-  ```
-</details>
-
-<details>
-  <summary>Remove a Loop from a Single List </summary>
-  
-  ### Algorithm -> Hint : Floyd Cycle Detection
-  1. Visited Node Technique
-  2. Hashing
-     * Baz
-     * Qux
-
-  ### Some Code
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
-</details>
-
-**[⬆ Back to Top](#table-of-contents)**
-                                                                                                               
-## Microservices Using Spring Boot
-<details>
-  <summary>Basic Interview Question</summary>
-  
-  1. #### What is Spring Boot and what are its Benefits?
-  2. #### What makes Spring Boot superior to JAX-RS?
-  3. #### What Spring Boot features help develop Microservices Applications?
-  4. #### Why Spring Boot is preferred over any other framework?
-  5. #### What are the key dependencies of Spring Boot?
-  6. #### What are the advantages of Spring Boot?
-  7. #### What are the features of Spring Boot?
-  8. #### How do you create a Spring Boot application using Maven?
-  9. #### How do you create a Spring Boot project using Spring Initializer?
-  10. #### How do you create a Spring Boot project using boot CLI?
-  11. #### How do you create a simple Spring Boot application?
-  12. #### What are the Spring Boot Annotations?
-  13. #### What are the Spring Boot properties?
-  14. #### What are the Spring Boot Starters?
-  15. #### What is Spring Boot Actuator?
-  16. #### What is thyme leaf?
-  17. #### How to use thyme leaf?
-  18. #### How do you connect Spring Boot to the database using JPA?
-  19. ####  How to connect the Spring Boot application to a database using JDBC?
-  20. #### What is @RestController annotation in Spring Boot?
-  21. #### What is @RequestMapping annotation in Spring Boot?
-  22. #### How do you create a Spring Boot application using Spring Starter Project Wizard?
-  23. #### Spring Vs Spring Boot? Or Why Spring Boot over Spring?
-  24. #### What annotations are used to create an Interceptor?
-  25. #### What is a Swagger in Spring Boot?
-  26. #### What are Profiles in Spring Boot?
-  27. #### What differentiates Spring Data JPA and Hibernate?
-  28. #### How are the @RestController and @Controller Annotation different?
-  </details>
-  <details>
-  <summary>Advanced Interview Question</summary>
-  
-  ```diff
-- Very Very Important Questions
-```
-  1. #### How does Spring Boot works?
-  2. #### What does the @SpringBootApplication annotation do internally?
-  3. #### What is the purpose of using @ComponentScan in the class files?
-  4. #### How does a spring boot application get started?
-  5. #### Can we create a non-web application in Spring Boot?
-  6. #### Can we override or replace the Embedded tomcat server in Spring Boot?
-  7. #### Can we disable the default web server in the Spring boot application?
-  8. #### How to disable a specific auto-configuration class?
-  9. #### Describe the flow of HTTPS requests through the Spring Boot application?
-  10. #### What is the difference between RequestMapping and GetMapping?
-  11. #### What is the use of Profiles in spring boot?
-  12. #### What is Spring Actuator? What are its advantages?
-  13. #### How to enable Actuator in Spring boot application?
-  14. #### What are the actuator-provided endpoints used for monitoring the Spring boot application?
-  15. #### How to get the list of all the beans in your Spring boot application?
-  16. #### How to check the environment properties in your Spring boot application?
-  17. #### How to enable debugging log in the spring boot application?
-  18. #### Where do we define properties in the Spring Boot application?
-  19. ####  What is dependency Injection?
-  20. #### What is an IOC container?  
-  </details>
-  <details>
-  <summary>Spring Security Interview Questions</summary>
-  
-  ```diff
-- Very Very Important Questions
-```
-  1. #### What are some essential features of Spring Security?
-  2. #### What is Spring security authentication and authorization?
-  3. #### What do you mean by basic authentication?
-  4. #### What do you mean by digest authentication?
-  5. #### What do you mean by session management in Spring Security?
-  6. #### Explain SecurityContext and SecurityContext Holder in Spring security.
-  7. #### Explain spring security OAuth2.
-  8. #### What do you mean by OAuth2 Authorization code grant type?
-  9. #### What is method security and why do we need it?
-  10. #### What do you mean by HASHING in spring security?
-  11. #### Explain salting and its usage.
-  12. #### What is PasswordEncoder?
-  13. #### Explain AbstractSecurityInterceptor in spring security?
-  14. #### Is security a cross-cutting concern?
-  15. #### What is SpEL (Spring Expression Language)?
-  16. #### Name security annotations that are allowed to use SpEL.
-  17. #### Explain what is AuthenticationManager in Spring security.
-  18. #### Explain what is ProviderManager in Spring security.
-  19. ####  What is JWT?
-  20. #### What is Spring Security Filter Chain?
-  21. #### Explain how the security filter chain works.
-  22. #### Name some predefined filters used in spring security and write their functions.
-  23. #### What do you mean by principal in Spring security?
-  24. #### Can you explain what is DelegatingFilterProxy in spring security?
-  25. #### Can you explain what is FilterChainProxy in spring security?
-  26. #### What is the intercept-url pattern and why do we need it?
-  27. #### Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
-  28. #### State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
-  29. ####  State the difference between @PreAuthorize and @Secured in Spring security.
-  30. #### State the difference between @Secured and @RolesAllowed.
+  66. What is Spring Boot and what are its Benefits?
+  67. What makes Spring Boot superior to JAX-RS?
+  68. What Spring Boot features help develop Microservices Applications?
+  69. Why Spring Boot is preferred over any other framework?
+  70. What are the key dependencies of Spring Boot?
+  71. What are the advantages of Spring Boot?
+  72. What are the features of Spring Boot?
+  73. How do you create a Spring Boot application using Maven?
+  74. How do you create a Spring Boot project using Spring Initializer?
+  75. How do you create a Spring Boot project using boot CLI?
+  76. How do you create a simple Spring Boot application?
+  77. What are the Spring Boot Annotations?
+  78. What are the Spring Boot properties?
+  79. What are the Spring Boot Starters?
+  80. What is Spring Boot Actuator?
+  81. What is thyme leaf?
+  82. How to use thyme leaf?
+  83. How do you connect Spring Boot to the database using JPA?
+  84. How to connect the Spring Boot application to a database using JDBC?
+  85. What is @RestController annotation in Spring Boot?
+  86. What is @RequestMapping annotation in Spring Boot?
+  87. How do you create a Spring Boot application using Spring Starter Project Wizard?
+  88. Spring Vs Spring Boot? Or Why Spring Boot over Spring?
+  89. What annotations are used to create an Interceptor?
+  90. What is a Swagger in Spring Boot?
+  91. What are Profiles in Spring Boot?
+  92. What differentiates Spring Data JPA and Hibernate?
+  93. How are the @RestController and @Controller Annotation different?
+  94. How does Spring Boot works?
+  95. What does the @SpringBootApplication annotation do internally?
+  96. What is the purpose of using @ComponentScan in the class files?
+  97. How does a spring boot application get started?
+  98. Can we create a non-web application in Spring Boot?
+  99. Can we override or replace the Embedded tomcat server in Spring Boot?
+  100. Can we disable the default web server in the Spring boot application?
+  101. How to disable a specific auto-configuration class?
+  102. Describe the flow of HTTPS requests through the Spring Boot application?
+  103. What is the difference between RequestMapping and GetMapping?
+  104. What is the use of Profiles in spring boot?
+  105. What is Spring Actuator? What are its advantages?
+  106. How to enable Actuator in Spring boot application?
+  107. What are the actuator-provided endpoints used for monitoring the Spring boot application?
+  108. How to get the list of all the beans in your Spring boot application?
+  109. How to check the environment properties in your Spring boot application?
+  110. How to enable debugging log in the spring boot application?
+  111. Where do we define properties in the Spring Boot application?
+  112. What is dependency Injection?
+  113.  What is an IOC container?
+  114.  What are some essential features of Spring Security?
+  115.  What is Spring security authentication and authorization?
+  116.  What do you mean by basic authentication?
+  117.  What do you mean by digest authentication?
+  118.  What do you mean by session management in Spring Security?
+  119.  Explain SecurityContext and SecurityContext Holder in Spring security.
+  120.  Explain spring security OAuth2.
+  121. What do you mean by OAuth2 Authorization code grant type?
+  122.  What is method security and why do we need it?
+  123.  What do you mean by HASHING in spring security?
+  124.  Explain salting and its usage.
+  125.  What is PasswordEncoder?
+  126.  Explain AbstractSecurityInterceptor in spring security?
+  127.  Is security a cross-cutting concern?
+  128. What is SpEL (Spring Expression Language)?
+  129. Name security annotations that are allowed to use SpEL.
+  130. Explain what is AuthenticationManager in Spring security.
+  131. Explain what is ProviderManager in Spring security.
+  132. What is JWT?
+  134. What is Spring Security Filter Chain?
+  135. Explain how the security filter chain works.
+  136. Name some predefined filters used in spring security and write their functions.
+  137. What do you mean by principal in Spring security?
+  138. Can you explain what is DelegatingFilterProxy in spring security?
+  139. Can you explain what is FilterChainProxy in spring security?
+  140. What is the intercept-url pattern and why do we need it?
+  141. Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
+  142. State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
+  143. State the difference between @PreAuthorize and @Secured in Spring security.
+  144. State the difference between @Secured and @RolesAllowed.
   </details>
   
   <details>
-    <summary>Book Review : Building Microservices (Designing Fine Grained System </summary>
+    <summary>Set 4: Building Microservices (Designing Fine Grained System </summary>
+        145. Domain Driven Design - Can you give one example
+                Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
+       146. What are Micro services?
+        Ans: Small,autonomus services that work together.
+       147. Key Benefits of Micro Services 
+        - Technology Heterogenity
+        - Resilinece -> If one component fails ,it wont cascade
+        - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
+        - Ease of deployment
+        - Organizational Allignments - NO large team,NO Large DB etc
+        - Optimizing of replacibility - Easy replacement after reaching end of life
     
- ### Key Points
-  1. Domain Driven Design - Can you give one example
-  2. Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
-  3. What are Micro services?
-     Ans: Small,autonomus services that work together.
-  4. #### Key Benefits of Micro Services 
-     - Technology Heterogenity
-     - Resilinece -> If one component fails ,it wont cascade
-     - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
-     - Ease of deployment
-     - Organizational Allignments - NO large team,NO Large DB etc
-     - Optimizing of replacibility - Easy replacement after reaching end of life
- 
- #### How to Model Services
-     1. Loose coupling and High cohesion makes a services good. 
-        -  Whats is Loose coupling? Ans: When services are loosly coupled, a change in one service should not require a change in another.
-        -  What is High cohesion? Ans: Related behaviors sit together. So we have to find out the boundaries within our problem domain that help ensures that related behaviours in one place.
-     2. What do you mean by Bounded Context?
-        Ans : A Bounded Context is a central pattern in DDD (Domain-Driven Design), which deals with collaboration across large models and teams. DDD breaks large models down into multiple contexts to make them more manageable. Additionally, it explains their relationship explicitly. The concept promotes an object-oriented approach to developing services bound to a data model and is also responsible for ensuring the integrity and mutability of said data model.   Eg. In Music corp - Finance and warehouse are two bounded context.
-    3.  https://github.com/rootusercop/Free-DevOps-Books-1/blob/master/book/Building%20Microservices%20-%20Designing%20Fine-Grained%20Systems.pdf Page - 34
- 
- **[⬆ Back to Top](#table-of-contents)**   
+      148. How to Model Services
+        1. Loose coupling and High cohesion makes a services good. 
+            -  Whats is Loose coupling? Ans: When services are loosly coupled, a change in one service should not require a change in another.
+            -  What is High cohesion? Ans: Related behaviors sit together. So we have to find out the boundaries within our problem domain that help ensures that related behaviours in one place.
+        2. What do you mean by Bounded Context?
+            Ans : A Bounded Context is a central pattern in DDD (Domain-Driven Design), which deals with collaboration across large models and teams. DDD breaks large models down into multiple contexts to make them more manageable. Additionally, it explains their relationship explicitly. The concept promotes an object-oriented approach to developing services bound to a data model and is also responsible for ensuring the integrity and mutability of said data model.   Eg. In Music corp - Finance and warehouse are two bounded context.
+        3.  https://github.com/rootusercop/Free-DevOps-Books-1/blob/master/book/Building%20Microservices%20-%20Designing%20Fine-Grained%20Systems.pdf Page - 34
   </details>
-
-## SQL
-
-## Kubernetes
-
+  
+**[⬆ Back to Top](#about-me)**   
 ## Kafka
+
 <details>
   <summary>Important Notes to revise</summary>  
  
@@ -556,58 +508,18 @@ Is it possible in kafka?
    
  - To update metadata in Cassandra using Kafka with a high throughput of 50K requests per second, we can use the following strategies:
 
- - Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
- - Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
- - Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
- - Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
- - Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
-  ```
+- Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
+- Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
+- Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
+- Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
+- Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
 
-   There are many ways to create objects in javascript as below
- 
+```
+
+ There are many ways to create objects in javascript as below
+
 **[⬆ Back to Top](#table-of-contents)**
- 
+
 </details>
 
-
-## Docker
-
-## React Js
-
-## AWS
-
-## How to Prepare
-
-- Prepare DS/Algo very well: If you are absolute beginner then solve atleast 400 questions of varying difficulty across topics. if you have been a competitive programmer and knows basic level of coding (liek you can solve easy and easy-med questions within short span of time), then solve atleast 150-200 questions of medium and hard level. Topics to focus on are Dynamic Programming, BFS, DFS, Dijkstra, Topological Sorting, Union Find, Two pointer, Maps, Heap/Priority Queue, some good applications of stack and queues like largest area of histogram, rain trapping, maximum of subarrays of K size etc, backtracking, Binary Tree and Binary Search. Solve atleast 40-50 problems of each topic.
-- For system designing: You can refer to these blogs and roadmap:
-- https://github.com/donnemartin/system-design-primer#index-of-system-design-topics
-- https://medium.com/system-design-blog
-- highscalability.com
-- Infoq.com
-- youtube videos of gaurav sen, kode karle etc.
-- https://github.com/alex-xu-system/bytebytego
-- https://blog.pragmaticengineer.com/
-- https://github.com/yanhan/reading-list
-- https://www.slideshare.net/jboner/scalability-availability-stability-patterns -> must read
-- https://github.com/kilimchoi/engineering-blogs
-## For every engineer:
-- https://12factor.net/
-## For higher roles like tech-lead, principal architecture, etc:
-- https://www.cse.iitb.ac.in/~mythili/teaching/cs695_spring2021/index.html
-- https://xzhu0027.gitbook.io/blog/misc/index/system-design
-### Books:
-- Data Intensive applications
-- Building Evolutionary Architecture
-- Building MicroServices
-- 7 databases in 7 weeks
-- https://diveintosystems.org/book/index.html
-- blog.pragmaticengineer.comblog.pragmaticengineer.com
-## The Pragmatic Engineer
-## Observations across the software engineering industry. (83 kB)
-- https://blog.pragmaticengineer.com/
-
-## slideshare.netslideshare.net
-- Scalability, Availability & Stability Patterns
-Overview of scalability, availability and stability patterns, techniques and products. (35 kB)
-
-**[⬆ Back to Top](#table-of-contents)**
+```
