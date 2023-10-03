@@ -24,6 +24,10 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 9• [Volatile vs Atomic Vs Synchronized]()
 
+10• [Blue Green Deployment Vs Rolling Deployment]()
+
+11• [API Gateway Pattern]()
+
 <details>
   <summary>Set -13 : Docker </summary> 
   
