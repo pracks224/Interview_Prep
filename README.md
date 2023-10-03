@@ -12,9 +12,17 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 3• [Docker build vs Docker run]()
 
-4. [Docker CMD Vs RUN Vs ENTRYPOINT]()
+4• [Docker CMD Vs RUN Vs ENTRYPOINT]()
 
-5.
+5• [Frequently used Docker Commands]()
+
+6• [Improve API Performance - Microservices]()
+
+7• [100 task 5 threads using Executors and Manual]()
+
+8• [Importance of Thread Local]()
+
+9• [Volatile vs Atomic Vs Synchronized]()
 
 <details>
   <summary>Set -13 : Docker </summary> 
