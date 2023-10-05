@@ -37,7 +37,9 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 16. [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
 17. [Monolithic can not be scalable, why?Tight Coupled]()
 18. [Differnce between HashMap,TreeMap and LinkedHashMap]()
-19. 
+19. [Destory Singleton Using Reflcection]()
+20. [Serilaization and Singleton]()
+21. [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
 <details>
   <summary>Set -13 : Docker </summary> 
   
