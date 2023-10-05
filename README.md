@@ -40,6 +40,13 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 19. [Destory Singleton Using Reflcection]()
 20. [Serilaization and Singleton]()
 21. [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+22. [What is the difference between Hashmap vs hashTable , which one is synchronized?]()
+23. [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
+24. [TreeMap works internally?](https://medium.com/@basecs101/treemap-in-java-collection-framework-interview-question-a3f81c7aaa84)
+25. [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
+26. [How to create custom immutable class ?]()
+27. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
+28. [Aggregation vs composition]()
 <details>
   <summary>Set -13 : Docker </summary> 
   
