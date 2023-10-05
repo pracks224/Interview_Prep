@@ -28,6 +28,16 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 11• [API Gateway Pattern]()
 
+12. [Marker Interface and Annotation]()
+
+13. [Memory Leak - Reasons]()
+
+14. [XML to Json libraries]()
+15. [Moving monolith to Microservices](https://launchdarkly.com/blog/migrating-legacy-monolithic-applications-microservices/)  
+16. [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+17. [Monolithic can not be scalable, why?Tight Coupled]()
+18. [Differnce between HashMap,TreeMap and LinkedHashMap]()
+19. 
 <details>
   <summary>Set -13 : Docker </summary> 
   
