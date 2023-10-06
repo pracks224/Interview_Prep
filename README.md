@@ -47,6 +47,8 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 26. [How to create custom immutable class ?]()
 27. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
 28. [Aggregation vs composition]()
+29. [Create An Immutable Map]()
+30. [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
 <details>
   <summary>Set -13 : Docker </summary> 
   
