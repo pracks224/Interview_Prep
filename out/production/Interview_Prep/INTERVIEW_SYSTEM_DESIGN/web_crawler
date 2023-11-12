@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=BKZxZwUgL3Y
+
+1. Search Engine,Copyright detection,Keyword based INdexing,Web malware detection
+   Web analystics,
+2. Politeness/Crawl rate
+   DNS Query
+   Distributing Crawling
+   Priority Crawling
+
+3. Scale : 900M registerd web sites & 60% functional hence 500M
+   50Billion pages needs to crawl - We need save,hence each page 130 KB as we are not downloading the images etc. ~6 PB of sizes - Later we can compress /or else only store the meta data if it's search engine
+4. Seed URLs - Provide certain initial sites,like top 100 sites from different type likes educational,entertainment etc
+5. URL Frontier
+6. Fetcher+renderer
+7.
