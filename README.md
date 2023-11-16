@@ -57,7 +57,14 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 36. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
 37. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 38. [SOLID priciples explain with example](https://www.baeldung.com/solid-principles)
-39. 
+
+<details>
+  <summary>Set -14 :System Design Fundamentals (39-59) </summary> 
+  
+ 39. CDNs
+ 40. 
+  
+</details>
 <details>
   <summary>Set -13 : Docker </summary> 
   
