@@ -62,7 +62,8 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   <summary>Set -14 :System Design Fundamentals (39-59) </summary> 
   
  39. CDNs
- 40. 
+ 40. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
+ 41. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
   
 </details>
 <details>
