@@ -1,0 +1,37 @@
+#41 System Design: Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back
+------- -------- -------- ------- ------- ------- ---------- ------  ------- ------
+(https://www.youtube.com/watch?v=RtOyBwBICRs)
+(https://www.youtube.com/watch?v=U3RkDLtS7uY) - Gaurv Sen
+What is caching ->
+-> Storing frequently used data in a fast faced memory than accessing dataevery time from slow access memory(Hard disk,DB).
+-> It helps in faut tolrent,It's very fast and low latency
+-> There are different types of caching  present at different layer like
+    a. browser caching
+    b.CDN(to store static data)
+    c.Load Balancer
+    d.Server side Application caching (like Redis etc)
+ === ==== ==== =====
+
+ Server Side application Caching
+~~~~ ~~~~ ~~~~ ~~~~ ~~~~~
+
+  * In this type of caching sit in between application server and db. Before Client reaching to the server, It reach to LB(Load Balancer)
+  and it first check the cache
+  * Generally Distributed Caching, it avoid single point of failure and scalability
+  * SO it mantains a pools called cache pool.
+  * APP_SERVER1, APP_SERVER2,APP_SERVER3 -> RedisCache1 (Here chances of single point of failure)
+
+    Distributed Caching:::::::
+    APP_SERVER1, APP_SERVER2,APP_SERVER3 -> CachePool (It has pool of cache server)
+    CacheClient1, CacheClient2,CacheClient3 (Ch1,Ch2,Ch3...etc)
+
+
+  Cache Stratergy ::
+  ---------------
+  A. Cache Aside -> If data found called cache hit if not found then cache miss
+                    if cache miss then it will fetch from db and write to cache and send the response to client.
+                    This is good for heavy read
+  B. Read Through Cache -> If cache miss ,it write sto cache then sends back to client. But in Cache Aside if miss it get from
+                           DB and sends to client with out writing to cache hence cache inconsitency
+  C. Write Around Cache
+
