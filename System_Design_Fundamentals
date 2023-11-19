@@ -35,3 +35,45 @@ What is caching ->
                            DB and sends to client with out writing to cache hence cache inconsitency
   C. Write Around Cache
 
+
+
+#43 CAP Theorem ? (Very important)
+-- --- -- --- ---
+
+The CAP theorem, also known as Brewer's theorem, is a fundamental principle in distributed systems that highlights the
+trade-offs between three essential properties in a distributed data store: Consistency, Availability, and Partition
+tolerance.
+
+Consistency (C): This property refers to ensuring that all nodes in a distributed system have the same data at the
+same time. In a consistent system, when a data update occurs, all subsequent accesses to that data will reflect the
+update. Every read receives the most recent write or an error.
+
+Availability (A): This property ensures that every request made to the system receives a response, regardless of the
+success or failure of that request. An available system remains operational and responsive even in the face of node
+failures or network issues.
+
+Partition Tolerance (P): This property deals with the system's ability to function and maintain its operations despite
+network partitions or communication failures between nodes. In a partitioned network, nodes are unable to communicate
+due to a network split, yet the system should continue to operate as much as possible.
+
+The CAP theorem states that in a distributed system, it is impossible to simultaneously guarantee all three properties—Consistency,
+ Availability, and Partition tolerance. It asserts that in the event of a network partition (P), a distributed system
+ must choose between either Consistency (C) or Availability (A).
+
+CA Systems: Some systems prioritize Consistency and Availability, sacrificing Partition tolerance. These systems
+prioritize data consistency over immediate availability in the event of a network partition. When faced with a
+partition, they become unavailable to maintain consistency.
+
+CP Systems: Other systems prioritize Consistency and Partition tolerance, sacrificing immediate Availability. These
+systems maintain consistency even in the face of network partitions but might become temporarily unavailable during
+partitioned scenarios.
+
+AP Systems: Some systems prioritize Availability and Partition tolerance, sacrificing strict Consistency. These systems
+prioritize being always available and responsive, even in the presence of network partitions, potentially leading to
+a temporary lack of strict consistency.
+
+In real-world distributed systems, the choice between these properties depends on various factors such as system requirements,
+use cases, scalability needs, and the desired behavior during network failures. Designing distributed systems involves
+ making trade-offs among these properties based on the specific needs of the application or service.
+
+ == === === ==== ===== ===== ===== ====== ===== =======
