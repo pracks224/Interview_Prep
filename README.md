@@ -64,6 +64,9 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
  39. CDNs
  40. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
  41. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
+ 42. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+ 43. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
+ 44. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
   
 </details>
 <details>
