@@ -67,6 +67,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
  42. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
  43. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
  44. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
+ 45. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
   
 </details>
 <details>
