@@ -6,17 +6,17 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 [ Top 100 Back End Topics ](https://www.google.com)
 
-1• [How to build a docker Image using dockerfile with example]()
+1• [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
-2• [Docker container communication between ?]()
+2• [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
-3• [Docker build vs Docker run]()
+3• [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
-4• [Docker CMD Vs RUN Vs ENTRYPOINT]()
+4• [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
-5• [Frequently used Docker Commands]()
+5• [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
-6• [Improve API Performance - Microservices]()
+6• [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
 
 7• [100 task 5 threads using Executors and Manual]()
 
@@ -47,6 +47,29 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 26. [How to create custom immutable class ?]()
 27. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
 28. [Aggregation vs composition]()
+29. [Create An Immutable Map]()
+30. [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
+31. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+32. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+33. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+34. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+35. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+36. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+37. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
+38. [SOLID priciples explain with example](https://www.baeldung.com/solid-principles)
+
+<details>
+  <summary>Set -14 :System Design Fundamentals (39-59) </summary> 
+  
+ 39. CDNs
+ 40. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
+ 41. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
+ 42. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+ 43. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
+ 44. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
+ 45. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
+  
+</details>
 <details>
   <summary>Set -13 : Docker </summary> 
   

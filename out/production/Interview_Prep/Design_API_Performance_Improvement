@@ -1,0 +1,25 @@
+#6 How to improve the API performance ?(Very Important)
+
+Ans : 1.Caching - Use Redis/MemChahe if cache miss hit the db
+      2.Pagination - If huge amount of data
+      3.Proper Conncetion Pool -> Creates a major problem in case serverless like lambda ,function etc they use their own
+                                db connections. Hence it's important to manage it better.
+     4. Payload Compression
+     5. Asynchronous logging - Write log is problematic when  the number request is more. Hence to use asynclog
+     6. Avoid N+1 Problem. Try to fetch all the required data in one query rather multiple .(Simplyfy your databsae query)
+     7.JSON Serializer ???
+     8.Leverage CDN Services for faster content delivery.
+     9.Rate Limiting to avoid Ddos attacks
+     10.Real time monitoring like Splunk alert,dynatrace ALert,
+     11.Gzip compression: Compressed Data: If the REST resource is fairly large, it is better to allow
+                          compressed data to be sent as response. At the client end, all you need to do
+                          is to use Accept-Encoding header as gzip.
+     12. Filtering: Provide only the data that is requested for. Example: GraphQL
+     13.Session data is stored in memory. As traffic in your app grows, more sessions will be generated, and
+                    this might add significant overhead to your server. You need to find the means to store session
+                    data or minimize the amount of data stored in a session. Modules such as Express.js can help you create
+                    stateless server protocols. Stateless protocols do not save, or store any information from previous visits.
+     14.Switch to an external session store such as Redis, Nginx, or MongoDB. Whenever possible, the best option would be to store no session state on your server-side for better performance.
+     15.GraphQL and REST APIs are stateless.
+
+

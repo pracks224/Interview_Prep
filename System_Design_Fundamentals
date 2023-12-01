@@ -77,3 +77,7 @@ use cases, scalability needs, and the desired behavior during network failures. 
  making trade-offs among these properties based on the specific needs of the application or service.
 
  == === === ==== ===== ===== ===== ====== ===== =======
+
+ #44 . What is Load Balancing?
+
+ Ans ::
