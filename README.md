@@ -596,4 +596,12 @@ Is it possible in kafka?
 
 </details>
 
+<details>
+  <summary>Scaler Prep</summary>
+
+  Day 6/7. Time Complexity
+
+  **[⬆ Back to Top](#table-of-contents)**
+</details>
+
 ```
