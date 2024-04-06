@@ -73,7 +73,9 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 <details>
   <summary>Set -13 : Docker </summary> 
   
-  Q.1) 
+  Q.1) What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.
+  Q.2) Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.
+  Q.3) Steps to Dockerizing an Application .
   
 </details>
 
