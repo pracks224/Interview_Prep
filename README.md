@@ -79,6 +79,16 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   
   Q.3) Steps to Dockerizing an Application .
   
+  Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  
+  Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+
+  Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+
+  Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+ 
+  Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  
 </details>
 
 <details>
