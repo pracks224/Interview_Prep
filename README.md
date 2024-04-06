@@ -6,16 +6,6 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 [ Top 100 Back End Topics ](https://www.google.com)
 
-1• [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
-
-2• [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
-
-3• [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
-
-4• [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
-
-5• [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
-
 6• [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
 
 7• [100 task 5 threads using Executors and Manual]()
