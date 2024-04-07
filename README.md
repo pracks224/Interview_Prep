@@ -421,7 +421,6 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   
   <details>
     <summary> Set 4: Building Microservices (Designing Fine Grained System) </summary>
-    
     145. Domain Driven Design - Can you give one example
     146. hfjghkjfdh
   
