@@ -312,33 +312,61 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   <summary>Set-3 Microservices Using Spring Boot</summary>
   
   66. What is Spring Boot and what are its Benefits?
+  
   67. What makes Spring Boot superior to JAX-RS?
+ 
   68. What Spring Boot features help develop Microservices Applications?
+  
   69. Why Spring Boot is preferred over any other framework?
+  
   70. What are the key dependencies of Spring Boot?
+  
   71. What are the advantages of Spring Boot?
+  
   72. What are the features of Spring Boot?
+  
   73. How do you create a Spring Boot application using Maven?
+  
   74. How do you create a Spring Boot project using Spring Initializer?
+  
   75. How do you create a Spring Boot project using boot CLI?
+  
   76. How do you create a simple Spring Boot application?
+  
   77. What are the Spring Boot Annotations?
+  
   78. What are the Spring Boot properties?
+  
   79. What are the Spring Boot Starters?
+  
   80. What is Spring Boot Actuator?
+  
   81. What is thyme leaf?
+  
   82. How to use thyme leaf?
+  
   83. How do you connect Spring Boot to the database using JPA?
+  
   84. How to connect the Spring Boot application to a database using JDBC?
+  
   85. What is @RestController annotation in Spring Boot?
+  
   86. What is @RequestMapping annotation in Spring Boot?
+  
   87. How do you create a Spring Boot application using Spring Starter Project Wizard?
+  
   88. Spring Vs Spring Boot? Or Why Spring Boot over Spring?
+  
   89. What annotations are used to create an Interceptor?
+  
   90. What is a Swagger in Spring Boot?
+  
   91. What are Profiles in Spring Boot?
+  
   92. What differentiates Spring Data JPA and Hibernate?
+  
   93. How are the @RestController and @Controller Annotation different?
+ 
   94. How does Spring Boot works?
   95. What does the @SpringBootApplication annotation do internally?
   96. What is the purpose of using @ComponentScan in the class files?
