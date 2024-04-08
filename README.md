@@ -46,7 +46,6 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 35. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
 36. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
 37. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
-38. [SOLID priciples explain with example](https://www.baeldung.com/solid-principles)
 
 <details>
   <summary>Set -14 :System Design Fundamentals (39-59) </summary> 
@@ -418,11 +417,30 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   143. State the difference between @PreAuthorize and @Secured in Spring security.
   144. State the difference between @Secured and @RolesAllowed.
   </details>
-  
+
   <details>
-    <summary> Set 4: Building Microservices (Designing Fine Grained System) </summary>
-    145. Domain Driven Design - Can you give one example
-    146. hfjghkjfdh
+  <summary>Set 4: Building Microservices (Designing Fine Grained System)</summary>
+  
+  401. Domain Driven Design - Can you give one example.
+       - Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
+  
+  403. What are Micro services?
+       - Small,autonomus services that work together.
+ 
+  405. Key Benefits of Micro Services
+        - Technology Heterogenity.
+        - Resilinece -> If one component fails ,it wont cascade
+        - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
+        - Ease of deployment
+        - Organizational Allignments - NO large team,NO Large DB etc
+        - Optimizing of replacibility - Easy replacement after reaching end of life
+  406. [SOLID priciples explain with example](https://www.baeldung.com/solid-principles)
+        - Single responsibility : One class one responsibility ex Book with title author but printboook place it another class
+        - Open/Close : Open for Extension,Close for Modification
+        - Liskov substitution if class A is subtype of B,we should replace it with A. Ex method(A a) -> can substitue with method(B b)
+        - Interface Segration
+        - Dependency Inversion.
+      
   
   </details>
   
