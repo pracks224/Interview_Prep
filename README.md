@@ -4,6 +4,10 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 ### Important Questions
 
+
+[Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
+
+
 [ Top 100 Back End Topics ](https://www.google.com)
 
 6• [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
