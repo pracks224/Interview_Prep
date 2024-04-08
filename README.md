@@ -48,15 +48,26 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 37. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 
 <details>
-  <summary>Set -14 :System Design Fundamentals (39-59) </summary> 
+  <summary>Set -15 :No SQLs </summary>
   
- 39. CDNs
- 40. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
- 41. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
- 42. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
- 43. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
- 44. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
- 45. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
+  1501. [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
+  1502.
+</details>
+
+<details>
+  <summary>Set -14 :System Design Fundamentals </summary> 
+  
+ 1401. CDNs
+ 1402. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
+ 1403. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
+ 1404. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+ 1405. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
+ 1406. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
+ 1407. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
+ 1408. [Store trillions of Data](https://medium.com/@iBMehta/how-discord-stores-trillions-of-messages-31ed9195c3e8)
+       - MongoDB upto ~100 millions
+       - Cassandra is better for Billions of data uses LSM for retreiveal. Read is expensive than write
+       - ScyllaDB with Rust API is good for Trillions of data
   
 </details>
 <details>
@@ -81,7 +92,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 </details>
 
 <details>
-  <summary>Set -12 : DSA </summary> 
+  <summary>Set -12 : Data Structure and Algorithms </summary> 
   
   Q.1) 
   
