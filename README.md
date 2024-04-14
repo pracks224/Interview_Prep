@@ -98,7 +98,11 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 <details>
   <summary>Set -12 : Data Structure and Algorithms </summary> 
   
-  Q.1) 
+  Q.1) Reverse a String using Recursive
+  
+  Q.2) Find GCD using Recursive
+  
+  Q.3)
   
 </details>
 
