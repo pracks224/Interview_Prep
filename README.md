@@ -4,7 +4,6 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 ### Important Questions
 
-[Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
 [Subject matter expertise & assist in operations of the Kafka platform]()
 
@@ -105,23 +104,25 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   
 </details>
 <details>
-  <summary>Set -13 : Docker </summary> 
+  <summary>Set -13 : Docker/Kubernetes/Terraform/Ansible</summary> 
   
-  Q.1) What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.
+  Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
   
-  Q.2) Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.
+  Q.2) [Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.]()
   
-  Q.3) Steps to Dockerizing an Application .
+  Q.3) [Steps to Dockerizing an Application .]()
   
-  Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
   
-  Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
 
-  Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
 
-  Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
  
-  Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
+  Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+  Q.9) [Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Kubernetes_In_Details)
   
 </details>
 
