@@ -4,7 +4,7 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 ### Important Questions
 
-[Building & deploying containers & orchestrating them with Kubernetes]()
+[Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/Docker_Zero_To_Hero)
 
 [Subject matter expertise & assist in operations of the Kafka platform]()
 
