@@ -248,8 +248,8 @@
 <details>
   <summary>Set -1 : Spring Boot </summary>
   
-  1. [How to handle Exception in SpringBoot?](https://levelup.gitconnected.com/exception-handling-with-examples-f6ed09452cb2)
-  2. What is the @controllerAdvice in springboot? - Exception Handling
+  1. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+  2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
   3. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
   4. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
   5. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
