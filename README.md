@@ -4,6 +4,28 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
 
 ### Important Questions
 
+[Building & deploying containers & orchestrating them with Kubernetes]()
+
+[Subject matter expertise & assist in operations of the Kafka platform]()
+
+[Experience in architecting and deploying solutions on Azure/AWS or GCP]()
+
+[Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
+
+[Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
+
+[Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
+
+[Knowledge on API Management and Integration using APIGEE API Management platform]()
+
+[Experience with Terraform/Ansible]()
+
+[Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
+
+[Cloud architect certifications]()
+
+[Kubernetes Certification]()
+
 [Java Records]()
 
 [Microfont end]()
