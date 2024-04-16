@@ -1,82 +1,62 @@
-## About me
 
-Hello, my name is Prakash. I am in the process of creating a repository to store all of my interview questions in one central location. This will allow me to better prepare for future interviews and keep track of the questions I have been asked in the past. I believe that this will also help me to identify patterns and areas where I may need to improve my skills. Thank you for your assistance in helping me to achieve this goal.
+<details>
+  <summary> Need Of The Hour </summary>
+  
+[KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
 
-### Important Questions
-
-
-[Subject matter expertise & assist in operations of the Kafka platform]()
-
-[Experience in architecting and deploying solutions on Azure/AWS or GCP]()
+[AWS--->Experience in architecting and deploying solutions on Azure/AWS or GCP]()
 
 [Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
 
-[Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
+[DCOKER----->Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
 
-[Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
+[Elastic ----->Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
 
-[Knowledge on API Management and Integration using APIGEE API Management platform]()
+[APIGEE--->Knowledge on API Management and Integration using APIGEE API Management platform]()
 
-[Experience with Terraform/Ansible]()
+[TERRAFORM----->Experience with Terraform/Ansible]()
 
-[Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
+[JENKINS------->Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
 
-[Cloud architect certifications]()
+[CLOUD architect certifications]()
 
-[Kubernetes Certification]()
+[KUBERNETES Certification]()
 
-[Java Records]()
+</details>
 
-[Microfont end]()
+<details>
+  <summary> Set -17 : Interview Questions </summary>
 
-[Spring Reactive Flux]()
+ 1701. [Java Records]()
+ 1702. [Microfont end]()
+ 1703. [Spring Reactive Flux]()
+ 1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
+ 1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
+ 1706. [100 task 5 threads using Executors and Manual]()
+ 1707. [Importance of Thread Local]()
+ 1708. [Volatile vs Atomic Vs Synchronized]()
+ 1709. [Blue Green Deployment Vs Rolling Deployment]()
 
-
-[Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
-
-
-[ Top 100 Back End Topics ](https://www.google.com)
-
-6• [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
-
-7• [100 task 5 threads using Executors and Manual]()
-
-8• [Importance of Thread Local]()
-
-9• [Volatile vs Atomic Vs Synchronized]()
-
-10• [Blue Green Deployment Vs Rolling Deployment]()
-
-11• [API Gateway Pattern]()
-
-12. [Marker Interface and Annotation]()
-
-13. [Memory Leak - Reasons]()
-
-14. [XML to Json libraries]()
-15. [Moving monolith to Microservices](https://launchdarkly.com/blog/migrating-legacy-monolithic-applications-microservices/)  
-16. [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
-17. [Monolithic can not be scalable, why?Tight Coupled]()
-18. [Differnce between HashMap,TreeMap and LinkedHashMap]()
-19. [Destory Singleton Using Reflcection]()
-20. [Serilaization and Singleton]()
-21. [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
-22. [What is the difference between Hashmap vs hashTable , which one is synchronized?]()
-23. [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
-25. [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
-30. [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
-31. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
-32. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
-33. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
-34. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
-35. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
-36. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
-37. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
+</details>
 
 <details>
   <summary> Set -16 : About My Project </summary>
   
   1601. Tell me something About your recent project,architecture,tech stacks etc .
+  
+  1602. [What is the difference between Hashmap vs hashTable , which one is synchronized?]()
+  
+  1603. [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
+ 
+  1604. [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
+  1605. [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
+  1606. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+  1607. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+  1608. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+  1609. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+  1610. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+  1611. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+ 1612. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 
 </details>
 
@@ -84,7 +64,18 @@ Hello, my name is Prakash. I am in the process of creating a repository to store
   <summary>Set -15 :No SQLs </summary>
   
   1501. [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
-  1502.
+  1502.  [API Gateway Pattern]()
+  1503.  [Marker Interface and Annotation]()
+  1504.  [Memory Leak - Reasons]()
+  1505.  [XML to Json libraries]()
+  1506.  [Moving monolith to Microservices](https://launchdarkly.com/blog/migrating-legacy-monolithic-applications-microservices/)
+  1507.  [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+  1508.  [Monolithic can not be scalable, why?Tight Coupled]()
+  1509.  [Differnce between HashMap,TreeMap and LinkedHashMap]()
+  1510.  [Destory Singleton Using Reflcection]()
+  1511.  [Serilaization and Singleton]()
+  1512.  [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+
 </details>
 
 <details>
