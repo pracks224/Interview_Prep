@@ -151,15 +151,36 @@
 </details>
 
 <details>
-  <summary>Set -8 : Java 8 Features  </summary> 
+  <summary>Set -8 : Core Java Basics - 1  </summary> 
   
-  Q.1) How to use Optional in Java coding? (https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
-  
-  Q.2) 
+  13. [How to use Optional in Java coding? ](https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
+  14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
+  15. Method overriding passing null object . //Subclass object gets the preference which is String in this case
+  16. Differnce between String,StringBuilder and StringBUffer?
+  17. How String concatnation operator internally works ?
+  18. Best/efficient way to join String ?
+  19. What is Method references?
+  20. Anagram check in Java?
+  21. [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+  22. How can you create a comparator?
+  23. [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+  24. What is transient variable ?
+  25.  https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
+  26.  What is Flattening?
+  27.  Return a list of all unique characters for a list of words?
+  28.  Return Square of numbers of list of integers using Stream
+  29.  Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
+  30.  How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+  31.  What is Short-circuiting evaluation in stream ?
+  32.  When to use findFirst and findAny.
+  33.  Summing all the element of a list.
+  34.  Describe the use of Optional in Java?
+  35.  Describe the differnce between map,flatmap and reducce
+
 </details>
 
 <details>
-  <summary>Set -7 : Java 8 Stream API </summary>
+  <summary>Set -7 : Core Java Basics -2 </summary>
   
   Q.1) Find the most populated city of each continent
 
@@ -261,34 +282,12 @@
   11. Design a URL Shortner (tinyurl)
   12. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
   13. Design a notification System
-  14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
-  15. Method overriding passing null object . //Subclass object gets the preference which is String in this case
-  16. Differnce between String,StringBuilder and StringBUffer?
-  17. How String concatnation operator internally works ?
-  18. Best/efficient way to join String ?
-  19. What is Method references?
-  20. Anagram check in Java?
-  21. [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
-  22. How can you create a comparator?
-  23. [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-  24. What is transient variable ?
-  25.  https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
-  26.  What is Flattening?
-  27.  Return a list of all unique characters for a list of words?
-  28.  Return Square of numbers of list of integers using Stream
-  29.  Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
-  30.  How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
-  31.  What is Short-circuiting evaluation in stream ?
-  32.  When to use findFirst and findAny.
-  33.  Summing all the element of a list.
-  34.  Describe the use of Optional in Java?
-  35.  Describe the differnce between map,flatmap and reducce
-  36.  Describe the use case of JSON Web Token?
-  37.  [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  38.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
-  39.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
-  40.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  41.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
+  14. Describe the use case of JSON Web Token?
+  15. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+  16.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
+  17.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
+  18.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+  19.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
       
 </details>
 
