@@ -284,7 +284,7 @@
   34.  Describe the use of Optional in Java?
   35.  Describe the differnce between map,flatmap and reducce
   36.  Describe the use case of JSON Web Token?
-  37.  How can you disable the Autoconfiguration in Spring boot Application?
+  37.  [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
   38.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
   39.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
   40.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
