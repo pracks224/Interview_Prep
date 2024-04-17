@@ -285,10 +285,10 @@
   35.  Describe the differnce between map,flatmap and reducce
   36.  Describe the use case of JSON Web Token?
   37.  How can you disable the Autoconfiguration in Spring boot Application?
-  38.  How do Microservice communicate each other?
-  39.  Describe the API Gateway design pattern for Micro service?
-  40.  Describe some principle of Mircro Service deployment?
-  41.  Describe the Circuit Breaker Design Pattern?
+  38.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
+  39.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
+  40.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+  41.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
       
 </details>
 
