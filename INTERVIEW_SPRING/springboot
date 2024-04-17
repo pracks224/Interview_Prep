@@ -1,3 +1,12 @@
+11. How do services communicate each other?
+    ->Using HttpClient /Http/Rest call
+    -> Asynchronous Messaging (Messaging queue)
+    -> Event Driven Architectute(Important)
+    -> GraphQL
+    -> Service Mesh (Istio,Linkerd etc)
+12. How can you disable the Autoconfiguration in Spring boot Application?
+    @EnableAutoConfiguration annotation along with exclude  by name,class and we can pass list classes etc
+
 1. Differences between @SpringBootApplication and @EnableAutoConfiguration annotation?
 
 Ans:  @SpringBootApplication combines three annotation like @Configuration,@EnableAutoConfiguration and @Componentscan
@@ -62,6 +71,37 @@ Ans :  The difference lies in the response handling mechanism:
    @ControllerAdvice --> this is at class level
    @ExceptionHandler({StudentNotFoundException.class}) --> exception method level
    I think also @RestControllerAdvice for message return in json format
-8. 
+8.  Circuit Breaker Design Pattern
+     Resillient and fault tolrent system
+     -> If one remore service fails, then fallback response will trigger
+     -> Ressilence4j, Netflix Hystrix, Istio etc
+9. API Gateway Design Pattern
+   -> API Gateway is implemented to handle requests from clients to backend services and encapsulate the complexity, 
+      sometimes it is used to handle authentication
+   -> Can be  used for rate liniting,Circuit breaker,authentication,service discovery etc
+10. Describe some principle of Mircro Service deployment?
+    Microservice deployment relies on several principles to ensure scalability, resilience, and maintainability. 
+    Here are some key principles:
+             A. Decentralized Data Management: Each microservice should have its own database or data storage mechanism. This decentralization minimizes dependencies between services and allows teams to choose the most suitable data storage technology for their specific requirements.
+
+             B.Containerization: Microservices are often deployed using containerization technologies like Docker. Containers encapsulate the application and its dependencies, making it easy to deploy consistently across different environments.
+            
+            C.Infrastructure as Code (IaC): Infrastructure components, such as servers, load balancers, and databases, are managed programmatically using tools like Terraform or AWS CloudFormation. This allows for versioning, repeatability, and automation of infrastructure provisioning and configuration.
+            
+            D.Continuous Integration/Continuous Deployment (CI/CD): Microservices are typically deployed using CI/CD pipelines, which automate the build, testing, and deployment processes. CI/CD pipelines ensure rapid and reliable delivery of changes to production environments.
+            
+            E.Service Discovery and Registration: Microservices need to be able to discover and communicate with each other dynamically. Service discovery mechanisms, such as Consul, Eureka, or Kubernetes' built-in service discovery, allow services to register themselves and discover other services at runtime.
+            
+            F.Fault Tolerance and Resilience: Microservices should be designed to handle failures gracefully. Techniques such as circuit breakers, retries, timeouts, and bulkheads are used to prevent cascading failures and maintain system availability.
+            
+            G.Auto-scaling: Microservice architectures often involve auto-scaling mechanisms that automatically adjust the number of instances of a service based on demand. This ensures that the system can handle varying levels of load efficiently while minimizing costs.
+            
+            H.Immutable Infrastructure: Instead of modifying existing infrastructure components, new versions are deployed as immutable artifacts. This ensures consistency and eliminates configuration drift, making it easier to roll back to a previous version if needed.
+            
+            I.Observability: Monitoring, logging, and tracing are essential for understanding the behavior of microservices in production. Tools like Prometheus, Grafana, ELK stack (Elasticsearch, Logstash, Kibana), and distributed tracing systems (e.g., Jaeger, Zipkin) provide insights into system performance and behavior.
+            
+            J.Versioning and Compatibility: Microservices should be versioned to enable backward and forward compatibility. API versioning strategies, such as semantic versioning, help ensure that changes to APIs do not break existing clients.
+            
+            By adhering to these principles, organizations can effectively deploy and manage microservices architectures, enabling them to build scalable, resilient, and maintainable systems.
    
             
