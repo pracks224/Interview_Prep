@@ -35,7 +35,9 @@ Ans :  The difference lies in the response handling mechanism:
 @GetMapping: This annotation is a specialized version of @RequestMapping specifically for handling HTTP GET requests. It is a shortcut annotation that combines @RequestMapping with the GET HTTP method. It simplifies the mapping of GET requests to controller methods.
 
 6. Transaction Management in Springboot?
-   Ans: (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+   Ans: 
+       (https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+       (https://medium.com/@beratyesbek/spring-boot-transaction-management-propagation-isolation-levels-f3981b22ef4d)
        - Programmatic
        - Declarative
        - Declarative using @Transactional
@@ -45,10 +47,21 @@ Ans :  The difference lies in the response handling mechanism:
           - Transactional Advisors associated 
           - Target Method execution
        - Properties of @Transactional
-          - Propagation -> It decides how new transaction will start 1. PROPAGATION_REQUIRED default one. Create new transaction or else use th existing. 2. PRPAGATION_REQUIRED_NEW 3. PrOPAGATION_SUPPORT  (never create new tx) 4. 
-          -Isolation
+          - Propagation -> It decides how new transaction will start 1. PROPAGATION_REQUIRED default one. Create new transaction or else use th existing. 
+              2. PRPAGATION_REQUIRED_NEW 
+              3. PrOPAGATION_SUPPORT  (never create new tx) 
+              4. 
+          -Isolation levels are DIRTY READ, NON REPEATABLE READ,PHANTOM READ
           -Timeout
           -RollbackFor
           - NoRollbackFor
           - ReadOnly
+7. How to handle exception spring boot.
+   For more details : -> https://medium.com/@aedemirsen/spring-boot-global-exception-handler-842d7143cf2a
+   For Global Exception Handler
+   @ControllerAdvice --> this is at class level
+   @ExceptionHandler({StudentNotFoundException.class}) --> exception method level
+   I think also @RestControllerAdvice for message return in json format
+8. 
+   
             
