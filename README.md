@@ -153,7 +153,7 @@
 <details>
   <summary>Set -8 : Core Java Basics - 1  </summary> 
   
-  13. [How to use Optional in Java coding? ](https://sohailshah20.medium.com/using-optionals-in-java-the-right-way-f32d7ed46d93)
+  13. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
   14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
   15. Method overriding passing null object . //Subclass object gets the preference which is String in this case
   16. Differnce between String,StringBuilder and StringBUffer?
