@@ -176,6 +176,7 @@
   33.  Summing all the element of a list.
   34.  Describe the use of Optional in Java?
   35.  Describe the differnce between map,flatmap and reducce
+  36.  [Java 8 Feature - Method Reference](https://github.com/pracks224/Interview_Prep/tree/main/INTERVIEW_CORE_JAVA/Feature8)
 
 </details>
 
