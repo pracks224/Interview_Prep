@@ -122,19 +122,19 @@
   
   [Q.1) Reverse a String using Recursive](DSA/src/ArrayString)
   
-  Q.2) Find GCD using Recursive
+  Q.2) [Find GCD using Recursive](DSA/src/ArrayString)
   
-  Q.3) You are given a string A. Find the number of substrings that start and end with 'a'.
+  Q.3) [You are given a string A. Find the number of substrings that start and end with 'a'.](DSA/src/ArrayString)
   
-  Q.3) Return an integer denoting the minimum characters needed to be inserted in the 
-     beginning to make the string a palindrome string.
+  Q.3) [Return an integer denoting the minimum characters needed to be inserted in the 
+     beginning to make the string a palindrome string.](DSA/src/ArrayString)
      
-  Q.4) Boring SubString -> Both the characters are consecutive, for example - "ab", "cd", "dc", "zy" 
+  Q.4) [Boring SubString -> Both the characters are consecutive, for example - "ab", "cd", "dc", "zy" 
      and length should be 2. If no boring substring possible return 1
-     S = "abcd"  -> cadb -> in this no boring substring hence return 1
+     S = "abcd"  -> cadb -> in this no boring substring hence return 1](DSA/src/ArrayString)
      
-  Q.5) Closest Palindrome -> Return Yes if string can be converted to palindrom by changing 
-     one character.
+  Q.5) [Closest Palindrome -> Return Yes if string can be converted to palindrom by changing 
+     one character.](DSA/src/ArrayString)
      
   
 </details>
