@@ -319,7 +319,7 @@
 </details>
 
 <details>
-  <summary>Set -5 : Interview Questions Kafka and Microservices </summary>
+  <summary>Set -5 : Microservices Design Patterns & Advance Concepts</summary>
   
   1. What is the diffence between cohesion and coupling ?
   
@@ -490,9 +490,11 @@
       
 </details>
   </details>
-  
-**[⬆ Back to Top](#about-me)**   
-## Kafka
+
+<details>
+  <summary>KAFKAAA</summary>
+
+  ## Kafka
 
 <details>
   <summary>Important Notes to revise</summary>  
@@ -670,19 +672,5 @@ Is it possible in kafka?
 - Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
 
 ```
-
- There are many ways to create objects in javascript as below
-
-**[⬆ Back to Top](#table-of-contents)**
-
 </details>
-
-<details>
-  <summary>Scaler Prep</summary>
-
-  Day 6/7. Time Complexity
-
-  **[⬆ Back to Top](#table-of-contents)**
 </details>
-
-```
