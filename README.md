@@ -1,8 +1,10 @@
 
 <details>
-  <summary> Need Of The Hour </summary>
-  
-[KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
+  <summary> Back Logs </summary>
+
+  [Pending Interview questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
+
+  [KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
 
 [AWS--->Experience in architecting and deploying solutions on Azure/AWS or GCP]()
 
@@ -92,6 +94,15 @@
        - MongoDB upto ~100 millions
        - Cassandra is better for Billions of data uses LSM for retreiveal. Read is expensive than write
        - ScyllaDB with Rust API is good for Trillions of data
+
+1409. [Well documented - All Concepts in one Place](https://github.com/black-shadows/System-Design )
+
+1410. Design Data Intensive Application Book Overview.
+1411. Consistency Hashing.
+1412. CAP theorem
+1413. Isolation levels.
+1414. 2PL
+1415. [How to make the API end point faster.](https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
   
 </details>
 <details>
@@ -153,6 +164,27 @@
    Q.6) Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
 
    Q.7) Given an array of size N, shift all the elements to the right by 1 and move the last element to the beginning of array
+
+   ### Miscllenaous
+
+   44. Implement an algorithm to determine if a string has all unique characters. What if you
+    cannot use additional data structures? (Bitwise way to understand)
+45. One string permutaion of other
+46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
+47. Palindrom Permutation
+48. One Away: There are three types of edits that can be performed on strings: insert a character,
+    remove a character, or replace a character. Given two strings, write a function to check if they are
+    one edit (or zero edits) away.
+    EXAMPLE
+    pale, ple -> true
+    pales, pale -> true
+    pale, bale -> true
+    pale, bae -> false
+
+49. String compression For example, the string aabcccccaaa would become a2blc5a3
+50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
+    of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
+    call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
   
 </details>
 
@@ -174,21 +206,6 @@
   [Q7.What is the difference between the Amazon Rds, Dynamodb, and Redshift?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
   
   [Q8.What is CloudFormation and why is it used for?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-  
-</details>
-
-
-<details>
-  <summary>Set -10 : ML/AI </summary> 
-  
-  Q.1) 
-  
-</details>
-
-<details>
-  <summary>Set -9 : Performance Monitor Tools </summary> 
-  
-  Q.1) 
   
 </details>
 
@@ -223,6 +240,17 @@
   38.  [Concurrent Modification Using Stream API Possible ?](https://medium.com/@sum98kumar/java-developer-interview-questions-and-answers-b5732cd18c5b)
   39.  [How ParallelStream Works internally?](https://medium.com/@sum98kumar/java-interview-questions-9cb306e392d3)
   40.  [How threadpool executor works ?](https://www.digitalocean.com/community/tutorials/threadpoolexecutor-java-thread-pool-example-executorservice)
+
+## Java Collections
+
+63. How ConcurrentHashMap works ?
+64. How HashSet works internally ?
+65. What is Consisten Hashing?
+66. [TreeMap works internally?](https://medium.com/@basecs101/treemap-in-java-collection-framework-interview-question-a3f81c7aaa84)
+67. [How to create custom immutable class ?]()
+68. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
+69. [Aggregation vs composition]()
+70. [Create An Immutable Map]()
 
 </details>
 
@@ -314,94 +342,19 @@
 </details>
 
 <details>
-  <summary>Set -1 : Spring Boot </summary>
-  
-  1. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-  2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-  3. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
-  4. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
-  5. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
-  6. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
-  7. How to add Global CORS configuration for the application?
-  8. What is the use @Configuration? //Bean Definitions
-  9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
-  10. CQRS design patterns in Microservices?
-  11. Design a URL Shortner (tinyurl)
-  12. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
-  13. Design a notification System
-  14. Describe the use case of JSON Web Token?
-  15. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  16.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
-  17.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
-  18.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  19.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
-      
-</details>
-
-<details>
   <summary>Set -2 : JavaScript </summary>
 
 43. Javascript Event Loop and Call Stack Explain?
-44. Implement an algorithm to determine if a string has all unique characters. What if you
-    cannot use additional data structures? (Bitwise way to understand)
-45. One string permutaion of other
-46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
-47. Palindrom Permutation
-48. One Away: There are three types of edits that can be performed on strings: insert a character,
-    remove a character, or replace a character. Given two strings, write a function to check if they are
-    one edit (or zero edits) away.
-    EXAMPLE
-    pale, ple -> true
-    pales, pale -> true
-    pale, bale -> true
-    pale, bae -> false
-
-49. String compression For example, the string aabcccccaaa would become a2blc5a3
-50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
-    of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
-    call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
-
-### System Design
-
-- https://github.com/black-shadows/System-Design - Well documented
-
-51. Design Data Intensive Application Book Overview
-52. Consistency Hashing
-53. CAP theorem
-54. Isolation levels
-55. 2PL
-56. How to make the API end point faster. (https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
-
-## Java Script
-
-57. How to create object in Javascript?
-58. Difference between Object.freeze() and const in JavaScript ?
-
-59. How to deep-freeze an object in JavaScript ? hint (https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-60. Implement sum(2)(3)() (Currying funtions- is also a higher order function ?(https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-
-61. What is the difference between call(),apply() and bind() methods?
-
-## Java OOps
-
-62. Functional Programming Using Java
-
-## Java Collections
-
-63. How ConcurrentHashMap works ?
-64. How HashSet works internally ?
-65. What is Consisten Hashing?
-66. [TreeMap works internally?](https://medium.com/@basecs101/treemap-in-java-collection-framework-interview-question-a3f81c7aaa84)
-67. [How to create custom immutable class ?]()
-68. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
-69. [Aggregation vs composition]()
-70. [Create An Immutable Map]()
+44. How to create object in Javascript?
+45. Difference between Object.freeze() and const in JavaScript ?
+46. [How to deep-freeze an object in JavaScript ?](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+47. [Implement sum(2)(3)() (Currying funtions- is also a higher order function](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+48.  What is the difference between call(),apply() and bind() methods?
 
 </details>
 
 <details>
-  <summary>Set-3 Microservices Using Spring Boot</summary>
+  <summary>Set-3 Spring Boot</summary>
   
   66. What is Spring Boot and what are its Benefits?
   
@@ -509,32 +462,33 @@
   142. State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
   143. State the difference between @PreAuthorize and @Secured in Spring security.
   144. State the difference between @Secured and @RolesAllowed.
-  </details>
+
+  ### Spring Boot Advance  - 1
 
   <details>
-  <summary>Set 4: Building Microservices (Designing Fine Grained System)</summary>
+  <summary>Very Important</summary>
   
-  401. Domain Driven Design - Can you give one example.
-       - Virtulization platform allow us to provison and resize our machine at will, with infrastructure automation giving us a way to handle at scale.
-  
-  403. What are Micro services?
-       - Small,autonomus services that work together.
- 
-  405. Key Benefits of Micro Services
-        - Technology Heterogenity.
-        - Resilinece -> If one component fails ,it wont cascade
-        - Scaling  -> With monolithic, we have scale everything ,but here one small unit only
-        - Ease of deployment
-        - Organizational Allignments - NO large team,NO Large DB etc
-        - Optimizing of replacibility - Easy replacement after reaching end of life
-  406. [SOLID priciples explain with example](https://www.baeldung.com/solid-principles)
-        - Single responsibility : One class one responsibility ex Book with title author but printboook place it another class
-        - Open/Close : Open for Extension,Close for Modification
-        - Liskov substitution if class A is subtype of B,we should replace it with A. Ex method(A a) -> can substitue with method(B b)
-        - Interface Segration
-        - Dependency Inversion.
+  1. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+  2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+  3. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+  4. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
+  5. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+  6. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+  7. How to add Global CORS configuration for the application?
+  8. What is the use @Configuration? //Bean Definitions
+  9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+  10. CQRS design patterns in Microservices?
+  11. Design a URL Shortner (tinyurl)
+  12. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+  13. Design a notification System
+  14. Describe the use case of JSON Web Token?
+  15. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+  16.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
+  17.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
+  18.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+  19.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
       
-  
+</details>
   </details>
   
 **[⬆ Back to Top](#about-me)**   
