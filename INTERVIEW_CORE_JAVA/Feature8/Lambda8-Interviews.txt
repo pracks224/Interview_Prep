@@ -1,0 +1,36 @@
+1.What is Lambda function?
+2.Why lambda type with primitive type impact performance ? How to solve it ?
+3.What are the built-in functional interfaces in java 8 ? Usage when to use what.
+4.Predicate vs Bipredicate
+Ans 3. https://medium.com/@iamcrypticcoder/java-8-built-in-functional-interfaces-27b9f7250a3c
+       Suppplier
+       Predicte
+       BiPredicate
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ans 2. Autoboxing and Unboxing ,java compiler automatically converts the primitives to
+       Wrapper object,hence using primitive inside the lambda function impacts performance.
+       -> Hence to play around primitives use Functional interfaces etc.
+        Ex: public interface IntSupplier (){
+             int getAsInt()
+            }
+        Implementation ->
+          IntSupplier sup = ()->18;
+          int result  = sup.getAsInt();
+        Similarly
+        public interface IntPredicate(){
+          boolean test(int n);
+        }
+        IntPredicate p = (age)->age>=18;
+        boolean res = p.test(20);
