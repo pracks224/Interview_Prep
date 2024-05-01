@@ -151,6 +151,8 @@
    Q.5) Write a function to add two matrix of same dimension and return the resultant
 
    Q.6) Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
+
+   Q.7) Given an array of size N, shift all the elements to the right by 1 and move the last element to the beginning of array
   
 </details>
 
