@@ -202,6 +202,7 @@
   34.  Describe the use of Optional in Java?
   35.  Describe the differnce between map,flatmap and reducce
   36.  [Java 8 Feature - Method Reference](https://github.com/pracks224/Interview_Prep/tree/main/INTERVIEW_CORE_JAVA/Feature8)
+  37.  [Java 8 Feature - Lambda](https://medium.com/java-pearls/taming-the-lambda-a-practical-guide-to-java-8-lambda-expressions-6c0051f97995)
 
 </details>
 
