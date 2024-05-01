@@ -120,7 +120,9 @@
 <details>
   <summary>Set -12 : Data Structure and Algorithms </summary> 
   
-  [Q.1) Reverse a String using Recursive](DSA/src/ArrayString)
+  ### String :
+  
+  Q.1) [Reverse a String using Recursive](DSA/src/ArrayString)
   
   Q.2) [Find GCD using Recursive](DSA/src/ArrayString)
   
@@ -135,7 +137,20 @@
      
   Q.5) [Closest Palindrome -> Return Yes if string can be converted to palindrom by changing 
      one character.](DSA/src/ArrayString)
-     
+
+   ### Array :
+
+   Q.1) Count of Pairs with sum = K
+   
+   Q.2) Given an ArrayList of integers, return all the unique numbers in the ArrayList.
+   
+   Q.3) Given a matrix, row index =0, return sum of that particular row.
+
+   Q.4) Given a 2D array and a column index, return sum of that particular column.
+
+   Q.5) Write a function to add two matrix of same dimension and return the resultant
+
+   Q.6) Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
   
 </details>
 
