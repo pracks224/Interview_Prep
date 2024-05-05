@@ -291,25 +291,25 @@
 
 </details>
 <details>
-  <summary>Set -6 : Interview Questions preparation for Luxsoft(7-Sep-2023) Fullstack Remote </summary>
+  <summary>Core Java -3 </summary>
   
   1. Could you explain what is the "deadly diamond of death"?
   2. What's the difference between the Dependency Injection and Service Locator patterns?
-  3. What is the difference between the template patterns and the strategy pattern? ( https://github.com/aershov24/full-stack-interview-questions#DesignPatterns )
-  4. How Java Memory works? (https://blog.stackademic.com/how-java-memory-works-c751460e3cbd)
-  5. How G1GC works? (https://blog.stackademic.com/how-g1gc-works-in-java-390332333b2) G1GC is a concurrent collector
+  3. [What is the difference between the template patterns and the strategy pattern?]( https://github.com/aershov24/full-stack-interview-questions#DesignPatterns )
+  4. [How Java Memory works?](https://blog.stackademic.com/how-java-memory-works-c751460e3cbd)
+  5. [How G1GC works?](https://blog.stackademic.com/how-g1gc-works-in-java-390332333b2) G1GC is a concurrent collector
   6. How are coping with changing requirements ? Predicates
   7. Java Program to count the total number of characters in a string.
   8. Java Program to count the vowel/consonants in a string
   9. Java programs to determine to programs are anagram means they have same set of characters.
-  10. Java programs to divide a string equal N parts. (https://www.javatpoint.com/java-programs)
+  10. [Java programs to divide a string equal N parts.](https://www.javatpoint.com/java-programs)
   11. List of Functional Interfaces  like runnable,callable,comparator,ActionListners,supplier,consumer,Function,Predicate,BiFunction,BiPredicate,UnaryOperator,BinaryOperator,BiConsumer,LongConsumer etc.
   12. Some time Interviewer asks the methods of the functional interfaces
   13. What is Java Stream ?
   14. Java Program to sort List of employee by salary using java 8?
   15.  Java program to demonstrate all the functional interfaces like predicate/cosnumer/supplier etc. Predicate - test return boolean consumer - returns void and method accept for updating value/print etc and function has apply method return another object  like for transforming etc
   16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p)
-  17.  What is Java record included in Java 14 ?(https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
+  17.  [What is Java record included in Java 14 ?](https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
 
 </details>
 
