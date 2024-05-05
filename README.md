@@ -337,14 +337,17 @@
 </details>
 
 <details>
-  <summary>Set -2 : JavaScript </summary>
+  <summary>Node Js</summary>
 
-43. Javascript Event Loop and Call Stack Explain?
-44. How to create object in Javascript?
-45. Difference between Object.freeze() and const in JavaScript ?
+43. [Javascript Event Loop and Call Stack Explain?](https://www.knowledgehut.com/blog/web-development/node-js-event-loop)
+44. [How to create object in Javascript?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
+45. [Difference between Object.freeze() and const in JavaScript ?]()
 46. [How to deep-freeze an object in JavaScript ?](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
 47. [Implement sum(2)(3)() (Currying funtions- is also a higher order function](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-48.  What is the difference between call(),apply() and bind() methods?
+48. [What is the difference between call(),apply() and bind() methods?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
+49. [How can you handle errors in Node.js, and what is the purpose of the error event in streams?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
+50. [What is a closure in JavaScript, and how is it relevant in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
+51. [What is the difference between setTimeout and setImmediate in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
 
 </details>
 
