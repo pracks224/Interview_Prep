@@ -76,7 +76,7 @@
 </details>
 
 <details>
-  <summary>Set -14 :System Design Fundamentals </summary> 
+  <summary>System Design Concepts </summary> 
   
  1401. CDNs
  1402. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
@@ -94,10 +94,10 @@
 
 1410. Design Data Intensive Application Book Overview.
 1411. Consistency Hashing.
-1412. CAP theorem
-1413. Isolation levels.
+1412. Isolation levels.
 1414. 2PL
 1415. [How to make the API end point faster.](https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
+1416. [Scalable Notification System](https://medium.com/@adityagoel123/designing-scalable-notification-system-79f83272755e)
   
 </details>
 <details>
