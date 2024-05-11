@@ -37,7 +37,7 @@
 </details>
 
 <details>
-  <summary> Set -16 : About My Project </summary>
+  <summary> About My Project </summary>
   
   1601. Tell me something About your recent project,architecture,tech stacks etc .
   
@@ -58,7 +58,7 @@
 </details>
 
 <details>
-  <summary>Set -15 :No SQLs </summary>
+  <summary>No SQLs </summary>
   
   1501. [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
   1502.  [API Gateway Pattern]()
@@ -101,7 +101,7 @@
   
 </details>
 <details>
-  <summary>Set -13 : Docker/Kubernetes/Terraform/Ansible</summary> 
+  <summary>Docker/Kubernetes/Terraform/Ansible</summary> 
   
   Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
   
@@ -124,7 +124,7 @@
 </details>
 
 <details>
-  <summary>Set -12 : Data Structure and Algorithms </summary> 
+  <summary>Data Structure and Algorithms </summary> 
   
   ### String :
   
@@ -184,7 +184,7 @@
 </details>
 
 <details>
-  <summary>Set -11 : Cloud Technologies </summary>
+  <summary>Cloud Technologies </summary>
   
   [Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
   
@@ -205,7 +205,7 @@
 </details>
 
 <details>
-  <summary>Set -8 : Core Java Basics - 1  </summary> 
+  <summary>Core Java Basics - 1  </summary> 
   
   13. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
   14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
@@ -250,7 +250,7 @@
 </details>
 
 <details>
-  <summary>Set -7 : Core Java Basics -2 </summary>
+  <summary>Core Java Basics -2 </summary>
   
   Q.1) Find the most populated city of each continent
 
@@ -314,7 +314,7 @@
 </details>
 
 <details>
-  <summary>Set -5 : Microservices Design Patterns & Advance Concepts</summary>
+  <summary>Microservices Design Patterns & Advance Concepts</summary>
   
   1. What is the diffence between cohesion and coupling ?
   
@@ -352,7 +352,7 @@
 </details>
 
 <details>
-  <summary>Set-3 Spring Boot</summary>
+  <summary>Spring Boot</summary>
   
   66. What is Spring Boot and what are its Benefits?
   
