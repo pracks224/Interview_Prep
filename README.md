@@ -1,62 +1,13 @@
-
-<details>
-  <summary> Back Logs </summary>
-
-  [Pending Interview questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
-
-  [KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
-
-[AWS--->Experience in architecting and deploying solutions on Azure/AWS or GCP]()
-
-[Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
-
-[DCOKER----->Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
-
-[Elastic ----->Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
-
-[APIGEE--->Knowledge on API Management and Integration using APIGEE API Management platform]()
-
-[TERRAFORM----->Experience with Terraform/Ansible]()
-
-[JENKINS------->Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
-
-[CLOUD architect certifications]()
-
-[KUBERNETES Certification]()
-
-[OPENSHIFT]()
-
- 1701. [Java Records]()
- 1702. [Microfont end]()
- 1703. [Spring Reactive Flux]()
- 1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
- 1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
- 1706. [100 task 5 threads using Executors and Manual]()
- 1707. [Importance of Thread Local]()
- 1708. [Volatile vs Atomic Vs Synchronized]()
- 1709. [Blue Green Deployment Vs Rolling Deployment]()
-
-</details>
-
 <details>
   <summary> About My Project </summary>
   
-  1601. Tell me something About your recent project,architecture,tech stacks etc .
-  
-  1602. [What is the difference between Hashmap vs hashTable , which one is synchronized?]()
-  
-  1603. [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
- 
-  1604. [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
-  1605. [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
-  1606. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
-  1607. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
-  1608. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
-  1609. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
-  1610. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
-  1611. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
- 1612. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
-
+  1. [Tell me something About your recent project,architecture,tech stacks etc .]()
+  2. [What is EDA and how it works ? What are different approach to implement EDA?]()
+  3. [Tell me something about yourself?]()
+  4. [What are the frontend library you have used in your project.]()
+  5. [What type of deployment model you have used?]()
+  6. [What type of disister management you have in your project?]()
+  7. [How to secure your API]()
 </details>
 
 <details>
@@ -321,6 +272,10 @@
   15.  Java program to demonstrate all the functional interfaces like predicate/cosnumer/supplier etc. Predicate - test return boolean consumer - returns void and method accept for updating value/print etc and function has apply method return another object  like for transforming etc
   16.  Predicate<Integer> vs IntPredicate? (Java 8 in Action Page :: 82p)
   17.  [What is Java record included in Java 14 ?](https://www.geeksforgeeks.org/what-are-java-records-and-how-to-use-them-alongside-constructors-and-methods/)
+  18.  [What is the difference between Hashmap vs hashTable , which one is synchronized?]()
+  19.  [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
+  20.  [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
+  21.  [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
 
 </details>
 
@@ -344,6 +299,13 @@
   8. How to avoid duplicate event kafka ?
   
   9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
+  10. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+  11. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+  12. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+  13. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+  14. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+  15. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+ 16. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 
 </details>
 
@@ -682,4 +644,43 @@ Is it possible in kafka?
 
 ```
 </details>
+</details>
+
+<details>
+  <summary> Back Logs </summary>
+
+  [Pending Interview questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
+
+  [KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
+
+[AWS--->Experience in architecting and deploying solutions on Azure/AWS or GCP]()
+
+[Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
+
+[DCOKER----->Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
+
+[Elastic ----->Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
+
+[APIGEE--->Knowledge on API Management and Integration using APIGEE API Management platform]()
+
+[TERRAFORM----->Experience with Terraform/Ansible]()
+
+[JENKINS------->Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
+
+[CLOUD architect certifications]()
+
+[KUBERNETES Certification]()
+
+[OPENSHIFT]()
+
+ 1701. [Java Records]()
+ 1702. [Microfont end]()
+ 1703. [Spring Reactive Flux]()
+ 1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
+ 1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
+ 1706. [100 task 5 threads using Executors and Manual]()
+ 1707. [Importance of Thread Local]()
+ 1708. [Volatile vs Atomic Vs Synchronized]()
+ 1709. [Blue Green Deployment Vs Rolling Deployment]()
+
 </details>
