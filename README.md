@@ -1,8 +1,8 @@
 <details>
   <summary> About My Project </summary>
   
-  1. [Tell me something About your recent project,architecture,tech stacks etc .]()
-  2. [What is EDA and how it works ? What are different approach to implement EDA?]()
+  1. [Tell me something About your recent project,architecture,tech stacks etc .](https://github.com/pracks224/Interview_Prep/blob/main/my_introductory_questions.txt)
+  2. [What is EDA and how it works ? What are different approach to implement EDA?](https://github.com/pracks224/Interview_Prep/blob/main/my_introductory_questions.txt)
   3. [Tell me something about yourself?]()
   4. [What are the frontend library you have used in your project.]()
   5. [What type of deployment model you have used?]()
