@@ -31,7 +31,7 @@
 <details>
   <summary>System Design Concepts </summary> 
   
- 1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt.txt)
+ 1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
  1399. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
  1400. [Design FB Messanger]()
  1398. [Design Instagram]()
