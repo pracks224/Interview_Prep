@@ -30,9 +30,10 @@
 
 <details>
   <summary>System Design Concepts </summary> 
-  
- 1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
- 1399. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
+
+  1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
+  1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
+  1399. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
  1400. [Design FB Messanger]()
  1398. [Design Instagram]()
  1401. CDNs
@@ -59,6 +60,8 @@
 </details>
 <details>
   <summary>Docker/Kubernetes/Terraform/Ansible</summary> 
+  
+  [Blue Green Deployment Vs Rolling Deployment](https://medium.com/@navya.cloudops/devops-zero-to-hero-day-20-deployment-strategies-e6712b4801e4)
   
   Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
   
@@ -267,6 +270,11 @@
 <details>
   <summary>Core Java -3 </summary>
   
+  1708. [Volatile vs Atomic Vs Synchronized](https://medium.com/@erayaraz10/understanding-atomic-volatile-and-synchronized-variables-in-java-differences-and-use-cases-b12f519a4c4b)
+  1709. [What is Thread Local Cache](https://codegym.cc/quests/lectures/questcore.level07.lecture05)
+  1710. [Importance of Thread Local](https://medium.com/@fullstacktips/what-is-threadlocal-in-java-a51bdaaa6079)
+  1711. [100 task 5 threads using executors and manual]()
+  1712. [Java Records](https://medium.com/@mak0024/a-comprehensive-guide-to-java-records-2e8edcbd9c75)        
   1. Could you explain what is the "deadly diamond of death"?
   2. What's the difference between the Dependency Injection and Service Locator patterns?
   3. [What is the difference between the template patterns and the strategy pattern?]( https://github.com/aershov24/full-stack-interview-questions#DesignPatterns )
@@ -324,7 +332,9 @@
 </details>
 
 <details>
-  <summary>Node Js</summary>
+  <summary>Node Js & Front End</summary>
+
+  1702. [Microfont end]()
 
 43. [Javascript Event Loop and Call Stack Explain?](https://www.knowledgehut.com/blog/web-development/node-js-event-loop)
 44. [How to create object in Javascript?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
@@ -452,6 +462,9 @@
 
   <details>
   <summary>Very Important</summary>
+
+   1703. [Spring Reactive Flux]()
+   1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
   
   1. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
   2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
@@ -686,15 +699,5 @@ Is it possible in kafka?
 [KUBERNETES Certification]()
 
 [OPENSHIFT]()
-
- 1701. [Java Records]()
- 1702. [Microfont end]()
- 1703. [Spring Reactive Flux]()
- 1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
- 1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
- 1706. [100 task 5 threads using Executors and Manual]()
- 1707. [Importance of Thread Local]()
- 1708. [Volatile vs Atomic Vs Synchronized]()
- 1709. [Blue Green Deployment Vs Rolling Deployment]()
-
+       
 </details>
