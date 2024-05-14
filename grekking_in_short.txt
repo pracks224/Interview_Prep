@@ -1,0 +1,95 @@
+=================================== GREKKING SDI =========================================
+
+Certain Estiation numbers approx ==>
+1 million  per day,then per sec 1 million/24*3600 = 12 per sec || 1 million per day ==> 12 per sec
+5 million read means ===> 5* 12 = 60 per sec
+10 MB per upload, 1 million write per day then 12 * 10 = 120 MB per sec // 7200 MB per hur 
+      // 7.2*24 = 170 GB per day ?? 
+      Is this correct ? Correct.
+Storage ==> 1000 GB = 1 TB,
+            Lets say 10 GB per day then for 10 years?
+                     10 GB * 365 = 3650 GB = 3.6 TB
+                     So, In 10 year = =>36 TB Correct?
+Base 64 encoding,to create 6 letter unique then 64^6 = ~68 billion keys
+
+=== ==== ===
+For better latency, use cache (Only high frequent data to store) ==> 80:20 rule se
+== ===  ====
+
+In most of the cases if you want to restict user/throttle number of user pas API_KEY as one entry
+
+Instagram Design ::
+
+Functional requirements ::
+  Post -> image,text,video(reels)
+       -> Likes,dislikes,views
+       -> Follow,
+       -> Messageing
+       -> Share
+Non Functional requirements ::
+       -> Available
+       -> Consistency in number of likes (Optional),
+       -> 
+Not In scope : Tags etc
+Design Consideration -> photo should not lost forever
+                     -> Read Heavy (Retreive photo quickly)
+                     -> Low latency while viewing the photo
+                     -> 500M user, 1M active user
+Back Of envelop (Estimation) ::
+      -> 500M user data with photo
+      -> 1M active user, 2M photo every day then 23 photo per sec upload
+      -> avg size of photo --> 200 KB ==> total photo size per day ==> 2M * 200 KB ==> 400 GB (per day)
+      -> for 10 years ==> 4000GB = 4 TB *365 = 1425 TB of Memory
+      ->
+High Level Design ::
+
+      upload photo ==> object Storage
+      meta data storage ==> mostly sql/no sql data Base
+      We can store photos in distributed file storage like HDFS or S3
+ Componenet design ==>
+ Data Shrading ==>
+     Based on UserIds,so that all the photos in the same Shrading
+     But issue wth some user has more phot than other
+     Some users are hot users where the number of followers are more
+     What if we can not store all the photos in one Shrading
+     ** to overcome these lets create partiton using photo id_rsa
+     **      
+Design a Facebook Messanger ===> ====>
+   Functional requirements 
+         -> chat one on one and group chat
+         -> keep track of use status
+         -> video call 
+         -> Mantain the chat history
+         -> share image/video/file etc
+         -> 
+   Non Functional requirements
+         -> real time chat exp
+         -> high Available
+         -> 
+   Design Consideration
+         500 M active user
+         Avg sends 40 text messages
+         20 billion message per day
+
+   Estimation
+        100 bytes is the size of the text
+        20 billion * 0.1 MB = 2 TB/day
+        for 5 years chat history ==> 2*365*5 = 3500 TB ==> 3.6PB
+
+   High Level Design
+        Chat Server to which both sender and rreciver connects
+
+   Component Design
+       How does the messenger maintain the sequencing of the messages? (Major Concern)
+        To resolve this, we need to keep a sequence number with every message for each client. This sequence
+number will determine the exact ordering of messages for EACH user. With this solution both clients
+will see a different view of the message sequence, but this view will be consistent for them on all
+devices.
+   DB
+   Which storage system we should use? Ans HBase ??? Column wise storage ,first store it in Memory buffer and then
+
+   Load to disk system
+
+   Managing user status ??
+   
+
