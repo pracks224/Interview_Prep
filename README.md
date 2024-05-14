@@ -142,16 +142,24 @@
 
 <details>
   <summary>Cloud Technologies </summary>
+
+  [SaaS vs. PaaS vs. IaaS with example](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
+  
+  [SAAS example - DropBox Google workbook sales force and?]()
+  
+  [PAAS example - Open shift,Elastci Bean Heroku and ?]()
+  
+  [IAAS example AWS,Azure and  ?]()
   
   [Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
   
-  [Q2. What are the tools used to send logs to cloud environment?
+  [Q2. What are the tools used to send logs to cloud environment?]()
   
-  [Q3. What are IAM Roles? How do you create /manage them?
+  [Q3. What are IAM Roles? How do you create /manage them?]()
   
-  [Q4. How to upgrade or downgrade a system with zero downtime?
+  [Q4. How to upgrade or downgrade a system with zero downtime?]()
   
-  [Q5. What is infrastructure as code and how do you use it?
+  [Q5. What is infrastructure as code and how do you use it?]()
   
   [Q6. What is a load balancer? Give scenarios of each kind of balancer based on your experience.](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
   
