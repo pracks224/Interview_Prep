@@ -156,7 +156,7 @@
   
   [IAAS example AWS,Azure and  ?]()
   
-  [Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
+  [Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/aws-in-plain-english/ace-your-aws-interview-i-90d4ab4daf4c)
   
   [Q2. What are the tools used to send logs to cloud environment?]()
   
