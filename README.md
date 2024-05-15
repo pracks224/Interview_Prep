@@ -31,6 +31,8 @@
 <details>
   <summary>System Design Concepts </summary> 
 
+  [What is DDOS(denial of service ) attack and how will we prevent from this in our Applications ?]()
+
   1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
   1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
   1399. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
@@ -296,6 +298,32 @@
   19.  [HashMap Internally works ?](https://medium.com/@basecs101/internal-working-of-hashmap-in-java-latest-updated-4c2708f76d2c#:~:text=Internally%20HashMap%20uses%20a%20hashCode,entries%20(nodes)%20are%20stored.)
   20.  [How HashSet works Internally?](https://medium.com/@basecs101/internal-working-of-hashset-in-java-interview-question-129bdd31fc60)
   21.  [What are the new change in java memory model in java 8?](https://connect2grp.medium.com/evolution-of-java-memory-model-af24d5365581)
+  
+  22.  How will you simulate concurrent modification through stream API ?
+  23.  How many thread will open for parallel stream and how parallel stream internally works ?
+  24.  [How does Executor make or check , number of threads are active or dead , in other word what is internal working of thread pool executor ?](https://medium.com/coding-becomes-easy/how-threadpool-works-internally-in-java-904f1e87fea)
+  25.  [Kindly give brief idea about JAVA memory model.](https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973)
+  26.  [What are the changes of pegmen in JDK 8. (PermGen and Meta)?](https://medium.com/platform-engineer/understanding-java-memory-model-1d0863f6d973)
+  27.  [What is Terminal/Non terminal Streaming.](https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/)
+  28.  [Differnt design patterns in Java 8 Functional style ?](https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
+  29. What is Method Reference and Functional Interface ?
+  30. Please define Overridden rules for default/static method in java 8.
+  31. Questions Related to JAVA Design Patterns mainly
+  32. Creational Design Patters
+  33. Singleton
+  34. Builder
+  35. Factory
+  36. Prototype
+  37. Structural Design Patterns
+  38. Adaptor
+  39. Bridge
+  40. Proxy
+  41. Decorator
+  42. Behavioral Design Patterns
+  43. Chain of Responsibility
+  44. Observer
+  45.  Strategy
+
 
 </details>
 
@@ -309,25 +337,15 @@
   2. What is 12-Factor App ? // if all these there then it's microservice enabled
   
   3. What are the type of Service Discovery ?
+  4. What is the difference between normal REST service and Restful WS (Web Service)?
   
-  4. What is Terminal/Non terminal Streaming. (https://javagyansite.com/2020/02/05/stream-terminal-and-non-terminal-operations/) .
-  
-  5. Can we add consumer dynamically to Kafka ?
-  
-  6. What are the differnet Partition Startergy ?
-  
-  7. Mention the differnce between Kafak and JSM?
-  
-  8. How to avoid duplicate event kafka ?
-  
-  9. Differnt design patterns in Java 8 Functional style ?(https://blog.devgenius.io/implementing-design-patterns-using-java-8-lambda-c8a95ef66115)
-  10. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
-  11. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
-  12. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
-  13. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
-  14. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
-  15. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
- 16. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
+  5. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+  6. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+  7. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+  8. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+  9. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+  10. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+ 11. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 
 </details>
 
@@ -597,8 +615,7 @@
  - Will share the link later here (main depencey is springframework-kafka )
  
  For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
- 
- 
+
  **[⬆ Back to Top](#table-of-contents)** 
  
  </details>
@@ -656,6 +673,10 @@ Is it possible in kafka?
  |18. | Describe message compression in Kafka. What is the need of message|
  |19. | Tell me about some of the use cases where Kafka is not suitable.|
  |20. | Describe message compression in Kafka. What is the need of message |
+ |21. | Can we add consumer dynamically to Kafka ?
+ |22. | What are the differnet Partition Startergy ?
+ |23. | Mention the differnce between Kafak and JMS?
+ |24. | How to avoid duplicate event kafka ?
  
   ### 12
   
@@ -676,7 +697,7 @@ Is it possible in kafka?
 <details>
   <summary> Back Logs </summary>
 
-  [Pending Interview questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
+  [pending Questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
 
   [KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
 
