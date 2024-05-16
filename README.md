@@ -1,3 +1,5 @@
+[One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
+
 <details>
   <summary> About My Project </summary>
   
@@ -184,7 +186,12 @@
 </details>
 
 <details>
-  <summary>Core Java Basics - 1  </summary> 
+  <summary>Core Java </summary> 
+
+  ### ****** Core Java Start *******
+  
+  <details>
+  <summary>Set 1 </summary> 
   
   13. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
   14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
@@ -215,8 +222,12 @@
   39.  [How ParallelStream Works internally?](https://medium.com/@sum98kumar/java-interview-questions-9cb306e392d3)
   40.  [How threadpool executor works ?](https://www.digitalocean.com/community/tutorials/threadpoolexecutor-java-thread-pool-example-executorservice)
 
-## Java Collections
+  </details>
+  
+### Java Collections
 
+<details>
+  <summary>Set 1</summary> 
 63. How ConcurrentHashMap works ?
 64. How HashSet works internally ?
 65. What is Consisten Hashing?
@@ -227,6 +238,8 @@
 70. [Create An Immutable Map]()
 
 </details>
+
+### Streams 
 
 <details>
   <summary>Core Java Basics -2 </summary>
@@ -269,8 +282,10 @@
 
 
 </details>
+
+### Thread
 <details>
-  <summary>Core Java -3 </summary>
+  <summary>Set 1 </summary>
   
   1708. [Volatile vs Atomic Vs Synchronized](https://medium.com/@erayaraz10/understanding-atomic-volatile-and-synchronized-variables-in-java-differences-and-use-cases-b12f519a4c4b)
   1709. [What is Thread Local Cache](https://codegym.cc/quests/lectures/questcore.level07.lecture05)
@@ -324,7 +339,10 @@
   44. Observer
   45.  Strategy
 
-
+  </details>
+  
+ ### ****** Core Java End *******
+ 
 </details>
 
 <details>
@@ -368,118 +386,123 @@
 
 <details>
   <summary>Spring Boot</summary>
-  
-  66. What is Spring Boot and what are its Benefits?
-  
-  67. What makes Spring Boot superior to JAX-RS?
- 
-  68. What Spring Boot features help develop Microservices Applications?
-  
-  69. Why Spring Boot is preferred over any other framework?
-  
-  70. What are the key dependencies of Spring Boot?
-  
-  71. What are the advantages of Spring Boot?
-  
-  72. What are the features of Spring Boot?
-  
-  73. How do you create a Spring Boot application using Maven?
-  
-  74. How do you create a Spring Boot project using Spring Initializer?
-  
-  75. How do you create a Spring Boot project using boot CLI?
-  
-  76. How do you create a simple Spring Boot application?
-  
-  77. What are the Spring Boot Annotations?
-  
-  78. What are the Spring Boot properties?
-  
-  79. What are the Spring Boot Starters?
-  
-  80. What is Spring Boot Actuator?
-  
-  81. What is thyme leaf?
-  
-  82. How to use thyme leaf?
-  
-  83. How do you connect Spring Boot to the database using JPA?
-  
-  84. How to connect the Spring Boot application to a database using JDBC?
-  
-  85. What is @RestController annotation in Spring Boot?
-  
-  86. What is @RequestMapping annotation in Spring Boot?
-  
-  87. How do you create a Spring Boot application using Spring Starter Project Wizard?
-  
-  88. Spring Vs Spring Boot? Or Why Spring Boot over Spring?
-  
-  89. What annotations are used to create an Interceptor?
-  
-  90. What is a Swagger in Spring Boot?
-  
-  91. What are Profiles in Spring Boot?
-  
-  92. What differentiates Spring Data JPA and Hibernate?
-  
-  93. How are the @RestController and @Controller Annotation different?
- 
-  94. How does Spring Boot works?
-  95. What does the @SpringBootApplication annotation do internally?
-  96. What is the purpose of using @ComponentScan in the class files?
-  97. How does a spring boot application get started?
-  98. Can we create a non-web application in Spring Boot?
-  99. Can we override or replace the Embedded tomcat server in Spring Boot?
-  100. Can we disable the default web server in the Spring boot application?
-  101. How to disable a specific auto-configuration class?
-  102. Describe the flow of HTTPS requests through the Spring Boot application?
-  103. What is the difference between RequestMapping and GetMapping?
-  104. What is the use of Profiles in spring boot?
-  105. What is Spring Actuator? What are its advantages?
-  106. How to enable Actuator in Spring boot application?
-  107. What are the actuator-provided endpoints used for monitoring the Spring boot application?
-  108. How to get the list of all the beans in your Spring boot application?
-  109. How to check the environment properties in your Spring boot application?
-  110. How to enable debugging log in the spring boot application?
-  111. Where do we define properties in the Spring Boot application?
-  112. What is dependency Injection?
-  113.  What is an IOC container?
-  114.  What are some essential features of Spring Security?
-  115.  What is Spring security authentication and authorization?
-  116.  What do you mean by basic authentication?
-  117.  What do you mean by digest authentication?
-  118.  What do you mean by session management in Spring Security?
-  119.  Explain SecurityContext and SecurityContext Holder in Spring security.
-  120.  Explain spring security OAuth2.
-  121. What do you mean by OAuth2 Authorization code grant type?
-  122.  What is method security and why do we need it?
-  123.  What do you mean by HASHING in spring security?
-  124.  Explain salting and its usage.
-  125.  What is PasswordEncoder?
-  126.  Explain AbstractSecurityInterceptor in spring security?
-  127.  Is security a cross-cutting concern?
-  128. What is SpEL (Spring Expression Language)?
-  129. Name security annotations that are allowed to use SpEL.
-  130. Explain what is AuthenticationManager in Spring security.
-  131. Explain what is ProviderManager in Spring security.
-  132. What is JWT?
-  134. What is Spring Security Filter Chain?
-  135. Explain how the security filter chain works.
-  136. Name some predefined filters used in spring security and write their functions.
-  137. What do you mean by principal in Spring security?
-  138. Can you explain what is DelegatingFilterProxy in spring security?
-  139. Can you explain what is FilterChainProxy in spring security?
-  140. What is the intercept-url pattern and why do we need it?
-  141. Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
-  142. State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
-  143. State the difference between @PreAuthorize and @Secured in Spring security.
-  144. State the difference between @Secured and @RolesAllowed.
 
-  ### Spring Boot Advance  - 1
+  ### ******* *****  **** *** Spring Boot Start **** **** **** ***** ***** *****
 
   <details>
-  <summary>Very Important</summary>
+  <summary>Set - 1</summary>
+  
+  1. What is Spring Boot and what are its Benefits?  
+  2. What makes Spring Boot superior to JAX-RS? 
+  3. What Spring Boot features help develop Microservices Applications?  
+  4. Why Spring Boot is preferred over any other framework?  
+  5. What are the key dependencies of Spring Boot?  
+  6. What are the advantages of Spring Boot?  
+  7. What are the features of Spring Boot?  
+  8. How do you create a Spring Boot application using Maven?  
+  9. How do you create a Spring Boot project using Spring Initializer?  
+  10. How do you create a Spring Boot project using boot CLI?  
+  11. How do you create a simple Spring Boot application?  
+  12. What are the Spring Boot Annotations?  
+  13. What are the Spring Boot properties?  
+  14. What are the Spring Boot Starters?  
+  15. What is Spring Boot Actuator?  
+  16. What is thyme leaf?  
+  17. How to use thyme leaf? 
+  18. How do you connect Spring Boot to the database using JPA?  
+  19. How to connect the Spring Boot application to a database using JDBC?
+
+  </details>
+
+  ### Spring Web
+   
+   <details>
+   <summary>Set -1</summary>
+  
+  1. What is @RestController annotation in Spring Boot?  
+  2. What is @RequestMapping annotation in Spring Boot?  
+  3. How do you create a Spring Boot application using Spring Starter Project Wizard?  
+  4. Spring Vs Spring Boot? Or Why Spring Boot over Spring?  
+  5. What annotations are used to create an Interceptor?  
+  6. What is a Swagger in Spring Boot?  
+  7. What are Profiles in Spring Boot?  
+  8. What differentiates Spring Data JPA and Hibernate?  
+  9. How are the @RestController and @Controller Annotation different? 
+  10. How does Spring Boot works?
+  11. What does the @SpringBootApplication annotation do internally?
+  12. What is the purpose of using @ComponentScan in the class files?
+  13. How does a spring boot application get started?
+  14. Can we create a non-web application in Spring Boot?
+  15. Can we override or replace the Embedded tomcat server in Spring Boot?
+  16. Can we disable the default web server in the Spring boot application?
+  17. How to disable a specific auto-configuration class?
+  18. Describe the flow of HTTPS requests through the Spring Boot application?
+  19. What is the difference between RequestMapping and GetMapping?
+  20. What is the use of Profiles in spring boot?
+  21. What is Spring Actuator? What are its advantages?
+  22. How to enable Actuator in Spring boot application?
+  23. What are the actuator-provided endpoints used for monitoring the Spring boot application?
+  24. How to get the list of all the beans in your Spring boot application?
+  25. How to check the environment properties in your Spring boot application?
+  26. How to enable debugging log in the spring boot application?
+  27. Where do we define properties in the Spring Boot application?
+  28. What is dependency Injection?
+  29. What is an IOC container?
+
+   </details>
+
+   ### Spring Security
+   
+   <details>
+   <summary>Set -1</summary>
+     
+  1.  What are some essential features of Spring Security?
+  2.  What is Spring security authentication and authorization?
+  3.  What do you mean by basic authentication?
+  4.  What do you mean by digest authentication?
+  5.  What do you mean by session management in Spring Security?
+  6.  Explain SecurityContext and SecurityContext Holder in Spring security.
+  7.  Explain spring security OAuth2.
+  8. What do you mean by OAuth2 Authorization code grant type?
+  9.  What is method security and why do we need it?
+  10.  What do you mean by HASHING in spring security?
+
+  </details>
+
+  <details>
+   <summary>Set -2</summary>
+  1.  Explain salting and its usage.
+  2.  What is PasswordEncoder?
+  3.  Explain AbstractSecurityInterceptor in spring security?
+  4.  Is security a cross-cutting concern?
+  5. What is SpEL (Spring Expression Language)?
+  6. Name security annotations that are allowed to use SpEL.
+  7. Explain what is AuthenticationManager in Spring security.
+  8. Explain what is ProviderManager in Spring security.
+  9. What is JWT?
+  10. What is Spring Security Filter Chain?
+    
+  </details>
+  
+  <details>
+   <summary>Set - 3</summary>
+  1. Explain how the security filter chain works.
+  2. Name some predefined filters used in spring security and write their functions.
+  3. What do you mean by principal in Spring security?
+  4. Can you explain what is DelegatingFilterProxy in spring security?
+  5. Can you explain what is FilterChainProxy in spring security?
+  6. What is the intercept-url pattern and why do we need it?
+  7. Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
+  8. State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
+  9. State the difference between @PreAuthorize and @Secured in Spring security.
+  10. State the difference between @Secured and @RolesAllowed.
+  
+  </details>
+
+  ### Spring Boot Advance
+
+  <details>
+  <summary>Set -1</summary>
 
    1703. [Spring Reactive Flux]()
    1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
@@ -505,6 +528,8 @@
   19.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
       
 </details>
+
+  ### ******* *****  **** *** Spring Boot End **** **** **** ***** ***** *****
   </details>
 
 <details>
