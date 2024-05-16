@@ -451,7 +451,7 @@
 
    </details>
 
-   ### Spring Security
+   ### [Spring Security](https://medium.com/@a.zagarella/spring-security-basic-authentication-and-role-based-authorization-04fa626f961a)
    
    <details>
    <summary>Set -1</summary>
