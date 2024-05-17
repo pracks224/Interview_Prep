@@ -54,7 +54,7 @@ Ans:
 12. How to run the ansible file?
     ansible-playbook -i inventory.yml webserver.yml
 
-13.Lab Setup 
+13.Lab Setup  (Parallel box to set up virtual machine for practise -pending here)
 14.Ansible Installation
 15.First Ansible Playbook
 16.Overview of Ansible Playbook
