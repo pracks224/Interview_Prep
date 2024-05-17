@@ -24,12 +24,22 @@ Ans: Small programs to do  a task
      For ex : Install Ngnix,Start Docker,Create File etc
      
 7.what is ansible playbook?  ==> Multiple modules makes a playbook
+
 8.What is the use Inventory?
 Ans: 
-9. What is Ansible Tower?
+
+9. What is RedHat Ansible Tower?
+Ans: A web based UI,C
+     Centralized mamangement,
+     Job Scheduling,
+     Reporting and Analytics,
+     Integrate with ticketing System tool
+
 10.What are the alternative tools compare to Ansible ? => puppet and chef. Why Ansible is better?
+
 11. Sample YAML File  , give with a example
-    //webserver.yaml
+Ans:
+//webserver.yaml
  name: Install Apache Web Server
  hosts: webserver <==== Inventory
  become: true
@@ -38,5 +48,7 @@ Ans:
        apt:
             name: apache2
             state: present
+12. How to run the ansible file?
+    ansible-playbook -i inventory.yml webserver.yml
  
   
