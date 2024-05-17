@@ -1,13 +1,20 @@
 1.What is Anisble? 
-  -> opensource , tool to automate IT task. Written in python by redhat
-  ->  Ex: 4 server and wants to install Apache server
+Ans:  -> opensource , tool to automate IT task. Written in python by redhat
+      ->  Ex: 4 server and wants to install Apache server
       -> We have to SSH to each server will do the manual repeated tasks
       -> Using Anisble, we have to install in control machine and write the configuration once , install the apche to multiple server  using 
          the configuration steps
 2.What IT task? -> 
+
 3.Why it's good to automate IT Task?->
+
 3.1. What are the advantages of ansible ?
-4. Explain Anasible is agentles??
+Ans : i.  Simple and Easy to use using YAML to  define PlayBook
+      ii. Agentless Architecture ( No need to install ansible in the target server like other tools needed
+      iii. Configuration Management -> It can be used to automate configuarion mgmt task such as provisioning,application deployment and infrastructure management
+      iv. Scalability - Manage last scale of servers
+            
+4.Explain Anasible is agentles??
 5.Anisble architecture ?
 6.ANsible Modules? ===> Very Important
 7.what is ansible playbook?
