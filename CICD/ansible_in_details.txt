@@ -1,1 +1,9 @@
-
+1.What is Anisble? -> tool to automate IT task
+2.What IT task? -> 
+3.Why it's good to automate IT Task?->
+4. Explain Anasible is agentles??
+5.Anisble architecture ?
+6.ANsible Modules? ===> Very Important
+7.what is ansible playbook?
+8.What is the use Ansible Inventory List?
+9.
