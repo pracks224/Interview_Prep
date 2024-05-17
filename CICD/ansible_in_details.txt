@@ -1,10 +1,11 @@
 1.What is Anisble? 
-Ans:  -> opensource , tool to automate IT task. Written in python by redhat
+Ans:  -> OPEN SOURCE , tool to automate IT task. Written in python by redhat
       ->  Ex: 4 server and wants to install Apache server
       -> We have to SSH to each server will do the manual repeated tasks
       -> Using Anisble, we have to install in control machine and write the configuration once , install the apche to multiple server  using 
          the configuration steps
-2.What IT task? -> 
+
+2.What IT task?
 
 3.Why it's good to automate IT Task?->
 
@@ -52,5 +53,30 @@ Ans:
             state: present
 12. How to run the ansible file?
     ansible-playbook -i inventory.yml webserver.yml
+
+13.Lab Setup 
+14.Ansible Installation
+15.First Ansible Playbook
+16.Overview of Ansible Playbook
+17.Ansible for remote server
+18.Installing App on Remote Server
+19.Copying files on remote server
+20.Backup of Files on remote server
+21.Create, Delete & Permission on Remote server
+22.Run script remotely
+23.Add Cron job remotely
+24.Create User on remote server
+25.Add or Update Password
+26.Find and Stop process
+27.Download files on Remote server
+28.Enable service in firewall
+29.Run tasks as SUDO user
+30.Ad Hoc task with Ansible
+31.Ansible tags
+32.Ansible Variables
+33.Ansible Handlers
+34.Ansible conditions
+35.Ansible loops
+36.Ansible ROLES
  
   
