@@ -1,9 +1,17 @@
-1.What is Anisble? -> tool to automate IT task
+1.What is Anisble? 
+  -> opensource , tool to automate IT task. Written in python by redhat
+  ->  Ex: 4 server and wants to install Apache server
+      -> We have to SSH to each server will do the manual repeated tasks
+      -> Using Anisble, we have to install in control machine and write the configuration once , install the apche to multiple server  using 
+         the configuration steps
 2.What IT task? -> 
 3.Why it's good to automate IT Task?->
+3.1. What are the advantages of ansible ?
 4. Explain Anasible is agentles??
 5.Anisble architecture ?
 6.ANsible Modules? ===> Very Important
 7.what is ansible playbook?
 8.What is the use Ansible Inventory List?
-9.
+9. What is Ansible Tower?
+10.What are the alternative tools compare to Ansible ? => puppet and chef. Why Ansible is better?
+11.
