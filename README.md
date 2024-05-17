@@ -64,6 +64,8 @@
 </details>
 <details>
   <summary>Docker/Kubernetes/Terraform/Ansible</summary> 
+
+   A. [ANSIBLE IN DETAILS](https://github.com/pracks224/Interview_Prep/blob/main/CICD/ansible_in_details.txt)
   
   [Blue Green Deployment Vs Rolling Deployment](https://medium.com/@navya.cloudops/devops-zero-to-hero-day-20-deployment-strategies-e6712b4801e4)
   
