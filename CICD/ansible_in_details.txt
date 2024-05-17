@@ -35,7 +35,9 @@ Ans: A web based UI,C
      Reporting and Analytics,
      Integrate with ticketing System tool
 
-10.What are the alternative tools compare to Ansible ? => puppet and chef. Why Ansible is better?
+10.What are the alternative tools compare to Ansible ? 
+   => puppet and chef, DSL and ruby based and Agnet based
+   => Ansible is faster
 
 11. Sample YAML File  , give with a example
 Ans:
