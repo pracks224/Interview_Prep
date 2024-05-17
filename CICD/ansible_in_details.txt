@@ -16,9 +16,16 @@ Ans : i.  Simple and Easy to use using YAML to  define PlayBook
             
 4.Explain Anasible is agentles??
 5.Anisble architecture ?
-6.ANsible Modules? ===> Very Important
+Ans: Inventory
+     PlayBook
+     Module
+6.Ansible Modules? ===> Very Important
+Ans: Small programs to do  a task
+     For ex : Install Ngnix,Start Docker,Create File etc
+     
 7.what is ansible playbook?
-8.What is the use Ansible Inventory List?
+8.What is the use Inventory?
+Ans: 
 9. What is Ansible Tower?
 10.What are the alternative tools compare to Ansible ? => puppet and chef. Why Ansible is better?
-11.
+11. Sample YAML File  , give with a example
