@@ -55,8 +55,23 @@ Ans:
     ansible-playbook -i inventory.yml webserver.yml
 
 13.Lab Setup  (Parallel box to set up virtual machine for practise -pending here)
+   -> create 3 centOS vm
+   -> one will be control vm where you have to install the Ansible and other remote servers
+   -> First check will be accessiblity between the control vm with other remote servers
+   -> It has to be based on ssh-keygen using private and public keys kind of certificates
+   -> After ssh-copy , we can ssh to remote servers with out passwords
 14.Ansible Installation
+   ->sudo  dnf install ansible
+     By default it wont present hence
+     sudo dnf epel-release ansible
+    -> After installation,if it's running successfully or not
+       ansible localhost -m ping 
+     -> after installation, under /etc/anisble folder creates.
+        -> It has mainly three folders/files roles,hosts,ansible.cfg 
+     -> By default less ansible.cfg wont have ,to create/generate it 
+        ansible-config init  --disable -t all > ansible.cfg 
 15.First Ansible Playbook
+   ->
 16.Overview of Ansible Playbook
 17.Ansible for remote server
 18.Installing App on Remote Server
