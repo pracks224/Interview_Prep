@@ -15,7 +15,7 @@
 <details>
   <summary>No SQLs </summary>
   
-  1501. [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
+  1501.  [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
   1502.  [API Gateway Pattern]()
   1503.  [Marker Interface and Annotation]()
   1504.  [Memory Leak - Reasons]()
@@ -31,9 +31,9 @@
 </details>
 
 <details>
-  <summary>System Design Concepts </summary> 
+  <summary>System Design Concepts </summary>
 
-  ### Application Security
+### Application Security
 
   <details>
     <summary>Set 1</summary> 
@@ -41,58 +41,59 @@
 
   </details>
 
-  1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
-  1397. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
-  1399. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
- 1400. [Design FB Messanger]()
- 1398. [Design Instagram]()
- 1401. CDNs
- 1402. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
- 1403. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
- 1404. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
- 1405. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
- 1406. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
- 1407. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
- 1408. [Store trillions of Data](https://medium.com/@iBMehta/how-discord-stores-trillions-of-messages-31ed9195c3e8)
-       - MongoDB upto ~100 millions
-       - Cassandra is better for Billions of data uses LSM for retreiveal. Read is expensive than write
-       - ScyllaDB with Rust API is good for Trillions of data
+1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
+1706. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
+1707. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
+1708. [Design FB Messanger]()
+1709. [Design Instagram]()
+1710. CDNs
+1711. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
+1712. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
+1713. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
+1714. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
+1715. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
+1716. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
+1717. [Store trillions of Data](https://medium.com/@iBMehta/how-discord-stores-trillions-of-messages-31ed9195c3e8)
 
-1409. [Well documented - All Concepts in one Place](https://github.com/black-shadows/System-Design )
+      - MongoDB upto ~100 millions
+      - Cassandra is better for Billions of data uses LSM for retreiveal. Read is expensive than write
+      - ScyllaDB with Rust API is good for Trillions of data
 
-1410. Design Data Intensive Application Book Overview.
-1411. Consistency Hashing.
-1412. Isolation levels.
-1414. 2PL
-1415. [How to make the API end point faster.](https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
-1416. [Scalable Notification System](https://medium.com/@adityagoel123/designing-scalable-notification-system-79f83272755e)
-  
+1718. [Well documented - All Concepts in one Place](https://github.com/black-shadows/System-Design)
+
+1719. Design Data Intensive Application Book Overview.
+1720. Consistency Hashing.
+1721. Isolation levels.
+1722. 2PL
+1723. [How to make the API end point faster.](https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
+1724. [Scalable Notification System](https://medium.com/@adityagoel123/designing-scalable-notification-system-79f83272755e)
+
 </details>
 <details>
-  <summary>Docker/Kubernetes/Terraform/Ansible</summary> 
+  <summary>Docker/Kubernetes/Terraform/Ansible</summary>
 
-   A. [ANSIBLE IN DETAILS](https://github.com/pracks224/Interview_Prep/blob/main/CICD/ansible_in_details.txt)
-  
-  [Blue Green Deployment Vs Rolling Deployment](https://medium.com/@navya.cloudops/devops-zero-to-hero-day-20-deployment-strategies-e6712b4801e4)
-  
-  Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
-  
-  Q.2) [Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.]()
-  
-  Q.3) [Steps to Dockerizing an Application .]()
-  
-  Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-  
-  Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+A. [ANSIBLE IN DETAILS](https://github.com/pracks224/Interview_Prep/blob/main/CICD/ansible_in_details.txt)
 
-  Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+[Blue Green Deployment Vs Rolling Deployment](https://medium.com/@navya.cloudops/devops-zero-to-hero-day-20-deployment-strategies-e6712b4801e4)
 
-  Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
- 
-  Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
 
-  Q.9) [Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Kubernetes_In_Details)
-  
+Q.2) [Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.]()
+
+Q.3) [Steps to Dockerizing an Application .]()
+
+Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
+
+Q.9) [Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Kubernetes_In_Details)
+
 </details>
 
 <details>
@@ -116,25 +117,25 @@
   Q.5) [Closest Palindrome -> Return Yes if string can be converted to palindrom by changing 
      one character.](DSA/src/ArrayString)
 
-   ### Array :
+### Array :
 
-   Q.1) Count of Pairs with sum = K
-   
-   Q.2) Given an ArrayList of integers, return all the unique numbers in the ArrayList.
-   
-   Q.3) Given a matrix, row index =0, return sum of that particular row.
+Q.1) Count of Pairs with sum = K
 
-   Q.4) Given a 2D array and a column index, return sum of that particular column.
+Q.2) Given an ArrayList of integers, return all the unique numbers in the ArrayList.
 
-   Q.5) Write a function to add two matrix of same dimension and return the resultant
+Q.3) Given a matrix, row index =0, return sum of that particular row.
 
-   Q.6) Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
+Q.4) Given a 2D array and a column index, return sum of that particular column.
 
-   Q.7) Given an array of size N, shift all the elements to the right by 1 and move the last element to the beginning of array
+Q.5) Write a function to add two matrix of same dimension and return the resultant
 
-   ### Miscllenaous
+Q.6) Given an array A of N integers. Count the number of elements that have at least 1 elements greater than itself.
 
-   44. Implement an algorithm to determine if a string has all unique characters. What if you
+Q.7) Given an array of size N, shift all the elements to the right by 1 and move the last element to the beginning of array
+
+### Miscllenaous
+
+44. Implement an algorithm to determine if a string has all unique characters. What if you
     cannot use additional data structures? (Bitwise way to understand)
 45. One string permutaion of other
 46. URLfy of String (Yet to Solve) %%%%%%%%% %%%%% All below %%%%%% %%%%%%%
@@ -152,37 +153,37 @@
 50. String Rotation: Assume you have a method i 5Su b 5 tr ing which checks if one word is a substring
     of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
     call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
-  
+
 </details>
 
 <details>
   <summary>Cloud Technologies </summary>
 
-  [SaaS vs. PaaS vs. IaaS with example](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
-  
-  [SAAS example - DropBox Google workbook sales force and?]()
-  
-  [PAAS example - Open shift,Elastci Bean Heroku and ?]()
-  
-  [IAAS example AWS,Azure and  ?]()
-  
-  [Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/aws-in-plain-english/ace-your-aws-interview-i-90d4ab4daf4c)
-  
-  [Q2. What are the tools used to send logs to cloud environment?]()
-  
-  [Q3. What are IAM Roles? How do you create /manage them?]()
-  
-  [Q4. How to upgrade or downgrade a system with zero downtime?]()
-  
-  [Q5. What is infrastructure as code and how do you use it?]()
-  
-  [Q6. What is a load balancer? Give scenarios of each kind of balancer based on your experience.](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-  
-  [Q7.What is the difference between the Amazon Rds, Dynamodb, and Redshift?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-  
-  [Q8.What is CloudFormation and why is it used for?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
+[SaaS vs. PaaS vs. IaaS with example](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
 
-   ### APIGEE
+[SAAS example - DropBox Google workbook sales force and?]()
+
+[PAAS example - Open shift,Elastci Bean Heroku and ?]()
+
+[IAAS example AWS,Azure and ?]()
+
+[Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/aws-in-plain-english/ace-your-aws-interview-i-90d4ab4daf4c)
+
+[Q2. What are the tools used to send logs to cloud environment?]()
+
+[Q3. What are IAM Roles? How do you create /manage them?]()
+
+[Q4. How to upgrade or downgrade a system with zero downtime?]()
+
+[Q5. What is infrastructure as code and how do you use it?]()
+
+[Q6. What is a load balancer? Give scenarios of each kind of balancer based on your experience.](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
+
+[Q7.What is the difference between the Amazon Rds, Dynamodb, and Redshift?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
+
+[Q8.What is CloudFormation and why is it used for?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
+
+### APIGEE
 
   <details>
   <summary>A Powerful Solution on Google Cloud</summary>
@@ -194,41 +195,41 @@
 </details>
 
 <details>
-  <summary>Core Java </summary> 
+  <summary>Core Java </summary>
 
-  ### ****** Core Java Start *******
-  
+### **\*\*** Core Java Start **\*\*\***
+
   <details>
-  <summary>Set 1 </summary> 
+  <summary>Set 1(CJ1) </summary> 
   
-  13. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
-  14. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
-  15. Method overriding passing null object . //Subclass object gets the preference which is String in this case
-  16. Differnce between String,StringBuilder and StringBUffer?
-  17. How String concatnation operator internally works ?
-  18. Best/efficient way to join String ?
-  19. What is Method references?
-  20. Anagram check in Java?
-  21. [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
-  22. How can you create a comparator?
-  23. [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-  24. What is transient variable ?
-  25.  https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
-  26.  What is Flattening?
-  27.  Return a list of all unique characters for a list of words?
-  28.  Return Square of numbers of list of integers using Stream
-  29.  Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
-  30.  How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
-  31.  What is Short-circuiting evaluation in stream ?
-  32.  When to use findFirst and findAny.
-  33.  Summing all the element of a list.
-  34.  Describe the use of Optional in Java?
-  35.  Describe the differnce between map,flatmap and reducce
-  36.  [Java 8 Feature - Method Reference](https://github.com/pracks224/Interview_Prep/tree/main/INTERVIEW_CORE_JAVA/Feature8)
-  37.  [Java 8 Feature - Lambda](https://medium.com/java-pearls/taming-the-lambda-a-practical-guide-to-java-8-lambda-expressions-6c0051f97995)
-  38.  [Concurrent Modification Using Stream API Possible ?](https://medium.com/@sum98kumar/java-developer-interview-questions-and-answers-b5732cd18c5b)
-  39.  [How ParallelStream Works internally?](https://medium.com/@sum98kumar/java-interview-questions-9cb306e392d3)
-  40.  [How threadpool executor works ?](https://www.digitalocean.com/community/tutorials/threadpoolexecutor-java-thread-pool-example-executorservice)
+  1. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
+  2. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
+  3. Method overriding passing null object . 
+  ->4. [Differnce between String,StringBuilder and StringBuffer?](https://medium.com/@salvipriya97/string-vs-stringbuilder-vs-stringbuffer-which-one-to-choose-4308dbcc3022)
+  5. How String concatnation operator internally works ?
+  6. Best/efficient way to join String ?
+  7. What is Method references?
+  8. Anagram check in Java?
+  9. [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+  10. How can you create a comparator?
+  11. [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
+  12. What is transient variable ?
+  13.  https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
+  14.  What is Flattening?
+  15.  Return a list of all unique characters for a list of words?
+  16.  Return Square of numbers of list of integers using Stream
+  17.  Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
+  18.  How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+  19.  What is Short-circuiting evaluation in stream ?
+  20.  When to use findFirst and findAny.
+  21.  Summing all the element of a list.
+  22.  Describe the use of Optional in Java?
+  23.  Describe the differnce between map,flatmap and reducce
+  24.  [Java 8 Feature - Method Reference](https://github.com/pracks224/Interview_Prep/tree/main/INTERVIEW_CORE_JAVA/Feature8)
+  25.  [Java 8 Feature - Lambda](https://medium.com/java-pearls/taming-the-lambda-a-practical-guide-to-java-8-lambda-expressions-6c0051f97995)
+  26.  [Concurrent Modification Using Stream API Possible ?](https://medium.com/@sum98kumar/java-developer-interview-questions-and-answers-b5732cd18c5b)
+  27.  [How ParallelStream Works internally?](https://medium.com/@sum98kumar/java-interview-questions-9cb306e392d3)
+  28.  [How threadpool executor works ?](https://www.digitalocean.com/community/tutorials/threadpoolexecutor-java-thread-pool-example-executorservice)
 
   </details>
   
@@ -247,51 +248,51 @@
 
 </details>
 
-### Streams 
+### Streams
 
 <details>
   <summary>Core Java Basics -2 </summary>
   
   Q.1) Find the most populated city of each continent
 
-  Q.2) Find the number of movies of each director
+Q.2) Find the number of movies of each director
 
-  Q.3) Find the number of genres of each director's movies
-  
-  Q.4) Find the highest populated capital city
-  
-  Q.5) Find the highest populated capital city of each continent
-  
-  Q.6) Sort the countries by number of their cities in descending order
-  
-  Q.7) Find the list of movies having the genres "Drama" and "Comedy" only
-  
-  Q.8) Group the movies by the year and list them
-  
-  Q.9) Sort the countries by their population densities in descending order ignoring zero population countries
-  
-  Q.10) Find the richest country of each continent with respect to their GNP (Gross National Product) values.
-  
-  Q.11) Find the minimum, the maximum and the average population of world countries.
-  
-  Q.12) Find the minimum, the maximum and the average population of each continent.
-  
-  Q.13) Find the countries with the minimum and the maximum population.
-  
-  Q.14) Find the countries of each continent with the minimum and the maximum population.
-  
-  Q.15) Group the countries by continent, and then sort the countries in continent by number of cities in each continent.
-  
-  Q.16) Find the cities with the minimum and the maximum population in countries.
-  
-  Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
-  
-  Q.18) Find the year where the maximum number of movie is available
+Q.3) Find the number of genres of each director's movies
 
+Q.4) Find the highest populated capital city
+
+Q.5) Find the highest populated capital city of each continent
+
+Q.6) Sort the countries by number of their cities in descending order
+
+Q.7) Find the list of movies having the genres "Drama" and "Comedy" only
+
+Q.8) Group the movies by the year and list them
+
+Q.9) Sort the countries by their population densities in descending order ignoring zero population countries
+
+Q.10) Find the richest country of each continent with respect to their GNP (Gross National Product) values.
+
+Q.11) Find the minimum, the maximum and the average population of world countries.
+
+Q.12) Find the minimum, the maximum and the average population of each continent.
+
+Q.13) Find the countries with the minimum and the maximum population.
+
+Q.14) Find the countries of each continent with the minimum and the maximum population.
+
+Q.15) Group the countries by continent, and then sort the countries in continent by number of cities in each continent.
+
+Q.16) Find the cities with the minimum and the maximum population in countries.
+
+Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
+
+Q.18) Find the year where the maximum number of movie is available
 
 </details>
 
 ### Thread
+
 <details>
   <summary>Set 1 </summary>
   
@@ -356,54 +357,55 @@
 <details>
   <summary>Microservices Design Patterns & Advance Concepts</summary>
 
-  1. [How secure a Microservice ?]()
-  2. What is the diffence between cohesion and coupling ?  
-  3. What is 12-Factor App ? // if all these there then it's microservice enabled
-  4. What are the type of Service Discovery ?
-  5. What is the difference between normal REST service and Restful WS (Web Service)?
-  6. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
-  7. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
-  8. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
-  9. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
-  10. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
-  11. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
- 12. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
+1. [How secure a Microservice ?]()
+2. What is the diffence between cohesion and coupling ?
+3. What is 12-Factor App ? // if all these there then it's microservice enabled
+4. What are the type of Service Discovery ?
+5. What is the difference between normal REST service and Restful WS (Web Service)?
+6. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+7. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+8. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+9. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+10. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+11. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+12. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
 
 #### Software Design Principles
+
  <details>
   <summary>Set 1</summary>
 
-  1. [Solid]()
-  2. [DRY]()
-  3. [KISS]()
-  4. [GRASP]()
-  5. [High Cohesion]()
-  6. [Low Coupling]()
-     
+1. [Solid]()
+2. [DRY]()
+3. [KISS]()
+4. [GRASP]()
+5. [High Cohesion]()
+6. [Low Coupling]()
+
  </details>
 </details>
 
 <details>
   <summary>Node Js & Front End</summary>
 
-  1702. [Microfont end]()
+1702. [Microfont end]()
 
-43. [Javascript Event Loop and Call Stack Explain?](https://www.knowledgehut.com/blog/web-development/node-js-event-loop)
-44. [How to create object in Javascript?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
-45. [Difference between Object.freeze() and const in JavaScript ?]()
-46. [How to deep-freeze an object in JavaScript ?](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-47. [Implement sum(2)(3)() (Currying funtions- is also a higher order function](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-48. [What is the difference between call(),apply() and bind() methods?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
-49. [How can you handle errors in Node.js, and what is the purpose of the error event in streams?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
-50. [What is a closure in JavaScript, and how is it relevant in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
-51. [What is the difference between setTimeout and setImmediate in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
+1703. [Javascript Event Loop and Call Stack Explain?](https://www.knowledgehut.com/blog/web-development/node-js-event-loop)
+1704. [How to create object in Javascript?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
+1705. [Difference between Object.freeze() and const in JavaScript ?]()
+1706. [How to deep-freeze an object in JavaScript ?](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+1707. [Implement sum(2)(3)() (Currying funtions- is also a higher order function](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
+1708. [What is the difference between call(),apply() and bind() methods?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
+1709. [How can you handle errors in Node.js, and what is the purpose of the error event in streams?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
+1710. [What is a closure in JavaScript, and how is it relevant in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
+1711. [What is the difference between setTimeout and setImmediate in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
 
 </details>
 
 <details>
   <summary>Spring Boot</summary>
 
-  ### ******* *****  **** *** Spring Boot Start **** **** **** ***** ***** *****
+### **\*\*\*** **\*** \***\* \*** Spring Boot Start \***\* \*\*** \***\* \*\*\*** **\*** **\***
 
   <details>
   <summary>Set - 1</summary>
@@ -430,8 +432,8 @@
 
   </details>
 
-  ### Spring Web
-   
+### Spring Web
+
    <details>
    <summary>Set -1</summary>
   
@@ -467,8 +469,8 @@
 
    </details>
 
-   ### [Spring Security](https://medium.com/@a.zagarella/spring-security-basic-authentication-and-role-based-authorization-04fa626f961a)
-   
+### [Spring Security](https://medium.com/@a.zagarella/spring-security-basic-authentication-and-role-based-authorization-04fa626f961a)
+
    <details>
    <summary>Set -1</summary>
      
@@ -515,43 +517,44 @@
   
   </details>
 
-  ### Spring Boot Advance
+### Spring Boot Advance
 
   <details>
   <summary>Set -1</summary>
 
-   1703. [Spring Reactive Flux]()
-   1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
-  
-  1. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-  2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-  3. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
-  4. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
-  5. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
-  6. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
-  7. How to add Global CORS configuration for the application?
-  8. What is the use @Configuration? //Bean Definitions
-  9. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
-  10. CQRS design patterns in Microservices?
-  11. Design a URL Shortner (tinyurl)
-  12. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
-  13. Design a notification System
-  14. Describe the use case of JSON Web Token?
-  15. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  16.  [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
-  17.  [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
-  18.  [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-  19.  [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
-      
+1703. [Spring Reactive Flux]()
+1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
+
+1705. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+1706. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+1707. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+1708. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
+1709. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+1710. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+1711. How to add Global CORS configuration for the application?
+1712. What is the use @Configuration? //Bean Definitions
+1713. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+1714. CQRS design patterns in Microservices?
+1715. Design a URL Shortner (tinyurl)
+1716. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+1717. Design a notification System
+1718. Describe the use case of JSON Web Token?
+1719. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+1720. [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
+1721. [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
+1722. [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+1723. [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
+
 </details>
 
-  ### ******* *****  **** *** Spring Boot End **** **** **** ***** ***** *****
+### **\*\*\*** **\*** \***\* \*** Spring Boot End \***\* \*\*** \***\* \*\*\*** **\*** **\***
+
   </details>
 
 <details>
   <summary>KAFKAAA</summary>
 
-  ## Kafka
+## Kafka
 
 <details>
   <summary>Important Notes to revise</summary>  
@@ -657,8 +660,8 @@
  
  For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
 
- **[⬆ Back to Top](#table-of-contents)** 
- 
+**[⬆ Back to Top](#table-of-contents)**
+
  </details>
  
  <details>
@@ -761,5 +764,6 @@ Is it possible in kafka?
 [KUBERNETES Certification]()
 
 [OPENSHIFT]()
-       
+
 </details>
+```

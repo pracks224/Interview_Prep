@@ -15,8 +15,10 @@ public class OptionalTest {
     }
 
     public static void main(String[] args) {
-     Optional<Student> st = getStudentWithName("mmmm");
-    // System.out.println(st.name()); // it will throw null pointer exception
+      Optional<Student> st = getStudentWithName("mmmm");
+      //Student  student = Optional.ofNullable(getStudentWithName("fs")).orElseThrow(()-> new StudentNotFoundException("the Student is not Present "));
+       // System.out.println(student.getName());
+       // System.out.println(st.name()); // it will throw null pointer exception
         if(st.isPresent()){
             System.out.println(st.get().name());
         }else{
