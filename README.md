@@ -237,6 +237,7 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
 
 <details>
   <summary>Set 1</summary> 
+  
 63. How ConcurrentHashMap works ?
 64. How HashSet works internally ?
 65. What is Consisten Hashing?
@@ -294,12 +295,18 @@ Q.18) Find the year where the maximum number of movie is available
 ### Thread
 
 <details>
-  <summary>Set 1 </summary>
+  <summary>Set 1</summary> 
   
-  1708. [Volatile vs Atomic Vs Synchronized](https://medium.com/@erayaraz10/understanding-atomic-volatile-and-synchronized-variables-in-java-differences-and-use-cases-b12f519a4c4b)
-  1709. [What is Thread Local Cache](https://codegym.cc/quests/lectures/questcore.level07.lecture05)
-  1710. [Importance of Thread Local](https://medium.com/@fullstacktips/what-is-threadlocal-in-java-a51bdaaa6079)
-  1711. [100 task 5 threads using executors and manual]()
+1. [Volatile vs Atomic Vs Synchronized](https://medium.com/@erayaraz10/understanding-atomic-volatile-and-synchronized-variables-in-java-differences-and-use-cases-b12f519a4c4b)
+2. [What is Thread Local Cache](https://codegym.cc/quests/lectures/questcore.level07.lecture05)
+3. [Importance of Thread Local](https://medium.com/@fullstacktips/what-is-threadlocal-in-java-a51bdaaa6079)
+4. [100 task 5 threads using executors and manual]()
+5.   
+</details>
+
+<details>
+  <summary>Set 2 </summary>
+  
   1712. [Java Records](https://medium.com/@mak0024/a-comprehensive-guide-to-java-records-2e8edcbd9c75)        
   1. Could you explain what is the "deadly diamond of death"?
   2. What's the difference between the Dependency Injection and Service Locator patterns?
