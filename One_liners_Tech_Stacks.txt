@@ -3,12 +3,12 @@ Title(Date)  : HikariCP(18-May-2024)
 One line     : Most popular connection pooling frameworks is HikariCP
 
 #2
-Title(Date ) :
-One line     :
+Title(Date ) : LLM(20-May-2024)
+One line     : It's stochastic parrot, uses multimodal neuarl network ..ex remember I am hunghy I want (biriyani..)
 
 
 #3
-Title(Date)  :
+Title(Date)  : 
 One line     :
 
 
