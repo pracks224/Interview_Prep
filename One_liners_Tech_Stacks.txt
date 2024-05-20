@@ -17,11 +17,11 @@ Title(Date)  : Microsoft is investing also on openAI,Inflection,Mistral
 One line     : We will make them dance
 
 #5
-Title(Date)  :
-One line     :
+Title(Date)  : AGI stands for Artificial General Intelligence
+One line     : Unlike narrow AI, which is designed for specific tasks (such as facial recognition or language translation), AGI can perform any intellectual task that a human can, adapting and transferring knowledge from one area to another.
 
 #6
-Title(Date)  :
+Title(Date)  : 
 One line     :
 
 #7
