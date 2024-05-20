@@ -8,13 +8,13 @@ One line     : It's stochastic parrot, uses multimodal neuarl network ..ex remem
 
 
 #3
-Title(Date)  : 
-One line     :
+Title(Date)  : GPT(Generative Pre-Trained Transformer) ==> Transformer actually build by Google
+One line     : ChatGPT used the transformer become threat to Google NOW . Sundar said used Transformer to all the products of google.
 
 
 #4
-Title(Date)  :
-One line     :
+Title(Date)  : Microsoft is investing also on openAI,Inflection,Mistral 
+One line     : We will make them dance
 
 #5
 Title(Date)  :
