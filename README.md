@@ -292,7 +292,7 @@ Q.18) Find the year where the maximum number of movie is available
 
 </details>
 
-### Thread
+### [Thread](https://github.com/pracks224/Interview_Prep/blob/main/MultiThreading/MULTI_THREADING.md)
 
 <details>
   <summary>Set 1</summary> 
