@@ -1,3 +1,100 @@
-1.What is OAuth 2.0 ?
-
-Ans: 
+Authentication
+Authorization
+Principal
+Granted Authority
+AuthenticationManager
+UserDetailsService
+PasswordEncoder
+Access Control List (ACL)
+Role-Based Access Control (RBAC)
+Method Security
+Authentication Provider
+Authentication Token
+Authentication Flow
+Remember-Me Authentication
+Session Management
+CSRF Protection
+CORS Configuration
+Web Security Configuration
+HttpSecurity
+Security Filters
+SecurityContextHolder
+UserDetails
+UserDetailsService
+AuthenticationSuccessHandler
+AuthenticationFailureHandler
+AccessDecisionManager
+AccessDeniedHandler
+UsernamePasswordAuthenticationToken
+RememberMeAuthenticationToken
+Concurrent Session Control
+OAuth2 Integration
+OpenID Connect Integration
+LDAP Authentication
+Active Directory Integration
+PreAuthentication
+X.509 Certificate Authentication
+Kerberos Authentication
+Single Sign-On (SSO)
+Token-Based Authentication
+JWT (JSON Web Token)
+Spring Security Annotations
+@Secured
+@PreAuthorize
+@PostAuthorize
+@RolesAllowed
+@EnableWebSecurity
+@EnableGlobalMethodSecurity
+CSRF Token
+CSRF Token Repository
+CSRF Filter
+CORS Filter
+CORS Configuration
+Security Headers
+Security Events
+Security Auditing
+DelegatingFilterProxy
+SecurityContextPersistenceFilter
+ExceptionTranslationFilter
+Logout Filter
+RememberMe Services
+RememberMe Authentication Filter
+SessionAuthenticationStrategy
+SessionRegistry
+Session Fixation Protection
+Java Configuration
+XML Configuration
+Expression-Based Access Control
+Anonymous Authentication
+Security Namespace
+SecurityExpressionRoot
+SecurityInterceptor
+Channel Security
+HTTP Basic Authentication
+HTTP Digest Authentication
+Form-Based Authentication
+Redirecting to HTTPS
+Custom Access Decision Voters
+Password Policies
+Custom Login Forms
+Database Integration
+In-Memory Authentication
+Remember-Me Token Repository
+Custom Authentication Providers
+Custom Filters
+Event Handling
+Custom Access Denied Page
+Custom Logout Handling
+Externalizing Security Configuration
+Testing with Spring Security
+Error Handling
+CSRF Token Expiry
+Session Timeout
+Security Headers
+CORS Pre-flight Requests
+Cross-Site Scripting (XSS) Protection
+Clickjacking Protection
+Application Security Best Practices
+Spring Boot and Spring Security Integration
+Security Best Practices
+Two-Factor Authentication
