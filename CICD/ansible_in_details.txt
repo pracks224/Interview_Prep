@@ -93,5 +93,25 @@ Ans:
 34.Ansible conditions
 35.Ansible loops
 36.Ansible ROLES
+37.`ansible-playbook`
+38.`hosts`
+39.`tasks`
+40.`handlers`
+41.`roles`
+42.`vars`
+43.`when`
+44.`become`
+45.`ansible-galaxy`
+46.`include`
+47.`with_items`
+48.`register`
+49.`debug`
+50.`notify`
+51.`ignore_errors`
+52.`changed_when`
+53.`delegate_to`
+54.`block`
+55.`environment`
+56.`import_playbook`
  
   
