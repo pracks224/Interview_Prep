@@ -1,3 +1,126 @@
+1. Spring Framework
+2. Spring Boot
+3. Dependency Injection (DI)
+4. Inversion of Control (IoC)
+5. Spring Annotations
+6. Application Context
+7. Bean
+8. @Component
+9. @Autowired
+10. @Qualifier
+11. @Configuration
+12. @Bean
+13. @Value
+14. @Primary
+15. @ComponentScan
+16. @RestController
+17. @RequestMapping
+18. @GetMapping
+19. @PostMapping
+20. @PutMapping
+21. @DeleteMapping
+22. @PatchMapping
+23. @RequestBody
+24. @ResponseBody
+25. ResponseEntity
+26. @PathVariable
+27. @RequestParam
+28. @ExceptionHandler
+29. @ControllerAdvice
+30. Spring MVC
+31. Spring Data JPA
+32. Spring Security
+33. Spring AOP (Aspect-Oriented Programming)
+34. Spring Transactions
+35. @Transactional
+36. JPA (Java Persistence API)
+37. Hibernate
+38. Spring Boot Starter
+39. Spring Boot Actuator
+40. Spring Boot DevTools
+41. Spring Boot CLI
+42. Spring Boot Autoconfiguration
+43. Spring Boot Properties
+44. Spring Boot Profiles
+45. SpringApplication
+46. YAML Configuration
+47. Logging with Spring Boot
+48. RESTful Web Services
+49. Microservices Architecture
+50. Spring Boot Testing
+51. Unit Testing
+52. Integration Testing
+53. MockMvc
+54. TestRestTemplate
+55. Spring Boot Security
+56. OAuth 2.0
+57. JWT (JSON Web Token)
+58. Spring Boot and Docker
+59. Spring Boot and Kubernetes
+60. Spring Boot and JMS (Java Message Service)
+61. Spring Boot and WebSockets
+62. Spring Boot and Caching
+63. Spring Boot and Scheduled Tasks
+64. Spring Boot and Thymeleaf
+65. Spring Boot and Angular
+66. Spring Boot and React
+67. Spring Boot and Vue.js
+68. Spring Boot and Kotlin
+69. Spring Boot Actuator Endpoints
+70. Actuator Health Check
+71. Actuator Metrics
+72. Actuator Auditing
+73. Actuator Environment
+74. Actuator Info
+75. Actuator Shutdown
+76. Actuator Beans
+77. Actuator Mappings
+78. Actuator Trace
+79. Actuator Web
+80. Actuator Heap Dump
+81. Actuator Thread Dump
+82. Actuator Prometheus
+83. Actuator Logfile
+84. Actuator HTTP Tracing
+85. Actuator Feature Toggles
+86. Spring Boot and MongoDB
+87. Spring Boot and MySQL
+88. Spring Boot and PostgreSQL
+89. Spring Boot and Redis
+90. Spring Boot and Cassandra
+91. Spring Boot and Elasticsearch
+92. Spring Boot and AWS (Amazon Web Services)
+93. Spring Boot and Azure
+94. Spring Boot and Google Cloud
+95. Spring Boot and Kafka
+96. Spring Boot and RabbitMQ
+97. Spring Boot and GraphQL
+98. Spring Boot and Batch Processing
+99. Spring Boot and Security Best Practices
+
+These concepts cover a wide range of topics that are commonly asked about in Spring Boot interviews.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 11. How do services communicate each other?
     ->Using HttpClient /Http/Rest call
     -> Asynchronous Messaging (Messaging queue)
