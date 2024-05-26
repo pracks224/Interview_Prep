@@ -1,6 +1,9 @@
 **Table of content:**
  - [Amazon EC2](#ec-2)
- 
+ - [Amazon EBS](#eb-s)
+
+   
+<a id="eb-s"></a> 
 #### Amazon EBS (Amazon Elastic Block Store):
   - Amazon EBS provides persistent block storage volumes that you can attach to your Amazon EC2 instances.
   - High available and can replicate with in the same AZs,low cost ,Max volume 16TB
@@ -119,6 +122,7 @@ fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	b
 <!-- EC2 Start -->
  <a id="ec-2"></a>
  ### Amazon Elastic Compute Cloud
- Hello world content goes here
+ -  EC2 allows to acquire compute through the launching of virtual servers called Intances
+ -  
   
     
