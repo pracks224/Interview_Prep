@@ -104,7 +104,13 @@
       - The	key	or	filename	is	the	string
 fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	backslashes to	help	you	name	and	logically	organize	your	Amazon	S3	objects . Here it looks like fee then fi then fo ,but in reality it's flat in nature.
      - To store	non-critical	or	easily	reproducible	derived	data,you	can	choose	to	use	Reduced Redundancy	Storage	(RRS)	at	a	lower	cost. RRS 99.99% with low cost.
-  
-      
+   - #### Data Consistency
+     - Eventual Consistent : means	that	if	you	PUT	new	data	to	an	existing	key,	a	subsequent	GET might	return	the	old	data
+     - You	will	get	the	new	data	or	the	old	data,	but	never	an inconsistent	mix	of	data.
+  - #### Access Control
+      - Coarse Grained Access Control  Using Amazon S3 Access Control Lists (ACLs)
+      - Fine Grained Access Control Using IAM,  S3 Bucket Policies,Query String Authentication etc.
+  - #### Amazon S3 Advanced Features
+  - PENDING
   
     
