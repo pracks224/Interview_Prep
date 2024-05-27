@@ -171,6 +171,12 @@ fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	b
      - Private: Associated route table does not directs the subnet's traffic to the Amzon VPC's IGW
      - VPN-Only: Associated route table directs the subnet's traffic to the Amzon VPC's VPG .Does	not	have	a	route	to	the	IGW.
    Subnet is always private and never routable to internet.
+ #### IGW (Internet Gateway):
+  - IGW allows to communicate between instances inside vpc with internet
+  -  Basically, the primary task of it is network transalation
+    E.G. An	Amazon	VPC	with	an	address	space	of	10.0.0.0/16,	one	subnet	with an	address	range	of	10.0.0.0/24,	a	route	table,	an	attached	IGW,	and	a	single	Amazon	EC2 instance	with	a	private	IP	address	and	an	EIP	address.	The	route	table	contains	two	routes: the	local	route	that	permits	inter-VPC	communication	and	a	route	that	sends	all	non-local traffic	to	the	IGW	(igw-id).	Note	that	the	Amazon	EC2	instance	has	a	public	IP	address	(EIP =	198.51.100.2);	this	instance	can	be	accessed	from	the	Internet,	and	traffic	may	originate	and return	to	this	instance.
+#### Elastic IP Addresses (EIPs) :
+ - An	Elastic	IP	Addresses	(EIP)	is	a	static, public	IP	address	in	the	pool	for	the	region	that	you	can	allocate	to	your	account	(pull	from the	pool)	and	release	(return	to	the	pool)
 
     
   
