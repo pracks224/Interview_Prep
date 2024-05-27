@@ -1,6 +1,9 @@
 **Table of content:**
  - [Amazon EC2](#ec-2)
  - [Amazon EBS](#eb-s)
+ - [Amazon VPC](#vp-c)
+    - [Understand CIDR](#cid-r)
+    - [Components Of VPC](#comp-vpc)
 
    
 <a id="eb-s"></a> 
@@ -123,6 +126,52 @@ fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	b
  <a id="ec-2"></a>
  ### Amazon Elastic Compute Cloud
  -  EC2 allows to acquire compute through the launching of virtual servers called Intances
- -  
+
+<!-- VPC Start -->
+ <a id="vp-c"></a>
+ ### Amazon Virtual Private Cloud
+ -  VPC is custom-defined virtual network with in the AWS cloud
+ -  To understand VPC better, need to understand CIDR block and subnet (Classless Inter Domain Routing)
+ -  Subnetting involves splitting an IP address space into multiple smaller networks
+ <a id="cid-r"></a> 
+ #### Understand CIDR notation
+  - In CIDR notation, the number after the slash (/) indicates the number of bits used for the network prefix.
+    The remaining bits are used for host addresses within the network.
+    For the CIDR block 10.1.0.0/16:
+
+     The /16 indicates that the first 16 bits are the network prefix.
+     The remaining 16 bits are used for host addresses.
+    ##### Calculating the IP Range
+    To calculate the IP range for 10.1.0.0/16:
+    - Network Prefix: The first 16 bits (10.1 in decimal notation) are fixed.
+    - Host Addresses: The remaining 16 bits can vary.
+    - The range starts from 10.1.0.0.
+    - The range ends at 10.1.255.255.
+      Therefore, the IP range for 10.1.0.0/16 is from 10.1.0.0 to 10.1.255.255, which includes 65,536 IP addresses (2^16).
+      ##### Why do Subnetting required ?
+      - ### One of the many reason
+         - #### Migration and Expansion:
+            - If you are migrating applications from another cloud provider or expanding your existing network, you might need to use a specific IP address range to maintain consistency and compatibility.
+       - #### Avoiding IP Conflicts with On-Premises Networks:
+       - #### Compliance and Regulatory Requirements:
+       - #### Control Over Network Design:
+           - Custom IP ranges allow you to have granular control over your network layout. You can allocate IP addresses in a way that optimizes network performance, management, and scalability. For example, you might reserve specific IP ranges for different environments such as development, testing, and production.
+
+ <a id="comp-vpc"></a> 
+ #### Components of VPC
+  -  ##### Subnets ,  Route Table, Secuirty Groups, Network AccessLists(ACLs)
+  -  Optional components like Internet Gateways,Elastic IP addresses,Virtual Provate Gateways etc.
+ #### Subnets :
+  - A subnet is segment of VPC,where we can launch EC2 instances, RDS etc
+  - The smallest subnet we can creat of /28 means 28 bits for network and 4 bits for host ,hence 2^4 = 16 IP address
+  - Out of 16 ,AWS reserves First 4 and last one for internal networking purposes.
+  - Subnets reside in one AZs, One AZs(Availabity Zone) can have multiple subnets.
+  - Types of Subnets :
+     - Public: Associated route table directs the subnet's traffic to the Amzon VPC's IGW
+     - Private: Associated route table does not directs the subnet's traffic to the Amzon VPC's IGW
+     - VPN-Only: Associated route table directs the subnet's traffic to the Amzon VPC's VPG .Does	not	have	a	route	to	the	IGW.
+   Subnet is always private and never routable to internet.
+
+    
   
     
