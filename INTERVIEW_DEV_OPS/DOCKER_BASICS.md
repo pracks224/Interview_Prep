@@ -1,28 +1,28 @@
 #2 Docker container communication between ? (https://www.youtube.com/watch?v=xrUGEoUpa3s - Abhisek Video)
-   -> Talk about default bridge network Docker0
-   -> There types of network
-              A. Bridge
-              B. Host
-              C.None
-              D.Custom Bridge
-   Bridge will have it's own set of subnet. IT's the default
-            Containetr A
-            Conatiner  B
-                        ------- 127.0.1.1 (A)
-                        ------- 127.0.1.2 (B)
-            Contianer C if I start with  --network = host then it will use the host iP
-            Containet D if we create a custom brdige network ,then we cannot ping from one container to the cutsom bridge
+-> Talk about default bridge network Docker0
+-> There types of network
+A. Bridge
+B. Host
+C.None
+D.Custom Bridge
+Bridge will have it's own set of subnet. IT's the default
+Containetr A
+Conatiner B
+------- 127.0.1.1 (A)
+------- 127.0.1.2 (B)
+Contianer C if I start with --network = host then it will use the host iP
+Containet D if we create a custom brdige network ,then we cannot ping from one container to the cutsom bridge
 
 #3. Docker build vs Docker run ?
 
 Ans : In essence, docker build is about constructing an image from a set of instructions in a Dockerfile,
-         while docker run is about creating and starting a container from an existing image.
+while docker run is about creating and starting a container from an existing image.
 #4. Docker CMD Vs RUN Vs ENTRYPOINT
 
 Ans : Absolutely!
-      Dockerfile RUN: The RUN instruction is used in a Dockerfile to execute commands while building the image.
-                      It's primarily used for installing packages, setting up the environment, or any task that prepares the image
-                      for the runtime. Each RUN command in a Dockerfile creates a new layer in the image.
+Dockerfile RUN: The RUN instruction is used in a Dockerfile to execute commands while building the image.
+It's primarily used for installing packages, setting up the environment, or any task that prepares the image
+for the runtime. Each RUN command in a Dockerfile creates a new layer in the image.
 
       Dockerfile CMD: The CMD instruction in a Dockerfile specifies the command that should be executed when a
                       container created from that image is launched. It can be overridden at runtime by passing a
@@ -55,8 +55,3 @@ Ans : Absolutely! Here are some frequently used Docker commands:
       docker logs: Fetches the logs of a container.
       docker network: Manages Docker networks.
       docker-compose: Manages multi-container applications with a YAML file
-
-
-
-
-
