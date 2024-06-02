@@ -124,6 +124,7 @@ fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	b
 
 <!-- EC2 Start -->
  <a id="ec-2"></a>
+ 
  ### Amazon Elastic Compute Cloud
  -  EC2 allows to acquire compute through the launching of virtual servers called Intances
 
