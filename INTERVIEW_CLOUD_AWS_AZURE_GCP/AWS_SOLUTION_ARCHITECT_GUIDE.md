@@ -4,6 +4,7 @@
  - [Amazon VPC](#vp-c)
     - [Understand CIDR](#cid-r)
     - [Components Of VPC](#comp-vpc)
+ -  [Elastic Network Interface](#enI)
 
    
 <a id="eb-s"></a> 
@@ -178,6 +179,45 @@ fee/fi/fo/fum/jack.doc.	A	key	may	contain	delimiter	characters	like	slashes	or	b
     E.G. An	Amazon	VPC	with	an	address	space	of	10.0.0.0/16,	one	subnet	with an	address	range	of	10.0.0.0/24,	a	route	table,	an	attached	IGW,	and	a	single	Amazon	EC2 instance	with	a	private	IP	address	and	an	EIP	address.	The	route	table	contains	two	routes: the	local	route	that	permits	inter-VPC	communication	and	a	route	that	sends	all	non-local traffic	to	the	IGW	(igw-id).	Note	that	the	Amazon	EC2	instance	has	a	public	IP	address	(EIP =	198.51.100.2);	this	instance	can	be	accessed	from	the	Internet,	and	traffic	may	originate	and return	to	this	instance.
 #### Elastic IP Addresses (EIPs) :
  - An	Elastic	IP	Addresses	(EIP)	is	a	static, public	IP	address	in	the	pool	for	the	region	that	you	can	allocate	to	your	account	(pull	from the	pool)	and	release	(return	to	the	pool)
+ - EIP specific to a region , first assign an EIP to VPC and then assign to an instance.
+ - EIP associated to a particular AWS account ,until you explicitly  release them.
+
+<a id="enI"></a> 
+#### ELastic Network Interfaces
+
+- It's Virtual Network Card for AWS Ec2
+- VNC is a software based network interface that enables the virtual machines to connect to network,functioning like physcical netwrk card. Like network communication,Internet access,Resource sharing,Cloud services,Security etc.
+- ENIs are avialble on VPC and explicitly associated to subnet creation.
+- Helps creating DUAL-HOMED Instances with different workloads.
+- A dual-homed instance has two (or more) network interfaces (ENIs), each connected to a different subnet. This setup is used to isolate traffic for different purposes, improving security, and network management.
+- ##### Use Cases and Benefits
+ 1.Network Segregation:
+ 
+ Example: You can have one ENI connected to a public subnet and another ENI connected to a private subnet.
+ Benefit: This allows you to separate public-facing traffic (e.g., web server requests) from internal traffic (e.g., database queries), enhancing security and performance.
+
+ 2.High Availability and Redundancy:
+ 
+ Example: An instance with ENIs in different subnets can maintain connectivity even if one subnet becomes unavailable.
+ Benefit: This improves fault tolerance and reliability for critical applications.
+
+#### End Points
+
+- A VPC endpoint in AWS allows you to privately connect your VPC to supported AWS services and VPC endpoint services powered by PrivateLink, without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
+- ##### Benefits of VPC Endpoints
+   - No Data Transfer Charges: Traffic between your VPC and the service does not incur data transfer charges, unlike internet-bound traffic.
+   - Low Latency and Highly Available
+   - Enhanced Security - Private Connectivity
+   - How to create and VPC Endpoints ????
+
+#### Peering
+
+- An	Amazon	VPC	peering	connection	is	a	networking	connection	between	two	Amazon	VPCs that	enables	instances	in	either	Amazon	VPC	to	communicate	with	each	other	as	if	they	are within	the	same	network. More to discuss.
+- VPC	peering	connections	do	not	support	transitive	routing . Why VPC Peering Doesn't Support Transitive Routing ?
+
+
+
+
 
     
   
