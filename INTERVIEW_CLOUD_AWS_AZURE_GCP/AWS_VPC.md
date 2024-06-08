@@ -40,7 +40,7 @@ _Amazon Virtual Private Cloud (VPC) enables you to launch AWS resources into a v
 - Each instance launched in default VPC also receives a public IP from the pool of addresses owned by AWS and public DNS hostname which facilitate internet access to the instance
 - You can delete default VPC, but try not to do so. You'd need to contact AWS support to restore it if it's deleted.
 
-![](images/default_vpc_diagram.png)
+![](https://github.com/pracks224/Interview_Prep/blob/main/images/default_vpc_diagram.png)
 
 - Default VPC is okay for testing AWS resources, training and low-critical single tier application.
 - It's recomended not to use default VPC for production workload.
@@ -68,7 +68,7 @@ AWS recomends that VPC to use this private address space, however, AWS VPC suppo
 - Peering is possible with VPCs on other AWS account as well as VPCs on the same account.
 - Peering support STAR configuration. NO TRANSITIVE PEERING POSSIBLE
 
-![](images/vpc_peering_start_config.jpg)
+![](https://github.com/pracks224/Interview_Prep/blob/main/images/vpc_peering_start_config.jpg)
 
 ## VPC Components
 
@@ -101,7 +101,7 @@ There are couple of core components which are fundamental to VPC as follows:
 - **Customer gateway:** An Amazon VPC VPN connection links your data center (or network) to your Amazon VPC virtual private cloud (VPC). A customer gateway is the anchor on your side of that connection. It can be a physical or software appliance.
 - **Virtual private gateway:** The anchor on the AWS side of the VPN connection is called a virtual private gateway.
 
-![](images/basic-cust-gateway-diagram.png)
+![](https://github.com/pracks224/Interview_Prep/blob/main/images/basic-cust-gateway-diagram.png)
 
 **NACL:** Network Access Control List acts as a firewall to subnet level. It is stateless meaning inbout as well as outboud access rule has to be defined explicitly.
 
@@ -212,7 +212,7 @@ A VPC endpoint enables you to privately connect your VPC to supported AWS servic
   - Amazon S3
   - Amazon DynamoDB
 
-![](images/vpc-endpoint-s3-diagram.png)
+![](https://github.com/pracks224/Interview_Prep/blob/main/images/vpc-endpoint-s3-diagram.png)
 
 ## Bastion Host (aka Jump server)
 
@@ -222,7 +222,7 @@ A VPC endpoint enables you to privately connect your VPC to supported AWS servic
 - When properly configured through the use of security groups and Network ACLs (NACLs), the bastion essentially acts as a bridge to your private instances via the Internet.
 - When designing the bastion host for your AWS infrastructure, you shouldn’t use it for any other purpose, as this could open unnecessary security holes.
 
-![](images/aws-bastion-host.png)
+![](https://github.com/pracks224/Interview_Prep/blob/main/images/aws-bastion-host.png)
 
 ### Basic steps for creating a bastion host for your AWS infrastructure:
 
