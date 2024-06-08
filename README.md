@@ -161,7 +161,7 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
   
   - [Cloud Common]()
   -  ${\color{red} AWS}$
-      - [S3](./Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)
+      - [S3](./INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)
       - [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)
       - [EC2]()
       - [ELB]()
