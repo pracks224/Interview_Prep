@@ -157,41 +157,24 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
 </details>
 
 <details>
-  <summary>Cloud Technologies </summary>
-
-[SaaS vs. PaaS vs. IaaS with example](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
-
-[SAAS example - DropBox Google workbook sales force and?]()
-
-[PAAS example - Open shift,Elastci Bean Heroku and ?]()
-
-[IAAS example AWS,Azure and ?]()
-
-[Q1. Name 5 AWS services you have used and what's the use case?](https://medium.com/aws-in-plain-english/ace-your-aws-interview-i-90d4ab4daf4c)
-
-[Q2. What are the tools used to send logs to cloud environment?]()
-
-[Q3. What are IAM Roles? How do you create /manage them?]()
-
-[Q4. How to upgrade or downgrade a system with zero downtime?]()
-
-[Q5. What is infrastructure as code and how do you use it?]()
-
-[Q6. What is a load balancer? Give scenarios of each kind of balancer based on your experience.](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-
-[Q7.What is the difference between the Amazon Rds, Dynamodb, and Redshift?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-
-[Q8.What is CloudFormation and why is it used for?](https://medium.com/@saurabhdahibhate50/ace-your-aws-interview-ii-84cb6b3a7bf1)
-
-### APIGEE
-
-  <details>
-  <summary>A Powerful Solution on Google Cloud</summary>
+  <summary>Cloud Technologies</summary>
   
-  1. [What is APIGEE ?](https://medium.com/google-cloud/apigee-an-api-management-service-on-google-cloud-890c0a0e7447)
-  2. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
- 
-  </details>
+  - [Cloud Common]()
+  -  ${\color{red} AWS}$
+      - [S3]()
+      - [Lambd](/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)
+      - [EC2]()
+      - [ELB]()
+      - [EBS]()
+      - [VPC]()
+      - [SNS]()
+      - [SQS]()
+      - [RDS]()
+      - [Dynamo DB]()
+      - [CloudWatch]()
+  - #### GPC
+      - [APIGEE]()
+  - #### AZURE
 </details>
 
 <details>
