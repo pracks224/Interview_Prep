@@ -1,3 +1,29 @@
+## Cloud Technologies
+| Topics| #1 | #2 | #3 |
+| :---: | :---: | :---: | :---: |
+| AWS| [S3](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_S3.md) | [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md) | [EC2](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EC2.md) |
+| AWS| [ELB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_ELB.md) | [EBS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EBS.md) | [VPC](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_VPC.md) |
+| AWS| [SNS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SNS.md) | [[SQS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SQS.md) | [RDS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_RDS.md) |
+| AWS| [Dynamo DB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DynamoDB.md) | [CloudWatch](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cloud_Watch.md) | [CloudFormation](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_CloudFormation.md) |
+| AWS| [Cognito](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cognito.md) | [IAM](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_IAM.md) | [KINESIS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_KINESIS.md) |
+| AWS| [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md) | [CODEPIPELINE](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DEVOPS.md) | - |
+| Google Cloud| [APIGEE]() | - | - |
+| Azure| - | - | - |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
 <details>
@@ -154,32 +180,6 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
     of another. Given two strings, 51 and 52, write code to check if 52 is a rotation of 51 using only one
     call to i5Sub5tring (e.g., "waterbottle" is a rotation of"erbottlewat").
 
-</details>
-
-<details>
-  <summary>Cloud Technologies</summary>
-  
-  - [Cloud Common]()
-  -  ${\color{red} AWS}$
-      - [S3](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_S3.md)
-      - [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)
-      - [EC2](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EC2.md)
-      - [ELB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_ELB.md)
-      - [EBS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EBS.md)
-      - [VPC](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_VPC.md)
-      - [SNS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SNS.md)
-      - [SQS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SQS.md)
-      - [RDS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_RDS.md)
-      - [Dynamo DB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DynamoDB.md)
-      - [CloudWatch](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cloud_Watch.md)
-      - [CloudFormation](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_CloudFormation.md)
-      - [Cognito](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cognito.md)
-      - [IAM](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_IAM.md)
-      - [KINESIS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_KINESIS.md)
-      - [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md)
-  - #### GPC
-      - [APIGEE]()
-  - #### AZURE
 </details>
 
 <details>
