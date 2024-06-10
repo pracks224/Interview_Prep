@@ -1,4 +1,5 @@
 ### Elastic Load Balancing
+
 - It is a highly available service that distributes the traffic across EC2 instances and includes options that provides to control the requests to Amzon EC2s.
 - It allows to distribute traffic across a group EC2 in one or more Avalaibity zones.
 - It supports routing HTTP,HTTPS,SSL,TCP etc.
