@@ -9,6 +9,8 @@
 | AWS| [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md) | [CODEPIPELINE](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DEVOPS.md) | - |
 | Google Cloud| [APIGEE]() | - | - |
 | Azure| - | - | - |
+| CoreJava| [Collections](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Collections.md) | Stream | String |
+| CoreJava| [MultiThreading](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Multithreading.md) | Executors | Design Patterns |
 
 
 
