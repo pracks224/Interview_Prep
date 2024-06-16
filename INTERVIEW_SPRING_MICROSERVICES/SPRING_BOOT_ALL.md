@@ -3,17 +3,18 @@
 <a id="ms-top"></a>
 
 [Spring boot Features,Advantages and Implementation](#sb-1)
-[What makes Spring Boot superior to JAX-RS?]() - SB no set up ,other spring project support etc.
-[What Spring Boot features help develop Microservices Applications?]() => Autoconfiguration, embedded server,spring-boot-starter-web etc
-[What are the key dependencies of Spring Boot?]()
 
-- spring-boot-starter-parent => common configuration,versions,dependency managements etc
-- spring-boot-starter-web
-- spring-boot-starter-data-jpa,spring-boot-starter-data-mongodb
-- spring-boot-starter-secuirty
-- sbs-thymeleaf --> template engeienfor server-side rendering html
-- actuator -> for metrics
-  [Important Spring boot Annotations]()
+- [What makes Spring Boot superior to JAX-RS?]() - SB no set up ,other spring project support etc.
+- [What Spring Boot features help develop Microservices Applications?]() => Autoconfiguration, embedded server,spring-boot-starter-web etc
+- [What are the key dependencies of Spring Boot?]()
+    * spring-boot-starter-parent => common configuration,versions,dependency managements etc
+    * spring-boot-starter-web
+    * spring-boot-starter-data-jpa,spring-boot-starter-data-mongodb
+    * spring-boot-starter-secuirty
+    * sbs-thymeleaf --> template engeienfor server-side rendering html
+    * actuator -> for metrics
+      
+- [Important Spring boot Annotations]()
 
 <a id="sb-1"></a>
 
