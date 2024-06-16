@@ -1,12 +1,13 @@
 **Table of content:**
+<a id="ms-top"></a>
 
 - [Tools and Framework Used in MS](#ms-tools)
-  - Scenarios when Configuration Management Tools used
-- 12 Factor App Methodology
+  - [Scenarios when Configuration Management Tools used](#ms-configs)
+- [12 Factor App Methodology](#ms-12)
 - Conway's Law
 - Essential Components of MicroServices
 - Importance Reports and Dashboards in Microservices
-- Cohesion Vs Coupling
+- [Cohesion Vs Coupling](ms-coh-cup)
 - Key challenges migrating from monolithic to Micoservice
 - [Event Sourcing](#ms-1)
 - [Data Consistency in a microservices ](#ms-cons)
@@ -78,7 +79,7 @@
 
 <a id="ms-tools"></a>
 
-### Popular Tools and Frameworks used in Micro services?
+### Popular Tools and Frameworks used in Micro services? [TOP](#ms-top)
 
 - Spring Boot
 - Node Js
@@ -152,3 +153,38 @@
 <a id="ms-log-aggregation"></a>
 
 ### Log Aggregation of logs from different Microservices?
+
+<a id="ms-configs"></a>
+
+### Need of configuration mgmt tools in microservices? [TOP](#ms-top)
+
+- Spring cloud Config, HashiCorp Consul,Vault,Launch darkly - Feature flags
+- Scenario when constant configs across all the microservices, hence tools helps in central configuration mgmts
+- Dynamic Configiration updated with out restarting the services like changing log levels etc
+- Environment specific configuarions
+- Secure credtentials using Valut or Feature flag management using Launch darkly.
+
+<a id="ms-12"></a>
+
+### 12 Factor App methodologies ? [TOP](#ms-top)
+
+- Best practises for building modern,scalable and mantainable cloud based microservices.
+  - 1.Single Code Base : One on One relationship between codebase n deployments
+  - 2. Dependencies : explicitly declare all the configs
+  - 3. Config
+  - 4. Backing Services
+  - 5. Build Release and Run
+  - 6. Processes stateless
+  - 7. Port Binding
+  - 8. Concurrency scalability
+  - 9. Disposibility
+  - 10. Dev/Prod Parity
+  - 11. Logs
+  - 12. Admin Process : Keeping Admin Process Script along with Codebase so that same process followed in other environments.
+
+<a id="ms-coh-cup"></a>
+
+### Cohesion Vs Coupling ? [TOP](#ms-top)
+
+Coupling: The degree of interdependence between modules. Example: Order Service directly calling Inventory Service leads to tight coupling.
+Cohesion: The degree to which elements within a module belong together. Example: A Payment Service handling all payment-related functionalities like refund, processing etc shows high cohesion.
