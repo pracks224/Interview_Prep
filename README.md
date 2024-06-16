@@ -1,30 +1,17 @@
 ## Cloud Technologies
-| Topics| #1 | #2 | #3 |
-| :---: | :---: | :---: | :---: |
-| AWS| [S3](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_S3.md) | [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md) | [EC2](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EC2.md) |
-| AWS| [ELB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_ELB.md) | [EBS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EBS.md) | [VPC](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_VPC.md) |
-| AWS| [SNS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SNS.md) | [[SQS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SQS.md) | [RDS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_RDS.md) |
-| AWS| [Dynamo DB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DynamoDB.md) | [CloudWatch](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cloud_Watch.md) | [CloudFormation](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_CloudFormation.md) |
-| AWS| [Cognito](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cognito.md) | [IAM](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_IAM.md) | [KINESIS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_KINESIS.md) |
-| AWS| [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md) | [CODEPIPELINE](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DEVOPS.md) | - |
-| Google Cloud| [APIGEE]() | - | - |
-| Azure| - | - | - |
-| CoreJava| [Collections](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Collections.md) | Stream | String |
-| CoreJava| [MultiThreading](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Multithreading.md) | Executors | Design Patterns |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+|    Topics    |                                                        #1                                                        |                                                          #2                                                          |                                                             #3                                                              |
+| :----------: | :--------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
+|     AWS      |       [S3](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_S3.md)        |      [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)       |            [EC2](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EC2.md)            |
+|     AWS      |      [ELB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_ELB.md)       |        [EBS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EBS.md)         |            [VPC](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_VPC.md)            |
+|     AWS      |      [SNS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SNS.md)       |        [[SQS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SQS.md)        |            [RDS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_RDS.md)            |
+|     AWS      | [Dynamo DB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DynamoDB.md) | [CloudWatch](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cloud_Watch.md) | [CloudFormation](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_CloudFormation.md) |
+|     AWS      |  [Cognito](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cognito.md)   |        [IAM](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_IAM.md)         |        [KINESIS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_KINESIS.md)        |
+|     AWS      | [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md)  |  [CODEPIPELINE](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DEVOPS.md)   |                                                              -                                                              |
+| Google Cloud |                                                    [APIGEE]()                                                    |                                                          -                                                           |                                                              -                                                              |
+|    Azure     |                                                        -                                                         |                                                          -                                                           |                                                              -                                                              |
+|   CoreJava   |    [Collections](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Collections.md)    |                                                        Stream                                                        |                                                           String                                                            |
+|   CoreJava   | [MultiThreading](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Multithreading.md) |                                                      Executors                                                       |                                                       Design Patterns                                                       |
 
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
