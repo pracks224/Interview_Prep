@@ -1,6 +1,0 @@
-# Design A Rate Limiter
-
-Source : https://github.com/preslavmihaylov/booknotes/tree/master/system-design/system-design-interview/chapter05
-
-1. Rate Limiter allows configured number request can server and rest can be dropped.
-2.
