@@ -1,0 +1,205 @@
+Active Object
+Balking
+Barrier
+Binding
+Blocking Queue
+Boss-Worker
+Bulk Synchronous Parallel (BSP)
+Busy Wait
+Cache Coherence
+Check-In Check-Out
+Client-Dispatcher-Server
+Compute Farm
+Confinement
+Coordination
+Data Parallelism
+Double-Checked Locking
+Event-Based Asynchronous
+Fork-Join
+Futures and Promises
+Guarded Suspension
+Immutable Object
+Leader/Followers
+Lock Split
+Lock Striping
+Messaging
+Monitor Object
+Mutual Exclusion
+Non-Blocking Synchronization
+Object Pool
+Optimistic Concurrency Control
+Pessimistic Concurrency Control
+Pipeline
+Priority Inversion
+Producer-Consumer
+Reactor
+Read-Write Lock
+Rendezvous
+Resource Pool
+Scheduler
+Semaphore
+Synchronous Queue
+Thread-Local Storage
+Thread Pool
+Transactional Memory
+Two-Phase Commit
+Work Stealing
+Worker Thread
+Active Monitor
+Async/Await
+Asynchronous Method Invocation (AMI)
+Barrier Synchronization
+Batched Updates
+Bounded Buffer
+Channel
+Cohort Scheduling
+Coroutine
+Critical Section
+Deferred Execution
+Dynamic Task Parallelism
+Fiber
+Half-Sync/Half-Async
+Hazard Pointer
+Hierarchical Locking
+Inline Future
+Isolated Queue
+Join/Fork
+Latch
+Lock-Free Data Structure
+Memory Barrier
+MPMC Queue (Multiple Producer, Multiple Consumer Queue)
+MPSC Queue (Multiple Producer, Single Consumer Queue)
+Reader-Writer Lock
+Scheduler Activations
+Speculative Execution
+Spinlock
+Synchronous Barrier
+Task Graph
+Thread Fusion
+Thread Pool Executor
+Token Passing
+Wait-Free Data Structure
+Asynchronous Callback
+Atomic Operation
+Batch Processing
+Concurrent Queue
+Copy-On-Write
+Cooperative Multitasking
+Deferred Cancel
+Delegated Event Handling
+Disruptor
+Epoch-Based Reclamation
+Event Loop
+Fiber-Local Storage
+Flow Control
+Green Thread
+Homogeneous Task Scheduling
+Inversion of Control
+Lightweight Thread
+Lock-Free Queue
+Multi-Reader, Single-Writer Lock
+Non-Blocking I/O
+Non-Uniform Memory Access (NUMA) Optimization
+Object Granularity
+Passive Object
+Priority Queue
+Quiescent State-Based Reclamation (QSBR)
+Readers-Writers Problem
+Reentrant Lock
+Resource Acquisition Is Initialization (RAII)
+Safe Publication
+Shared Resource
+Spin-Wait Loop
+SPMC Queue (Single Producer, Multiple Consumer Queue)
+Task Queue
+Thread Affinity
+Thread Hopping
+Thread Migration
+Thread Safe Singleton
+Thread Yield
+Token Bucket
+Wait Queue
+Active Record
+Asynchronous Task
+Circular Buffer
+Completion Ports
+Condition Variable
+Double Buffering
+Event Demultiplexer
+Fiber Pool
+Graceful Degradation
+Lazy Initialization
+Load Balancing
+Lock Cohorting
+Memory Reclamation
+Message Passing Interface (MPI)
+Non-blocking Stack
+Partitioned Global Address Space (PGAS)
+Phased Execution
+Priority Inheritance
+Producer-Holder
+Queue Management
+Recursive Mutex
+Replicated Workers
+Resource Revocation
+Scatter-Gather I/O
+Thread Contention
+Thread Priorities
+Two-Level Scheduling
+Wait Groups
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Why CONCURRENCY is importnat? ==> Earlier those days processing speed of CPUs were more focused but now days more cores are added.
+2.CONCURRENCY Vs Parralellism => Are both same??
+    =>
+3.Concurrent Design Patern
+  -Mutex
+  -Multiplex
+  -Barrier
+  -Double-checked locking
+  -ReadWriteLock => ReentrantReadWriteLock
+  -ThreadPool ==> ExecutorService
+  -ThreadLocal Storage =>ThreadLocal
+  -
+
+

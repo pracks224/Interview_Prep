@@ -1,0 +1,235 @@
+Git Questions: 
+~~~~~~~~~~~~~~~
+Q1. If git clone remote fails becoz of private key,what you should do?
+Solutions :  1. First you'll want to cd into your .ssh directory. Open up the terminal and run:
+                cd ~/.ssh && ssh-keygen
+             2. Next you need to copy this to your clipboard.
+                On OS X run: cat id_rsa.pub | pbcopy
+                On Linux run: cat id_rsa.pub | xclip
+                On Windows (via Cygwin/Git Bash) run: cat id_rsa.pub | clip
+             3. Add your key to your account via the website.
+                Finally setup your .gitconfig.
+                git config --global user.name "bob"
+
+Basic Thread Questions 
+~~~~~~~~~~~~~~~~~~~~~~
+1. What is a thread in Java?
+2. How do you create a thread in Java?
+3. What is the difference between a thread and a process?
+4. Explain the lifecycle of a thread in Java.
+5. How do you start a thread in Java?
+6. What are the ways to stop a thread in Java? Is Thread.stop() method safe to use?
+7. What is the difference between Runnable and Thread in Java?
+8. How can you synchronize threads to avoid race conditions and concurrent access issues?
+9. What is the purpose of the synchronized keyword in Java?
+10. Explain the concept of thread safety and how you achieve it in Java.
+11. What are the various states of a thread in Java?
+12. Can you explain the wait(), notify(), and notifyAll() methods in Java?
+13. What is the purpose of the join() method in Java threads?
+14. How do you handle exceptions in threads? What happens if an uncaught exception occurs in a thread?
+15. What are the advantages and disadvantages of using threads in Java?
+16. How do you handle deadlock situations in Java threading?
+17. Can you explain the concept of daemon threads in Java?
+18. What is the Java Memory Model (JMM) and how does it relate to multi-threading?
+19. How do you ensure that a particular block of code is executed by only one thread at a time?
+20. How to set the Ideal Thread Pool size.
+21. Executor Framework. What's your understanding about it ?
+
+Executor FrameWork Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. What is ExecutorService in Java?
+2. What are the benefits of using ExecutorService over managing threads manually?
+3. How do you create an ExecutorService instance?
+4. What are the differences between execute() and submit() methods in ExecutorService?
+5. Explain the different thread pool implementations provided by ExecutorService.
+6. How does shutdown() differ from shutdownNow() in ExecutorService?
+7. What is the purpose of the submit() method in ExecutorService, and how do you retrieve the result of the task?
+8. How do you handle exceptions thrown by tasks executed through ExecutorService?
+9. What happens if you don't call the shutdown() method on an ExecutorService?
+10. What is the purpose of the invokeAny() and invokeAll() methods in ExecutorService?
+11. Explain the concept of thread pooling in ExecutorService and its benefits.
+12. How can you control the number of threads in a thread pool created by ExecutorService?
+13. What is the difference between a Runnable and a Callable in the context of ExecutorService?
+14. How can you handle the cancellation of tasks submitted to ExecutorService?
+15. Explain the purpose of the ScheduledExecutorService in Java and its applications.
+16. How can you handle periodic execution of tasks using ScheduledExecutorService?
+17. What is the purpose of the ThreadFactory interface, and how is it used with ExecutorService?
+
+Thread Synchronization Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. What is thread synchronization, and why is it important in multi-threaded programming?
+2. Explain the concept of race conditions in multi-threaded programs. How can you prevent race conditions?
+3. What is the purpose of using the synchronized keyword in Java? How does it work?
+4. What are the differences between using synchronized methods and synchronized blocks?
+5. How can you achieve thread synchronization using the ReentrantLock class in Java?
+6. What is the purpose of the volatile keyword in Java, and how does it relate to thread synchronization?
+7. Explain the concept of deadlock in multi-threaded programming. How can you avoid deadlock situations?
+8. What are the benefits and drawbacks of using locks (ReentrantLock) over synchronized blocks?
+9. How does the wait() and notify() methods work in Java? Provide an example of their usage.
+10. What is the purpose of the java.util.concurrent package in Java, and how does it help with thread synchronization?
+11. Can you explain the usage of CountDownLatch and CyclicBarrier in thread synchronization?
+12. How do you ensure thread safety in Java when multiple threads access a shared resource?
+13. What are atomic operations, and how do they help with thread synchronization?
+14. What is the difference between optimistic and pessimistic concurrency control?
+15. Can you explain the Amdahl's Law and its relevance to parallel processing and thread synchronization?
+16. Explain the concept of memory visibility in multi-threaded programming. How does the Java Memory Model (JMM) address this issue?
+17. What are the differences between intrinsic locks (monitor locks) and explicit locks (ReentrantLock) in Java? When would you prefer one over the other?
+18. Can you explain the use of the volatile keyword in detail? How does it ensure visibility and ordering of variables across threads? 
+19. What are the challenges of debugging and testing multi-threaded applications? How do you approach finding and fixing concurrency bugs?
+20. What is thread starvation, and how can it be avoided in concurrent programs?
+21. Explain the concept of ThreadLocal in Java. When and why would you use it in a multi-threaded application?
+22. What is the purpose of the java.util.concurrent.atomic package? Provide examples of using atomic classes for thread-safe operations.
+23. Can you explain the concept of Read-Copy-Update (RCU) and how it addresses read-write conflicts in concurrent data structures?
+24. What is the purpose of the java.util.concurrent.locks package in Java, and how does it extend the locking capabilities beyond intrinsic locks?
+25. Explain the concept of wait-free and lock-free algorithms in concurrent programming. Provide examples of both types of algorithms.
+26. Can you discuss the concept of non-blocking algorithms and how they compare to traditional blocking algorithms in terms of performance and scalability?
+27. What is the Java Fork/Join Framework, and how does it support parallel processing and task decomposition in multi-threaded applications?
+28. Explain the concept of Software Transactional Memory (STM) and how it simplifies thread synchronization by providing a transactional approach.
+29. How do you deal with the challenge of thread contention in high-concurrency applications? What techniques can be used to reduce contention and improve performance?
+30. Can you discuss the concept of thread affinity and how it impacts thread scheduling and cache utilization in multi-core systems?
+31. What is the purpose of the java.util.concurrent.CopyOnWriteArrayList class? How does it provide thread-safe access to a list? 
+32. Explain the concept of BlockingQueue in Java. How is it used for inter-thread communication and coordination?
+33. What are the differences between CountDownLatch and CyclicBarrier? In which scenarios would you prefer one over the other? 
+34. Can you explain the concept of Semaphore and how it controls access to a shared resource among multiple threads? 
+35. What is the java.util.concurrent.Phaser class, and how does it enable advanced thread synchronization and coordination?
+36. What are the benefits of using the java.util.concurrent.Exchanger class in Java? Provide an example of its usage.
+37. Explain the concept of ReadWriteLock in Java. When would you use a read lock versus a write lock?
+38. How do you handle thread synchronization when working with the java.util.concurrent.ConcurrentHashMap class?
+39. What is the purpose of the java.util.concurrent.Semaphore class, and how is it different from using intrinsic locks?
+40. Explain the concept of CompletableFuture in Java 8. How does it support asynchronous programming and chaining of tasks?
+41. Discuss the concept of StampedLock in Java. How does it improve read-write synchronization in comparison to ReadWriteLock?
+42. What is the purpose of the java.util.concurrent.Phaser class, and how does it enable advanced thread synchronization and coordination?
+43. Can you explain how the java.util.concurrent.Exchanger class allows two threads to exchange data in a synchronized manner?
+44. Discuss the java.util.concurrent.DelayQueue and how it is useful for scheduling delayed tasks in concurrent applications.
+45. How do you ensure thread safety when working with the java.util.concurrent.PriorityBlockingQueue class?
+
+SpringBoot Interview Questions
+~~~~~~~~~   ~~~~~~~   ~~~~~~~~
+1.What is Spring Boot and what are its Benefits?
+2.What makes Spring Boot superior to JAX-RS?
+3.What Spring Boot features help develop Microservices Applications?
+4.Why Spring Boot is preferred over any other framework?
+5.What are the key dependencies of Spring Boot?
+6.What are the advantages of Spring Boot?
+7.What are the features of Spring Boot?
+How do you create a Spring Boot application using Maven?
+How do you create a Spring Boot project using Spring Initializer?
+How do you create a Spring Boot project using boot CLI?
+How do you create a simple Spring Boot application?
+What are the Spring Boot Annotations?
+What are the Spring Boot properties?
+What are the Spring Boot Starters?
+What is Spring Boot Actuator?
+What is thyme leaf?
+How to use thyme leaf?
+How do you connect Spring Boot to the database using JPA?
+How to connect the Spring Boot application to a database using JDBC?
+What is @RestController annotation in Spring Boot?
+What is @RequestMapping annotation in Spring Boot?
+How do you create a Spring Boot application using Spring Starter Project Wizard?
+Spring Vs Spring Boot? Or Why Spring Boot over Spring?
+What annotations are used to create an Interceptor?
+What is a Swagger in Spring Boot?
+What are Profiles in Spring Boot?
+What differentiates Spring Data JPA and Hibernate?
+How are the @RestController and @Controller Annotation different?
+How does Spring Boot works?
+What does the @SpringBootApplication annotation do internally?
+What is the purpose of using @ComponentScan in the class files?
+How does a spring boot application get started?
+Can we create a non-web application in Spring Boot?
+Can we override or replace the Embedded tomcat server in Spring Boot?
+Can we disable the default web server in the Spring boot application?
+How to disable a specific auto-configuration class?
+Describe the flow of HTTPS requests through the Spring Boot application?
+What is the difference between RequestMapping and GetMapping?
+What is the use of Profiles in spring boot?
+What is Spring Actuator? What are its advantages?
+How to enable Actuator in Spring boot application?
+What are the actuator-provided endpoints used for monitoring the Spring boot application?
+How to get the list of all the beans in your Spring boot application?
+How to check the environment properties in your Spring boot application?
+How to enable debugging log in the spring boot application?
+Where do we define properties in the Spring Boot application?
+What is dependency Injection?
+What is an IOC container?
+What are some essential features of Spring Security?
+What is Spring security authentication and authorization?
+What do you mean by basic authentication?
+What do you mean by digest authentication?
+What do you mean by session management in Spring Security?
+Explain SecurityContext and SecurityContext Holder in Spring security.
+Explain spring security OAuth2.
+What do you mean by OAuth2 Authorization code grant type?
+What is method security and why do we need it?
+What do you mean by HASHING in spring security?
+Explain salting and its usage.
+What is PasswordEncoder?
+Explain AbstractSecurityInterceptor in spring security?
+Is security a cross-cutting concern?
+What is SpEL (Spring Expression Language)?
+Name security annotations that are allowed to use SpEL.
+Explain what is AuthenticationManager in Spring security.
+Explain what is ProviderManager in Spring security.
+What is JWT?
+What is Spring Security Filter Chain?
+Explain how the security filter chain works.
+Name some predefined filters used in spring security and write their functions.
+What do you mean by principal in Spring security?
+Can you explain what is DelegatingFilterProxy in spring security?
+Can you explain what is FilterChainProxy in spring security?
+What is the intercept-url pattern and why do we need it?
+Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
+State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
+State the difference between @PreAuthorize and @Secured in Spring security.
+State the difference between @Secured and @RolesAllowed.
+
+Microservice Patterns and Interview Questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A. SAGA Patterns  - It's an ingenious solution to manage the transactions in the world of distributed systems or Microsrvices.
+                  - In a monolithic application, this transaction would usually be handled using ACID transactions
+                  - In the simplest terms, a saga is a sequence of local transactions. Each local transaction updates the database 
+                     and publishes an event to trigger the next local transaction in the saga
+                  - The Saga Execution Coordinator(SEC) is the central component to implement a Saga flow. 
+                     It contains a Saga log that captures the sequence of events of a distributed transaction.
+                  -  For any failure, the SEC component inspects the Saga log to identify the impacted components and the sequence 
+                    in which the compensating transactions should run.
+                  - For any failure in the SEC component, it can read the Saga log once it’s coming back up.
+                    It can then identify the transactions successfully rolled back, which ones are pending, and can take 
+                    appropriate actions
+                  - Two ways : 1. choreography and orchestration
+                      In the Saga Choreography pattern, each microservice that is part of the transaction publishes an event that 
+                      is processed by the next microservice.  Suitable for fewer services.
+                       Tools for Choregraphy -Axon,Microprofile,Seata
+                      In the Orchestration pattern, a single orchestrator is responsible for managing the overall transaction status.
+                        Tools for Orchestrator  - Camunda, Apache Camel
+                 More details - https://www.baeldung.com/cs/saga-pattern-microservices#:~:text=7.1.,performed%20by%20a%20Saga%20participant.
+
+B. API Gateway Pattern - API Gateway Pattern is a design paradigm that serves as a single-entry point into a system
+C. API Gateway Vs ReverseProxy 
+   In summary, a reverse proxy is primarily focused on handling client requests and forwarding them to backend servers, providing load balancing, 
+   caching, SSL termination, and security benefits. On the other hand, an API Gateway is more focused on managing APIs, routing requests to microservices, and providing additional functionalities like request/response transformation, rate limiting, and analytics.
+   Example: Nginx and Apache HTTP Server can be used as reverse proxies.
+    In some cases, an API Gateway might use a reverse proxy as one of its components to handle low-level tasks, 
+   such as load balancing and SSL termination. The decision to use one or both depends on the specific requirements and complexity of the application architecture.
+
+   Example: Netflix Zuul, Kong, and Amazon API Gateway are examples of API Gateway solutions.
+
+Java Collection - advanced
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+JavaScript - Interview 
+~~~~ ~~~~~ ~~~~~ ~~~~~ ~~~~ ~~
+
+System Design Questions
+~~~~~~~~ ~~~~~ ~~~~~~~~
+1. How DNS Works? PDF attacheds
+
+
+JWT
+~~~~~~~~~~~~~~~~~~~~~~~~~
+1. What is Refresh Token?
+Ans :
+
+Kafka Interview Questions
+--------------------------

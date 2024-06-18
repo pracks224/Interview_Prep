@@ -1,0 +1,32 @@
+Q1. What are the data base islation levels ? What are they used for?
+    -> Isolates one trasnaction from other in a distributed transaction environment
+    -> Database isolation allows a transaction to execute as if there are no other concurrently running transactions.
+    -> Types of Isolation levels :: Serializable,Repeatbale Read, Read Commited,Read Uncommited
+    -> Dirty Read in SQL occurs when a transaction reads data that has been modified by another transaction, but not yet committed.
+    -> Non-repeatable reads are when your transaction reads committed UPDATES from another transaction. The same row now has different 
+         values than it did when your transaction began.
+    -> Phantom reads are similar but when reading from committed INSERTS and/or DELETES from another transaction. There are new rows or
+         rows that have disappeared since you began the transaction.
+Q2. What is Iaas/Paas/Saas ?
+Q3. what is SSO? --> A single Authentication Server mantains the global session ,so that user can move between differnt apps seamlessly with out asking creds again n again
+Q4. How to store a password ? Hint -- password with salt but no as text definitly
+Q5. How HTTPS works ?
+      -> TCP handshake
+      -> Client send TLS and encryption algo
+      -> Server sends a certificate with public key host namd and expiry
+      -> After validating the certificate,client sends a session key
+      -> server decrypts using the session key and concetion establishes
+      -> Bth uses sysmetric encryption i.e to encrypt/decryt uses the same key
+Q6. How to choose the right DB?
+         RDBMS -> AWS RDS/Aurora
+               -> Azure : Azure  SQL
+               -> GCP   : Cloud SQL
+               -> Cloud Agnostic : Postgress/SQL Server
+        Key/Value -> DynamoDB (AWS) Cosmos DB(Azure) BigTable(GCP) , Redis (Cloud Agnostic)
+        In Memory -> Elastic Cache(AWS),Azure Cache ,Memory Store(GCP),Redis (CA)
+Q7. How to create globally unique iD ?
+    -> UUIDs (Universally Unique Identifiers) -> Based on the current timestamp and the MAC address of the computer -> cons expose hardware details
+    -> ULIDs (Universally Unique Lexicographically Sortable Identifiers)-> sortable
+    -> Object Ids It includes a 4-byte timestamp, a 5-byte random value, and a 3-byte incrementing counter.
+    -> snow flake ids ->
+Q8. How to deploy services?

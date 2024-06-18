@@ -1,6 +1,3 @@
 **Table of content:**
 
 - [Comparable vs Comparator?](https://www.baeldung.com/java-comparator-comparable#:~:text=Java%208%20provides%20new%20ways,compare(player1.)
-
-- [Coding Questions](#coding-collection)
-  - [Return a list of all unique characters for a list of words?]()

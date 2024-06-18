@@ -10,10 +10,6 @@
 
 - [OOPs]()
 
-  - [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-
-  - [Anti Pattern- pending definition]()
-
   - [Overiding vs Overloading](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
   - [Method overriding passing null object,which method will be called?]()
 
