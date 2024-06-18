@@ -23,7 +23,7 @@
 - [@component vs @service @repository](#sb-7)
 - [What's the default retention policy?](#sb-8)
 - [How do you handle thread safety in Spring Boot](#sb-9)
-- [How]
+
 
 <a id="sb-1"></a>
 
@@ -63,3 +63,12 @@ RetentionPolicy.CLASS: Discard during class load. Useful when doing bytecode-lev
 RetentionPolicy.RUNTIME: Do not discard. The annotation should be available for reflection at runtime. Example: @Deprecated
 
 Default retention policy in spring is RUNTIME
+### Handling exception Spring Boot
+### Important
+- @SpringBootApplication: It is a combination of three annotations @EnableAutoConfiguration, @ComponentScan, and @Configuration.
+- @RestController: It can be considered as a combination of @Controller and @ResponseBody annotations.
+- @RequestAttribute is a Spring annotation used to bind a method parameter to a request attribute. This annotation is often used in controllers to access attributes added to the request in a previous stage of request processing.
+  request.setAttribute("user", "John Doe");
+- ### How to change the port
+    * application name and port. The port 8081 denotes that the application runs on port 8081.
+- 
