@@ -178,23 +178,9 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
 ### **\*\*** Core Java Start **\*\*\***
 
   <details>
-  <summary>Set 1(CJ1) </summary> 
-  
-  1. [How to use Optional in Java coding? ](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
-  2. [Method overloading vs Method Overiding.](https://medium.com/@beknazarsuranchiyev/the-method-overloading-vs-overriding-in-java-9890e2dcf90a)
-  3. Method overriding passing null object . 
-  ->4. [Differnce between String,StringBuilder and StringBuffer?](https://medium.com/@salvipriya97/string-vs-stringbuilder-vs-stringbuffer-which-one-to-choose-4308dbcc3022)
-  5. How String concatnation operator internally works ?
-  6. Best/efficient way to join String ?
-  7. What is Method references?
-  8. Anagram check in Java?
-  9. [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
-  10. How can you create a comparator?
-  11. [What are SOLID principles of Object Oriented Programming?](https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/)
-  12. What is transient variable ?
+  <summary>Set 1(CJ1) </summary>
   13.  https://www.interviewgrid.com/interview_questions/java \*\*\*\* Pending
   14.  What is Flattening?
-  15.  Return a list of all unique characters for a list of words?
   16.  Return Square of numbers of list of integers using Stream
   17.  Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
   18.  How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
@@ -203,7 +189,6 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
   21.  Summing all the element of a list.
   22.  Describe the use of Optional in Java?
   23.  Describe the differnce between map,flatmap and reducce
-  24.  [Java 8 Feature - Method Reference](https://github.com/pracks224/Interview_Prep/tree/main/INTERVIEW_CORE_JAVA/Feature8)
   25.  [Java 8 Feature - Lambda](https://medium.com/java-pearls/taming-the-lambda-a-practical-guide-to-java-8-lambda-expressions-6c0051f97995)
   26.  [Concurrent Modification Using Stream API Possible ?](https://medium.com/@sum98kumar/java-developer-interview-questions-and-answers-b5732cd18c5b)
   27.  [How ParallelStream Works internally?](https://medium.com/@sum98kumar/java-interview-questions-9cb306e392d3)
