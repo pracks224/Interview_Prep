@@ -1,18 +1,44 @@
-## Cloud Technologies
+## 21 June 2023 - 06 July 2023
 
-|    Topics    |                                                        #1                                                        |                                                          #2                                                          |                                                             #3                                                              |
-| :----------: | :--------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------: |
-| Microservices| [ALL-IN](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_SPRING_MICROSERVICES/MiICROSERVICES_ALL_IN_ONE.md) | SpringBoots | - |
-|     AWS      |       [S3](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_S3.md)        |      [Lambd](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Lambd.md)       |            [EC2](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EC2.md)            |
-|     AWS      |      [ELB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_ELB.md)       |        [EBS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_EBS.md)         |            [VPC](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_VPC.md)            |
-|     AWS      |      [SNS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SNS.md)       |        [[SQS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_SQS.md)        |            [RDS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_RDS.md)            |
-|     AWS      | [Dynamo DB](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DynamoDB.md) | [CloudWatch](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cloud_Watch.md) | [CloudFormation](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_CloudFormation.md) |
-|     AWS      |  [Cognito](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Cognito.md)   |        [IAM](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_IAM.md)         |        [KINESIS](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_KINESIS.md)        |
-|     AWS      | [REDSHIFT](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_Redshift.md)  |  [CODEPIPELINE](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_DEVOPS.md)   |                                                              -                                                              |
-| Google Cloud |                                                    [APIGEE]()                                                    |                                                          -                                                           |                                                              -                                                              |
-|    Azure     |                                                        -                                                         |                                                          -                                                           |                                                              -                                                              |
-|   CoreJava   |    [Collections](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Collections.md)    |                                                        Stream                                                        |                                                           String                                                            |
-|   CoreJava   | [MultiThreading](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_CORE_JAVA/CJ_Multithreading.md) |                                                      Executors                                                       |                                                       Design Patterns                                                       |
+|    Topics    |   #1  |    #2     |    #3   |
+| :----------: | :------------: | :--------------------: | :--------------: |
+| JS/REACT 06 July| - | - | - |
+| JS/REACT 05 July| - | - | - |
+| CLOUD 04 July| - | - | - |
+| JS/REACT 03 July| - | - | - |
+| KAFKA 02 July| - | - | - |
+| CLOUD 01 July| - | - | - |
+| DEVOPS 30 June| - | - | - |
+| CLOUD 29 June| - | - | - |
+| CORE JAVA/DSA 28 June| Stream | String DSA | Java Advance Features |
+| KAFKA 27 June| - | - | - |
+| CLOUD 26 June| - | - | - |
+| DEVOPS 25 June| - | - | - |
+| KAFKA 24 June| - | - | - | 
+| CORE JAVA/DSA 23 June| Multi thread | Executors | Array DSA  |
+| DEVOPS 22 June| - | - | - |
+| CORE JAVA/DSA 21 June| Collection | Binary Tree | OOAD design class/interface design use case questions | 
+
+
+## 07 July 2023 - 21 July 2023
+
+|    Topics    | #1  |    #2  |  #3   |
+| :----------: | :---------: | :------: | :--------------: |
+| A 07 July| - | - | - |
+| B 08 July| - | - | - |
+| C 09 July| - | - | - |
+| A 10 July| - | - | - |
+| B 11 July| - | - | - |
+| D 12 July| - | - | - |
+| C 13 July| - | - | - |
+| A 14 July| - | - | - |
+| D 15 July| - | - | - |
+| E 16 July| - | - | - |
+| B 17 July| - | - | - |
+| D 18 July| - | - | - |
+| E 19 July| - | - | - | 
+| C 20 July| -| - | -  |
+| E 21 July| - | - | - |
 
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
