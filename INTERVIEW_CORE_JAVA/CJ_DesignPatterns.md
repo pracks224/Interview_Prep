@@ -3,9 +3,9 @@
 ### Itertaion 1
 
 1. [Classification of patterns](#p)
-      * [Creational Pattern](#cp)
-      * [Structural Pattern](#sp)
-      * [Behavioral Pattern](#bp)
+   - [Creational Pattern](#cp)
+   - [Structural Pattern](#sp)
+   - [Behavioral Pattern](#bp)
 2. [Structural Pattern UseCases](#spu)
 
 ### Itertaion 2
@@ -14,14 +14,13 @@
 
 ===============================================================================================
 
-
-
 <a id="p"></a>
 
 There are three main groups of design patterns in software development.
-   * Creational Pattern - provides object creation that increases flexibility and reuse of existing code
-   * Structural Pattern - Explain how assemble objects and classes into larger structures
-   * Behavioral Pattern - Provides effective communication and the assignments of responsiblities between objects
+
+- Creational Pattern - provides object creation that increases flexibility and reuse of existing code
+- Structural Pattern - Explain how assemble objects and classes into larger structures
+- Behavioral Pattern - Provides effective communication and the assignments of responsiblities between objects
 
 Structural Patterns
 
@@ -35,7 +34,7 @@ Structural Patterns
 
 ===============================================================================================
 
-#### Structural Patterns UseCases :
+#### [Structural Patterns UseCases :](https://medium.com/javarevisited/top-structural-design-patterns-with-real-examples-in-java-7eede31bde45)
 
 A. Suppose you have a Retail or E-commerce system that has different payment gateways. Each gateway has its implementation and APIs, and you want to integrate them into your system: GatewayA and GatewayB. Your system may only have one interface, so you should use that one and implement each separately.
 
