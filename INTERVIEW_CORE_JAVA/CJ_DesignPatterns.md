@@ -25,13 +25,13 @@ There are three main groups of design patterns in software development.
 
 Structural Patterns
 
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facde
-- Flyweight
-- Proxy
+- [Adapter](https://medium.com/javarevisited/top-structural-design-patterns-with-real-examples-in-java-7eede31bde45)
+- [Bridge](https://howtodoinjava.com/design-patterns/structural/bridge-design-pattern/?source=post_page-----7eede31bde45--------------------------------)
+- [Composite]()
+- [Decorator](https://howtodoinjava.com/design-patterns/structural/decorator-design-pattern/?source=post_page-----7eede31bde45--------------------------------)
+- [Facde]()
+- [Flyweight](https://howtodoinjava.com/design-patterns/structural/flyweight-design-pattern/?source=post_page-----7eede31bde45--------------------------------)
+- [Proxy](https://refactoring.guru/design-patterns/proxy?source=post_page-----7eede31bde45--------------------------------)
 
 ===============================================================================================
 
