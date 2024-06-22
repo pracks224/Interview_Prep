@@ -3,22 +3,25 @@
 ### Itertaion 1
 
 1. [Classification of patterns](#p)
-   1.1 [Creational Pattern](#cp)
-   1.2 [Structural Pattern](#sp)
-   1.3 [Behavioral Pattern](#bp)
+      * [Creational Pattern](#cp)
+      * [Structural Pattern](#sp)
+      * [Behavioral Pattern](#bp)
 2. [Structural Pattern UseCases](#spu)
 
 ### Itertaion 2
 
 3. # [In progress]()
 
+===============================================================================================
+
+
+
 <a id="p"></a>
 
 There are three main groups of design patterns in software development.
-
-    * Creational Pattern - provides object creation that increases flexibility and reuse of existing code
-    * Structural Pattern - Explain how assemble objects and classes into larger structures
-    * Behavioral Pattern - Provides effective communication and the assignments of responsiblities between objects
+   * Creational Pattern - provides object creation that increases flexibility and reuse of existing code
+   * Structural Pattern - Explain how assemble objects and classes into larger structures
+   * Behavioral Pattern - Provides effective communication and the assignments of responsiblities between objects
 
 Structural Patterns
 
@@ -30,7 +33,7 @@ Structural Patterns
 - Flyweight
 - Proxy
 
-=============================================================================================================
+===============================================================================================
 
 #### Structural Patterns UseCases :
 
@@ -55,4 +58,4 @@ Both of these reports must have their first column as a link to original report 
 
 F. You are developing a library management system where access to certain restricted books needs to be controlled. The system should allow regular users to access general books directly, but for restricted books, access should be granted only if the user has special permissions. Implement a solution that transparently handles the access control for restricted books, ensuring that users without the necessary permissions are prevented from viewing them, while those with permissions can access them seamlessly.
 
-==========================================================================================================
+======================================================================================================
