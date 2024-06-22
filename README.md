@@ -1,44 +1,14 @@
 ## 21 June 2023 - 06 July 2023
 
-|    Topics    |   #1  |    #2     |    #3   |
-| :----------: | :------------: | :--------------------: | :--------------: |
-| JS/REACT 06 July| - | - | - |
-| JS/REACT 05 July| - | - | - |
-| CLOUD 04 July| - | - | - |
-| JS/REACT 03 July| - | - | - |
-| KAFKA 02 July| - | - | - |
-| CLOUD 01 July| - | - | - |
-| DEVOPS 30 June| - | - | - |
-| CLOUD 29 June| - | - | - |
-| CORE JAVA/DSA 28 June| Stream | String DSA | Java Advance Features |
-| KAFKA 27 June| - | - | - |
-| CLOUD 26 June| - | - | - |
-| DEVOPS 25 June| - | - | - |
-| KAFKA 24 June| - | - | - | 
-| CORE JAVA/DSA 23 June| Multi thread | Executors | Array DSA  |
-| DEVOPS 22 June| - | - | - |
-| CORE JAVA/DSA 21 June| Collection | Binary Tree | OOAD design class/interface design use case questions | 
+|    Topics    |   #1  |    #2     |    #3   | #4  |    #5     |    #6   | #7 |    #8     |    #9  |
+| :----------: | :------------: | :----: | :-----: |:----------: | :------------: | :-----: | :----: |:----: |:----: |
+| JS/REACT| - | - | - |- | - | - |- | - | - |
+| CLOUD| - | - | - |- | - | - |- | - | - |
+| KAFKA| - | - | - | - | - | - |- | - | - |
+| DEVOPS| - | - | - |- | - | - |- | - | - |
+| CORE JAVA| [1]() | [2]()| -|- | - | - |- | - | - | 
 
 
-## 07 July 2023 - 21 July 2023
-
-|    Topics    | #1  |    #2  |  #3   |
-| :----------: | :---------: | :------: | :--------------: |
-| A 07 July| - | - | - |
-| B 08 July| - | - | - |
-| C 09 July| - | - | - |
-| A 10 July| - | - | - |
-| B 11 July| - | - | - |
-| D 12 July| - | - | - |
-| C 13 July| - | - | - |
-| A 14 July| - | - | - |
-| D 15 July| - | - | - |
-| E 16 July| - | - | - |
-| B 17 July| - | - | - |
-| D 18 July| - | - | - |
-| E 19 July| - | - | - | 
-| C 20 July| -| - | -  |
-| E 21 July| - | - | - |
 
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
