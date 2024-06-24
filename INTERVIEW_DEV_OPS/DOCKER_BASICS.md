@@ -1,3 +1,14 @@
+Key Points ::
+
+#### Dockerfile
+
+- A text file with instructions to build an image, human readable.Purpose => how to build an image
+
+- Dockerfile
+
+1. Docker Objects : Docker has Images,Containers,Volumes,Networks,Plugins.
+2. Images :
+
 #2 Docker container communication between ? (https://www.youtube.com/watch?v=xrUGEoUpa3s - Abhisek Video)
 -> Talk about default bridge network Docker0
 -> There types of network
