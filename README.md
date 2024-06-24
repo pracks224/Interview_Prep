@@ -526,33 +526,6 @@ Q.18) Find the year where the maximum number of movie is available
 <details>
   <summary>Important Notes to revise</summary>  
  
-  ```diff
-    a) What is kafka Cluster? 
-       - Group of Kafka brokers.  
-    b) What is Kafka broker -> Its the server where Kafka instances are running.
-    c) Producer -> Writes new data to the kafka cluster (data dal dega)
-    d) Consumer - > Kaffka cluster se data utha ta hai
-    e) Zookeeper -> Monitors the Kafka cluster health
-    f) Connects -> If you have to pull data from external source ( configurable ). We dont need to write any code
-    g) Stream -> to transformation the data 
- ```
- ##### Kafka Topics 
- - These are like tables of databse
- - They live inside the broker
- -  Producers produces the messages and send to topics
- -  Topics has partions
- - Producers can directly send the data to partion or topics
- 
- ##### Kafka Partiontions 
- 
- - Topics has many partions like p0 p1 p2 ..
- - Partions where actual messages stores.
- - While creating topics,number partions will be decided
- -  Partions are ordered and immutable sequence
- - Partions are in increased order id called offset
- - Each partion is independent of each other.
- - All the trannsactions stores in distributed log files.
- 
  ##### How and why to send messages to KAFKA keys ?
  
  - When producers send messages to Topics/Partions , It will insert into Partions in  round robin fashion
