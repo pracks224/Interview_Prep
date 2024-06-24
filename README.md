@@ -525,74 +525,7 @@ Q.18) Find the year where the maximum number of movie is available
 
 <details>
   <summary>Important Notes to revise</summary>  
- 
- ##### How and why to send messages to KAFKA keys ?
- 
- - When producers send messages to Topics/Partions , It will insert into Partions in  round robin fashion
-      Producer - Send messages m1,m2,m3, m4
- - Let's say Topics has p1,p2 partions,Then messages will insert into p1 - m1 -> p2 - m2  -> p1- m3 -> p2 - m4 etc
-      The problem with this approach is it fetches in unorders fashion. To avoid we have to pass the message with keys
- -  When message passed with keys, partiotoner created a hash and bind it to a prticular partion.
- - Key is optional . With out key sending messages wont guarntees the ordering of the message as the consumer poll the
-     messages from all partions at the same time.
- 
- #### Steps to work on Kafka
- -  Start zookeeper
- -  start the broker
- -  create the topic 
-         > kafka-topics.bat --create --topic fruit --bootstrap-server localhost:9092 --replication-factor 1 -- partions 4
- - create producers
-         > kafka-console-producers.bat --broker-list localhost:9092 --topic fruit --property "key.separator = -" --property "parse-key=true
- - same way create/register producers
- 
- #### Understanding Consumer Offset, Consumer Groups, and Message Consumption in Apache Kafka
-     
- -  In this section ,I will write about the process consumer consuing information from Partions
- -  Consumer Offset - Position of a consumer in a specific partition of topic. It represents the latest message consumer has read.
- -  When a consumer group reads a message from a topic, each member of the group mantains its own offset and updates it as it consumes message.
- -  when consumer created - > it will assigned with a group id . One consumer grouop can have multiple consumers.
- -  Ok, Each consumer mantains its own offset that is nothing but the bookmark of the last read . 
- - All the offset stores in _consumer_offset named topic. _consumer_offset is the builtin topic in apache kafka that keeps track of the latest offset commited forv each partion of each consumer group.
- - The information in _consumer_offset used by kafka for reliabity of the consumet groups and to ensure that messages are not lost or duplicated.
- - Important - There is separate __consumer_offset for each consumer group.
- - The group co ordinator uses this information to manage the assignment of partitions to consumers and ensure that each partion is being consumed 
-     by exactly one consumer in the group.
- - when consumer joins a consumer group,it sends the join request to the group coordinator
- - The G.C will determine which partition the consumer assigned to be.
- - STICKY FASHION --> Consumer will assigned to the same partion until its on the same Consumer group.
- 
- #### Understanding Segments, Commit Log, and Retention Policy
- - Segments : Particular set of messages ,Ek partition me bahut sare messages rehete hai. Ek segement ka size we can define.
- - Commit Log : In the server.properties -> directory for commit log
-                    All the messages stored in the commit log folder as .log files
-                    As manay partions for a topic ,that many folders will be created
-                    E.g. -> Topic name food with 4 partitions
-                          food_0
-                          food_1
-  - Retentions Policy  : Two types 
-                             Data Based policy -> after a size it will delete 
-                            Time Based policy -> By default 168 hours and after that the file will deleted
- 
-  -  Actually data stores in .log file in encoded format and consumer decode it before uses.
- 
- #### How to Make a Kafka Cluster with 3 Brokers: Understand Replication Factor.
-    
- - A Kafka cluster is a distributed system that consists of multiple Kafka brokers. Each broker is a server that runs Kafka to manage and store message       data. Each will unique broker Id.
- - The replication factor refers to the number of copies of each message that are stored in the Kafka cluster for fault tolerance.
- 
- -  When a topic is created with a replication factor of N, Kafka ensures that there are N replicas of each message distributed across the brokers in         the cluster. This allows for high availability and fault tolerance, as well as scalability for handling large volumes of data.
- -  E.g.  One Zoo keeper and 3 Brokers 
-        Create topic command 
-        kafka-topics.bat --create --topic gadgets --bootstrap-server localhost:9092,localhost:9093,localhost:9094 --replication-factor 3 --partition 3
-        In this 9092/9093/9094 are the brokers and replication fator 3 means creates 3 copies
-        But when producer sends message,It will send to one broker who is the leader for that partion and then it will replicate inn other two.
-        Similarly we can create prodcuers using command
-        kafka -consumer-console.bat --bootsrtap-server --from-begining
- 
- #### ISR in Kafka
- 
- -  In Sync Replica . To see the list of topics kafka-topics.bat --describe
-    Lets say one broker down ,the automatically leader will be assigned in sync
+
  
  #### Kafka Producer And Consumer Example In Java Spring Boot
  
