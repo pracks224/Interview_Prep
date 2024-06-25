@@ -127,3 +127,28 @@ AWS Lambda functions can be configured to run up to 15 minutes per execution. Yo
 ## Does AWS Lambda support versioning?
 
 Yes. By default, each AWS Lambda function has a single, current version of the code. Clients of your Lambda function can call a specific version or get the latest implementation. [Please refer documentation on versioning Lambda functions](http://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)
+
+===== ======== ======= ======== ======= ======== ======= ======= ======= =======
+
+### Key components for developing AWS Lambda
+
+- Artifacts required ::
+  - spring-cloud-function-adapter-aws
+  - spring-cloud-starter-function-web
+  - spring-boot-starter-web
+- Create Lambda Handler
+
+```
+package com.example.demo;
+
+import org.springframework.cloud.function.adapter.aws.SpringBootRequestHandler;
+
+public class UppercaseHandler extends SpringBootRequestHandler<String, String> {
+}
+```
+
+- Create an AWS Lambda function
+  - AWS Management Console -> Lambda service
+- Upload the built artifact
+- Set the handler
+- Create a test event etc.

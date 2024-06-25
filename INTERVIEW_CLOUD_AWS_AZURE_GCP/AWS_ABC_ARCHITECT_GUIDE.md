@@ -11,8 +11,7 @@
 - [AWS SQS](./AWS_SQS.md)
 - [AWS DevOps](./AWS_DEVOPS.md)
 - [AWS Disater Recovery](#recovery)
-
-
+- [AWS Lambda](./AWS_Lambd.md)
 
 <a id="eb-s"></a>
 
@@ -26,12 +25,6 @@
   - Throughput Optimized(st1) - throughput-intensive workloads
   - Cold HDD -> Lowest cost as less frequently accessed workloads
 - snapshots,encryption etc other features
-
-#### Amazon VPC (Virtual Private Network)
-
-- Amazon VPC allows you to create a virtual network in the AWS cloud that closely resembles a traditional network
-- Control over IP addressing, subnet creation, route tables, and network gateways
-- Connect them securely to your own data center or other cloud resources
 
 #### Amazon DynamoDB
 
@@ -235,6 +228,8 @@
 - Basically, the primary task of it is network transalation
   E.G. An Amazon VPC with an address space of 10.0.0.0/16, one subnet with an address range of 10.0.0.0/24, a route table, an attached IGW, and a single Amazon EC2 instance with a private IP address and an EIP address. The route table contains two routes: the local route that permits inter-VPC communication and a route that sends all non-local traffic to the IGW (igw-id). Note that the Amazon EC2 instance has a public IP address (EIP = 198.51.100.2); this instance can be accessed from the Internet, and traffic may originate and return to this instance.
 
+  [More](./AWS_VPC.md)
+
 #### Elastic IP Addresses (EIPs) :
 
 - An Elastic IP Addresses (EIP) is a static, public IP address in the pool for the region that you can allocate to your account (pull from the pool) and release (return to the pool)
@@ -281,6 +276,7 @@ Benefit: This improves fault tolerance and reliability for critical applications
 #### How would you implement a disater recovery solution in AWS using RDS,EC2 and S3
 
 Following steps :
+
 - A.Create a RDS instance in primary regiona and automatic backups to Amazon S3.
 - B.Create EC2 instance in the primary region
 - C. Create Bucket to store the automatic backups
@@ -292,11 +288,14 @@ Following steps :
 - ##### Automate Backups:
   Use AWS Backup to automate regular backups of critical data across AWS services such as RDS, EBS, and S3, ensuring data is securely stored and easily recoverable.
 
-##### Cross-Region Replication: 
+##### Cross-Region Replication:
+
 Implement cross-region replication for S3 buckets, RDS instances, and DynamoDB tables to ensure data redundancy and availability in a different geographical location.
 
-##### Use Multi-AZ Deployments: 
+##### Use Multi-AZ Deployments:
+
 Configure Multi-AZ (Availability Zone) deployments for critical services like RDS and Elasticsearch to provide automatic failover and high availability within a region.
 
-##### Infrastructure as Code: 
+##### Infrastructure as Code:
+
 Utilize AWS CloudFormation or Terraform to define and version your infrastructure, allowing for quick and consistent environment recreation in another region during a disaster.
