@@ -7,6 +7,24 @@
   - [Components Of VPC](#comp-vpc)
 - [Elastic Network Interface](#enI)
 - [AWS Beanstalk](./AWS_BeanStalk.md)
+- [AWS SNS](./AWS_SNS.md)
+- [AWS SQS](./AWS_SQS.md)
+- [AWS DevOps](./AWS_DEVOPS.md)
+- [AWS Disater Recovery](#recovery)
+
+<a id="recovery"></a>
+
+#### How would you implement a disater recovery solution in AWS using RDS,EC2 and S3
+
+Following steps :
+A. Create a RDS instance in primary regiona and automatic backups to Amazon S3.
+B. Create EC2 instance in the primary region
+C. Create Bucket to store the automatic backups
+D. Create a RDS instance in a secondary region and configure the replica of the primary
+E. Set up EC2 in a secondary region and insatll the necesary software to access the S3
+F. Use S3 versioning and object life cycle for management of policies to retain back ups
+G. Regulary test failover,if fails traffic will move to the other region etc
+H. Cloudwatch to monitor the RDS ,EC2 Instances etc.
 
 <a id="eb-s"></a>
 

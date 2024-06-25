@@ -26,4 +26,14 @@
 - AWS CodeStar
   s
 
-#### Builiding a CICD Pipeline on AWS
+#### Can you describe the process of setting up a continous delivery pipeline in AWS using codepipeline and CodeBuild
+
+- AWS CodePipeline and CodeBuild used for continous delivery purpose
+- Broken down into the following steps :
+  - Store the code in the repository like AWS CodeCommit. AWS codecommit can work with git repository also using bi directional sync
+  - CodeBuild is to compile the source code and generate the artifacts etc
+  - Code pipeline orchestarte the delivery pipeline . It has the following stages
+    A.Build Stage - Generates the building artifacts
+    B.Test Stage - run the automated tests on the build artifacts
+    C.Deploy Stage - deploy the build artifacts to a testing or production env.
+  - Set up a trigger for every code commit
