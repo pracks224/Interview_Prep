@@ -6,7 +6,7 @@
   - [Understand CIDR](#cid-r)
   - [Components Of VPC](#comp-vpc)
 - [Elastic Network Interface](#enI)
-- [AWS Beanstalk](INTERVIEW_CLOUD_AWS_AZURE_GCP/AWS_BeanStalk.md)
+- [AWS Beanstalk](./AWS_BeanStalk.md)
 
 <a id="eb-s"></a>
 
