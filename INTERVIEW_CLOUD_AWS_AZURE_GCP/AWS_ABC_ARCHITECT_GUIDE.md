@@ -12,19 +12,7 @@
 - [AWS DevOps](./AWS_DEVOPS.md)
 - [AWS Disater Recovery](#recovery)
 
-<a id="recovery"></a>
 
-#### How would you implement a disater recovery solution in AWS using RDS,EC2 and S3
-
-Following steps :
-A. Create a RDS instance in primary regiona and automatic backups to Amazon S3.
-B. Create EC2 instance in the primary region
-C. Create Bucket to store the automatic backups
-D. Create a RDS instance in a secondary region and configure the replica of the primary
-E. Set up EC2 in a secondary region and insatll the necesary software to access the S3
-F. Use S3 versioning and object life cycle for management of policies to retain back ups
-G. Regulary test failover,if fails traffic will move to the other region etc
-H. Cloudwatch to monitor the RDS ,EC2 Instances etc.
 
 <a id="eb-s"></a>
 
@@ -286,3 +274,29 @@ Benefit: This improves fault tolerance and reliability for critical applications
 
 - An Amazon VPC peering connection is a networking connection between two Amazon VPCs that enables instances in either Amazon VPC to communicate with each other as if they are within the same network. More to discuss.
 - VPC peering connections do not support transitive routing . Why VPC Peering Doesn't Support Transitive Routing ?
+
+============= ========= =========== ======= ========= ========= ======== ======== =========== ===========
+<a id="recovery"></a>
+
+#### How would you implement a disater recovery solution in AWS using RDS,EC2 and S3
+
+Following steps :
+- A.Create a RDS instance in primary regiona and automatic backups to Amazon S3.
+- B.Create EC2 instance in the primary region
+- C. Create Bucket to store the automatic backups
+- D. Create a RDS instance in a secondary region and configure the replica of the primary
+- E. Set up EC2 in a secondary region and insatll the necesary software to access the S3
+- F. Use S3 versioning and object life cycle for management of policies to retain back ups
+- G. Regulary test failover,if fails traffic will move to the other region etc
+- H. Cloudwatch to monitor the RDS ,EC2 Instances etc.
+- ##### Automate Backups:
+  Use AWS Backup to automate regular backups of critical data across AWS services such as RDS, EBS, and S3, ensuring data is securely stored and easily recoverable.
+
+##### Cross-Region Replication: 
+Implement cross-region replication for S3 buckets, RDS instances, and DynamoDB tables to ensure data redundancy and availability in a different geographical location.
+
+##### Use Multi-AZ Deployments: 
+Configure Multi-AZ (Availability Zone) deployments for critical services like RDS and Elasticsearch to provide automatic failover and high availability within a region.
+
+##### Infrastructure as Code: 
+Utilize AWS CloudFormation or Terraform to define and version your infrastructure, allowing for quick and consistent environment recreation in another region during a disaster.
