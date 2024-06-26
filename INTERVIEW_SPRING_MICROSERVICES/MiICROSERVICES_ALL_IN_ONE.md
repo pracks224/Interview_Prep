@@ -212,6 +212,26 @@ In essence, Conway's Law emphasizes that the communication structures within org
 
 ### Caching in Microservices? [TOP](#ms-top)
 
+- Caching is temporrary storing in memory for faster retreival.
+- Cache HIT ~~> If data already exist 
+- Cache MISS ~~~> If data does not exist
+- What is Cache Eviction Policy ~~~> As cache data is temporray, It has to evict certain data as per some policy.
+-   + LRU - Least Recently Used
+    + LFU - Least Frequently Used
+    + MRU - Most Recently Used
+    + FIFO
+    + LIFO
+-  Types of Caching
+    + Embedded Cache -> Most simplest cache, priavte to the running instance. Problem when multiple instances present for the same service. To resolve it used event listners to updated other instance caches
+    + Client-Server Cache -> Centralized Cache
+    + Distributed Cache/Cloud Cache -> Multiple CS cache
+    + Side Car Cache -> Two container : In Sidecar Cache a separate container image is also spin-up with the application image and both the containers are isolated from each other.
+    + Reverse Proxy Cache :
+      In Reverser Proxy Caching the API response of a request which was served earlier by any underlying service is saved in the cache associated with API gateway or Reverse proxy. So when the same request hits the gateway it will be served from the gateway itself instead of hitting the underlying micro-services.
+    
+ 
+  
+
 [More](https://medium.com/@ashishteotia/types-of-caching-in-microservices-a68455ba8c45)
 
 <a id="ms-patterns"></a>
