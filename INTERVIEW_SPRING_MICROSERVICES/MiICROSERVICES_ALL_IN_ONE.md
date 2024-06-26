@@ -214,7 +214,7 @@ In essence, Conway's Law emphasizes that the communication structures within org
 
 [More](https://medium.com/@ashishteotia/types-of-caching-in-microservices-a68455ba8c45)
 
-<a id="ms-caching"></a>
+<a id="ms-patterns"></a>
 
 ### Patterns [TOP](#ms-top)
 
