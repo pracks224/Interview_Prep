@@ -23,7 +23,8 @@
 - [@component vs @service @repository](#sb-7)
 - [What's the default retention policy?](#sb-8)
 - [How do you handle thread safety in Spring Boot](#sb-9)
-
+- [How request Spring Boot can Handle](#sb-10)
+  - [Change default Tomcat conatiner to Jetty](#sb-10)
 
 <a id="sb-1"></a>
 
@@ -63,12 +64,35 @@ RetentionPolicy.CLASS: Discard during class load. Useful when doing bytecode-lev
 RetentionPolicy.RUNTIME: Do not discard. The annotation should be available for reflection at runtime. Example: @Deprecated
 
 Default retention policy in spring is RUNTIME
+
 ### Handling exception Spring Boot
+
 ### Important
+
 - @SpringBootApplication: It is a combination of three annotations @EnableAutoConfiguration, @ComponentScan, and @Configuration.
 - @RestController: It can be considered as a combination of @Controller and @ResponseBody annotations.
 - @RequestAttribute is a Spring annotation used to bind a method parameter to a request attribute. This annotation is often used in controllers to access attributes added to the request in a previous stage of request processing.
   request.setAttribute("user", "John Doe");
 - ### How to change the port
-    * application name and port. The port 8081 denotes that the application runs on port 8081.
-- 
+  - application name and port. The port 8081 denotes that the application runs on port 8081.
+
+<a id="sb-10"></a>
+
+### How Many Requests Can Spring Boot Handle Simultaneously?
+
+[More](https://medium.com/@haiou-a/spring-boot-how-many-requests-can-spring-boot-handle-simultaneously-a57b41bdba6a)
+
+- No of request spring boot handles ,it depends on the embedded container
+- Three main web container : Tomcat, Jetty, UnderTow
+- UnderTow : Low Memory usage and High concurrency
+- In summary, Tomcat is suitable for large applications due to its maturity and enterprise-level features;
+
+Undertow excels in high-performance and low-memory usage, especially for high-concurrency short connection scenarios;
+
+and Jetty is characterized by its lightweight, flexibility, and ease of embedding, suitable for rapid development and lightweight deployment.
+
+- spring-configuration-metadata.json file has the default settigs
+- Tomcat allows a maximum of 8192 connections (8192 = 8 \* 1024).
+- So, the number of connections Spring Boot can handle simultaneously is equal to Tomcat’s maximum connections plus Tomcat’s maximum waiting number. i.e 8192 + 100/200/300 etc.
+- Setting the Container to Jetty :
+  In spring-boot-starter-web dependency exclude tomact and add Jetty/ Undertow depenceny
