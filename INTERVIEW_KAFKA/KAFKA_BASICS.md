@@ -42,6 +42,8 @@
 
 #### 20. How Offsets work in Kafka ?
 
+#### 21. How to ensure message to deliver only once ?
+
 =======================================================================================
 
 1. Broker is the instance where Kafka is installed
