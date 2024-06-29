@@ -3,17 +3,20 @@
 - [React](#react)
 - [Angular](#angular)
 - [Micro-Front-End](#micro-front-end)
+  - [Module Federation](#module-federation)
+  - [Angular Element](#angular-element)
 
 <a id="micro-front-end"></a>
 
 #### Micro Front End (MF)
 
 [more details](https://newsletter.systemdesign.one/p/micro-frontends)
+[all materials](https://github.com/billyjov/microfrontend-resources?tab=readme-ov-file)
 
 #### What is MF?
 
 It's the extension of Micro service, Domain driven and can independently deployed
-Technology agnostic ,apps can be built on differnt framewroks like angular,react,vue etc 
+Technology agnostic ,apps can be built on differnt framewroks like angular,react,vue etc
 
 #### When to use Micro Front End?
 
@@ -38,7 +41,7 @@ Technology agnostic ,apps can be built on differnt framewroks like angular,react
 - Easy to update or rewrite parts of the Frontend
 - Easy to experiment with new technology in an isolated way
 
-#### Dis-advantages of Microfrontend   
+#### Dis-advantages of Microfrontend
 
 The disadvantages of Micro Frontends are:
 
@@ -59,26 +62,30 @@ The disadvantages of Micro Frontends are:
 - Increased operational and governance complexity due to many repositories, tools, and deployment pipelines.
 
   #### MF Frameworks ?
+
 - Luigi
 - Bit
 - Frint.js
 - Open Components
+
   #### How to implement Microfontend?
 
--  User ==> Container App Server ====> Calls the Micro Front End Servers
--  A separate server can be set up to render Micro Frontends. And a container app server can be installed to interact with relevant Micro Frontend servers on demand.
--  Also each Micro Frontend should get an independent deployment pipeline. Because it reduces the scope and the associated risk.
--  There are 2 ways to organize Micro Frontend code:
-    - Mono Repo : Uses a single repository to share code and libraries.
-    - Poly Repo : Gives one repository per Micro Frontend. It keeps the code base independent.
+- User ==> Container App Server ====> Calls the Micro Front End Servers
+- A separate server can be set up to render Micro Frontends. And a container app server can be installed to interact with relevant Micro Frontend servers on demand.
+- Also each Micro Frontend should get an independent deployment pipeline. Because it reduces the scope and the associated risk.
+- There are 2 ways to organize Micro Frontend code:
+  - Mono Repo : Uses a single repository to share code and libraries.
+  - Poly Repo : Gives one repository per Micro Frontend. It keeps the code base independent.
 - 2 types of Micro Frontends based on composition Build Time & Run Time
-  
+
 ##### Micro Frontend Build Time Integration
+
 Micro Frontend gets published as a package. And container application includes it as a dependency.
 
 But this approach creates coupling at the release stage. Put another way, a change in any Micro Frontend needs a release of every Micro Frontend.
 
 So it's better to avoid build-time integration.
+
 ```
 {
   "name": "@frontend/container",
@@ -90,12 +97,14 @@ So it's better to avoid build-time integration.
   }
 }
 ```
+
 ##### Micro Frontend Runtime Integration
+
 The composition occurs at runtime and the Micro Frontend can be updated on a browser refresh.
 
 The different ways to set up runtime integration are: A .iframes B.JavaScript C.Web Components
 
-#### Communication Between Micro Frontends : 
+#### Communication Between Micro Frontends :
 
 Micro Frontends shouldn't share their state but communicate via messages or events. Besides communication between Micro Frontends should be kept minimal to prevent coupling.
 
@@ -108,3 +117,13 @@ Passing callbacks
 Routing by using the address bar as a communication mechanism
 
 Web workers
+
+<a id="micro-front-end"></a>
+
+#### Module Federation
+
+- Module Federation is a feature introduced in Webpack 5 that allows multiple independent applications to share code and dependencies at runtime.
+- This concept is particularly useful in micro-frontend architectures, where different parts of a web application can be developed, deployed, and updated independently.
+- One app (remote app) exposes the module and host application access the remote app.
+
+#### Angular Element

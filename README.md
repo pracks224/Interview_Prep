@@ -1,15 +1,15 @@
 #### Interview CheatSheet
 
-|     Topics      |  #1   |  #2   | #3  | #4  | #5  | #6  | #7  | #8  | #9  |
-| :-------------: | :---: | :---: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-|    JS/REACT     |   9   |  26   | 30  | 39  | 45  | 54  | 59  | 65  | 70  |
-|      CLOUD      |   [5]()|  14   | 19  | 31  | 40  | 47  | 55  | 60  | 66  |
-|      KAFKA      | [4]() |  13   | 18  | 32  | 41  | 48  | 61  | 67  | 71  |
-|     DEVOPS      | [3]() |  12   | 33  | 42  | 49  | 56  | 62  | 68  | 72  |
-|    CORE JAVA    | [1]() | [2]() | 10  | 17  | 24  | 29  | 37  | 46  | 57  |
-|       DSA       |   [6]()   |  11   | 16  | 21  | 25  | 28  | 34  | 38  | 53  |
-| SQL/NOSQL/REDIS |   [8 ]()  |  22   | 35  | 43  | 50  | 51  | 63  | 69  | 73  |
-|  MICROSERVICES  |   [7]()  |  15   | 23  | 27  | 36  | 44  | 52  | 58  | 64  |
+|     Topics      |   #1   |  #2   |   #3   | #4  | #5  | #6  | #7  | #8  | #9  |
+| :-------------: | :----: | :---: | :----: | :-: | :-: | :-: | :-: | :-: | :-: |
+|    JS/REACT     | [9]()  |  26   |   30   | 39  | 45  | 54  | 59  | 65  | 70  |
+|      CLOUD      | [5]()  |  14   |   19   | 31  | 40  | 47  | 55  | 60  | 66  |
+|      KAFKA      | [4]()  |  13   |   18   | 32  | 41  | 48  | 61  | 67  | 71  |
+|     DEVOPS      | [3]()  |  12   |   33   | 42  | 49  | 56  | 62  | 68  | 72  |
+|    CORE JAVA    | [1]()  | [2]() | [10]() | 17  | 24  | 29  | 37  | 46  | 57  |
+|       DSA       | [6]()  |  11   |   16   | 21  | 25  | 28  | 34  | 38  | 53  |
+| SQL/NOSQL/REDIS | [8 ]() |  22   |   35   | 43  | 50  | 51  | 63  | 69  | 73  |
+|  MICROSERVICES  | [7]()  |  15   |   23   | 27  | 36  | 44  | 52  | 58  | 64  |
 
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
@@ -524,14 +524,13 @@ Q.18) Find the year where the maximum number of movie is available
 ## Kafka
 
 <details>
-  <summary>Important Notes to revise</summary>  
+  <summary>Important Notes to revise</summary>
 
- 
- #### Kafka Producer And Consumer Example In Java Spring Boot
- 
- - Will share the link later here (main depencey is springframework-kafka )
- 
- For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
+#### Kafka Producer And Consumer Example In Java Spring Boot
+
+- Will share the link later here (main depencey is springframework-kafka )
+
+For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
 
 **[⬆ Back to Top](#table-of-contents)**
 
