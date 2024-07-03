@@ -4,6 +4,8 @@
 
 - [Java 8 Features](#java8)
 
+  - [Java Stream](./CJ_Streams.md)
+
   - [How to use Optional in Java Coding](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
   - [Functional Interface](#java8-fi)
   - [Method Refernce](https://medium.com/javarevisited/method-references-in-java8-9714496d5306)
@@ -50,14 +52,14 @@
 
 - An interface with exactly one abstract method. It can have multiple default or static methods.
 - Designed to be used with lambda expressions in Java.
-   * Runnable: Used in threading contexts, with no arguments and no return value (void run()).
-   * Callable: Similar to Runnable but returns a value and can throw a checked exception (V call()).
-   * Comparator: Defines a comparison function for sorting that returns a negative integer, zero, or a positive integer (int compare(T o1, T o2)).
-  * Consumer: Performs an action on the given argument, returning no result (void accept(T t)).
-  * Supplier: Returns a result and does not take any input (T get()).
-  * Predicate: Returns a boolean value based on its input, used for evaluating conditions (boolean test(T t)).
-  * Function: Accepts one argument and produces a result, typical use case is for converting or transforming data (R apply(T t)).
-  * UnaryOperator: A specialization of Function where the input and output are of the same type (T apply(T t)).
-  * BinaryOperator: A specialization of Function for two inputs of the same type, producing a result of the same type (T apply(T t1, T t2)).
+  - Runnable: Used in threading contexts, with no arguments and no return value (void run()).
+  - Callable: Similar to Runnable but returns a value and can throw a checked exception (V call()).
+  - Comparator: Defines a comparison function for sorting that returns a negative integer, zero, or a positive integer (int compare(T o1, T o2)).
+  - Consumer: Performs an action on the given argument, returning no result (void accept(T t)).
+  - Supplier: Returns a result and does not take any input (T get()).
+  - Predicate: Returns a boolean value based on its input, used for evaluating conditions (boolean test(T t)).
+  - Function: Accepts one argument and produces a result, typical use case is for converting or transforming data (R apply(T t)).
+  - UnaryOperator: A specialization of Function where the input and output are of the same type (T apply(T t)).
+  - BinaryOperator: A specialization of Function for two inputs of the same type, producing a result of the same type (T apply(T t1, T t2)).
 
 @FunctionalInterface Annotation: Optional but helps in making the intent clear and ensures the interface cannot have more than one abstract method.
