@@ -11,27 +11,10 @@
 | SQL/NOSQL/REDIS | [8 ]() |  22   |   35   | 43  | 50  | 51  | 63  | 69  | 73  |
 |  MICROSERVICES  | [7]()  |  15   |   23   | 27  | 36  | 44  | 52  | 58  | 64  |
 
-[One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
-
 [START](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
-
-<details>
-  <summary>No SQLs </summary>
-  
-  1501.  [MongoDB Vs Cassandra Vs ScyllaDB ?](https://blog.purestorage.com/purely-informational/types-of-nosql-databases/)
-  1502.  [API Gateway Pattern]()
-  1503.  [Marker Interface and Annotation]()
-  1504.  [Memory Leak - Reasons]()
-  1505.  [XML to Json libraries]()
-  1506.  [Moving monolith to Microservices](https://launchdarkly.com/blog/migrating-legacy-monolithic-applications-microservices/)
-  1507.  [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
-  1508.  [Monolithic can not be scalable, why?Tight Coupled]()
-  1509.  [Differnce between HashMap,TreeMap and LinkedHashMap]()
-  1510.  [Destory Singleton Using Reflcection]()
-  1511.  [Serilaization and Singleton]()
-  1512.  [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
-
-</details>
+||
+\/
+[DATABASE](INTERVIEW_SQL_NOSQL)
 
 <details>
   <summary>System Design Concepts </summary>

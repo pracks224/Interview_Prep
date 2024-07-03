@@ -32,6 +32,16 @@ Structural Patterns
 - [Flyweight](https://howtodoinjava.com/design-patterns/structural/flyweight-design-pattern/?source=post_page-----7eede31bde45--------------------------------)
 - [Proxy](https://refactoring.guru/design-patterns/proxy?source=post_page-----7eede31bde45--------------------------------)
 
+- [Differnce between HashMap,TreeMap and LinkedHashMap]()
+- [Destory Singleton Using Reflcection]()
+- [Serilaization and Singleton]()
+- [Enum Singleton](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+
+- [BillPugh Singleton Implementation - Using Static helper vs DoubleCheck Singleton + Clonable exception](https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples)
+
+- [Marker Interface and Annotation]()
+- [Memory Leak - Reasons]()
+
 ===============================================================================================
 
 #### [Structural Patterns UseCases :](https://medium.com/javarevisited/top-structural-design-patterns-with-real-examples-in-java-7eede31bde45)
