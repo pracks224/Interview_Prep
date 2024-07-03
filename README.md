@@ -1,49 +1,19 @@
 #### Interview CheatSheet
 
-|     Topics      |   #1   |  #2   |   #3   | #4  | #5  | #6  | #7  | #8  | #9  |
-| :-------------: | :----: | :---: | :----: | :-: | :-: | :-: | :-: | :-: | :-: |
-|    JS/REACT     | [9]()  |  26   |   30   | 39  | 45  | 54  | 59  | 65  | 70  |
-|      CLOUD      | [5]()  |  14   |   19   | 31  | 40  | 47  | 55  | 60  | 66  |
-|      KAFKA      | [4]()  |  13   |   18   | 32  | 41  | 48  | 61  | 67  | 71  |
-|     DEVOPS      | [3]()  |  12   |   33   | 42  | 49  | 56  | 62  | 68  | 72  |
-|    CORE JAVA    | [1]()  | [2]() | [10]() | 17  | 24  | 29  | 37  | 46  | 57  |
-|       DSA       | [6]()  |  11   |   16   | 21  | 25  | 28  | 34  | 38  | 53  |
-| SQL/NOSQL/REDIS | [8 ]() |  22   |   35   | 43  | 50  | 51  | 63  | 69  | 73  |
-|  MICROSERVICES  | [7]()  |  15   |   23   | 27  | 36  | 44  | 52  | 58  | 64  |
-
 1.[START](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
 
 2.[DATABASE](INTERVIEW_SQL_NOSQL)
 
-3. [SYSTEM DESIGN](INTERVIEW_SYSTEM_DESIGN)
+3.[SYSTEM DESIGN](INTERVIEW_SYSTEM_DESIGN)
 
-</details>
-<details>
-  <summary>Docker/Kubernetes/Terraform/Ansible</summary>
+4.[DEVOPS]()
 
-A. [ANSIBLE IN DETAILS](https://github.com/pracks224/Interview_Prep/blob/main/CICD/ansible_in_details.txt)
+5.[MICRO SERVICES]()
+  - 5.1 [SOFTWARE DESIGN PRINCIPLES]()
+    
+6.[NODEJS & FRONTEND]()
 
-[Blue Green Deployment Vs Rolling Deployment](https://medium.com/@navya.cloudops/devops-zero-to-hero-day-20-deployment-strategies-e6712b4801e4)
-
-Q.1) [What is docker? Familiarize the concept of docker and containerization. Understand the difference between docker and traditional virtulization.]()
-
-Q.2) [Docker Components: Learn about the key components of Docker, including Docker Engine, Docker Images, Docker Containers, Dockerfile, and Docker Registry.]()
-
-Q.3) [Steps to Dockerizing an Application .]()
-
-Q.4) [How to build a docker Image using dockerfile with example](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-
-Q.5) [Docker container communication between ?](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-
-Q.6) [Docker build vs Docker run](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-
-Q.7) [Docker CMD Vs RUN Vs ENTRYPOINT](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-
-Q.8) [Frequently used Docker Commands](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Docker_Zero_To_Hero)
-
-Q.9) [Building & deploying containers & orchestrating them with Kubernetes](https://github.com/pracks224/Interview_Prep/blob/main/CICD/Kubernetes_In_Details)
-
-</details>
+7.
 
 <details>
   <summary>Data Structure and Algorithms </summary> 
@@ -257,36 +227,7 @@ Q.18) Find the year where the maximum number of movie is available
  
 </details>
 
-<details>
-  <summary>Microservices Design Patterns & Advance Concepts</summary>
 
-1. [How secure a Microservice ?]()
-2. What is the diffence between cohesion and coupling ?
-3. What is 12-Factor App ? // if all these there then it's microservice enabled
-4. What are the type of Service Discovery ?
-5. What is the difference between normal REST service and Restful WS (Web Service)?
-6. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
-7. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
-8. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
-9. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
-10. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
-11. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
-12. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
-
-#### Software Design Principles
-
- <details>
-  <summary>Set 1</summary>
-
-1. [Solid]()
-2. [DRY]()
-3. [KISS]()
-4. [GRASP]()
-5. [High Cohesion]()
-6. [Low Coupling]()
-
- </details>
-</details>
 
 <details>
   <summary>Node Js & Front End</summary>
