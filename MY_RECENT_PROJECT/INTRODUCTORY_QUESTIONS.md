@@ -1,17 +1,15 @@
-1.Tell me something About your recent project,architecture,tech stacks etc.
-Ans : DaVincci ==> No Code Orchestrator as  work flow builder for different insurance products using Event Driven architecture(EDA)
-      Front End => React/Reduc with Micro front endpoints,Node Js
-                   Back End ==> Spring Boot, Kafka
-                   DataBase ==> Postgress, Casandra
-        
-1A. What is EDA and how it works ? What are different approach to implement EDA?
-Ans : Event Driven architecture  <https://medium.com/search?q=Event+driven+using+Springboot>
-      A. Event Driven Architecture using Spring Cloud and Kafka broker
-         (https://benstitou-anas.medium.com/event-driven-architecture-using-spring-cloud-and-kafka-broker-a3e7c907796d)
-      B. Event-Driven Architecture With Redis Streams Using Spring Boot ---> maninly for payment notification etc
-         (https://medium.com/nerd-for-tech/event-driven-architecture-with-redis-streams-using-spring-boot-a81a1c9a4cde)
-      C. Event Driven Architecture using AWS SQS and Spring boot
-         (https://anand-guptaa.medium.com/event-driven-architecture-using-aws-sqs-and-spring-boot-d29fc3b1b25b)
+#### Tell me something About your recent project,architecture,tech stacks etc.
+- DaVincci ==> No Code Orchestrator as  work flow builder for different insurance products using Event Driven architecture(EDA)
+- Front End => React/Reduc with Micro front endpoints,Node Js
+- Back End ==> Spring Boot, Kafka
+- DataBase ==> Postgress, Casandra
+
+### What is EDA and how it works ? What are different approach to implement EDA?
+
+[Event Driven architecture overview](https://medium.com/search?q=Event+driven+using+Springboot)
+- [Event Driven Architecture using Spring Cloud and Kafka broker](https://benstitou-anas.medium.com/event-driven-architecture-using-spring-cloud-and-kafka-broker-a3e7c907796d)
+- [Event-Driven Architecture With Redis Streams Using Spring Boot ---> maninly for payment notification etc](https://medium.com/nerd-for-tech/event-driven-architecture-with-redis-streams-using-spring-boot-a81a1c9a4cde)
+- [Event Driven Architecture using AWS SQS and Spring boot](https://anand-guptaa.medium.com/event-driven-architecture-using-aws-sqs-and-spring-boot-d29fc3b1b25b)
 
 2. Tell me something about yourself?
 Ans :
