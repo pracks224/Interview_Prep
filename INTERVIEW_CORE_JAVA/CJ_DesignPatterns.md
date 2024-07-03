@@ -68,3 +68,12 @@ Both of these reports must have their first column as a link to original report 
 F. You are developing a library management system where access to certain restricted books needs to be controlled. The system should allow regular users to access general books directly, but for restricted books, access should be granted only if the user has special permissions. Implement a solution that transparently handles the access control for restricted books, ensuring that users without the necessary permissions are prevented from viewing them, while those with permissions can access them seamlessly.
 
 ======================================================================================================
+
+#### Software Design Principles
+
+1. [Solid]()
+2. [DRY]()
+3. [KISS]()
+4. [GRASP]()
+5. [High Cohesion]()
+6. [Low Coupling]()

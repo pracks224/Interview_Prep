@@ -44,6 +44,72 @@
 
 #### 21. How to ensure message to deliver only once ?
 
+### [Important Link and Use cases Paypal](https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000)
+
+### [Why Kafka is very fast](https://www.youtube.com/watch?v=UNUz1-msbOM)
+
+### [Kafka Stream - Must reacd Book](https://assets.confluent.io/m/7997a914c1a19b5?mkt_tok=NTgyLVFIWC0yNjIAAAGGApzv7utiTseX[…]yqvKtp86XezuCYCO30eyP63XV8MjOSS5737KVpPO1BXbiPx5soDrNGE3YDA)
+
+### [How linkedin works?](https://engineering.linkedin.com/blog/2019/apache-kafka-trillion-messages)
+
+### [POC](https://github.com/hardikSinghBehl/kafka-java-spring-boot-poc)
+
+### [Blogs](https://www.linkedin.com/pulse/kafka-idempotent-producer-rob-golder/)
+
+### [Blogs-2](https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9)
+
+#### can we create dynamic consumer in kafka.
+
+#### My producer generates topics where prefix will be fixed.And I want all of those topics to be consumed by one consumer .Is it possible in kafka?
+
+#### Tell me about some of the use cases where Kafka is not suitable.|
+
+#### Describe message compression in Kafka. What is the need of message compression in Kafka? |
+
+#### What do you understand about log compaction and quotas in Kafka?|
+
+#### Explain the four core API architecture that Kafka uses.|
+
+#### What do you mean by a Partition in Kafka?|
+
+#### What do you mean by zookeeper in Kafka and what are its uses?|
+
+#### Differentiate between Rabbitmq and Kafka.|
+
+#### What do you understand about Kafka MirrorMaker? |
+
+#### What do you mean by confluent kafka? What are its advantages?|
+
+#### How are partitions distributed in an Apache Kafka cluster? |
+
+#### What is the purpose of ISR in Apache Kafka?|
+
+#### [How you will handle 50K req per second because coping 50K messages to kafka will also take some time](#12)|
+
+#### Tell me about some of the use cases where Kafka is not suitable.|
+
+#### Describe message compression in Kafka. What is the need of message|
+
+#### Tell me about some of the use cases where Kafka is not suitable.|
+
+#### Describe message compression in Kafka. What is the need of message |
+
+#### Tell me about some of the use cases where Kafka is not suitable.|
+
+#### Describe message compression in Kafka. What is the need of message|
+
+#### Tell me about some of the use cases where Kafka is not suitable.|
+
+#### Describe message compression in Kafka. What is the need of message |
+
+#### Can we add consumer dynamically to Kafka ?
+
+#### What are the differnet Partition Startergy ?
+
+#### Mention the differnce between Kafak and JMS?
+
+#### How to avoid duplicate event kafka ?
+
 =======================================================================================
 
 1. Broker is the instance where Kafka is installed

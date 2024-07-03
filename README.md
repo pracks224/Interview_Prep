@@ -6,14 +6,22 @@
 
 3.[SYSTEM DESIGN](INTERVIEW_SYSTEM_DESIGN)
 
-4.[DEVOPS]()
+4.[DEVOPS](INTERVIEW_DEV_OPS)
 
-5.[MICRO SERVICES]()
-  - 5.1 [SOFTWARE DESIGN PRINCIPLES]()
-    
-6.[NODEJS & FRONTEND]()
+5.[MICRO SERVICES](INTERVIEW_SPRING_MICROSERVICES)
 
-7.
+- 5.1 [SOFTWARE DESIGN PRINCIPLES]()
+- 5.2 [SPRING BOOT]()
+
+  6.[NODEJS & FRONTEND](INTERVIEW_FRONT_END)
+
+7. [KAFKA](INTERVIEW_KAFKA)
+
+8. [CORE JAVA](INTERVIEW_CORE_JAVA)
+
+9. [CLOUD](INTERVIEW_CLOUD_AWS_AZURE_GCP)
+
+10. [DSA](INTERVIEW_DSA)
 
 <details>
   <summary>Data Structure and Algorithms </summary> 
@@ -120,7 +128,7 @@ Q.7) Given an array of size N, shift all the elements to the right by 1 and move
 <details>
   <summary>Core Java Basics -2 </summary>
   
-  Q.1) Find the most populated city of each continent
+Q.1) Find the most populated city of each continent
 
 Q.2) Find the number of movies of each director
 
@@ -226,293 +234,3 @@ Q.18) Find the year where the maximum number of movie is available
  ### ****** Core Java End *******
  
 </details>
-
-
-
-<details>
-  <summary>Node Js & Front End</summary>
-
-1702. [Microfont end]()
-
-1703. [Javascript Event Loop and Call Stack Explain?](https://www.knowledgehut.com/blog/web-development/node-js-event-loop)
-1704. [How to create object in Javascript?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
-1705. [Difference between Object.freeze() and const in JavaScript ?]()
-1706. [How to deep-freeze an object in JavaScript ?](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-1707. [Implement sum(2)(3)() (Currying funtions- is also a higher order function](https://github.com/pracks224/Interview_Prep/blob/main/deepfreeze.js)
-1708. [What is the difference between call(),apply() and bind() methods?](https://github.com/pracks224/Interview_Prep/blob/main/INTERVIEW_JAVASCRIPT/js_concepts)
-1709. [How can you handle errors in Node.js, and what is the purpose of the error event in streams?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
-1710. [What is a closure in JavaScript, and how is it relevant in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
-1711. [What is the difference between setTimeout and setImmediate in Node.js?](https://medium.com/@phamtuanchip/top-10-interview-question-for-node-js-senior-developer-c20bb80377a4)
-
-</details>
-
-<details>
-  <summary>Spring Boot</summary>
-
-### **\*\*\*** **\*** \***\* \*** Spring Boot Start \***\* \*\*** \***\* \*\*\*** **\*** **\***
-
-  <details>
-  <summary>Set - 1</summary>
-  
-  1. What is Spring Boot and what are its Benefits?  
-  2. What makes Spring Boot superior to JAX-RS? 
-  3. What Spring Boot features help develop Microservices Applications?  
-  4. Why Spring Boot is preferred over any other framework?  
-  5. What are the key dependencies of Spring Boot?  
-  6. What are the advantages of Spring Boot?  
-  7. What are the features of Spring Boot?  
-  8. How do you create a Spring Boot application using Maven?  
-  9. How do you create a Spring Boot project using Spring Initializer?  
-  10. How do you create a Spring Boot project using boot CLI?  
-  11. How do you create a simple Spring Boot application?  
-  12. What are the Spring Boot Annotations?  
-  13. What are the Spring Boot properties?  
-  14. What are the Spring Boot Starters?  
-  15. What is Spring Boot Actuator?  
-  16. What is thyme leaf?  
-  17. How to use thyme leaf? 
-  18. How do you connect Spring Boot to the database using JPA?  
-  19. How to connect the Spring Boot application to a database using JDBC?
-
-  </details>
-
-### Spring Web
-
-   <details>
-   <summary>Set -1</summary>
-  
-  1. What is @RestController annotation in Spring Boot?  
-  2. What is @RequestMapping annotation in Spring Boot?  
-  3. How do you create a Spring Boot application using Spring Starter Project Wizard?  
-  4. Spring Vs Spring Boot? Or Why Spring Boot over Spring?  
-  5. What annotations are used to create an Interceptor?  
-  6. What is a Swagger in Spring Boot?  
-  7. What are Profiles in Spring Boot?  
-  8. What differentiates Spring Data JPA and Hibernate?  
-  9. How are the @RestController and @Controller Annotation different? 
-  10. How does Spring Boot works?
-  11. What does the @SpringBootApplication annotation do internally?
-  12. What is the purpose of using @ComponentScan in the class files?
-  13. How does a spring boot application get started?
-  14. Can we create a non-web application in Spring Boot?
-  15. Can we override or replace the Embedded tomcat server in Spring Boot?
-  16. Can we disable the default web server in the Spring boot application?
-  17. How to disable a specific auto-configuration class?
-  18. Describe the flow of HTTPS requests through the Spring Boot application?
-  19. What is the difference between RequestMapping and GetMapping?
-  20. What is the use of Profiles in spring boot?
-  21. What is Spring Actuator? What are its advantages?
-  22. How to enable Actuator in Spring boot application?
-  23. What are the actuator-provided endpoints used for monitoring the Spring boot application?
-  24. How to get the list of all the beans in your Spring boot application?
-  25. How to check the environment properties in your Spring boot application?
-  26. How to enable debugging log in the spring boot application?
-  27. Where do we define properties in the Spring Boot application?
-  28. What is dependency Injection?
-  29. What is an IOC container?
-
-   </details>
-
-### [Spring Security](https://medium.com/@a.zagarella/spring-security-basic-authentication-and-role-based-authorization-04fa626f961a)
-
-   <details>
-   <summary>Set -1</summary>
-     
-  1.  What are some essential features of Spring Security?
-  2.  What is Spring security authentication and authorization?
-  3.  What do you mean by basic authentication?
-  4.  What do you mean by digest authentication?
-  5.  What do you mean by session management in Spring Security?
-  6.  Explain SecurityContext and SecurityContext Holder in Spring security.
-  7.  Explain spring security OAuth2.
-  8. What do you mean by OAuth2 Authorization code grant type?
-  9.  What is method security and why do we need it?
-  10.  What do you mean by HASHING in spring security?
-
-  </details>
-
-  <details>
-   <summary>Set -2</summary>
-  1.  Explain salting and its usage.
-  2.  What is PasswordEncoder?
-  3.  Explain AbstractSecurityInterceptor in spring security?
-  4.  Is security a cross-cutting concern?
-  5. What is SpEL (Spring Expression Language)?
-  6. Name security annotations that are allowed to use SpEL.
-  7. Explain what is AuthenticationManager in Spring security.
-  8. Explain what is ProviderManager in Spring security.
-  9. What is JWT?
-  10. What is Spring Security Filter Chain?
-    
-  </details>
-  
-  <details>
-   <summary>Set - 3</summary>
-  1. Explain how the security filter chain works.
-  2. Name some predefined filters used in spring security and write their functions.
-  3. What do you mean by principal in Spring security?
-  4. Can you explain what is DelegatingFilterProxy in spring security?
-  5. Can you explain what is FilterChainProxy in spring security?
-  6. What is the intercept-url pattern and why do we need it?
-  7. Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
-  8. State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
-  9. State the difference between @PreAuthorize and @Secured in Spring security.
-  10. State the difference between @Secured and @RolesAllowed.
-  
-  </details>
-
-### Spring Boot Advance
-
-  <details>
-  <summary>Set -1</summary>
-
-1703. [Spring Reactive Flux]()
-1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
-
-1705. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-1706. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
-1707. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
-1708. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
-1709. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
-1710. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
-1711. How to add Global CORS configuration for the application?
-1712. What is the use @Configuration? //Bean Definitions
-1713. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
-1714. CQRS design patterns in Microservices?
-1715. Design a URL Shortner (tinyurl)
-1716. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
-1717. Design a notification System
-1718. Describe the use case of JSON Web Token?
-1719. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-1720. [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
-1721. [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
-1722. [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
-1723. [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)
-
-</details>
-
-### **\*\*\*** **\*** \***\* \*** Spring Boot End \***\* \*\*** \***\* \*\*\*** **\*** **\***
-
-  </details>
-
-<details>
-  <summary>KAFKAAA</summary>
-
-## Kafka
-
-<details>
-  <summary>Important Notes to revise</summary>
-
-#### Kafka Producer And Consumer Example In Java Spring Boot
-
-- Will share the link later here (main depencey is springframework-kafka )
-
-For [Video](https://www.youtube.com/watch?v=vmuZaT6JpCM&list=PLA3GkZPtsafbAjKYkhWnD6GdhRtm6JrD1&index=10) refernce
-
-**[⬆ Back to Top](#table-of-contents)**
-
- </details>
- 
- <details>
-  <summary>Interview Questions</summary>
- 
-  ### Usages
- 
- ```
- a.Kafka is a useful solution for scenarios that require real-time data processing, application activity tracking, and monitoring. 
- b.At the same time, Kafka  should not be utilized for on-the-fly data conversions, 
- data storage, or when a simple task queue is all that is required.
- 
- ```
- ### [Important Link and Use cases Paypal](https://medium.com/paypal-tech/kafka-consumer-benchmarking-c726fbe4000)
- ### [Why Kafka is very fast](https://www.youtube.com/watch?v=UNUz1-msbOM)
- ### [Kafka Stream - Must reacd Book](https://assets.confluent.io/m/7997a914c1a19b5?mkt_tok=NTgyLVFIWC0yNjIAAAGGApzv7utiTseX[…]yqvKtp86XezuCYCO30eyP63XV8MjOSS5737KVpPO1BXbiPx5soDrNGE3YDA )
- ### [How linkedin works?](https://engineering.linkedin.com/blog/2019/apache-kafka-trillion-messages)
- ### [POC](https://github.com/hardikSinghBehl/kafka-java-spring-boot-poc)
- ### [Blogs](https://www.linkedin.com/pulse/kafka-idempotent-producer-rob-golder/)
- ### [Blogs-2](https://medium.com/@shesh.soft/kafka-idempotent-producer-and-consumer-25c52402ceb9)
- 
- ``` Real time question
- Concern is that I have key i.e. uuid along with that key I published the AVRO model to a topic if I republished with same key it is still getting published and I could see the message in Kafka Topic. I am using confluent kafka version 7.2.1 which uses Kafka version 3.2. If kafka version is greater and 3.0. It has by default safe producer where it enable.idempotance = true acks  = all.
- ```
- 
- ```
- can we create dynamic consumer in kafka
-?
-My producer generates topics where prefix will be fixed
-And I want all of those topics to be consumed by one consumer
-Is it possible in kafka?
- ```
- 
-| No.       | Questions         |
-| ------------- |:-------------|
- |1. | Tell me about some of the use cases where Kafka is not suitable.|
- |2. | Describe message compression in Kafka. What is the need of message compression in Kafka? |
- |3. | What do you understand about log compaction and quotas in Kafka?|
- |4. | Explain the four core API architecture that Kafka uses.|
- |5. | What do you mean by a Partition in Kafka?|
- |6. | What do you mean by zookeeper in Kafka and what are its uses?|
- |7. | Differentiate between Rabbitmq and Kafka.|
- |8. | What do you understand about Kafka MirrorMaker? |
- |9. | What do you mean by confluent kafka? What are its advantages?|
- |10. | How are partitions distributed in an Apache Kafka cluster? |
- |11. | What is the purpose of ISR in Apache Kafka?|
- |12. | [How you will handle 50K req per second because coping 50K messages to kafka will also take some time](#12)|
- |13. | Tell me about some of the use cases where Kafka is not suitable.|
- |14. | Describe message compression in Kafka. What is the need of message|
- |15. | Tell me about some of the use cases where Kafka is not suitable.|
- |16. | Describe message compression in Kafka. What is the need of message |
- |17. | Tell me about some of the use cases where Kafka is not suitable.|
- |18. | Describe message compression in Kafka. What is the need of message|
- |19. | Tell me about some of the use cases where Kafka is not suitable.|
- |20. | Describe message compression in Kafka. What is the need of message |
- |21. | Can we add consumer dynamically to Kafka ?
- |22. | What are the differnet Partition Startergy ?
- |23. | Mention the differnce between Kafak and JMS?
- |24. | How to avoid duplicate event kafka ?
- 
-  ### 12
-  
-  ```Solutions:
-   
- - To update metadata in Cassandra using Kafka with a high throughput of 50K requests per second, we can use the following strategies:
-
-- Batch Processing: Instead of sending each message individually, we can batch them together and send them in larger batches. This reduces the overhead of sending multiple small messages, and helps to achieve higher throughput.
-- Asynchronous Processing: We can process the incoming messages asynchronously, which means that the application can continue processing new requests while Kafka is still processing previous requests. This approach helps to minimize any delays caused by the processing of individual messages.
-- Use of Kafka Connect: Kafka Connect is a scalable and reliable way to move data in and out of Kafka. We can use Kafka Connect to integrate Cassandra and Kafka, and leverage its capabilities to manage large amounts of data with high throughput.
-- Partitioning: We can partition the data across multiple Kafka topics to distribute the load across multiple Kafka brokers. This approach helps to achieve better parallelism and scalability, and allows us to handle high loads of incoming data.
-- Optimization of Kafka settings: We can optimize the Kafka settings such as batch size, compression, and buffer sizes to increase the overall throughput of Kafka.
-
-```
-</details>
-</details>
-
-<details>
-  <summary> Back Logs </summary>
-
-  [pending Questions](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
-
-  [KAFKA ----> Subject matter expertise & assist in operations of the Kafka platform]()
-
-[AWS--->Experience in architecting and deploying solutions on Azure/AWS or GCP]()
-
-[Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
-
-[DCOKER----->Experience with Docker and container orchestration solutions (eg. Kubernetes) and Helm]()
-
-[Elastic ----->Managing high availability (eg. Keepalived, ALB, Elastic IP, DNS Load Balancer)]()
-
-[APIGEE--->Knowledge on API Management and Integration using APIGEE API Management platform]()
-
-[TERRAFORM----->Experience with Terraform/Ansible]()
-
-[JENKINS------->Understanding and using Continuous Integration (CI) systems (eg. Jenkins, Gitlab CI)]()
-
-[CLOUD architect certifications]()
-
-[KUBERNETES Certification]()
-
-[OPENSHIFT]()
-
-</details>
-```

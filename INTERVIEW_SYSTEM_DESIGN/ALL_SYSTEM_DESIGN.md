@@ -42,6 +42,8 @@
 
 - [What is DDOS(denial of service ) attack and how will we prevent from this in our Applications ?]()
 
+- [Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
+
 <a id="12-app"></a>
 
 #### The Twelve-Factor App principles:

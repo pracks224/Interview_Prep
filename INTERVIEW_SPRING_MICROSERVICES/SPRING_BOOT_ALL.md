@@ -26,6 +26,25 @@
 - [How request Spring Boot can Handle](#sb-10)
   - [Change default Tomcat conatiner to Jetty](#sb-10)
 - [XML to Json libraries]()
+- What is Spring Boot and what are its Benefits?
+- What makes Spring Boot superior to JAX-RS?
+- What Spring Boot features help develop Microservices Applications?
+- Why Spring Boot is preferred over any other framework?
+- What are the key dependencies of Spring Boot?
+- What are the advantages of Spring Boot?
+- What are the features of Spring Boot?
+- How do you create a Spring Boot application using Maven?
+- How do you create a Spring Boot project using Spring Initializer?
+- How do you create a Spring Boot project using boot CLI?
+- How do you create a simple Spring Boot application?
+- What are the Spring Boot Annotations?
+- What are the Spring Boot properties?
+- What are the Spring Boot Starters?
+- What is Spring Boot Actuator?
+- What is thyme leaf?
+- How to use thyme leaf?
+- How do you connect Spring Boot to the database using JPA?
+- How to connect the Spring Boot application to a database using JDBC?
 
 <a id="sb-1"></a>
 
@@ -97,3 +116,58 @@ and Jetty is characterized by its lightweight, flexibility, and ease of embeddin
 - So, the number of connections Spring Boot can handle simultaneously is equal to Tomcat’s maximum connections plus Tomcat’s maximum waiting number. i.e 8192 + 100/200/300 etc.
 - Setting the Container to Jetty :
   In spring-boot-starter-web dependency exclude tomact and add Jetty/ Undertow depenceny
+
+  #### Spring Web
+
+  1. What is @RestController annotation in Spring Boot?
+  2. What is @RequestMapping annotation in Spring Boot?
+  3. How do you create a Spring Boot application using Spring Starter Project Wizard?
+  4. Spring Vs Spring Boot? Or Why Spring Boot over Spring?
+  5. What annotations are used to create an Interceptor?
+  6. What is a Swagger in Spring Boot?
+  7. What are Profiles in Spring Boot?
+  8. What differentiates Spring Data JPA and Hibernate?
+  9. How are the @RestController and @Controller Annotation different?
+  10. How does Spring Boot works?
+  11. What does the @SpringBootApplication annotation do internally?
+  12. What is the purpose of using @ComponentScan in the class files?
+  13. How does a spring boot application get started?
+  14. Can we create a non-web application in Spring Boot?
+  15. Can we override or replace the Embedded tomcat server in Spring Boot?
+  16. Can we disable the default web server in the Spring boot application?
+  17. How to disable a specific auto-configuration class?
+  18. Describe the flow of HTTPS requests through the Spring Boot application?
+  19. What is the difference between RequestMapping and GetMapping?
+  20. What is the use of Profiles in spring boot?
+  21. What is Spring Actuator? What are its advantages?
+  22. How to enable Actuator in Spring boot application?
+  23. What are the actuator-provided endpoints used for monitoring the Spring boot application?
+  24. How to get the list of all the beans in your Spring boot application?
+  25. How to check the environment properties in your Spring boot application?
+  26. How to enable debugging log in the spring boot application?
+  27. Where do we define properties in the Spring Boot application?
+  28. What is dependency Injection?
+  29. What is an IOC container?
+
+1703. [Spring Reactive Flux]()
+1704. [Spring Security](https://medium.com/@AlexanderObregon/common-java-spring-boot-security-interview-questions-and-answers-0513efb6fb12)
+
+1705. [How to handle Exception in SpringBoot?](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+1706. [What is the @controllerAdvice/@restcontrolleradvice in springboot? - Exception Handling](https://medium.com/@fullstacktips/exception-handling-in-spring-boot-using-controlleradvice-and-exceptionhandler-8dda72b33c45)
+1707. [How to do transaction management in Spring boot application?](https://www.scaler.com/topics/spring-boot/transaction-management-in-spring-boot/)
+1708. [How Spring- Security works.](https://www.scaler.com/topics/spring-boot/spring-security/).
+1709. [SpringBoot with OAuth2.How it works?](https://howtodoinjava.com/spring-boot2/oauth2-auth-server/)
+1710. [How to do CORS configuration in Spring Boot ?](https://howtodoinjava.com/spring-boot2/spring-cors-configuration/)
+1711. How to add Global CORS configuration for the application?
+1712. What is the use @Configuration? //Bean Definitions
+1713. What is a passwordEncoder ? // enforeces password encoding ,plain text password wont allowed
+1714. CQRS design patterns in Microservices?
+1715. Design a URL Shortner (tinyurl)
+1716. [Design a web crawler.](https://github.com/preslavmihaylov/booknotes/blob/master/system-design/system-design-interview/chapter10/README.md)
+1717. Design a notification System
+1718. Describe the use case of JSON Web Token?
+1719. [How can you disable the Autoconfiguration in Spring boot Application?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+1720. [How do Microservice communicate each other?](https://medium.com/bitsrc/my-favorite-interservice-communication-patterns-for-microservices-d746a6e1d7de)
+1721. [Describe the API Gateway design pattern for Micro service?](https://medium.com/@wahyubagus1910/api-gateway-design-pattern-implement-rate-limiting-and-circuit-breaker-on-microservices-9d777c778272)
+1722. [Describe some principle of Mircro Service deployment?](https://github.com/pracks224/Interview_Prep/edit/main/INTERVIEW_SPRING/springboot)
+1723. [Describe the Circuit Breaker Design Pattern?](https://medium.com/javarevisited/what-is-circuit-breaker-design-pattern-in-microservices-java-spring-cloud-netflix-hystrix-example-f285929d7f68)

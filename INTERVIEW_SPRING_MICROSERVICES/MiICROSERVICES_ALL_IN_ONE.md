@@ -246,3 +246,18 @@ In essence, Conway's Law emphasizes that the communication structures within org
 - API Gateway Pattern and benefits
 - CQRS(Command Query Responsibility Segregation)
 - Materialized View Pattern
+
+===
+
+1. [How secure a Microservice ?]()
+2. What is the diffence between cohesion and coupling ?
+3. What is 12-Factor App ? // if all these there then it's microservice enabled
+4. What are the type of Service Discovery ?
+5. What is the difference between normal REST service and Restful WS (Web Service)?
+6. [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
+7. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+8. [How springboot works internally? What happens after run method](https://medium.com/javarevisited/what-happens-internally-when-you-start-a-spring-boot-application-part1-a683a64c1be8)
+9. [differnce between @RestControler @controler ? What is the default retention ploicy ?](https://stackabuse.com/controller-and-restcontroller-annotations-in-spring-boot/)
+10. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
+11. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
+12. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
