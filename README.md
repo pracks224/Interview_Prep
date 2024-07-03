@@ -13,17 +13,7 @@
 
 [One_liners_Tech_Stacks](https://github.com/pracks224/Interview_Prep/blob/main/One_liners_Tech_Stacks.txt)
 
-<details>
-  <summary> About My Project </summary>
-  
-  1. [Tell me something About your recent project,architecture,tech stacks etc .](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
-  2. [What is EDA and how it works ? What are different approach to implement EDA?](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
-  3. [Tell me something about yourself?]()
-  4. [What are the frontend library you have used in your project.]()
-  5. [What type of deployment model you have used?]()
-  6. [What type of disister management you have in your project?]()
-  7. [How to secure your API]()
-</details>
+[START](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
 
 <details>
   <summary>No SQLs </summary>
