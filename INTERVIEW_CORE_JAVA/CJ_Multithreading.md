@@ -1,8 +1,64 @@
-1. Whar is deadlock,livelock and starvation?
-2. Differnce between ReentrantLock and Synchronization?
-3. How to avoid Starvation ?
-4. What is Fairness and how to use it using ReentrantLock ?
-5. What are the performance implications of using ReentrantLock compared to synchronized?
+### What is a thread in Java?
+
+A thread in Java is a lightweight subprocess, the smallest unit of processing, used to perform multiple tasks concurrently within a program.
+
+### How do you create a thread in Java? (Execrcise)
+
+### What is the difference between a thread and a process?
+
+- Process independent program with its own memeory space,heavy weight, process are isolate from each other
+- Thread light weight ,samllest unit of program with shared memory
+
+### Explain the lifecycle of a thread in Java.
+
+new - runnable : call start
+runnable - running : scheduled by the thread
+running - blocked : calls wait/sleep
+blocked - runnable - wait/sleep expires
+running - terminated - run method completes
+
+### How do you start a thread in Java?
+
+### What are the ways to stop a thread in Java? Is Thread.stop() method safe to use?
+
+### What is the difference between Runnable and Thread in Java?
+
+### How can you synchronize threads to avoid race conditions and concurrent access issues?
+
+### What is the purpose of the synchronized keyword in Java?
+
+### Explain the concept of thread safety and how you achieve it in Java.
+
+### Can you explain the wait(), notify(), and notifyAll() methods in Java?
+
+### What is the purpose of the join() method in Java threads?
+
+### How do you handle exceptions in threads? What happens if an uncaught exception occurs in a thread?
+
+### What are the advantages and disadvantages of using threads in Java?
+
+### How do you handle deadlock situations in Java threading?
+
+### Can you explain the concept of daemon threads in Java?
+
+### How do you ensure that a particular block of code is executed by only one thread at a time?
+
+### How to set the Ideal Thread Pool size.
+
+### What is the Java Memory Model (JMM) and how does it relate to multi-threading?
+
+### Executor Framework. What's your understanding about it ?
+
+### Whar is deadlock,livelock and starvation?
+
+### Differnce between ReentrantLock and Synchronization?
+
+### How to avoid Starvation ?
+
+### What is Fairness and how to use it using ReentrantLock ?
+
+### What are the performance implications of using ReentrantLock compared to synchronized?
+
 6. [What is transient variable ?](https://www.scaler.com/topics/transient-variable-in-java/)
 7. [Exchanger in Thread](https://medium.com/javarevisited/tricky-java-interview-questions-for-7-years-of-experience-c2d2bf37d746)
 8. [Reader-Writer vs ReentrantReadWriteLock lock . And Which is more flexible to use? ](https://medium.com/javarevisited/tricky-java-interview-questions-for-7-years-of-experience-c2d2bf37d746)
@@ -79,35 +135,9 @@ general-purpose and flexible, while ForkJoinPool is specifically tailored for ef
 3.CachedThreadPool -> Dynamically mantain the thread pool and removes the ideal threads
 4.FixedThreadPool -> Useful when you have a specific number of tasks to execute and want to limit the number of concurrent threads.
 
-===
+#### Basic Thread Questions
 
-Basic Thread Questions
-
-```
-1. What is a thread in Java?
-2. How do you create a thread in Java?
-3. What is the difference between a thread and a process?
-4. Explain the lifecycle of a thread in Java.
-5. How do you start a thread in Java?
-6. What are the ways to stop a thread in Java? Is Thread.stop() method safe to use?
-7. What is the difference between Runnable and Thread in Java?
-8. How can you synchronize threads to avoid race conditions and concurrent access issues?
-9. What is the purpose of the synchronized keyword in Java?
-10. Explain the concept of thread safety and how you achieve it in Java.
-11. What are the various states of a thread in Java?
-12. Can you explain the wait(), notify(), and notifyAll() methods in Java?
-13. What is the purpose of the join() method in Java threads?
-14. How do you handle exceptions in threads? What happens if an uncaught exception occurs in a thread?
-15. What are the advantages and disadvantages of using threads in Java?
-16. How do you handle deadlock situations in Java threading?
-17. Can you explain the concept of daemon threads in Java?
-18. What is the Java Memory Model (JMM) and how does it relate to multi-threading?
-19. How do you ensure that a particular block of code is executed by only one thread at a time?
-20. How to set the Ideal Thread Pool size.
-21. Executor Framework. What's your understanding about it ?
-
-Executor FrameWork Questions
-```
+#### Executor FrameWork Questions:
 
 1. What is ExecutorService in Java?
 2. What are the benefits of using ExecutorService over managing threads manually?
@@ -127,9 +157,8 @@ Executor FrameWork Questions
 16. How can you handle periodic execution of tasks using ScheduledExecutorService?
 17. What is the purpose of the ThreadFactory interface, and how is it used with ExecutorService?
 
-Thread Synchronization Questions
+#### Thread Synchronization Questions
 
-```
 1. What is thread synchronization, and why is it important in multi-threaded programming?
 2. Explain the concept of race conditions in multi-threaded programs. How can you prevent race conditions?
 3. What is the purpose of using the synchronized keyword in Java? How does it work?
@@ -147,7 +176,7 @@ Thread Synchronization Questions
 15. Can you explain the Amdahl's Law and its relevance to parallel processing and thread synchronization?
 16. Explain the concept of memory visibility in multi-threaded programming. How does the Java Memory Model (JMM) address this issue?
 17. What are the differences between intrinsic locks (monitor locks) and explicit locks (ReentrantLock) in Java? When would you prefer one over the other?
-18. Can you explain the use of the volatile keyword in detail? How does it ensure visibility and ordering of variables across threads? 
+18. Can you explain the use of the volatile keyword in detail? How does it ensure visibility and ordering of variables across threads?
 19. What are the challenges of debugging and testing multi-threaded applications? How do you approach finding and fixing concurrency bugs?
 20. What is thread starvation, and how can it be avoided in concurrent programs?
 21. Explain the concept of ThreadLocal in Java. When and why would you use it in a multi-threaded application?
@@ -160,10 +189,10 @@ Thread Synchronization Questions
 28. Explain the concept of Software Transactional Memory (STM) and how it simplifies thread synchronization by providing a transactional approach.
 29. How do you deal with the challenge of thread contention in high-concurrency applications? What techniques can be used to reduce contention and improve performance?
 30. Can you discuss the concept of thread affinity and how it impacts thread scheduling and cache utilization in multi-core systems?
-31. What is the purpose of the java.util.concurrent.CopyOnWriteArrayList class? How does it provide thread-safe access to a list? 
+31. What is the purpose of the java.util.concurrent.CopyOnWriteArrayList class? How does it provide thread-safe access to a list?
 32. Explain the concept of BlockingQueue in Java. How is it used for inter-thread communication and coordination?
-33. What are the differences between CountDownLatch and CyclicBarrier? In which scenarios would you prefer one over the other? 
-34. Can you explain the concept of Semaphore and how it controls access to a shared resource among multiple threads? 
+33. What are the differences between CountDownLatch and CyclicBarrier? In which scenarios would you prefer one over the other?
+34. Can you explain the concept of Semaphore and how it controls access to a shared resource among multiple threads?
 35. What is the java.util.concurrent.Phaser class, and how does it enable advanced thread synchronization and coordination?
 36. What are the benefits of using the java.util.concurrent.Exchanger class in Java? Provide an example of its usage.
 37. Explain the concept of ReadWriteLock in Java. When would you use a read lock versus a write lock?
@@ -175,5 +204,3 @@ Thread Synchronization Questions
 43. Can you explain how the java.util.concurrent.Exchanger class allows two threads to exchange data in a synchronized manner?
 44. Discuss the java.util.concurrent.DelayQueue and how it is useful for scheduling delayed tasks in concurrent applications.
 45. How do you ensure thread safety when working with the java.util.concurrent.PriorityBlockingQueue class?
-
-```

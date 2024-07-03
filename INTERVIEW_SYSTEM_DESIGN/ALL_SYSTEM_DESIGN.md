@@ -105,3 +105,5 @@
 <a id="he"></a>
 
 #### What are Heuristic Exceptions?
+
+#### What is Multi Tenant Service and how do you support at service level.

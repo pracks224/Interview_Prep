@@ -24,3 +24,5 @@ H. [CORE JAVA](INTERVIEW_CORE_JAVA) [-X-]()[2][3][4][5][6][7][8][9][10]
 I. [CLOUD](INTERVIEW_CLOUD_AWS_AZURE_GCP)[1][2][3][4][5][6][7][8][9][10]
 
 J. [DSA](INTERVIEW_DSA)[1][2][3][4][5][6][7][8][9][10]
+
+[PENDING](https://medium.com/@vivekkadiyanits/java-lead-7-to-10-years-interview-mastery-covered-question-has-asked-in-more-than-9-service-base-d55ffbb0009c)
