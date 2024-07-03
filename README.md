@@ -11,48 +11,11 @@
 | SQL/NOSQL/REDIS | [8 ]() |  22   |   35   | 43  | 50  | 51  | 63  | 69  | 73  |
 |  MICROSERVICES  | [7]()  |  15   |   23   | 27  | 36  | 44  | 52  | 58  | 64  |
 
-[START](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
-||
-\/
-[DATABASE](INTERVIEW_SQL_NOSQL)
+1.[START](MY_RECENT_PROJECT/INTRODUCTORY_QUESTIONS.md)
 
-<details>
-  <summary>System Design Concepts </summary>
+2.[DATABASE](INTERVIEW_SQL_NOSQL)
 
-### Application Security
-
-  <details>
-    <summary>Set 1</summary> 
-  1. [What is DDOS(denial of service ) attack and how will we prevent from this in our Applications ?]()
-
-  </details>
-
-1705. [Improve API Performance - Microservices](https://github.com/pracks224/Interview_Prep/blob/main/Design_API_Performance_Improvement)
-1706. [Must Read Books- System design The big archive](https://github.com/pracks224/Interview_Prep/blob/main/system_design_the_big_archive.txt)
-1707. [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
-1708. [Design FB Messanger]()
-1709. [Design Instagram]()
-1710. CDNs
-1711. [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
-1712. [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)
-1713. [Latency Vs ThroughPut ?](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
-1714. [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
-1715. [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
-1716. [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
-1717. [Store trillions of Data](https://medium.com/@iBMehta/how-discord-stores-trillions-of-messages-31ed9195c3e8)
-
-      - MongoDB upto ~100 millions
-      - Cassandra is better for Billions of data uses LSM for retreiveal. Read is expensive than write
-      - ScyllaDB with Rust API is good for Trillions of data
-
-1718. [Well documented - All Concepts in one Place](https://github.com/black-shadows/System-Design)
-
-1719. Design Data Intensive Application Book Overview.
-1720. Consistency Hashing.
-1721. Isolation levels.
-1722. 2PL
-1723. [How to make the API end point faster.](https://medium.com/design-bootcamp/how-i-optimized-an-api-endpoint-to-make-it-10x-faster-2f5fe9a84bd9)
-1724. [Scalable Notification System](https://medium.com/@adityagoel123/designing-scalable-notification-system-79f83272755e)
+3. [SYSTEM DESIGN](INTERVIEW_SYSTEM_DESIGN)
 
 </details>
 <details>
