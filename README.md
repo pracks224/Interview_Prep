@@ -19,7 +19,7 @@ G. [KAFKA](INTERVIEW_KAFKA)[1][2][3][4][5][6][7][8][9][10]
 
 H. [CORE JAVA](INTERVIEW_CORE_JAVA) [-X-]()[2][3][4][5][6][7][8][9][10]
 
-    - [THREAD](INTERVIEW_CORE_JAVA/CJ_Multithreading.md)
+- [THREAD](INTERVIEW_CORE_JAVA/CJ_Multithreading.md)
 
 I. [CLOUD](INTERVIEW_CLOUD_AWS_AZURE_GCP)[1][2][3][4][5][6][7][8][9][10]
 
