@@ -238,3 +238,12 @@ Imagine you're developing an e-commerce application where users frequently searc
 - FS collections are thread safe and avoid 'concurrentmodificationexception'
 
 =======================================================
+
+63. How ConcurrentHashMap works ?
+64. How HashSet works internally ?
+65. What is Consisten Hashing?
+66. [TreeMap works internally?](https://medium.com/@basecs101/treemap-in-java-collection-framework-interview-question-a3f81c7aaa84)
+67. [How to create custom immutable class ?]()
+68. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
+69. [Aggregation vs composition]()
+70. [Create An Immutable Map]()
