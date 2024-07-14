@@ -1,9 +1,48 @@
-#### Tell me something About your recent project,architecture,tech stacks etc.
+### Tell me something About your recent project,architecture,tech stacks etc.
 
-- DaVincci ==> No Code Orchestrator as work flow builder for different insurance products using Event Driven architecture(EDA)
-- Front End => React/Reduc with Micro front endpoints,Node Js
+- IFE(Interactive Front end) ==> For Insurance claim to reneal using Event Driven architecture(EDA)
+- Front End => Angular with Micro front endpoints,Node Js
 - Back End ==> Spring Boot, Kafka
 - DataBase ==> Postgress, Casandra
+
+#### Architecture
+  Event-Driven Microservices Architecture:
+  - Spring Boot for building the microservices.
+  - Kafka for asynchronous communication between services.
+  - Docker for containerization of the microservices.
+  - Kubernetes for orchestration and management of these containers.
+  - An Active-Active setup ensures the system is available even if one node fails.
+  - Auto failover mechanisms maintain continuous operation and prevent downtime.
+
+#### Features
+
+   -  Policy Enquiry API: Allows users to query details about their insurance policies.
+   -  Vehicle Validation : Uses CBC API to validate vehicle information before processing insurance policies.
+   -  Renewal Policy Information API
+   -  Real-time Monitoring and Logging:
+   -  Auto Scaling
+
+#### Implementation 
+
+##### Implemented policy renewal API reduces response time and frequent time out by 1%. Using optimized query and caching using Redis. Can you elaborate it??
+
+- Optimized Database Queries : Creating Indexes  ex. CREATE INDEX idx_policy_id ON policies(policy_id);
+- Query Refactoring : Breaking single complex query into small simple query, Reduces nested sub quereis to join etc
+- Batch Processing
+- Caching using redis (Caching Startegies like TTL or Cache Invalidations etc)
+
+##### What are the steps in policy renewal generally?
+
+- Policy Expiry Notification
+- Policy Inquiry
+- Review and update information
+- Vehicle Validation
+- Premium calculation
+- Policy Renewal Offer
+- Payment Processing
+- Confirmation and Acknowledgement
+  
+  
 
 ### What is EDA and how it works ? What are different approach to implement EDA?
 
