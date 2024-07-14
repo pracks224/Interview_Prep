@@ -1,5 +1,9 @@
 **Table of content:**
 
+### [NO SQL](INTERVIEW_SQL_NOSQL/NO_SQL_DETAILS.md)
+
+### SQL
+
 1. [Joins?](#ans-1)
 2. [How would you fetch the duplicate records from database ?](#ans-2)
 3. [What is the N+1 problem and How would you solve it ?](#ans-3)
@@ -20,6 +24,8 @@
     - [MATERIALIZED VIEW]()
 17. [Functions]()
     - [Function Vs Store Procedures]()
+18. [OLAP vs OLTP](#ans-18)
+19. [CASE Statement in SQL for If-else](#ans-19)
 
 ### Answers :
 
@@ -84,3 +90,48 @@ Create Temporray Table
 <a id="ans-8"></a> 11. Cursor
 
 - A cursor in SQL is a database object used to retrieve, manipulate, and navigate through a result set row by row.
+
+<a id="ans-18"></a>
+
+#### OLAP vs OLTP
+
+- Online transaction Processing (OLTP) and Online Analytical Processing
+- OLTP stores the data in the form of Table for couple of years data where as OLAP stores the data for longer duration for 100 years
+- OLTP high consistecy where as OLAP for analytical, less consistent
+- OLTP ex. Oracle,Mysql
+  OLAP ex Big Query, Redshift, TeraData etc
+- OLTP two dimensional and OLAP is multidimensional
+
+<a id="ans-18"></a>
+
+#### CASE Statement
+
+SELECT EMPLOYEE_ID,FIRSTNAME,LASTNAME,SALARY
+CASE
+WHEN SALARY > 70000 THEN 'HIGH'
+WHEN SALARY BETWEEN 30000 AND 70000 THEN 'MEDIUM'
+ELSE 'UNKNOWN'
+END AS SALARYBAND
+FROM EMPLOYEES;
+
+#### Find the student with same mark on physics and chemistry.
+
+    Student ->student_id int|subject varchar20|marks int|
+
+    select student_id from Student
+        where subject in("physics","chemistry")
+        group by student_id
+        having  count(distinct subject) = 2
+        and count(distnict marks)=1
+
+#### Find second most recent activity and if user has only 1 activity then return that as it is
+
+UserActivity -> user_id|activity|startdate|enddate
+
+we have to use rank() over activity ,row_num() - assign rank to same value to different
+
+with cte1 as (
+select \*,count(activity),rank() over partion by username order by startdate as rnk
+from UserActivity
+)
+select username,activity,startdatefrom cte1 where rnk =2 or activity_cnt =1
