@@ -16,6 +16,7 @@
 - [Grokking System Design Notes](https://github.com/pracks224/Interview_Prep/blob/main/grekking_in_short.txt)
 - [Design FB Messanger]()
 - [Design Instagram]()
+- [Design StockMarket](STOCK_MARKET.md)
 - CDNs
 - [System Design Content Delivery Network.](https://www.youtube.com/watch?v=8zX0rue2Hic)
 - [System Design Distributed Cache and Caching Strategies | Cache-Aside, Write-Through, Write-Back](https://www.youtube.com/watch?v=RtOyBwBICRs)

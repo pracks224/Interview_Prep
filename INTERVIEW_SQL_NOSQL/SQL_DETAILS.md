@@ -17,7 +17,7 @@
 11. [Cursors](#ans-11)
 12. [Sql Transactions](#ans-12)
 13. [Constraints]()
-14. [Index]()
+14. [Index](#ans-14)
 15. [Operators]()
     - [Union Vs UnionAll]()
 16. [VIEWS]()
@@ -135,3 +135,43 @@ select \*,count(activity),rank() over partion by username order by startdate as 
 from UserActivity
 )
 select username,activity,startdatefrom cte1 where rnk =2 or activity_cnt =1
+
+<a id="ans-14"></a>
+
+Cluster Index
+
+◾ Physically reorders data rows based on the index key.
+◾ One per table.
+◾ Significantly speeds up range queries (e.g., find all orders between date X and Y) and queries on the indexed column(s).
+◾ Can slow down data modifications (inserts, updates, deletes) due to reordering.
+
+Non Cluster Index
+
+◾ Creates a separate structure with pointers to data rows, sorted by the index key.
+◾ Multiple allowed per table.
+◾ Efficient for equality searches (e.g., find the customer with ID 123).
+◾ Can be used for covering indexes, where all the required columns are included in the index.
+
+Unique Index
+
+Filtered Index
+
+Full - Text Index
+
+- Enables efficient searching within text data (e.g., documents, articles) based on keywords and phrases.
+- Uses specialized indexing and search algorithms (e.g., inverted indexes).
+  Supports linguistic features like stemming and thesaurus.
+
+Composite Index
+
+Covering Index
+
+Index with Included Columns
+
+Spatial Index
+
+### Bitmap Index
+
+- Efficiently indexes columns with a low cardinality (few unique values)
+- Stores bitmaps indicating which rows contain a particular value.
+- Compact and fast for certain types of queries.
