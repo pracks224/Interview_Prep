@@ -76,7 +76,7 @@ FROM – JOIN – ON – WHERE – GROUP BY – HAVING – SELECT – ORDER BY �
 #### Example Using window Function
 
 - Select the highest salary department wise
-  ```
+
   // CTE
   WITH RankedEmployee AS (
   SELECT ID,NAME,DEPARTMENT_NAME,SALARY,
@@ -86,15 +86,12 @@ FROM – JOIN – ON – WHERE – GROUP BY – HAVING – SELECT – ORDER BY �
   INNER JOIN DEPARTMENT D
   ON E.DEPRT_ID = D.DEPRT_ID
   )
-  ```
 
 SELECT NAME,DEPARTMENT_NAME FROM RankedEmployee WHERE ROWNUM = 1
 
-```
 
 - over() with or without partition by  means
 
-```
 
 SELECT EMPLOYEE_ID,DEPARTMENT_ID
 
@@ -102,20 +99,23 @@ SUM(SALARY) OVER() AS TOT_SALARY, ==> BROWSE THE COMPLETE TABLE SALARY
 SUM(SALARY) OVER(PARTITION BY DEPARTMENT_ID) AS DEPARTMENT_WISE, ==> PARTITIOB BY IS LIKE GROUP BY ,GROUP BY WILL SQUEEZ TEH DATA IN TO LESSER RECORDS
 FROM EMPLOYEES;
 
-```
 ROW_NUM() OVER(PARTITION BY)
+
 RANK()
+
 DENSE_RANK()
+
 
 <a id="ans-10"></a> 10. Temporary Table
 
-Temporary tables are useful for storing intermediate results and managing data within the scope of a session or transaction. It will be droped once the session over.
+- Temporary tables are useful for storing intermediate results and managing data within the scope of a session or transaction. It will be droped once the session over.
+- Create Temporray Table
 
-Create Temporray Table
 
 <a id="ans-8"></a> 11. Cursor
 
 - A cursor in SQL is a database object used to retrieve, manipulate, and navigate through a result set row by row.
+
 
 <a id="ans-18"></a>
 
