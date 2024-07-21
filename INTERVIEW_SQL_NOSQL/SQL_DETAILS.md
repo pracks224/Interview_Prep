@@ -62,13 +62,21 @@ FROM – JOIN – ON – WHERE – GROUP BY – HAVING – SELECT – ORDER BY �
 
 <a id="ans-9"></a> 9. Window function
 
+[more](https://dev.mysql.com/blog-archive/mysql-8-0-2-introducing-window-functions/)
+
 - A window function in SQL performs calculations across a set of table rows related to the current row, providing a way to perform aggregate and ranking operations without collapsing the result set into a single row.
+- In simpler terms, agrregation happens at group level but display at row level. Aggregation means sum/min/max/count/avg etc.
 - It uses the OVER clause to define the window or partition of rows, and can operate on each row individually while still considering the context of the surrounding rows.
 - Examples include functions like ROW_NUMBER(), RANK(), SUM(), and AVG().
+
+- select _ ,sum(sal) over() as total_sal from employees,
+  if no windows function then,
+  select _,(select sum(sal) frome employees) as total_sal from employees;
 
 #### Example Using window Function
 
 - Select the highest salary department wise
+  ```
   // CTE
   WITH RankedEmployee AS (
   SELECT ID,NAME,DEPARTMENT_NAME,SALARY,
@@ -78,8 +86,26 @@ FROM – JOIN – ON – WHERE – GROUP BY – HAVING – SELECT – ORDER BY �
   INNER JOIN DEPARTMENT D
   ON E.DEPRT_ID = D.DEPRT_ID
   )
+  ```
 
 SELECT NAME,DEPARTMENT_NAME FROM RankedEmployee WHERE ROWNUM = 1
+
+```
+
+- over() with or without partition by  means
+
+```
+
+SELECT EMPLOYEE_ID,DEPARTMENT_ID
+
+SUM(SALARY) OVER() AS TOT_SALARY, ==> BROWSE THE COMPLETE TABLE SALARY
+SUM(SALARY) OVER(PARTITION BY DEPARTMENT_ID) AS DEPARTMENT_WISE, ==> PARTITIOB BY IS LIKE GROUP BY ,GROUP BY WILL SQUEEZ TEH DATA IN TO LESSER RECORDS
+FROM EMPLOYEES;
+
+```
+ROW_NUM() OVER(PARTITION BY)
+RANK()
+DENSE_RANK()
 
 <a id="ans-10"></a> 10. Temporary Table
 
@@ -175,3 +201,4 @@ Spatial Index
 - Efficiently indexes columns with a low cardinality (few unique values)
 - Stores bitmaps indicating which rows contain a particular value.
 - Compact and fast for certain types of queries.
+```
