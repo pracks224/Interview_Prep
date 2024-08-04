@@ -15,6 +15,7 @@ G. ### KAFKA CHEATSHEET
 H. ### CORE JAVA CHEATSHEET
 
 21 Jul 2024 : Cheat Sheet Started
+4 Aug 2024 : Cheat Sheet Started and Stream
 
 I. ### CLOUD CHEATSHEET
 
