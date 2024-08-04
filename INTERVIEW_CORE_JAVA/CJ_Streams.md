@@ -1,4 +1,13 @@
-**Table of content:**
+
+### JAVA Stream          [ref](https://stackify.com/streams-guide-java-8/)
+
+- Stream should not be confused with I/O Stream
+- Streams are just the warppers around the data sources ,facilitates for conventient bulk processing
+- Stream does not store data,in that sense it's not  a data structure.It also never modifies the underlying data structure.
+
+- 
+
+
 
 - [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
 

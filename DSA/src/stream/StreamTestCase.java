@@ -39,7 +39,7 @@ public class StreamTestCase {
                 new Transaction("2022-01-03", 500)
         );
 
-        transactions.stream().map(n-> n.amount)
+       // transactions.stream().map(n-> n.amount)
 
 
     }
