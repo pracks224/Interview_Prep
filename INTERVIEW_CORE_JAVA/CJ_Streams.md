@@ -1,15 +1,32 @@
-
-### JAVA Stream          [ref](https://stackify.com/streams-guide-java-8/)
+### JAVA Stream [Link 1](https://stackify.com/streams-guide-java-8/)
 
 - Stream should not be confused with I/O Stream
 - Streams are just the warppers around the data sources ,facilitates for conventient bulk processing
-- Stream does not store data,in that sense it's not  a data structure.It also never modifies the underlying data structure.
+- Stream does not store data,in that sense it's not a data structure.It also never modifies the underlying data structure.
 
-- 
+### Ways to create stream using strea(),stream.of,Stream.builder()
 
+### forEach() is terminal opertaion
 
+### map
 
-- [what is groupingBy?](https://mkyong.com/java8/java-8-collectors-groupingby-and-mapping-example/)
+### collect
+
+### filter
+
+### flatMap
+
+### peek (peek vsforEach)
+
+###
+
+### Parallel Stream
+
+### Java 9 Improvisation of Stream
+
+- TakeWhile,DropWhile,
+- iterate() overiden which replaces the old for loop
+-
 
 #### Calculate the average age of a list of Person objects using Java streams ?
 
@@ -69,3 +86,13 @@ Q.16) Find the cities with the minimum and the maximum population in countries.
 Q.17) Find the minimum, the maximum, the average, and the standard deviation of GNP values.
 
 Q.18) Find the year where the maximum number of movie is available
+
+### Ans 18.
+
+int maxYear = movies.stream()
+.collect(Collectors.groupingBy(Movie::getReleaseYear, Collectors.counting()))
+//===> it will return (Map<Year,Long>)
+.entrySet().stream()
+.max(Map.Entry.comparingByValue())
+.map(Map.Entry::getKey)
+.orElseThrow(() -> new RuntimeException("No movies found"));

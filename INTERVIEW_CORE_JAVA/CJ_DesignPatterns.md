@@ -8,9 +8,9 @@
    - [Behavioral Pattern](#bp)
 2. [Structural Pattern UseCases](#spu)
 
-### Itertaion 2
+3. [Why need interface if there is Abstract class?](#3ia)
 
-3. # [In progress]()
+4. [OutOfMememory vs Memory Leak ?](#4Om)
 
 ===============================================================================================
 
@@ -77,3 +77,14 @@ F. You are developing a library management system where access to certain restri
 4. [GRASP]()
 5. [High Cohesion]()
 6. [Low Coupling]()
+
+<a id="3iA"></a>
+
+### Why interface if Abstract class?
+
+- Interface allows multiple inheritance,so that class can implement multiple interface but abstract class wont allow multiple inheritance
+- Interfaces provide a way to define a contract or capability that multiple classes, potentially unrelated in their hierarchy, can implement. They are essential for achieving multiple inheritance of type.
+- Abstract classes allow sharing of code and state among a group of related classes. They provide a common base for subclasses and allow you to define methods with default behavior that can be shared and overridden by subclasses.
+- Default methods in Java 8 blurs differnce between Interface and Abstract class but still Interface can not have constructor and can not mantain states
+
+<a id="4Om"></a>

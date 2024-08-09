@@ -3,3 +3,5 @@
 ### [Collections](INTERVIEW_CORE_JAVA/CJ_Collections.md)
 
 ### [Thread](INTERVIEW_CORE_JAVA/CJ_Multithreading.md)
+
+### [Java 8 Sample Coding Questions]()
