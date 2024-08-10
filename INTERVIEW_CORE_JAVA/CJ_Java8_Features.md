@@ -2,14 +2,17 @@
 
 #### Format code in Mac ===> command + option + L
 
-- [Java 8 Features](#java8)
+1. [Java 8 Features](#java8)
 
-  - [Java Stream](./CJ_Streams.md)
+2. [What do you understand about Functional Interface and some functional Interfaces?](#2Fs)
 
-  - [How to use Optional in Java Coding](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
-  - [Functional Interface](#java8-fi)
-  - [Method Refernce](https://medium.com/javarevisited/method-references-in-java8-9714496d5306)
-    - [notes](#methodreference1)
+- [Java Stream](./CJ_Streams.md)
+
+- [How to use Optional in Java Coding](https://medium.com/javarevisited/optional-class-in-java-8-making-your-code-more-clear-and-concise-62af0712910d#:~:text=The%20Optional%20class%20in%20Java,as%20part%20of%20Java%208.)
+- [Functional Interface](#java8-fi)
+- [Method Refernce](https://medium.com/javarevisited/method-references-in-java8-9714496d5306)
+
+  - [notes](#methodreference1)
 
 - [OOPs]()
 
@@ -104,3 +107,7 @@
 1. Return Square of numbers of list of integers using Stream
 1. Given two lists of numbers, how would you return all pairs of numbers? For example, givenalist [1, 2, 3] and a list [3, 4] you should return [(1, 3), (1, 4), (2, 3), (2, 4), (3, 3), (3, 4)]. Forsimplicity, you can represent a pair as an array with two elements.
 1. How would you extend the previous example to return only pairs whose sumis divisibleby3?For example, (2, 4) and (3, 3) are valid.
+
+<a id="2Fs"></a>
+
+- FI - Interface with one abstract method

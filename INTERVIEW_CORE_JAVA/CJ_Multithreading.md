@@ -1,3 +1,27 @@
+### How notify and notifyAll work, and the difference between them. Why prefer notifyAll to notify? Why these methods in Object class rather than thread class?
+
+### [What is the ideal Thread Pool Size ?] (https://techblogstation.com/java/thread-pool-size/)
+
+### What is a race condition and how do you avoid it?
+
+### What is a deadlock and how do you avoid it? Implement Deadlock ?
+
+### What are some of the high-level concurrency classes provided by java.util.concurrent and how do they work?
+
+### Can you implement single producer single consumer solution in Java?
+
+### Can you implement single producer multiple consumers solution in Java?
+
+### Countdown latch vs Cyclic barrier ?
+
+### How we can create a thread safe Singleton design pattern ?
+
+### Do you have any work experience in Executor Services?
+
+### Difference between Callable and Runnable and Future?
+
+### What are the different types of Thread pool creation in Concurrency Control? — click here
+
 ### What is a thread in Java?
 
 A thread in Java is a lightweight subprocess, the smallest unit of processing, used to perform multiple tasks concurrently within a program.

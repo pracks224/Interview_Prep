@@ -88,3 +88,10 @@ F. You are developing a library management system where access to certain restri
 - Default methods in Java 8 blurs differnce between Interface and Abstract class but still Interface can not have constructor and can not mantain states
 
 <a id="4Om"></a>
+
+- Memory leak refers to a situation where it never be garabge collected . like collection in sttaic block,listner/callabck register but unregister if nt in use,inner clss,caches with out eviction policy,db connection,io streams.
+- Memory leaks leads to slowly towards OutOfMemory
+- Detection using VisualVM,Jprofiler,Eclipse Memory Analyser
+- How to avoid
+  - Close resources
+  - Use WeakHashMap when storing key needs to be garbage collected
