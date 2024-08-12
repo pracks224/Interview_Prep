@@ -261,3 +261,23 @@ In essence, Conway's Law emphasizes that the communication structures within org
 10. [@condtional ,@ConditionalOnClass and @ConditionalOnProperty]()
 11. [@profile,How it works ?](https://medium.com/@AlexanderObregon/exploring-the-use-of-profile-annotation-in-spring-framework-32cf9fff60f2#:~:text=The%20%40Profile%20annotation%20was%20introduced,to%20customize%20the%20application%20context.)
 12. [What is Swagger , OpenAPI Vs Swagger, What are the features of swagger ?Swagger editor,Swagger UI,Swagger Codegen]()
+
+### SAGA PATTERN
+
+- It's an ingenious solution to manage the transactions in the world of distributed systems or Microsrvices.
+- In a monolithic application, this transaction would usually be handled using ACID transactions
+- In the simplest terms, a saga is a sequence of local transactions. Each local transaction updates the database and publishes an event to trigger the next local transaction in the saga
+- The Saga Execution Coordinator(SEC) is the central component to implement a Saga flow.
+- It contains a Saga log that captures the sequence of events of a distributed transaction.
+- For any failure, the SEC component inspects the Saga log to identify the impacted components and the sequence in which the compensating transactions should run.
+- For any failure in the SEC component, it can read the Saga log once it’s coming back up.
+- It can then identify the transactions successfully rolled back, which ones are pending, and can take appropriate actions
+- Two ways : 1. choreography and orchestration
+
+In the Saga Choreography pattern, each microservice that is part of the transaction publishes an event that is processed by the next microservice. Suitable for fewer services.
+
+- Tools for Choregraphy -Axon,Microprofile,Seata
+- In the Orchestration pattern, a single orchestrator is responsible for managing the overall transaction status.
+- Tools for Orchestrator - Camunda, Apache Camel
+
+More details - https://www.baeldung.com/cs/saga-pattern-microservices#:~:text=7.1.,performed%20by%20a%20Saga%20participant.
