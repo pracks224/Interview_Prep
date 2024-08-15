@@ -51,7 +51,6 @@ What is an IOC container?
 What are some essential features of Spring Security?
 What is Spring security authentication and authorization?
 What do you mean by basic authentication?
-What do you mean by digest authentication?
 What do you mean by session management in Spring Security?
 Explain SecurityContext and SecurityContext Holder in Spring security.
 Explain spring security OAuth2.
@@ -76,28 +75,4 @@ Can you explain what is FilterChainProxy in spring security?
 What is the intercept-url pattern and why do we need it?
 Does order matter in the intercept-url pattern? If yes, then in which order should we write it?
 State the difference between ROLE_USER and ROLE_ANONYMOUS in a spring intercept-url configuration.
-State the difference between @PreAuthorize and @Secured in Spring security.
-State the difference between @Secured and @RolesAllowed.
-
-Microservice Patterns and Interview Questions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-A. SAGA Patterns  - It's an ingenious solution to manage the transactions in the world of distributed systems or Microsrvices.
-                  - In a monolithic application, this transaction would usually be handled using ACID transactions
-                  - In the simplest terms, a saga is a sequence of local transactions. Each local transaction updates the database 
-                     and publishes an event to trigger the next local transaction in the saga
-                  - The Saga Execution Coordinator(SEC) is the central component to implement a Saga flow. 
-                     It contains a Saga log that captures the sequence of events of a distributed transaction.
-                  -  For any failure, the SEC component inspects the Saga log to identify the impacted components and the sequence 
-                    in which the compensating transactions should run.
-                  - For any failure in the SEC component, it can read the Saga log once it’s coming back up.
-                    It can then identify the transactions successfully rolled back, which ones are pending, and can take 
-                    appropriate actions
-                  - Two ways : 1. choreography and orchestration
-                      In the Saga Choreography pattern, each microservice that is part of the transaction publishes an event that 
-                      is processed by the next microservice.  Suitable for fewer services.
-                       Tools for Choregraphy -Axon,Microprofile,Seata
-                      In the Orchestration pattern, a single orchestrator is responsible for managing the overall transaction status.
-                        Tools for Orchestrator  - Camunda, Apache Camel
-                 More details - https://www.baeldung.com/cs/saga-pattern-microservices#:~:text=7.1.,performed%20by%20a%20Saga%20participant.
-
 
