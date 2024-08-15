@@ -1,3 +1,43 @@
+
+#### A. CLOUD
+- [ ] Task 1
+- [x] Task 2
+- [ ] Task 3
+
+#### B. CORE JAVA
+#### C. DEV OPS
+#### D. SYSTEM DESIGN
+#### E. SPRING
+#### F. SQL
+#### G. GEN AI
+#### H. FRONT END
+#### I. PYTHON
+#### J. KAFKA
+#### K. DATA ENGINEER
+#### L. DSA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Interview CheatSheet
 
 ## OPTIMISTIC LOCKING(E1.1)
