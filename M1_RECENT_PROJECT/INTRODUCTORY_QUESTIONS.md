@@ -1,3 +1,19 @@
+### How to introduce?
+
+Hello, I'm Prakash Sharma, Currently Serving as a technical manager,where lead a
+talaneted team involved in developing wide range of insyrance product.
+With over 14 + years of expreince got an opportunity to work on many differnt product organisation domain like finace,insirance,airline etc.
+
+I have strong technical foundation with 10+ expreince of hands-on coding across many different
+programming language like java,javascript,typescript,shellscript etc
+My experties extends software architecture,cloud technologies,microservices architecture etc.
+
+In my current role, I not only manage and mentor my team but also actively participate in code reviews and architectural discussions to maintain high standards of software quality. I pride myself on fostering a culture of collaboration, innovation, and continuous improvement within the team.
+
+I’m excited about the opportunity to bring my leadership skills, technical knowledge, and passion for innovation to your organization, and I look forward to discussing how I can contribute
+s
+https://www.linkedin.com/in/ben-r-239268ab/
+
 ### Tell me something About your recent project,architecture,tech stacks etc.
 
 - IFE(Interactive Front end) ==> For Insurance claim to reneal using Event Driven architecture(EDA)
@@ -6,27 +22,29 @@
 - DataBase ==> Postgress, Casandra
 
 #### Architecture
-  Event-Driven Microservices Architecture:
-  - Spring Boot for building the microservices.
-  - Kafka for asynchronous communication between services.
-  - Docker for containerization of the microservices.
-  - Kubernetes for orchestration and management of these containers.
-  - An Active-Active setup ensures the system is available even if one node fails.
-  - Auto failover mechanisms maintain continuous operation and prevent downtime.
+
+Event-Driven Microservices Architecture:
+
+- Spring Boot for building the microservices.
+- Kafka for asynchronous communication between services.
+- Docker for containerization of the microservices.
+- Kubernetes for orchestration and management of these containers.
+- An Active-Active setup ensures the system is available even if one node fails.
+- Auto failover mechanisms maintain continuous operation and prevent downtime.
 
 #### Features
 
-   -  Policy Enquiry API: Allows users to query details about their insurance policies.
-   -  Vehicle Validation : Uses CBC API to validate vehicle information before processing insurance policies.
-   -  Renewal Policy Information API
-   -  Real-time Monitoring and Logging:
-   -  Auto Scaling
+- Policy Enquiry API: Allows users to query details about their insurance policies.
+- Vehicle Validation : Uses CBC API to validate vehicle information before processing insurance policies.
+- Renewal Policy Information API
+- Real-time Monitoring and Logging:
+- Auto Scaling
 
-#### Implementation 
+#### Implementation
 
 ##### Implemented policy renewal API reduces response time and frequent time out by 1%. Using optimized query and caching using Redis. Can you elaborate it??
 
-- Optimized Database Queries : Creating Indexes  ex. CREATE INDEX idx_policy_id ON policies(policy_id);
+- Optimized Database Queries : Creating Indexes ex. CREATE INDEX idx_policy_id ON policies(policy_id);
 - Query Refactoring : Breaking single complex query into small simple query, Reduces nested sub quereis to join etc
 - Batch Processing
 - Caching using redis (Caching Startegies like TTL or Cache Invalidations etc)
@@ -41,8 +59,6 @@
 - Policy Renewal Offer
 - Payment Processing
 - Confirmation and Acknowledgement
-  
-  
 
 ### What is EDA and how it works ? What are different approach to implement EDA?
 
