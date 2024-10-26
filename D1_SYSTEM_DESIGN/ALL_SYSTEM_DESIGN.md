@@ -24,7 +24,6 @@
 - [What is CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
 - [What is Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
 - [Design Elevator](https://medium.com/geekculture/system-design-elevator-system-design-interview-question-6e8d03ce1b44)
-
 - [Store trillions of Data](https://medium.com/@iBMehta/how-discord-stores-trillions-of-messages-31ed9195c3e8)
 
   - MongoDB upto ~100 millions
@@ -44,6 +43,9 @@
 - [What is DDOS(denial of service ) attack and how will we prevent from this in our Applications ?]()
 
 - [Building & deploying highly available and low latency systems as service-oriented architecture, event driven architecture using Spring Boot, Kafka]()
+- [Design high available fault tolrent system](#active-active)
+  
+- [How do you monitor the health of nodes in Active-Active and Active-Passive environments?](#monitor)
 
 <a id="12-app"></a>
 
@@ -108,3 +110,25 @@
 #### What are Heuristic Exceptions?
 
 #### What is Multi Tenant Service and how do you support at service level.
+
+<a id="active-active"></a>
+
+#### Active - Active or Active-passive system design
+
+- Active -passive : Often used in disaster recovery, database replication setups, or systems that don’t require load balancing but need high availability.
+- Active-Active setups are ideal for high availability and load distribution, while Active-Passive is often more about ensuring backup and continuity with less complexity.
+- What are some use cases for choosing an Active-Active setup over an Active-Passive setup, and vice versa?
+- How do you monitor the health of nodes in Active-Active and Active-Passive environments?
+- In summary:
+
+Active-Active is ideal for high-traffic, highly available, geographically distributed, and performance-critical applications.
+Active-Passive works well for budget-conscious, non-critical, disaster recovery, and predictable-use applications where failover is the main priority.
+
+<a id="monitor"></a>
+
+#### Monitor
+- Application-Level Monitoring  tools like AppDynamics, Dynatrace, or custom scripts
+- Data Consistency Checks Data replication tools (e.g., Galera Cluster for MySQL, Cassandra, or Elasticsearch clusters) often have built-in consistency checks.
+- Performance Metrics Monitoring Tools like Prometheus, Grafana, Datadog, or New Relic
+- Health Checks and Heartbeats Periodic checks on each node's availability, response time, and connectivity status.Using protocols like HTTP, TCP, or ICMP pings, health checks and heartbeats continuously monitor each node’s responsiveness and status. This can be done using tools like HAProxy, NGINX, or cloud load balancers (e.g., AWS Elastic Load Balancing).
+  
