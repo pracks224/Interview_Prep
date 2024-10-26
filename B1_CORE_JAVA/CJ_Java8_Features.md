@@ -1,7 +1,7 @@
 **Table of content:**
 
 #### Format code in Mac ===> command + option + L
-
+ [Consumer Functional Interface](#consumerFI)
 1. [Java 8 Features](#java8)
 
 2. [What do you understand about Functional Interface and some functional Interfaces?](#2Fs)
@@ -111,3 +111,16 @@
 <a id="2Fs"></a>
 
 - FI - Interface with one abstract method
+
+<a id="consumerFI"></a>
+
+#### Consumer Functional Interface
+
+1. This FI used for printing,updating objects with out returining anything.
+2. printConsumer.andThen(lengthConsumer).accept("Alice");  andThen used for chaining the consumers
+3. Using consumer , we can reuse the same method for different type of updates like increment,decrement etc
+   public static void updateEmployee(Employee employee, Consumer<Employee> consumer) {
+        consumer.accept(employee); // Applies the consumer to the employee
+    }
+   Consumer<Employee> giveRaise = e -> e.setSalary(e.getSalary() * 1.10);
+   updateEmployee(emp, giveRaise);
