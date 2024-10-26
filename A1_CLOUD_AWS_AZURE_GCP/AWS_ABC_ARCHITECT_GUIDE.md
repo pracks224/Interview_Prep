@@ -12,6 +12,7 @@
 - [AWS DevOps](./AWS_DEVOPS.md)
 - [AWS Disater Recovery](#recovery)
 - [AWS Lambda](./AWS_Lambd.md)
+- [AWS Farget](#farget)
 
 <a id="eb-s"></a>
 
@@ -299,3 +300,10 @@ Configure Multi-AZ (Availability Zone) deployments for critical services like RD
 ##### Infrastructure as Code:
 
 Utilize AWS CloudFormation or Terraform to define and version your infrastructure, allowing for quick and consistent environment recreation in another region during a disaster.
+
+
+<a id="farget"></a>
+
+#### Amazon Farget:
+- Why Farget if EC2 and EKS .
+- 
