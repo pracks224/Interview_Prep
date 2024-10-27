@@ -306,4 +306,10 @@ Utilize AWS CloudFormation or Terraform to define and version your infrastructur
 
 #### Amazon Farget:
 - Why Farget if EC2 and EKS .
-- 
+-  Farget is serverless,AWS manages the infrastructure automatically where as EC2 requires manual managements
+-  Farget is pay as you use where as EC2 pay as teh instance uptime
+-  Fargate: Best for stateless, serverless microservices, or applications requiring minimal infrastructure management.
+EC2: Ideal for high-performance, stateful, or custom infrastructure workloads.
+- Important Farget is not suitable for workloads needing persistent storage
+- Why its called serverless becoz no need to provison the server separately
+- Fargate: Uses the awsvpc networking mode, assigning each task a unique ENI (Elastic Network Interface) with a private IP. This provides enhanced network isolation and security. What is this AWSVPC and Bridge mode?
