@@ -17,3 +17,9 @@ To excel as a technical architect consultant in IT solutions in 2024, you should
 8. **Edge Computing and IoT**: Knowledge of edge computing and IoT solutions to support real-time processing and decentralized data handling.
 
 9. **Software Architecture Patterns**: Mastery of various architectural patterns like event-driven, serverless, and domain-driven design to build robust and flexible systems.
+
+
+Intellij Shortcuts ::
+=> For Extract variable 
+command + option+v (For Mac) 
+Ctrl + Alt + V(For Windows)
