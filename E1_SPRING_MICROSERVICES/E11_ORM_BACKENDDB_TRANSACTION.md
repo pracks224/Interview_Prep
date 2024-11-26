@@ -1,3 +1,40 @@
+Question 1 : How can you manage transactions across multiple databases in Spring?
+
+Question 2 : XA and non XA transactions
+
+Question 3 : Dirty Read, Phantom Read and Isolation Levels explain with one example.
+
+Question 4 : Distributed Transaction Explain.
+
+
+
+
+
+
+
+### Dirty Read
+
+Occurs when a transaction reads data that has been modified but not yet committed by another transaction. If the uncommitted transaction rolls back, the data read becomes invalid.
+Isolation Level: Happens in Read Uncommitted.
+
+### Phantom Read
+
+Occurs when a transaction reads a set of rows, and another transaction inserts or deletes rows that affect the result set during the execution of the first transaction.
+
+Isolation Level: Prevented only in Serializable.
+
+### Isolation Levels
+
+# Isolation Levels in SQL
+
+| **Isolation Level**  | **Dirty Read** | **Non-Repeatable Read** | **Phantom Read** |
+|-----------------------|----------------|--------------------------|-------------------|
+| **Read Uncommitted** | Possible       | Possible                 | Possible          |
+| **Read Committed**   | Prevented      | Possible                 | Possible          |
+| **Repeatable Read**  | Prevented      | Prevented                | Possible          |
+| **Serializable**     | Prevented      | Prevented                | Prevented         |
+
+
 ### [OPTIMISTIC LOCKING(E1.1)](#e1-1)
 
 #### 2.If One table accessed by two user from front end at a time, Like Rohshin accessed the employee table ,updated the email of an user same time Roshan updated it ? How to tackle it ?
