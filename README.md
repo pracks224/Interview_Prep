@@ -18,8 +18,7 @@ To excel as a technical architect consultant in IT solutions in 2024, you should
 
 9. **Software Architecture Patterns**: Mastery of various architectural patterns like event-driven, serverless, and domain-driven design to build robust and flexible systems.
 
-
 Intellij Shortcuts ::
-=> For Extract variable 
-command + option+v (For Mac) 
+=> For Extract variable
+command + option+v (For Mac)
 Ctrl + Alt + V(For Windows)

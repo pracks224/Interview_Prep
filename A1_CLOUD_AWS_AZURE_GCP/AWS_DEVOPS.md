@@ -24,7 +24,6 @@
 - AWS Codebuild
 - AWS CodeDeploye
 - AWS CodeStar
-  s
 
 #### Can you describe the process of setting up a continous delivery pipeline in AWS using codepipeline and CodeBuild
 
@@ -37,3 +36,25 @@
     B.Test Stage - run the automated tests on the build artifacts
     C.Deploy Stage - deploy the build artifacts to a testing or production env.
   - Set up a trigger for every code commit
+
+### Where are Docker Image stored?
+
+- Docker images are stores in docker repositories
+- Like dockerhub (public repository)
+- Amazon ECR (Private Repository)
+- Amazon has its own public repository called Amazon Public Gallery
+
+### How to start with Docker 
+
+- Docker File -> Build to form a Docker Image (Push to docker repositories) ->  Pull the docker image to become docker conatiner
+
+ECS - Elastic Container Service
+EKS - Elastic Kubernetes Service
+Fargate - Amazon's own Serverless container platform
+ECR - Store containet images.
+
+- Docker Containers generally run on EC2 instances
+
+### Deep dive into ECS
+
+- 
