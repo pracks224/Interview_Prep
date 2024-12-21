@@ -1,4 +1,4 @@
-# Fundamental Concepts
+# Fundamental Concepts - A
 
 ## Questions
 
@@ -13,15 +13,15 @@
 9. How do you identify and define the boundaries of a microservice?
 10. How do you handle shared libraries or common utilities in microservices?
 
-# Service Discovery
+# Service Discovery - B
 
 ## Questions
 
 1. What are the advantages of dynamic service discovery in microservices?
 2. Compare client-side and server-side service discovery mechanisms.
-3.  What are some tools for service discovery besides Eureka? How do they work?
+3. What are some tools for service discovery besides Eureka? How do they work?
 
-# Scalability and Load Balancing
+# Scalability and Load Balancing - C
 
 ## Questions
 
@@ -30,7 +30,7 @@
 3. What are the benefits and challenges of autoscaling microservices?
 4. Explain sticky sessions and their impact on scaling microservices.
 
-# Resilience and Fault Tolerance
+# Resilience and Fault Tolerance -D
 
 ## Questions
 
@@ -39,7 +39,7 @@
 3. How do you implement timeout strategies to handle slow responses from a microservice?
 4. What is a fallback mechanism, and how can it improve user experience during failures?
 
-# Data Management
+# Data Management - E
 
 ## Questions
 
@@ -50,11 +50,10 @@
 3.Explain database sharding and its role in microservices scalability.
 
 4. What is eventual consistency, and how do you handle it in a distributed system?
-   
 
-# Testing Microservices
+# Testing Microservices - F
 
-##Questions
+## Questions
 
 1. How do you test inter-service communication in a microservices architecture?
 
@@ -64,7 +63,7 @@
 
 4. What tools have you used for performance testing of microservices?
 
-# Distributed Systems Challenges
+# Distributed Systems Challenges - G
 
 ## Questions
 
@@ -74,7 +73,7 @@
 
 3. How do you implement distributed tracing to debug issues in a microservices environment?
 
-# Deployment Strategies
+# Deployment Strategies - H
 
 ## Questions
 
@@ -84,7 +83,7 @@
 
 3. What challenges do you face when deploying updates to microservices in production?
 
-# Event-Driven Architecture
+# Event-Driven Architecture - I
 
 ## Questions
 
@@ -94,7 +93,7 @@
 
 3. What is an event bus, and how is it used in microservices?
 
-# Miscellaneous Questions
+# Miscellaneous Questions - J
 
 ## Questions
 
