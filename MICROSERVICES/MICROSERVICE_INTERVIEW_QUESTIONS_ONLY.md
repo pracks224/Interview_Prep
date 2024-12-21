@@ -1,100 +1,104 @@
-#### Fundamental Concepts
+# Fundamental Concepts
 
-i. What are microservices, and how do they differ from monolithic architecture?
+## Questions
 
-ii.. What are the benefits and challenges of adopting a microservices architecture?
+1. What are microservices, and how do they differ from monolithic architecture?
+2. What are the benefits and challenges of adopting a microservices architecture?
+3. How would you approach breaking a monolithic application into microservices?
+4. What is a bounded context, and why is it important in microservices?
+5. Explain CAP theorem and how it applies to microservices.
+6. How do you ensure fault isolation in a microservices architecture?
+7. Explain the role of the 12-Factor App methodology in microservices.
+8. What is the difference between a domain-driven design (DDD) and microservices design?
+9. How do you identify and define the boundaries of a microservice?
+10. How do you handle shared libraries or common utilities in microservices?
 
-iii. How would you approach breaking a monolithic application into microservices?
+# Service Discovery
 
-iv. What is a bounded context, and why is it important in microservices?
+## Questions
 
-v. Explain CAP theorem and how it applies to microservices.
+1. What are the advantages of dynamic service discovery in microservices?
+2. Compare client-side and server-side service discovery mechanisms.
+3.  What are some tools for service discovery besides Eureka? How do they work?
 
-vi. How do you ensure fault isolation in a microservices architecture?
+# Scalability and Load Balancing
 
-vii. Explain the role of the 12-Factor App methodology in microservices.
+## Questions
 
-viii. What is the difference between a domain-driven design (DDD) and microservices design?
+1. How do microservices achieve horizontal scalability?
+2. What is the role of load balancers in a microservices setup? How do you configure them?
+3. What are the benefits and challenges of autoscaling microservices?
+4. Explain sticky sessions and their impact on scaling microservices.
 
-ix. How do you identify and define the boundaries of a microservice?
+# Resilience and Fault Tolerance
 
-x. How do you handle shared libraries or common utilities in microservices?
+## Questions
 
-#### Service Discovery
+1. What is a bulkhead pattern, and how does it improve microservices resilience?
+2. Explain the difference between retries and circuit breakers in fault tolerance.
+3. How do you implement timeout strategies to handle slow responses from a microservice?
+4. What is a fallback mechanism, and how can it improve user experience during failures?
 
-i. What are the advantages of dynamic service discovery in microservices?
+# Data Management
 
-ii. Compare client-side and server-side service discovery mechanisms.
+## Questions
 
-iii. What are some tools for service discovery besides Eureka? How do they work?
+1. How do you handle schema changes in databases while maintaining backward compatibility in microservices?
 
-#### Scalability and Load Balancing
+2. What is the CQRS (Command Query Responsibility Segregation) pattern, and how is it applied in microservices?
 
-i. How do microservices achieve horizontal scalability?
+3.Explain database sharding and its role in microservices scalability.
 
-ii. What is the role of load balancers in a microservices setup? How do you configure them?
+4. What is eventual consistency, and how do you handle it in a distributed system?
+   
 
-iii.What are the benefits and challenges of autoscaling microservices?
+# Testing Microservices
 
-iv. Explain sticky sessions and their impact on scaling microservices.
+##Questions
 
-#### Resilience and Fault Tolerance
+1. How do you test inter-service communication in a microservices architecture?
 
-i. What is a bulkhead pattern, and how does it improve microservices resilience?
+2. What are contract tests, and why are they important for microservices?
 
-ii. Explain the difference between retries and circuit breakers in fault tolerance.
+3. How do you simulate dependencies while testing a microservice (e.g., using mocks or stubs)?
 
-iii. How do you implement timeout strategies to handle slow responses from a microservice?
+4. What tools have you used for performance testing of microservices?
 
-iv. What is a fallback mechanism, and how can it improve user experience during failures?
+# Distributed Systems Challenges
 
-#### Data Management
+## Questions
 
-i. How do you handle schema changes in databases while maintaining backward compatibility in microservices?
+1. How do you handle distributed logging across microservices?
 
-ii. What is the CQRS (Command Query Responsibility Segregation) pattern, and how is it applied in microservices?
+2. What are some strategies for ensuring data consistency in distributed systems?
 
-iii.Explain database sharding and its role in microservices scalability.
+3. How do you implement distributed tracing to debug issues in a microservices environment?
 
-iv.What is eventual consistency, and how do you handle it in a distributed system?
+# Deployment Strategies
 
-#### Testing Microservices
+## Questions
 
-i. How do you test inter-service communication in a microservices architecture?
+1. What is a blue-green deployment, and how does it benefit microservices?
 
-ii. What are contract tests, and why are they important for microservices?
+2. Explain the canary deployment strategy and its implementation in microservices.
 
-iii. How do you simulate dependencies while testing a microservice (e.g., using mocks or stubs)?
+3. What challenges do you face when deploying updates to microservices in production?
 
-iv. What tools have you used for performance testing of microservices?
+# Event-Driven Architecture
 
-#### Distributed Systems Challenges
+## Questions
 
-i. How do you handle distributed logging across microservices?
+1. What is the difference between event sourcing and traditional event-driven architectures?
 
-ii. What are some strategies for ensuring data consistency in distributed systems?
+2. How do you ensure the reliability of events in an event-driven microservices setup?
 
-iii. How do you implement distributed tracing to debug issues in a microservices environment?
+3. What is an event bus, and how is it used in microservices?
 
-#### Deployment Strategies
+# Miscellaneous Questions
 
-i. What is a blue-green deployment, and how does it benefit microservices?
+## Questions
 
-ii. Explain the canary deployment strategy and its implementation in microservices.
-
-iii. What challenges do you face when deploying updates to microservices in production?
-
-#### Event-Driven Architecture
-
-i. What is the difference between event sourcing and traditional event-driven architectures?
-
-ii. How do you ensure the reliability of events in an event-driven microservices setup?
-
-iii. What is an event bus, and how is it used in microservices?
-
-#### Miscellaneous Questions
-
-- i. How do you handle API dependencies when one microservice relies on another’s output?
-- ii. What role does Kubernetes play in managing microservices, and how do you use it?
-- iii. What are anti-patterns in microservices, and how do you avoid them?
-- iv.How do you handle latency issues in a distributed system?
+1. How do you handle API dependencies when one microservice relies on another’s output?
+2. What role does Kubernetes play in managing microservices, and how do you use it?
+3. What are anti-patterns in microservices, and how do you avoid them?
+4. How do you handle latency issues in a distributed system?
