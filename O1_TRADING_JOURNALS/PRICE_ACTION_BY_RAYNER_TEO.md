@@ -45,3 +45,37 @@ TWO VERY IMPORTANT THINGS TO REMEMBER
 
 10. Lower highs into support are a sign of weakness
     — This looks like a descending triangle. It’s a sign of weakness because it tells you sellers are willing to sell at lower prices (despite the price being near support).
+
+11. # Point Of Value :
+
+    - This is the area which nevre tested recently. High Chances market will test it
+    - Get the validation points, And the moment it got invalidated wait for to understand the
+      liquidity engineering. Once confirmed then do buy or sell
+
+12. # Another video watching
+
+    - Here the instructor tries to convey that first channel, then range and finally breakout which lead to trend
+
+    - Side wise areas called order building area
+
+    -
+
+# STARTERGY - 1
+
+===========
+
+1. Find the valid levels at 4 Hours timeframe.
+2. Wait for the nearest valid level become invalidated.
+3. see is it a liquidity engineering (false break), it should respect the break zone
+4. Or else wait till point value which will touch to retest it.
+
+# STARTERGY - 2
+
+===========
+in 15M/5M :
+
+1. Find the seller zone or buyer zone.
+2. If it's seller zone, then see how it respects the resistances on pull back and place sell
+3. If it's buyer zone, then see how it repsects the supports on pull back and place buy
+
+# In either case 20 pips will be your sl and 100 pips your TP.
