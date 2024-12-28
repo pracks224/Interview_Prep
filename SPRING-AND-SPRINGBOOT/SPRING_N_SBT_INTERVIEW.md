@@ -1,3 +1,167 @@
+# Spring Boot Interview Preparation
+
+## Table of Contents
+1. [Spring Boot Basics](#spring-boot-basics)
+2. [Spring Boot Configuration](#spring-boot-configuration)
+3. [Dependency Injection and IoC](#dependency-injection-and-ioc)
+4. [Spring Boot Data Access](#spring-boot-data-access)
+5. [Spring Boot Security](#spring-boot-security)
+6. [Spring Boot REST APIs](#spring-boot-rest-apis)
+7. [Spring Boot Actuator and Monitoring](#spring-boot-actuator-and-monitoring)
+8. [Spring Boot Testing](#spring-boot-testing)
+9. [Spring Boot Cloud Integration](#spring-boot-cloud-integration)
+10. [Common Scenarios and Best Practices](#common-scenarios-and-best-practices)
+
+---
+
+## 1. Spring Boot Basics
+- **What is Spring Boot?**
+  - Benefits and Features
+  - Difference between Spring and Spring Boot
+- **Spring Initializr**
+  - What is it?
+  - How to generate a Spring Boot project
+- **Auto-Configuration**
+  - How does it work?
+  - Disabling specific auto-configurations
+- **Spring Boot Starter Dependencies**
+  - Purpose and examples (e.g., `spring-boot-starter-web`, `spring-boot-starter-data-jpa`)
+  
+---
+
+## 2. Spring Boot Configuration
+- **Configuration Methods**
+  - `application.properties` vs. `application.yml`
+  - Profiles and environment-specific configurations
+- **Externalized Configuration**
+  - `@Value` and `@ConfigurationProperties`
+  - Loading properties from different sources
+- **Custom Configuration**
+  - Defining beans using `@Configuration`
+  - Conditional configuration (`@ConditionalOnProperty`, `@ConditionalOnMissingBean`)
+
+---
+
+## 3. Dependency Injection and IoC
+- **What is Dependency Injection?**
+  - Types of DI (Constructor, Setter, Field)
+- **Spring Bean Scope**
+  - Singleton, Prototype, Request, Session
+- **Annotations**
+  - `@Component`, `@Service`, `@Repository`, `@Controller`
+  - `@Autowired`, `@Qualifier`, `@Primary`
+
+---
+
+## 4. Spring Boot Data Access
+- **Spring Data JPA**
+  - Repository pattern
+  - `JpaRepository` and `CrudRepository`
+  - Query methods and `@Query` annotation
+- **Database Connection**
+  - Configuring data sources
+  - H2 database for testing
+- **Transactions**
+  - `@Transactional` annotation
+- **Spring JDBC**
+  - Using `JdbcTemplate`
+
+---
+
+## 5. Spring Boot Security
+- **Spring Security Basics**
+  - Authentication and Authorization
+  - In-memory authentication
+  - Role-based access control
+- **Custom Security Configuration**
+  - `SecurityFilterChain` and `WebSecurityConfigurerAdapter`
+  - Custom user details and password encoders
+- **OAuth2 and JWT**
+  - Implementing OAuth2 with Spring Boot
+  - Creating and validating JWT tokens
+
+---
+
+## 6. Spring Boot REST APIs
+- **Building REST APIs**
+  - `@RestController`, `@GetMapping`, `@PostMapping`, etc.
+  - Returning `ResponseEntity`
+- **Request and Response Handling**
+  - `@RequestBody`, `@PathVariable`, `@RequestParam`
+- **Exception Handling**
+  - `@ControllerAdvice` and `@ExceptionHandler`
+- **Pagination and Sorting**
+  - Using Spring Data JPA
+- **Swagger/OpenAPI**
+  - Documenting APIs with `springdoc-openapi` or Swagger UI
+
+---
+
+## 7. Spring Boot Actuator and Monitoring
+- **Spring Boot Actuator**
+  - Purpose and features
+  - Common endpoints (`/actuator/health`, `/actuator/metrics`)
+- **Custom Metrics**
+  - Exposing custom health indicators and metrics
+- **Integration with Monitoring Tools**
+  - Prometheus, Grafana, or ELK Stack
+
+---
+
+## 8. Spring Boot Testing
+- **Unit Testing**
+  - Using JUnit and Mockito
+- **Integration Testing**
+  - `@SpringBootTest` annotation
+  - Mocking dependencies
+- **Test Utilities**
+  - `MockMvc` for testing REST APIs
+  - Embedded database for testing (H2)
+
+---
+
+## 9. Spring Boot Cloud Integration
+- **Spring Cloud Overview**
+  - Key components: Config Server, Discovery Server (Eureka), Gateway
+- **Spring Boot with Microservices**
+  - Service registration and discovery
+  - Centralized configuration management
+- **Circuit Breakers and Resilience**
+  - Implementing resilience using Resilience4j or Hystrix
+- **Distributed Tracing**
+  - Using Sleuth and Zipkin
+
+---
+
+## 10. Common Scenarios and Best Practices
+- **Performance Optimization**
+  - Caching with `@Cacheable`
+  - Connection pool management
+- **Handling Large Data**
+  - Streaming responses
+  - Using chunk-based processing with Spring Batch
+- **Best Practices**
+  - Layered architecture
+  - Avoiding circular dependencies
+  - Logging and error handling
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 **Table of content:**
 --------------------- ------------------- ------------------ ------------
 -----------------------------------------------------------------------------------
