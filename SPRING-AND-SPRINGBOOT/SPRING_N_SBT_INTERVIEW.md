@@ -67,7 +67,7 @@
   - Using `JdbcTemplate`
 
 ---
-
+<a id="spring-boot-security"></a>
 ## 5. Spring Boot Security
 - **Spring Security Basics**
   - Authentication and Authorization
