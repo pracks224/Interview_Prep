@@ -11,6 +11,7 @@
 3. [Why need interface if there is Abstract class?](#3ia)
 
 4. [OutOfMememory vs Memory Leak ?](#4Om)
+5. [All about Singleton](#singleton)
 
 ===============================================================================================
 
@@ -89,9 +90,16 @@ F. You are developing a library management system where access to certain restri
 
 <a id="4Om"></a>
 
+### Memory Leak
+
 - Memory leak refers to a situation where it never be garabge collected . like collection in sttaic block,listner/callabck register but unregister if nt in use,inner clss,caches with out eviction policy,db connection,io streams.
 - Memory leaks leads to slowly towards OutOfMemory
 - Detection using VisualVM,Jprofiler,Eclipse Memory Analyser
 - How to avoid
   - Close resources
   - Use WeakHashMap when storing key needs to be garbage collected
+ 
+<a id="singleton"></a>
+
+### Singleton
+[more](https://medium.com/@jayram_manale/mastering-singleton-design-patterns-in-java-a-complete-guide-with-real-world-examples-9ed6d59e2dbf)
