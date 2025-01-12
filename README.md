@@ -1,22 +1,23 @@
-1. **Cloud Architecture Mastery**:
+# 60-Day Roadmap to AI/ML Engineer with Java Full-Stack, Cloud (AWS), Data Engineering, and DevOps
 
-2. **Microservices and Containerization**:
-   - #### [Microservices Architecture ](/E1_SPRING_MICROSERVICES/MICROSERVICE_ARCHITECTURES.md)
+## Day 1: 12th January - Java 8 Features
 
-4. **AI/ML Integration**:
+### Objectives:
+- Understand key Java 8 features such as Lambda Expressions, Streams API, Optional, Default Methods, and Date/Time API.
+- Begin exploring AI/ML basics, focusing on Linear Algebra and Statistics, and starting with Python.
 
-5. **Cybersecurity**:
+### Tasks for the Day:
+- **Lambda Expressions**: Study functional programming concepts in Java.
+  - Understand how Lambda Expressions simplify the code.
+  - Practice with functional interfaces like `Function`, `Consumer`, `Supplier`, and `Predicate`.
+- **Streams API**: Learn how to manipulate collections and perform operations on them in a declarative way using Streams.
+  - Filter, map, and reduce collections with Streams.
+- **Optional Class**: Learn how to handle null values effectively in Java using the Optional class.
+- **Date and Time API**: Familiarize yourself with the modern Date and Time API (`LocalDate`, `ZonedDateTime`, etc.) in Java 8.
+- **AI/ML Foundations**: Start reviewing the basics of Linear Algebra, Probability, and Statistics.
+  - Install Python and essential libraries like `NumPy`, `Pandas`, `Matplotlib`.
 
-6. **Data Engineering and Analytics**:
+**End of Day Notes**:
+- [ ] Key takeaways from today's learning
+- [ ] Challenges faced and how to overcome them
 
-7. **DevOps and Automation**:
-
-8. **API Management and Integration**:
-
-9. **Edge Computing and IoT**:
-
-10. **Software Architecture Patterns**:
-    - #### [How to Efficiently Check If a Username Exists Among Billions of Users](https://medium.com/@aditimishra_541/how-to-efficiently-check-if-a-username-exists-among-billions-of-users-7ed1e5c60489)
-    - #### [Bloom Filter - well explained](https://www.youtube.com/watch?v=kfFacplFY4Y)
-    - #### [How event system manages 1000 of concurrent bookings](https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5)
-    - #### [Concurrency Conundrum in Booking Systems](https://medium.com/@abhishekranjandev/concurrency-conundrum-in-booking-systems-2e53dc717e8c)
