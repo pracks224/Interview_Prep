@@ -1,28 +1,22 @@
-To excel as a technical architect consultant in IT solutions in 2024, you should focus on the following key areas:
+1. **Cloud Architecture Mastery**:
 
-1. **Cloud Architecture Mastery**: Deep expertise in designing, deploying, and managing cloud-based solutions on platforms like AWS, Azure, and Google Cloud.
+2. **Microservices and Containerization**:
+   - #### [Microservices Architecture ](/E1_SPRING_MICROSERVICES/MICROSERVICE_ARCHITECTURES.md)
 
-2. **Microservices and Containerization**: Proficiency in microservices architecture, Kubernetes, and Docker to build scalable and resilient applications.
+4. **AI/ML Integration**:
 
-3. **AI/ML Integration**: Ability to incorporate artificial intelligence and machine learning into IT solutions for advanced analytics, automation, and decision-making.
+5. **Cybersecurity**:
 
-4. **Cybersecurity**: Expertise in modern security practices, including zero-trust architecture, encryption, and threat detection, to ensure secure IT environments.
+6. **Data Engineering and Analytics**:
 
-5. **Data Engineering and Analytics**: Strong knowledge of big data technologies, data lakes, ETL processes, and data visualization tools to design data-driven solutions.
+7. **DevOps and Automation**:
 
-6. **DevOps and Automation**: Proficiency in CI/CD pipelines, infrastructure as code (IaC) with tools like Terraform, and automation of IT processes to enhance efficiency.
+8. **API Management and Integration**:
 
-7. **API Management and Integration**: Expertise in designing and managing APIs for seamless integration between various systems, ensuring interoperability and scalability.
+9. **Edge Computing and IoT**:
 
-8. **Edge Computing and IoT**: Knowledge of edge computing and IoT solutions to support real-time processing and decentralized data handling.
-
-9. **Software Architecture Patterns**: Mastery of various architectural patterns like event-driven, serverless, and domain-driven design to build robust and flexible systems.
-
-Intellij Shortcuts ::
-=> For Extract variable
-command + option+v (For Mac)
-Ctrl + Alt + V(For Windows)
-
-#### [Microservices Architecture ](/E1_SPRING_MICROSERVICES/MICROSERVICE_ARCHITECTURES.md)
-
-####
+10. **Software Architecture Patterns**:
+    - #### [How to Efficiently Check If a Username Exists Among Billions of Users](https://medium.com/@aditimishra_541/how-to-efficiently-check-if-a-username-exists-among-billions-of-users-7ed1e5c60489)
+    - #### [Bloom Filter - well explained](https://www.youtube.com/watch?v=kfFacplFY4Y)
+    - #### [How event system manages 1000 of concurrent bookings](https://medium.com/@narengowda/bookmyshow-system-design-e268fefb56f5)
+    - #### [Concurrency Conundrum in Booking Systems](https://medium.com/@abhishekranjandev/concurrency-conundrum-in-booking-systems-2e53dc717e8c)
