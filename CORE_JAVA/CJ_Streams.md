@@ -3,8 +3,20 @@
 - Stream should not be confused with I/O Stream
 - Streams are just the warppers around the data sources ,facilitates for conventient bulk processing
 - Stream does not store data,in that sense it's not a data structure.It also never modifies the underlying data structure.
+- The primary advantage of using Streams is that they abstract the underlying data and simplify the code for data manipulation. With Streams, you can create more readable and concise code, which makes your programs easier to understand and maintain.
 
 ### Ways to create stream using strea(),stream.of,Stream.builder()
+
+## Stream Operations
+
+Two types : 1. Intermediate and Terminal
+
+1. Intermediate :
+   - Intermediate operations are operations that transform the Stream into another Stream.
+   - filter, map, distinct, sorted, limit
+2. Terminal :
+   - Terminal operations are operations that produce a result or side effect.
+   - forEach(),count,collect , anyMatch,reduce - reudce all elemnts into a single result.
 
 ### forEach() is terminal opertaion
 
@@ -22,11 +34,23 @@
 
 ### Parallel Stream
 
+### Find the max element of a List
+
+```
+List<Integer> numbers = Arrays.asList(5, 12, 8, 24, 15, 10);
+Optional<Integer> maxNumber = numbers.stream()
+    .max(Integer::compareTo);
+if (maxNumber.isPresent()) {
+    System.out.println("Maximum number: " + maxNumber.get());
+} else {
+    System.out.println("No maximum number found.");
+}
+```
+
 ### Java 9 Improvisation of Stream
 
 - TakeWhile,DropWhile,
 - iterate() overiden which replaces the old for loop
--
 
 #### Calculate the average age of a list of Person objects using Java streams ?
 
