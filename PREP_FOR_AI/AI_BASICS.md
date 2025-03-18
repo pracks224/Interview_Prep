@@ -24,3 +24,15 @@
   images will be converted into the matrix, and the audio signal is converted to a spectrogram
 - Steps for RAG => Chunking,Embedding,Storing in vector database LLMs search it in vector db
 - Implementation using Langchain for embedding and llama for generating text locally
+
+## How AI helps in Computer Vision
+
+- Common uses of computer vision include :
+  - Auto-captioning or tag-generation for photographs
+  - Visual search
+  - Monitoring stock levels or Identifying items for checkout in retail scenarios.
+  - Security video monitoring.
+  - Authentication through facial recognition
+  - Robotics and self-driving car
+- You can combine computer vision and language models to create a multi-modal model that combines computer vision and generative AI capabilities.
+- Semantic segmentation is a computer vision technique used to classify each pixel in an image into a specific category. It is commonly used in image processing and deep learning to understand the structure of an image at a fine-grained level.

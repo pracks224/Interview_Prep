@@ -1,0 +1,15 @@
+1. AWS Cloud History
+   2.AWS Global Infrastructure
+
+- Region : Mubai,sydney etc
+  Regions are private network attached
+  Each regions has AZs
+- How to choose an AWS region?
+- Compliance based on the country regulations etc
+- proximity
+- pricing
+- Each regions has many Azs minimum 2 max 6
+  - Each Az has redundant pwer,netowrking and connectivity
+- Edge locations
+- AWS Console
+  - Global Services - IAM,
