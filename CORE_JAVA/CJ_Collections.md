@@ -14,7 +14,7 @@
   - [RandomAccess - what do you mean by RandomAccess ??](#RandomAcess)
   - [What is Treeify](#treeify)
   - [Differnce between FailFast and FailSafe](#fvsf)
-  - []()
+  - [How many users can you allow in the list with out impacting performance](#notes_71)
 
 =================================================================================================
 
@@ -38,6 +38,13 @@
    Iterator can traverse List,Sets,Maps but LIT only lists
    Iterator can traverse forward but ListIterator in any direction
    Provide no method to retreive the index but LIT has it ????
+
+<a id="comparable vs comparator"></a>
+
+### Difference Between Comparable and Comparator
+
+- Comparable compareTo() and Comparator comapre()
+- Comparable uses natural ordering
 
 <a id="map"></a>
 
@@ -236,6 +243,7 @@ Imagine you're developing an e-commerce application where users frequently searc
 - Commonly used fail-safe collection in Java includes 'CopyOnWriteArrayList','ConcurrentHashMap'
   'CopyOnWriteArraySet'.
 - FS collections are thread safe and avoid 'concurrentmodificationexception'
+- FF ArrayList and HashMap
 
 =======================================================
 
@@ -247,3 +255,18 @@ Imagine you're developing an e-commerce application where users frequently searc
 68. [in built immutable classes in java - String,Integer,Long,Double,BigInteger,LocalDate,LocalDateTime etc]()
 69. [Aggregation vs composition]()
 70. [Create An Immutable Map]()
+
+<a id="notes_71"></a>
+
+#### Storage choices based on Storage Choices
+
+- Using Array List,Linear search O(n), for more than 10K its become expensive.
+- Using a HashSet(Best for Java in memory ) complexity O(1) constant time lookup
+- Redis best for high traffic
+- Bloom filter is also best for high traffic ,memory usage is much less than hashset.
+- ArrayList fasstre rerteival upto 10K
+- ConcurrentHashMap or HashMap Faster retreival
+- TreeMap for ordered Search
+- CopyOnWriteArrayList - Heavy Read
+
+### How to implement LRU Cache?
