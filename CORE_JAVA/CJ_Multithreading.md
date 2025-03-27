@@ -1,3 +1,84 @@
+#### Explain CyclicBarrier and CountDownLatch.
+
+- CyclicBarrier and CountDownLatch are synchronization aids in Java's java.util.concurrent package, but they serve different purposes.
+- CyclicBarrier is a synchronization mechanism that allows multiple threads to wait at a common point until a predefined number of threads reach that point.
+- CountDownLatch is a synchronization mechanism that blocks threads until the count reaches zero.
+
+- One-Time Use → Unlike CyclicBarrier, it cannot be reused.
+
+```
+CyclicBarrier barrier = new CyclicBarrier(numThread, () -> System.out.println(Thread.currentThread().getName() + "Reached"));
+
+        for (int i = 0; i < numThread; i++) {
+            new Thread(new Worker(barrier)).start();
+        }
+barrier.await(); // Wait at the barrier
+```
+
+#### What is CompletableFuture?
+
+- CompletableFuture is a powerful feature introduced in Java 8 (java.util.concurrent) that represents a future result of an asynchronous computation.
+
+- It provides a flexible way to write non-blocking, asynchronous code using functional programming constructs.
+
+- Features
+  Asynchronous Execution → Tasks run independently without blocking the main thread.
+
+Chaining → Supports method chaining with .thenApply(), .thenAccept(), etc.
+
+Composing Futures → Combines multiple CompletableFuture instances using .thenCompose(), .thenCombine().
+
+Exception Handling → Provides built-in error handling via .exceptionally() and .handle().
+
+Parallel Execution → Supports executing multiple tasks in parallel using .allOf() and .anyOf().
+
+-
+
+```
+CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {
+            try { Thread.sleep(1000); } catch (InterruptedException e) { e.printStackTrace(); }
+            return "Hello, World!";
+        });
+        future.thenAccept(result -> System.out.println("Result: " + result));
+
+```
+
+#### What is a WeakHashmap?
+
+A WeakHashMap in Java is a special type of Map where the keys are stored as weak references.
+
+This means that if a key is no longer strongly referenced elsewhere, the garbage collector (GC) can automatically remove that entry from the map when GC runs.
+
+```
+WeakHashMap<Object, String> weakMap = new WeakHashMap<>();
+        Object key1 = new Object();  // Strong reference
+        Object key2 = new Object();
+        weakMap.put(key1, "Value1");
+        weakMap.put(key2, "Value2");
+
+        System.out.println("Before GC: " + weakMap);
+
+```
+
+#### What is an IdentityHashMap?
+
+- An IdentityHashMap is a specialized implementation of Map that compares keys using reference equality (==) instead of object equality (equals()).
+
+- This means that two keys are considered equal only if they are the same object in memory (i.e., they have the same reference), even if equals() returns true for them.
+
+- In HashMap, both key1 and key2 are treated as equal (.equals() returns true), so the second insertion overwrites the first.
+  In IdentityHashMap, key1 and key2 are different object references, so they are treated as separate entries.
+
+- Reference-sensitive Caching → When keys should be treated as different objects even if they are logically equal.
+
+```
+String key1 = new String("Java");  // New object
+        String key2 = new String("Java");  // Another new object with same value
+
+        hashMap.put(key1, "HashMap Value");
+        hashMap.put(key2, "HashMap New Value");
+```
+
 ### How notify and notifyAll work, and the difference between them. Why prefer notifyAll to notify? Why these methods in Object class rather than thread class?
 
 ### [What is the ideal Thread Pool Size ?] (https://techblogstation.com/java/thread-pool-size/)

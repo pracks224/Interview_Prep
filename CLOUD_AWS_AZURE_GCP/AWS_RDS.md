@@ -1,5 +1,10 @@
 # Amazon Relation Database Service (RDS)
 
+### What is RDS, and how does it differ from DynamoDB?
+
+- RDS (Relational Database Service): Managed service for SQL databases like MySQL, PostgreSQL, and Aurora.
+- DynamoDB: NoSQL database service designed for key-value and document-based applications.
+
 ### _Managed relational database service_
 
 ### _Amazon RDS provides cost-efficient and scalable relational database capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need._
@@ -236,3 +241,14 @@ You will be given a scenario where a particular database is under a lot of stres
 ElastiCache is a good choice if your database is particularly read heavy and not prone to frequent changing.
 
 Redshift is a good answer if the reason your database is feeling stress is because management keep running OLAP transactions on it etc.
+
+#### How would you troubleshoot a performance issue with an Amazon RDS database?
+
+- Troubleshoot approach
+  - High CPU - Query ineffciencies
+  - High Memory - Large Queries ,insfficient resources
+  - Slow Query - Poor Indexing
+  - High Latency - Network
+- RDS/Aurora has feature called Enable slow query logs
+- Explain to analyze queries
+-

@@ -17,6 +17,14 @@ Amazon DynamoD is a
 
 **NOTE:** Super easy to scale! Push button scaling
 
+#### How do you ensure database backups in AWS?
+
+Answer:
+
+- Enable automatic backups in RDS.
+- Use AWS Backup to manage backups centrally.
+- Perform manual backups to S3 for DynamoDB using DynamoDB Streams and AWS Lambda.
+
 ## DynamoDB Pricing
 
 Pricing is based on provision throughput capacity

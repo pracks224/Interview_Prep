@@ -15,6 +15,57 @@
 
 ===============================================================================================
 
+#### SOLID
+
+- Single Responsibility - One class related functionality
+- Open/Close Principle -
+  - Software entities should be open for extension, but closed for modification.
+- Liskove Substitution (LSP)-
+
+```
+A subclass should be replaceable for its parent class without affecting the program.
+
+class Bird {
+    void fly() { System.out.println("Bird is flying"); }
+}
+
+class Sparrow extends Bird { } // ✅ Still follows Bird behavior
+
+class Penguin extends Bird {
+    void fly() { throw new UnsupportedOperationException("Penguins can't fly"); } // ❌ Breaks LSP
+}
+
+```
+
+- Interface Segregation - Class should not implement unrelated interfaces
+- ##### Dependency Inversion Principel (DIP)
+  - High-level modules should not depend on low-level modules. Both should depend on abstractions.
+  - Use dependency injection instead of direct object creation.
+  ```
+  interface Database {
+    void save(String data);
+  }
+  ```
+
+class MySQLDatabase implements Database {
+public void save(String data) { System.out.println("Saving to MySQL"); }
+}
+
+class UserService {
+private Database database;
+
+    UserService(Database database) { // Dependency Injection
+        this.database = database;
+    }
+
+    void saveUser(String user) {
+        database.save(user);
+    }
+
+}
+
+```
+- UserService directly doesnt depend on MySQLDatabase diretly
 <a id="p"></a>
 
 There are three main groups of design patterns in software development.
@@ -96,10 +147,11 @@ F. You are developing a library management system where access to certain restri
 - Memory leaks leads to slowly towards OutOfMemory
 - Detection using VisualVM,Jprofiler,Eclipse Memory Analyser
 - How to avoid
-  - Close resources
-  - Use WeakHashMap when storing key needs to be garbage collected
- 
+- Close resources
+- Use WeakHashMap when storing key needs to be garbage collected
+
 <a id="singleton"></a>
 
 ### Singleton
 [more](https://medium.com/@jayram_manale/mastering-singleton-design-patterns-in-java-a-complete-guide-with-real-world-examples-9ed6d59e2dbf)
+```

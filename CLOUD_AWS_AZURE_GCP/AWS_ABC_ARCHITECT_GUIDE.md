@@ -1,5 +1,6 @@
 **Table of content:**
 
+- [Introduction](#ec-1)
 - [Amazon EC2](#ec-2)
 - [Amazon EBS](#eb-s)
 - [Amazon VPC](#vp-c)
@@ -17,6 +18,52 @@
 - [AWS Disater Recovery](#recovery)
 - [AWS Lambda](./AWS_Lambd.md)
 - [AWS Farget](#farget)
+
+### What is the difference between Security Groups and Network ACLs? Detail Under standing needed. SGs like firewal for EC2,NACLs at subnet levels
+
+#### How do you design a highly available and fault-tolerant architecture in AWS?
+
+- Use multiple Availability Zones (AZs) and Regions.
+- Deploy Auto Scaling Groups to ensure scalability.
+- Implement Elastic Load Balancers (ELB) for traffic distribution.
+- Use RDS Multi-AZ Deployment for databases.
+- Replicate data using S3 Cross-Region Replication.
+
+<a id="eb-1"></a>
+
+#### What is AWS and why is it used?
+
+- Its a cloud computing platform,provides on demand services as compute power,storage,databases etc.
+- It eliminates the need of physical server
+
+#### Virtual machine vs Conatiner
+
+- VM has its own OS running on a hypervisor where as container uses the host os
+- Large file (GBs) and container is Light weight
+- Running multiple OSs,legacy apps where as Container for microservices,cloude native apps etc
+- Storng Islolation in VM ,emulates the hardwar but container has weak isolation
+
+#### What is AWS and why is it used?
+
+- Compute - EC2, Lambda
+- Storage - S3,EBS,EFS
+- Database - RDS, DynamoDB
+- Networking - VPC,Route 53, CloudFront
+
+#### What is EC2 ?
+
+- EC2 is IAAS provides virtualized resources, which the user has full control.
+- Provides servers,networking,storage etc. The patch and all controlled by administrators
+- Elastic Bean stalk is PAAS where it has fully managed environment, user has to focus on applicatin code only.
+
+#### What is S3 and When used?
+
+- Object storage, used for back up ,storage,hosting websites, big data analytics
+
+#### What is IAM, and why is it important?
+
+- This is security as service, allows securely accessing the AwS services
+- Like AWS IAM, Azure has AD, Google has IAM
 
 <a id="eb-s"></a>
 
@@ -305,15 +352,15 @@ Configure Multi-AZ (Availability Zone) deployments for critical services like RD
 
 Utilize AWS CloudFormation or Terraform to define and version your infrastructure, allowing for quick and consistent environment recreation in another region during a disaster.
 
-
 <a id="farget"></a>
 
 #### Amazon Farget:
+
 - Why Farget if EC2 and EKS .
--  Farget is serverless,AWS manages the infrastructure automatically where as EC2 requires manual managements
--  Farget is pay as you use where as EC2 pay as teh instance uptime
--  Fargate: Best for stateless, serverless microservices, or applications requiring minimal infrastructure management.
-EC2: Ideal for high-performance, stateful, or custom infrastructure workloads.
+- Farget is serverless,AWS manages the infrastructure automatically where as EC2 requires manual managements
+- Farget is pay as you use where as EC2 pay as teh instance uptime
+- Fargate: Best for stateless, serverless microservices, or applications requiring minimal infrastructure management.
+  EC2: Ideal for high-performance, stateful, or custom infrastructure workloads.
 - Important Farget is not suitable for workloads needing persistent storage
 - Why its called serverless becoz no need to provison the server separately
 - Fargate: Uses the awsvpc networking mode, assigning each task a unique ENI (Elastic Network Interface) with a private IP. This provides enhanced network isolation and security. What is this AWSVPC and Bridge mode?

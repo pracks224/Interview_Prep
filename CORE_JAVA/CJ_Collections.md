@@ -18,6 +18,19 @@
 
 =================================================================================================
 
+#### Write a program to remove empty strings from an array of Strings.
+
+-
+
+```
+String[] arr = {"Hello", "", "World", null, "Java", "", "Streams", null};
+        // Remove empty and null strings using Java 8 Streams
+        List<String> filteredList = Arrays.stream(arr)
+                                          .filter(str -> str != null && !str.isEmpty()) // Exclude nulls and empty strings
+                                          .collect(Collectors.toList());
+        System.out.println(filteredList);
+```
+
 #### Refreshing Points
 
 1. ArrayList Non Synchonized in natture but Vectors are SYnchronized(thread safe).
