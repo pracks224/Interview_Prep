@@ -1,4 +1,77 @@
-**Table of content:**
+### 1. How would you design a scalable architecture for handling sudden traffic spikes?
+
+A. Load Balancing - Use LBs (L4 and L7) L4 transport layer and l7 Application layer
+   - Use round-robin,least connection or weighted routing
+A1 Auto scaling - Scale out horizantally,
+  Or Auto Scaling groups like AWS ASG or Kubernetes HPA
+  - Traffic predition or pre warming
+B. Rate Limiting : Rate limiting via Redis-based throttling (e.g., Token Bucket, Leaky Bucket algorithms).
+  
+B1. Asynchronous Processing - Offload long-running tasks using message queues (Kafka, RabbitMQ, SQS).
+
+C. Data Base Optimizations - Using Read replicas, differntiate read from write queries.
+   -> Sharading : Distribute data across multiple DB instances (e.g., by user ID, region).
+   -> Connection Pooling: Use HikariCP to efficiently manage DB connections.
+C1. 
+D. Front end - Use CDNs
+E. Monitoring,Alerts  and Failure recovery
+   Auto-Healing & Failover
+   - Circuit Breaker Pattern (Resilience4j, Hystrix) to prevent cascading failures.
+   - Fallback Mechanisms: Serve cached content if backend fails.
+   - Multi-Region Deployment: Deploy across regions to avoid a single point of failure.
+F. Use CQRS (Command Query Responsibility Segregation) to separate read and write models.
+G. DDoS Mitigation
+   - Rate limiting, IP blacklisting, and bot detection using AI-based anomaly detection.
+   - Use Cloudflare, AWS Shield, Akamai for traffic filtering.
+
+### 2. How would you handle failover if one data center goes down?/Disaster recovery
+
+- Deploy to multiple AZs
+- Multi-Region Failover - Active - Active or Active-Passive mode . Use Route 53 for DNS-based failover
+- Data sync - Use RDS Multi-AZ or Aurora Global Databases for database failover. For S3: it’s automatically replicated across multiple AZs.
+- #### Key Components for Resilient Failover
+# 🔧 High Availability Components and Tool Examples
+
+| **Component**          | **Tools/Service Examples**                                |
+|------------------------|-----------------------------------------------------------|
+| **DNS Failover**       | AWS Route 53, Cloudflare, NS1                             |
+| **Load Balancing**     | AWS ELB, NGINX, Istio, HAProxy                            |
+| **Data Replication**   | RDS Multi-AZ, EFS, Kafka MirrorMaker                      |
+| **Infrastructure Sync**| Terraform, ArgoCD, Crossplane                             |
+| **Health Checks**      | Built-in with most Load Balancers and DNS providers       |
+
+3. ### Vertical Scaling vs Horizontal Scaling
+
+Vertical scaling means upgrading the hardware of an existing server — for example, increasing CPU or RAM. It's easier to implement but has physical limits and may require downtime.
+
+Horizontal scaling means adding more instances or nodes to share the load. It's more complex but much more scalable and is commonly used in microservices, Kubernetes, or cloud environments.
+
+In my projects, we typically use horizontal scaling — for example, with Kubernetes HPA or AWS Auto Scaling Groups — to handle load dynamically without downtime.
+
+### 4. How does a load balancer improve scalability?
+
+- A load balancer improves scalability by allowing multiple backend servers to share the workload. Instead of relying on a single server, it distributes traffic across healthy instances based on policies like round-robin or least connections.
+
+For example, in AWS, we use Application Load Balancers (ALB) with Auto Scaling Groups — when traffic increases, new EC2 instances spin up, and the load balancer automatically includes them in the pool. Similarly, in Kubernetes, we use Ingress or Services with Horizontal Pod Autoscalers (HPA) to scale pods horizontally.
+
+This setup lets us handle more traffic, ensure high availability, and provide a better user experience — even during peak load.
+
+### 5. How would you reduce API response time under high load?
+- To reduce API response time under high load, I typically start with caching using Redis for frequently requested data, and I optimize DB queries with proper indexing and connection pooling. I also move non-critical logic like logging and notifications to background workers using SQS or Kafka.
+
+On the infrastructure side, I use load balancers and autoscaling (e.g., AWS ALB + ASG or Kubernetes HPA) to scale horizontally based on metrics. Additionally, I monitor performance using tools like AppDynamics and tune endpoints by reducing payload size and enabling GZIP compression.
+
+These combined strategies have helped me improve latency significantly even during peak traffic.
+
+### 6. What is Rate limiting ?
+- Rate limiting is the practice of controlling how many requests a client can make to a server or API within a specific time window.
+- Avoids Ddos attacks, fair usage to users, protect backend resources,mantain consistent performances under load etc
+- E.g. 100 req per minute,1000 req per IP,10 login attempts
+- Common stratergies like  1. Fixed Window	Count requests in a fixed time window (e.g., 60 sec)
+                           2.  Sliding Window	More accurate counting over a sliding time frame
+                           3.  Token Bucket	Requests are allowed if there's a token; tokens refill at a fixed rate
+                           4.  Leaky Bucket	Requests processed at a constant rate; excess goes to a queue or is dropped
+  - 
 
 - [The Twelve-Factor App principles?](#12-app)
   - Alternative Method to 12-Factors
