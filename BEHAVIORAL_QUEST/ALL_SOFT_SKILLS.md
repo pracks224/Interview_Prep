@@ -9,12 +9,22 @@
 4. ### Sample Introduction
 
 I am a Technical Manager with over 15 years of experience in full-stack Java/nodejs development, specializing in microservices architecture, cloud solutions, and enterprise application management. Currently leading teams at HCL, I have a proven track record of driving digital transformation, optimizing IT operations, and delivering scalable solutions. My expertise spans application architecture, cloud administration (AWS/Azure/GCP), and end-to-end project management. I am passionate about leveraging technology to enhance business efficiency and am eager to contribute my skills especially retail and e-commerce digital initiatives.
-Responsibilities ::: ===>>>>>>
-System relaiblity
-Incident management
-Process Improvement
-Security complaicnces
-Lead the support and development team
-Manage external vendors
-Foster team growths
-Stakeholder Communication
+
+### Responsibilities Of a Technical Manager
+
+What a Technical Managers responsibility:
+* Techincal Responsibility
+     - Systems & Infrastructure Management - ensure smooth runnings of servers network db etch
+     - Incident & Problem Management - 
+     - IT Service Management (ITSM)
+     - Monitoring & Alerting
+     - Security & Compliance - Ensure endpoint security, patch management, access control, and audit trails.
+* Team and Vendor Managemeny
+* Process and stratergy
+  - Service Improvement
+  - Change & Release Management
+  - Business Continuity & Disaster Recovery - chaos engineering with Chaos Mesh or Gremlin
+* Reporting and Communication
+     - Stakeholder Communication
+     - IT Operations Reporting
+
