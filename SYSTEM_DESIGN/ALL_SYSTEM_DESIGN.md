@@ -71,7 +71,90 @@ These combined strategies have helped me improve latency significantly even duri
                            2.  Sliding Window	More accurate counting over a sliding time frame
                            3.  Token Bucket	Requests are allowed if there's a token; tokens refill at a fixed rate
                            4.  Leaky Bucket	Requests processed at a constant rate; excess goes to a queue or is dropped
-  - 
+
+  #### 7.Implement a rate limiter using Redis
+
+  ### 8. How do you handle API rate limiting for millions of requests?
+
+  - For handling millions of API requests, I implement rate limiting using Redis as a centralized counter with a fixed window or token bucket algorithm. Each request increments a Redis key with TTL, and we throttle based on user ID or IP.
+
+To support high throughput, I enforce limits at the API Gateway level and use Cloudflare to filter abusive traffic at the edge. Redis gives us atomic operations and scalability, while usage metrics help us tune limits per user tier and auto-scale the backend. This setup ensures fair usage and protects our services under load.
+
+### 9. How would you ensure fault tolerance in an API gateway?
+
+- To ensure fault tolerance in our API Gateway, we deployed it across multiple availability zones using AWS API Gateway and Lambda. We implemented circuit breakers and timeouts to avoid cascading failures, and used Redis-based caching for high-traffic endpoints. For resilience, we set up health checks with Route 53 to failover across regions. Additionally, we monitored latency and errors using CloudWatch and set alerts for proactive intervention.
+
+  ### 10.When would you choose SQL vs. NoSQL for a high-traffic system?
+  ### 11. How would you handle database sharding in a multi-region setup?
+  ### 12. What is the trade off between Read Replicas and Sharding ?
+  - Read replicas help scale reads quickly and are easy to implement, but don’t help with write-heavy workloads. On the other hand, sharding distributes both reads and writes but adds complexity in partitioning and query logic. For example, in our analytics system, we used replicas to serve read dashboards, while for our real-time game engine, we sharded player state data to ensure low-latency writes and horizontal scalability.
+    ### 13. What caching strategies would you use to reduce database load?
+
+    -  Read through Cache - First check cache ,if miss data is loaded from DB and stored in cache for next time. "We used Redis as a read-through cache for product details, which reduced DB hits by ~70%"
+    -  Write through cache
+    -  Cache-Aside (Lazy Loading) n cache miss: fetch from DB, then update cache manually.
+    -  Time-To-Live (TTL) / Expiry Policies Set TTL on cache entries (e.g., 5 mins, 1 hour).
+
+   ### 13. How to decide the eviction policy ?
+
+  -  It decides which cached items to remove when the cache is full and you need to make room for new data.
+  -  Based on the pattern type , eviction policy decides
+  -  Frequently accessed	LFU (Least Frequently Used)	Keeps the most-used items, great for hot data
+  -  Recently accessed	LRU (Least Recently Used)	Keeps items recently used, good for session-like data
+  -  Insertion order matters	FIFO (First In, First Out)	Useful if access patterns are consistent by time
+  -  Random/unpredictable	Random	Simple, less overhead (not optimal though)
+  -  Memory is limited?
+  -  Go with LRU or LFU to retain the most valuable data.
+  -  To choose the right eviction policy, I analyze the access pattern. For example, if users tend to access a small set of items repeatedly, I prefer LFU. For session-related data or APIs where recent usage is more relevant, LRU works better. In Redis, we’ve used allkeys-lru in high-read apps and switched to allkeys-lfu for search caching. I always monitor cache hit ratios and adjust based on real-world behavior.
+
+Performance critical, low CPU overhead?
+→ FIFO or Random are simple and fast.
+
+Prevents stale data and automatic invalidation.
+
+### 14. How would you handle cache invalidation in a distributed system?
+- In a distributed system, I use a mix of TTL and explicit invalidation. For frequently changing data, we use a cache-aside pattern and delete the cache after a successful DB update. To ensure consistency across services, we use Kafka to publish change events and let subscribers invalidate their local or shared cache. In Redis, we also set TTLs as a fallback to avoid stale entries sticking around too long. This helped us maintain eventual consistency without overloading the DB.
+
+### 15. How would you detect and resolve performance bottlenecks?
+
+- 1. Monitoring & Observability
+     Start by using tools to get metrics, logs, and traces:
+     * Infra - CloudWatch, Prometheus, Grafana	CPU, memory, disk I/O, network
+     * App -	APMs like New Relic, AppDynamics, Dynatrace	Slow API calls, DB queries
+     * Logs - 	ELK (Elastic), Loki, Fluentd	Errors, exceptions
+     * Traces - 	Jaeger, Zipkin, X-Ray	End-to-end latency breakdown
+- 2. Resolve Based on Root Cause
+     * Application Layer : Optimize code or business logic,Use async where possible,Reduce unnecessary API/database calls
+     * Database : Add indexes,Optimize slow queries (use EXPLAIN),Add read replicas or cache results
+     * Load Balancer : Use health checks, autoscaling,Enable sticky sessions if needed
+     * Cache Layer : Use Redis or Memcached to avoid repeated DB hits,Apply appropriate TTL + eviction policy
+     * Network/CDN : Use Cloudflare, Akamai, or CloudFront to cache static assets.Minimize payload size
+- “To detect bottlenecks, I start with full-stack observability using tools like Dynatrace and ELK. I check latency across services using distributed tracing, then drill into logs and metrics to isolate the slow component — whether it’s API logic, DB queries, or external services. For example, in one case, we identified a slow SQL query missing an index, which we optimized to reduce API latency from 1.5s to 300ms. We also used Redis as a cache and enabled auto-scaling in our backend pods.”
+
+### 16. How do you debug latency issues in a microservices architecture?
+
+- To debug latency in microservices, I start with distributed tracing using tools like Dynatrace or Jaeger. I trace the request flow to see which service is slow, then use logs with correlation IDs to dig deeper. In one project, we found that the user-service was taking 2s due to a missing DB index. We added the index and introduced Redis cache for hot data, which brought latency down to 300ms. I also look at infrastructure metrics like CPU/memory and check for API retries or downstream timeouts.
+- Common Latency Causes in Microservices
+  * N+1 queries	Calling DB/API repeatedly inside a loop
+  * Missing indexes	DB taking too long
+  * Chained services	One service waiting on many others
+  * Network hops	Too many layers or regions
+  * Rate limiting or throttling	Queuing up requests
+  * DNS or service discovery issues	Delays in resolving addresses
+
+### 17. What would you do service discovery delays in resolving addresses?
+Reason for delay in service discovery
+- Slow DNS Resolution
+- Frequent DNS Lookups
+- Stale DNS Cache
+- Misconfigured Service Mesh / Envoy / Istio
+Tools
+- CoreDNS logs (K8s default DNS)
+- tcpdump to trace DNS requests
+- traceroute/dig to test resolution time
+- Service Mesh Dashboards (Istio, Consul, Linkerd)
+
+Interview Answers : We noticed increased latency due to slow DNS resolution. Using CoreDNS metrics, we found thousands of requests per second from each pod. We tuned the TTL settings and introduced local DNS caching to reduce lookups, which helped bring down inter-service latency by ~20%.
 
 - [The Twelve-Factor App principles?](#12-app)
   - Alternative Method to 12-Factors
