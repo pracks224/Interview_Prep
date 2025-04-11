@@ -10,6 +10,9 @@
 
 I am a Technical Manager with over 15 years of experience in full-stack Java/nodejs development, specializing in microservices architecture, cloud solutions, and enterprise application management. Currently leading teams at HCL, I have a proven track record of driving digital transformation, optimizing IT operations, and delivering scalable solutions. My expertise spans application architecture, cloud administration (AWS/Azure/GCP), and end-to-end project management. I am passionate about leveraging technology to enhance business efficiency and am eager to contribute my skills especially retail and e-commerce digital initiatives.
 
+*** Throught out my 16 years of exp in IT, I have worked as an employee,contractor,consultanat,manager for many companies/clients including
+HCL,Fidelity, FICO, Capegmini etc
+
 ### Responsibilities Of a Technical Manager
 
 What a Technical Managers responsibility:
