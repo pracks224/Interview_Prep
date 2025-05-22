@@ -1,24 +1,58 @@
-#### Fundamental Concepts
+### Q. What are microservices, and how do they differ from monolithic architecture?
 
-i. What are microservices, and how do they differ from monolithic architecture?
+#### Ans
+- Microservice Modular,Independent services, Single Responsibility,Loosely coupled ,Independently deployable
+  Domain-driven design (DDD),API-based communication (e.g., REST, gRPC),Decentralized data management
+  Scalability,Fault isolation.
+- Monolithic : Tightly coupled, Shared database,Single deployable unit,Low flexibility
+  Hard to scale independently,Tougher fault isolation,Slower development cycles
 
-ii.. What are the benefits and challenges of adopting a microservices architecture?
+### Q. What are the benefits and challenges of adopting a microservices architecture?
+#### Ans:
 
-iii. How would you approach breaking a monolithic application into microservices?
+- Benefits of Microservices
+  - Scalability (horizontal scaling of individual services)
+  - Flexibility (technology-agnostic per service)
+  - Independent deployment
+  - Faster time to market
+  - Fault isolation
+  - Resilience
+  - Team autonomy
+  - Continuous delivery / CI/CD
+  - Reusability
+  - Improved maintainability
+  - Domain-driven design (DDD)
+  - Cloud-native readiness
 
-iv. What is a bounded context, and why is it important in microservices?
+- Challenges of Microservices
+  - Increased complexity (more services to manage)
+  - Service coordination
+  - Distributed data management
+  - Network latency
+  - Inter-service communication (e.g., REST, gRPC)
+  - Monitoring and observability
+  - Deployment overhead
+  - DevOps maturity required
+  - Testing complexity (integration & end-to-end)
+  - Service discovery
+  - Security (e.g., authentication, authorization across services)
+  - Data consistency (eventual consistency, distributed transactions)
 
-v. Explain CAP theorem and how it applies to microservices.
+### Q. How would you approach breaking a monolithic application into microservices?
 
-vi. How do you ensure fault isolation in a microservices architecture?
+###. What is a bounded context, and why is it important in microservices?
 
-vii. Explain the role of the 12-Factor App methodology in microservices.
+###. Explain CAP theorem and how it applies to microservices.
 
-viii. What is the difference between a domain-driven design (DDD) and microservices design?
+###. How do you ensure fault isolation in a microservices architecture?
 
-ix. How do you identify and define the boundaries of a microservice?
+###. Explain the role of the 12-Factor App methodology in microservices.
 
-x. How do you handle shared libraries or common utilities in microservices?
+###. What is the difference between a domain-driven design (DDD) and microservices design?
+
+###. How do you identify and define the boundaries of a microservice?
+
+###. How do you handle shared libraries or common utilities in microservices?
 
 #### Service Discovery
 
