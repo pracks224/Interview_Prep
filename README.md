@@ -1,21 +1,11 @@
 # Interview Preparation Guide
-
+## A. [Microservices](./MICROSERVICES/MiICROSERVICES_ALL_BASICS.md)
 ## 1. Core Java & Advanced Java
 - Java 8+ features (Lambdas, Streams, Functional Interfaces, CompletableFuture)
 - Multithreading & Concurrency (Executors, ForkJoin, ThreadPool, Locks, Synchronization)
 - Collections framework (List, Map, Set, Concurrent Collections)
 - Exception Handling & Best Practices
 - JVM Internals (Garbage Collection, Memory Management, Class Loading)
-
-## 2. Microservices & Cloud Architecture
-- Spring Boot & Spring Cloud (Config Server, Eureka, Ribbon, Feign, Circuit Breakers)
-- API Gateway (Zuul, Spring Cloud Gateway)
-- RESTful Web Services, GraphQL, gRPC
-- Service-to-Service Communication (Feign, REST, Messaging)
-- Microservices Security (OAuth2, JWT, API Security Best Practices)
-- Kubernetes & Docker (Containerization, Pod Scaling, Helm)
-- CI/CD Pipelines (Jenkins, GitHub Actions, ArgoCD, Spinnaker)
-- Logging, Monitoring & Tracing (ELK, Prometheus, Grafana, OpenTelemetry, Jaeger)
 
 ## 3. System Design & Architecture
 - High-Level & Low-Level Design
