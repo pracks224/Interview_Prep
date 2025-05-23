@@ -144,10 +144,31 @@ Ans
 - Publish to artifact repositories like Maven, Nexus, or JFrog Artifactory.
 
 ### Service Discovery
-
-Q. What are the advantages of dynamic service discovery in microservices?
-Q. Compare client-side and server-side service discovery mechanisms.
+### Q. What are the advantages of dynamic service discovery in microservices?
+#### Ans:
+  - Scalability: Automatically tracks and updates available instances of services as they scale up or down, without manual configuration.
+  - Resilience: Enables services to handle instance failures gracefully by dynamically routing requests to healthy instances.
+  - Reduced Configuration Overhead: Eliminates the need to hardcode IP addresses or hostnames, simplifying deployment and configuration.
+  - Improved Load Balancing: Works seamlessly with client-side or server-side load balancers to distribute traffic based on real-time service availability.
+  - Environment Flexibility: Supports deployments across dynamic environments like Kubernetes or cloud platforms where service IPs may frequently change.
+### Q. Compare client-side and server-side service discovery mechanisms.
+#### Ans.
+| Aspect             | **Client-Side Discovery**                                                               | **Server-Side Discovery**                                                                                   |
+| ------------------ | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **How it works**   | Client queries the service registry and chooses an instance to call.                    | Client makes a request to a load balancer; the load balancer queries the registry and forwards the request. |
+| **Responsibility** | Logic for discovery and load balancing is in the client.                                | Logic is handled by a centralized server (e.g., load balancer or API gateway).                              |
+| **Example Tools**  | Netflix Ribbon, Eureka client                                                           | AWS Elastic Load Balancer, NGINX, HAProxy, Kubernetes Services                                              |
+| **Complexity**     | More complex clients, simpler infrastructure                                            | Simpler clients, more complex server/infrastructure                                                         |
+| **Use Cases**      | Suitable when clients are capable of handling discovery logic (e.g., internal systems). | Suitable for external clients or simpler client architectures.                                              |
+Here client side discovery means not react or angular .
 ### Q. What are some tools for service discovery besides Eureka? How do they work?
+#### Ans:
+- Consul (by HashiCorp)
+- Zookeeper (by Apache)
+- etcd (by CoreOS/now part of CNCF)
+- Kubernetes DNS-based Service Discovery
+- AWS Cloud Map
+  
 #### Ans:
 - 
 | Tool              | Works With      | Discovery Method     | Notes                       |
@@ -161,11 +182,14 @@ Q. Compare client-side and server-side service discovery mechanisms.
 
 
 #### Scalability and Load Balancing
-
-Q. How do microservices achieve horizontal scalability?
-Q. What is the role of load balancers in a microservices setup? How do you configure them?
-Q.What are the benefits and challenges of autoscaling microservices?
-Q. Explain sticky sessions and their impact on scaling microservices.
+### Q. How do microservices achieve horizontal scalability?
+#### Ans:
+### Q. What is the role of load balancers in a microservices setup? How do you configure them?
+#### Ans:
+### Q.What are the benefits and challenges of autoscaling microservices?
+#### Ans:
+### Q. Explain sticky sessions and their impact on scaling microservices.
+#### Ans:
 
 #### Resilience and Fault Tolerance
 
