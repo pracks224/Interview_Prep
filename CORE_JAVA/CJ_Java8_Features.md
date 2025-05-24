@@ -15,6 +15,17 @@
     - Records (Java 16): Concise, immutable data carriers.
     - Sealed Classes (preview in 15, stable in 17): Restrict subclassing
   - Java 19/20 : Virtual Threads (Stable): Enables millions of concurrent threads with minimal overhead — massive for microservices and server apps.
+ 
+  -
+| Feature Area               | Game-Changing Additions                                            |
+| -------------------------- | ------------------------------------------------------------------ |
+| **Concurrency**            | Virtual Threads, Structured Concurrency                            |
+| **Language Features**      | var, Records, Sealed Classes, Switch Expressions, Pattern Matching |
+| **Developer Productivity** | JShell, Text Blocks, `java` command simplification                 |
+| **API Improvements**       | New HTTP Client, String enhancements                               |
+| **Modularity**             | JPMS (Project Jigsaw)                                              |
+| **Performance**            | G1, ZGC, CDS, JFR improvements                                     |
+
 
 
 ### Q. Non-terminal Operations vs terminal Operations
