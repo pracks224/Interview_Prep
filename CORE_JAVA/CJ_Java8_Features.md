@@ -1,7 +1,27 @@
 **Table of content:**
 
 #### Format code in Mac ===> command + option + L
- [Consumer Functional Interface](#consumerFI)
+
+### Q. Game Change Features Post Java 8
+
+#### Ans:
+
+- Game-changing features from Java 9 to Java 21 (LTS)
+
+### Q. Non-terminal Operations vs terminal Operations
+
+- A non-terminal stream operation is an intermediate operation which creates a new Stream by transforming or filtering the original stream.
+
+  filter(),map(),flatMap(),distinct(),limit(),peek()
+  Terminal Operations
+
+- A terminal stream operation is an operation that returns a result.
+
+  anyMatch(),allMatch(),noneMatch(),collect(),count(),findAny(),findFirst()
+  forEach(),min(),max(),reduce(),toArray()
+
+[Consumer Functional Interface](#consumerFI)
+
 1. [Java 8 Features](#java8)
 
 2. [What do you understand about Functional Interface and some functional Interfaces?](#2Fs)
@@ -117,10 +137,10 @@
 #### Consumer Functional Interface
 
 1. This FI used for printing,updating objects with out returining anything.
-2. printConsumer.andThen(lengthConsumer).accept("Alice");  andThen used for chaining the consumers
+2. printConsumer.andThen(lengthConsumer).accept("Alice"); andThen used for chaining the consumers
 3. Using consumer , we can reuse the same method for different type of updates like increment,decrement etc
    public static void updateEmployee(Employee employee, Consumer<Employee> consumer) {
-        consumer.accept(employee); // Applies the consumer to the employee
-    }
-   Consumer<Employee> giveRaise = e -> e.setSalary(e.getSalary() * 1.10);
+   consumer.accept(employee); // Applies the consumer to the employee
+   }
+   Consumer<Employee> giveRaise = e -> e.setSalary(e.getSalary() \* 1.10);
    updateEmployee(emp, giveRaise);
