@@ -7,6 +7,15 @@
 #### Ans:
 
 - Game-changing features from Java 9 to Java 21 (LTS)
+  - Java 9 : Modular System - module-info.java, Compact Strings: Memory optimization for String objects., JShell
+    - [More Details](https://medium.com/@reetesh043/java-modules-a-guide-for-beginners-c1dcd6a33a83)
+    - [compact strings](https://www.geeksforgeeks.org/compact-strings-in-java-9-with-examples/)
+  - Java 10 : var keyword: Type inference for local variables (e.g., var list = new ArrayList<String>();). Type Inference
+  - Java 15/16 : Records, Sealed Classes
+    - Records (Java 16): Concise, immutable data carriers.
+    - Sealed Classes (preview in 15, stable in 17): Restrict subclassing
+  - Java 19/20 : Virtual Threads (Stable): Enables millions of concurrent threads with minimal overhead — massive for microservices and server apps.
+
 
 ### Q. Non-terminal Operations vs terminal Operations
 
