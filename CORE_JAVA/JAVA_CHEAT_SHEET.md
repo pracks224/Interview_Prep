@@ -10,4 +10,5 @@
 
 ### [Thread](INTERVIEW_CORE_JAVA/CJ_Java8_Features.md)
 
-### [Change Of feature Post Java 8](INTERVIEW_CORE_JAVA/CJ_Java8_Features.md)
+### [Change Of feature Post Java 8](CORE_JAVA/CJ_Java8_Features.md)
+
