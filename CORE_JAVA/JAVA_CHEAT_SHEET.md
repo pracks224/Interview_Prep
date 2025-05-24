@@ -4,7 +4,7 @@
 
 ### [Thread](CJ_Multithreading.md)
 
-### [Java 8 Sample Coding Questions]()
+### [Java 8 Sample Coding Questions](CJ_Sample_Coding_Question.md)
 
 ### [Thread](CJ_DesignPatterns.md)
 
