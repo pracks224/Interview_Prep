@@ -290,7 +290,82 @@ iv. How do you handle latency issues in a distributed system?
 
 ### [What is service mesh ? Explain the differnet advantages like traffic splitting ](https://www.youtube.com/watch?v=16fgzklcF7Y)
 
-### [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+### MS1 Circuit Breaker
+  1. [circuit breaker using Resilllinec4J and springboot](https://salithachathuranga94.medium.com/micro-service-patterns-circuit-breaker-with-spring-boot-253e4a829f94)
+      - Circuit Breaker is one of them which helps to manage downstream service failures in a proper manner. CLosed,Open and Half-open
+      - Fault tolerance
+  2. What are the key configurations for a circuit breaker in your code?
+  3. How is a circuit breaker different from a retry pattern or bulkhead pattern?
+  4. Key circuit breaker configurations?
+     - Configure failure threshold, wait duration, sliding window, trial calls in half-open, and exception rules to balance resilience and responsiveness.
+  6. Circuit breaker vs retry vs bulkhead?
+     - Circuit breakers fail fast, retries handle transient faults, and bulkheads isolate service failures by limiting concurrent access per component or thread pool.
+  7. Flaky calls meaning?
+     - Flaky calls intermittently fail due to transient issues like network glitches or server hiccups; handled via retries, timeouts, and fallback logic.
+
+8. Retry configuration using Resilience4j?
+   - Use YAML or Java to set max attempts, delays, and exception rules. Annotate retryable methods with @Retry and define fallback methods.
+9. Common circuit breaker misconfigurations?
+    - Misconfigurations include low failure thresholds, insufficient call samples, wrong exceptions tracked, short wait times, and lack of monitoring or fallbacks.
+
+10. Automatic transition from open to half-open?
+    - When enabled, the circuit breaker moves to half-open automatically after wait time, testing limited calls without external triggers for auto-recovery.
+
+12. What is a circuit breaker in software architecture?
+    - A circuit breaker prevents repeated calls to a failing service, helping systems fail fast and recover gracefully from partial outages.
+
+13. How does a circuit breaker pattern help in microservices?
+    - It isolates failing services, protects the system from cascading failures, and improves overall fault tolerance and responsiveness in distributed architectures.
+
+14. What are the three states of a circuit breaker?
+    - CLOSED (normal), OPEN (fail fast), and HALF_OPEN (limited trial calls to test recovery).
+
+15. How is a circuit breaker implemented in Spring Boot using Resilience4j or Hystrix?
+    - Use @CircuitBreaker, YAML configs or Java API; define threshold, window, wait time, and fallback method to control state transitions.
+
+16. What are the key configurations for a circuit breaker in your code?
+    - Failure threshold, wait duration, call count in half-open, sliding window size/type, and exception filtering (recordExceptions, ignoreExceptions).
+
+17. How do you define failure thresholds and timeouts?
+
+    - Failure thresholds are percentage-based; timeouts are set per call or using resilience frameworks. Tune both based on traffic and failure behavior.
+
+18. What metrics would you monitor to know if your circuit breaker is working effectively?
+    - Monitor state changes, success/failure rates, call counts, wait durations, and fallback invocations using metrics dashboards.
+
+19. How do you trace when a circuit breaker opens or closes in production?
+    - Log state transitions and expose circuit breaker events via metrics systems like Prometheus or distributed tracing tools.
+
+20. How does a circuit breaker integrate with monitoring tools like Prometheus, Grafana, or AppDynamics?
+    - Resilience4j exposes Micrometer metrics, which integrate with Prometheus/Grafana; AppDynamics shows circuit health via custom dashboards and alerts.
+
+21. Can you give an example when a circuit breaker helped prevent cascading failures?
+    - During a payment gateway outage, the circuit breaker cut off traffic, preserving the rest of the system and providing fallback error messages.
+
+22. What would happen if you didn’t use a circuit breaker in a critical microservice?
+    - Downstream failures would block threads, exhaust resources, and cause full-system outages, especially under load.
+
+23. How do you handle retries in conjunction with a circuit breaker?
+    - Place retries inside the circuit breaker’s protected method. Limit retries and add backoff to avoid overwhelming the failing service.
+
+24. What are the common misconfigurations of a circuit breaker?
+    - Too low thresholds, short wait time, incorrect exception tracking, no fallback, or small window size can cause false trips or instability.
+
+25. How do you avoid false positives (tripping when it shouldn’t)?
+    - Tune thresholds conservatively, ensure minimum call count is sufficient, and ignore expected business exceptions.
+
+26. How do you recover from a failed downstream service without impacting user experience?
+    - Use fallback methods, cached responses, or default data to maintain responsiveness while the circuit breaker protects the backend.
+
+
+27. How is a circuit breaker different from a retry pattern or bulkhead pattern?
+    - Circuit breakers stop retries during failure; retry handles transient faults; bulkhead isolates failures to prevent resource exhaustion.
+
+28. How do you combine a circuit breaker with a fallback mechanism?
+    - Wrap the primary logic with a circuit breaker and define a fallback method that executes when the circuit is open or an exception occurs.
+
+29. What’s the difference between client-side and server-side circuit breakers?
+    - Client-side breakers protect the caller; server-side breakers guard service internals. Client breakers are more common in microservices for resilience.
 
 ### Q.Communication Between Micro Services
 
