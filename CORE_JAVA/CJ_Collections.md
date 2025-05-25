@@ -18,6 +18,52 @@
 
 =================================================================================================
 
+### What is BlockingQueue?
+
+#### Answer :
+
+    • A BlockingQueue is a data structure in Java that provides thread-safe operations for storing and retrieving elements. It allows multiple threads to interact with the queue, and when the queue is empty, the retrieval operation blocks until an element becomes available, ensuring synchronization and coordination between threads.
+    • Mainly used for producer and consumer problems
+    • It does not accept null value if we add it.
+
+### How can we create a synchronized collection from given collection?
+
+#### Answer :
+
+    To create a synchronized collection from a given collection in Java, you can use the Collections.synchronized method. This method wraps the original collection with a synchronized wrapper, ensuring thread safety for concurrent access.
+    // Creating a synchronized version of the collection
+    List<String> synchronizedList = Collections.synchronizedList(originalList);
+
+        // Now, the synchronizedList can be safely accessed by multiple threads concurrently
+        // It will automatically handle synchronization for thread safety
+
+    It uses synchronized blocks to ensure thread safety, which means only one thread can access the map at a time.
+    While it provides thread safety, it may result in reduced performance when multiple threads frequently access the map simultaneously, as other threads will be blocked during those operations.
+
+### Q.What are the different ways to create Synchronized Collections in Java ?
+
+    Answer :
+    ConcurrentHashMap,CopyOnWriteArrayList,CopyOnWriteArraySet,ConcurrentSkipListSet.
+    It provides fine-grained concurrency control without explicit synchronization.
+
+        ConcurrentHashMap: It provides a concurrent implementation of a hash map, allowing multiple threads to read and write concurrently without blocking.
+
+        CopyOnWriteArrayList: This list allows for safe concurrent access by creating a new copy of the list every time an element is modified, ensuring that modifications don't affect ongoing iterations.
+
+        CopyOnWriteArraySet: Similar to CopyOnWriteArrayList, this set implementation ensures safe concurrent access by creating a new copy of the set for each modification.
+
+        ConcurrentSkipListSet and ConcurrentSkipListMap: These are concurrent implementations of a skip list set and skip list map, respectively, offering better performance for concurrent access in sorted collections.
+
+### Q.How ConcurrentHashMap works?
+
+    Answer :
+    - ConcurrentHashMap is lock free ,scalable and all the operations are atomic.
+    - ConcurrentHashMap divides the data into segement and lock the segement,so that other areas
+      avaialble to access by other threads.
+    - ConcurrentHashMap is not a good choice if you would need to maintain insertion order
+      of the elements. This is because the internal structure of a ConcurrentHashMap is based on hash codes,
+      which means that the order in which elements are inserted is not preserved.
+
 #### Write a program to remove empty strings from an array of Strings.
 
 -

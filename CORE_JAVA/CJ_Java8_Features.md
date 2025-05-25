@@ -15,18 +15,25 @@
     - Records (Java 16): Concise, immutable data carriers.
     - Sealed Classes (preview in 15, stable in 17): Restrict subclassing
   - Java 19/20 : Virtual Threads (Stable): Enables millions of concurrent threads with minimal overhead — massive for microservices and server apps.
- 
-  -
-| Feature Area               | Game-Changing Additions                                            |
-| -------------------------- | ------------------------------------------------------------------ |
-| **Concurrency**            | Virtual Threads, Structured Concurrency                            |
-| **Language Features**      | var, Records, Sealed Classes, Switch Expressions, Pattern Matching |
-| **Developer Productivity** | JShell, Text Blocks, `java` command simplification                 |
-| **API Improvements**       | New HTTP Client, String enhancements                               |
-| **Modularity**             | JPMS (Project Jigsaw)                                              |
-| **Performance**            | G1, ZGC, CDS, JFR improvements                                     |
 
+  - | Feature Area               | Game-Changing Additions                                            |
+    | -------------------------- | ------------------------------------------------------------------ |
+    | **Concurrency**            | Virtual Threads, Structured Concurrency                            |
+    | **Language Features**      | var, Records, Sealed Classes, Switch Expressions, Pattern Matching |
+    | **Developer Productivity** | JShell, Text Blocks, `java` command simplification                 |
+    | **API Improvements**       | New HTTP Client, String enhancements                               |
+    | **Modularity**             | JPMS (Project Jigsaw)                                              |
+    | **Performance**            | G1, ZGC, CDS, JFR improvements                                     |
 
+### 1. Why Java is changing again?
+
+- Java 1.1 in 1997 - Java 7 in 2011 - Java 8 2014. Java 8 is profound than any other releases.
+- In java 8 we can write code more concise mannner , small and better way of writing.
+- Also, one reason for change is hardware influence. Earlier version of Java /or vast majority of the java programs only uses one these cores only. Java 1.0 introduces thread,locks etc.
+  - Java 5 introduces thread pool ,Concurrent collections
+  - Java 7 introduces fork/join framewrok
+  - Java 8 -> fill it later
+  - Concise code and simpler use of multicore processor
 
 ### Q. Non-terminal Operations vs terminal Operations
 
