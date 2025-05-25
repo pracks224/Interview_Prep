@@ -25,6 +25,7 @@
 2. Seat held (soft lock) for 2 minutes
 3. DB booking only if payment success
 4. Redis lock released
+   <a id="Designing-Scalable-Services">Designing Scalable Services</a>
 
 ### 1. How would you design a scalable architecture for handling sudden traffic spikes?
 
