@@ -1,10 +1,10 @@
-| Date       | Topic         | Key Concepts / Keywords / Notes                                                                                                                                           |
-| ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2025-05-25 | Core Java     | Streams API<br>Functional Interfaces<br>Multithreading basics<br>Collections (List, Set, Map)<br> [Java Game Changer Features Post Java 8](CORE_JAVA/JAVA_CHEAT_SHEET.md) |
-| 2025-05-25 | Spring Boot   | @RestController<br>Dependency Injection<br>Actuator<br>application.yml                                                                                                    |
-| 2025-05-25 | Microservice  | Eureka<br>Feign<br>Config Server<br>Circuit Breaker (Resilience4j)                                                                                                        |
-| 2025-05-25 | Data Engineer | Kafka Topics/Partitions<br>Spark Transformations vs Actions                                                                                                               |
-| 2025-05-25 | DSA           | Sliding Window<br>Binary Search<br>Leetcode #53 (Max Subarray)                                                                                                            |
-| 2025-05-25 | Database      | ACID properties<br>Joins<br>Indexing<br>Query Optimization                                                                                                                |
-| 2025-05-25 | Cloud/DevOps  | AWS EC2<br>Docker Basics<br>Jenkins CI/CD pipeline                                                                                                                        |
-| 2025-05-25 | System Design | CAP Theorem<br>Load Balancer<br>Caching Strategy<br>Designing Scalable Services                                                                                           |
+| Topic         | Key Concepts / Keywords / Notes                                                                                                                                           |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Core Java     | 1.[Streams API](CORE_JAVA/CJ_Streams.md)<br>2.Functional Interfaces<br>3.Multithreading basics<br>4.Collections (List, Set, Map)<br> 5.[Java Game Changer Features Post Java 8](CORE_JAVA/JAVA_CHEAT_SHEET.md) |
+| Spring Boot   | @RestController<br>Dependency Injection<br>Actuator<br>application.yml                                                                                                    |
+| Microservice  | Eureka<br>Feign<br>Config Server<br>Circuit Breaker (Resilience4j)                                                                                                        |
+| Data Engineer | Kafka Topics/Partitions<br>Spark Transformations vs Actions                                                                                                               |
+| DSA           | Sliding Window<br>Binary Search<br>Leetcode #53 (Max Subarray)                                                                                                            |
+| Database      | ACID properties<br>Joins<br>Indexing<br>Query Optimization                                                                                                                |
+| Cloud/DevOps  | AWS EC2<br>Docker Basics<br>Jenkins CI/CD pipeline                                                                                                                        |
+| System Design | CAP Theorem<br>Load Balancer<br>Caching Strategy<br>Designing Scalable Services                                                                                           |
