@@ -1,3 +1,110 @@
+### Load Balancers
+
+#### Ans :
+
+1. What is a load balancer? Why is it used?
+   - A load balancer distributes incoming network traffic across multiple backend servers to ensure no single server is overwhelmed.
+   - It improves application availability, scalability, and fault tolerance by managing traffic efficiently, performing health checks,
+   - enabling redundancy. Load balancers also enhance performance, ensure reliability, and act as a single entry point.
+2. What are the types of load balancing algorithms?
+  - Here’s a quick explanation of how each load balancing algorithm works:
+      - 🔄 1. Round Robin
+        - Assigns requests to servers in a circular sequence
+        - Each server gets traffic equally, regardless of load
+    - ⚖️ 2. Weighted Round Robin
+        - Like Round Robin but with weights assigned to each server
+        - Servers with higher weight get more requests
+    - 🔗 3. Least Connections
+        - Directs traffic to the server with the fewest active connections
+        - Best for applications with long-lived connections
+
+🏋️ 4. Weighted Least Connections
+Combines weights and active connections
+
+Prioritizes stronger servers with fewer connections
+
+🧩 5. IP Hash
+Uses client’s IP address hash to decide the server
+
+Ensures session persistence for the same client
+
+🎲 6. Random
+Sends each request to a random server
+
+Simple, but less intelligent load distribution
+
+⏱️ 7. Least Response Time
+Chooses the server with the lowest average response time
+
+Requires monitoring latency and server load
+
+📌 8. Source IP Affinity (Sticky Sessions)
+Routes requests from the same client IP to the same server
+
+Helps maintain session state without external storage
+
+🧠 9. Custom Rules
+Defined by specific business logic or metrics
+
+Examples: load by CPU usage, geolocation, or user type
+
+
+
+3. What is the difference between Layer 4 and Layer 7 load balancers?
+4. What are the differences between hardware and software load balancers?
+5. What is health checking in load balancers?
+6. How does a load balancer handle session persistence (sticky sessions)?
+7. What is SSL termination at a load balancer? Why is it useful?
+8. What happens when one of the backend servers goes down?
+9. How do DNS-based load balancers differ from traditional load balancers?
+10. How can a load balancer detect and handle slow backend services?
+
+🧱 Architecture & System Design-Level Questions
+
+11.Design a highly available load-balanced architecture for a web application.
+
+12.What are the challenges in load balancing real-time applications (e.g., video streaming)?
+
+13.How would you handle failover in a multi-region deployment with load balancers?
+
+14.How do you ensure scalability with a load balancer in microservices architecture?
+
+15.What role do load balancers play in a CI/CD pipeline or blue-green deployment?
+
+☁️ Cloud-Specific Questions
+
+16.What is the difference between AWS ALB, NLB, and CLB?
+
+17.How does GCP Load Balancer differ from AWS Load Balancer?
+
+18.How do you set up a cross-region load balancer in Azure?
+
+19.How do load balancers integrate with auto-scaling groups in the cloud?
+
+20.Can you explain how SSL certificates are managed in a cloud load balancer (e.g., AWS ACM)?
+
+🔐 Security and Performance
+
+21.What is DDoS protection in load balancers?
+
+22.Can a load balancer be a single point of failure? How do you mitigate that?
+
+23.How do you secure a load balancer?
+
+24.What is connection draining (or deregistration delay)?
+
+25.How can a load balancer be optimized for performance and cost?
+
+🧠 Bonus – Behavioral/Scenario-Based
+
+26.Tell me about a time you troubleshot an issue with a load balancer.
+
+27.How do you handle SSL certificate renewal downtime?
+
+28.What logs/metrics would you check if a website behind a load balancer was slow?
+
+29.How would you handle client IP preservation in a reverse proxy setup?
+
 ### System design Approach
 
 - 7 steps
@@ -25,7 +132,8 @@
 2. Seat held (soft lock) for 2 minutes
 3. DB booking only if payment success
 4. Redis lock released
-   <a id="Designing-Scalable-Services">Designing Scalable Services</a>
+
+<a id="Designing-Scalable-Services">Designing Scalable Services</a>
 
 ### 1. How would you design a scalable architecture for handling sudden traffic spikes?
 
@@ -123,12 +231,23 @@ To support high throughput, I enforce limits at the API Gateway level and use Cl
 
   - Read replicas help scale reads quickly and are easy to implement, but don’t help with write-heavy workloads. On the other hand, sharding distributes both reads and writes but adds complexity in partitioning and query logic. For example, in our analytics system, we used replicas to serve read dashboards, while for our real-time game engine, we sharded player state data to ensure low-latency writes and horizontal scalability.
 
-    ### 13. What caching strategies would you use to reduce database load?
-
-    - Read through Cache - First check cache ,if miss data is loaded from DB and stored in cache for next time. "We used Redis as a read-through cache for product details, which reduced DB hits by ~70%"
-    - Write through cache
-    - Cache-Aside (Lazy Loading) n cache miss: fetch from DB, then update cache manually.
-    - Time-To-Live (TTL) / Expiry Policies Set TTL on cache entries (e.g., 5 mins, 1 hour).
+<a id="Caching-Strategy"></a>
+   
+   ### 13. What caching strategies would you use to reduce database load?
+   [source](https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/)
+   
+   Caching strategy depends on the data and data access patterns
+   
+   - Read through Cache - First check cache ,if miss data is loaded from DB and stored in cache for next time. "We used Redis as a read-through cache for product details, which reduced DB hits by ~70%".
+   - Write through cache.
+   - Cache-Aside (Lazy Loading) n cache miss: fetch from DB, then update cache manually.
+       - This is perhaps the most commonly used caching approach
+       - The application first checks the cache.
+       - If the data is found in cache, we’ve cache hit. The data is read and returned to the client.
+       - If the data is not found in cache, we’ve cache miss. The application has to do some extra work. It queries the database to read the data, returns it to the client and stores the data in cache so the subsequent reads for the same data results in a cache hit.
+       - Pros : Cache-aside caches are usually general purpose and work best for read-heavy workloads. Memcached and Redis are widely used.
+           - System uses this approach if they are resilient to cache, if cache fails then also it works.
+   - Time-To-Live (TTL) / Expiry Policies Set TTL on cache entries (e.g., 5 mins, 1 hour).
 
   ### 13. How to decide the eviction policy ?
 
