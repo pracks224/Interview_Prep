@@ -17,40 +17,45 @@
     - 🔗 3. Least Connections
         - Directs traffic to the server with the fewest active connections
         - Best for applications with long-lived connections
-
-🏋️ 4. Weighted Least Connections
-Combines weights and active connections
-
-Prioritizes stronger servers with fewer connections
-
-🧩 5. IP Hash
-Uses client’s IP address hash to decide the server
-
-Ensures session persistence for the same client
-
-🎲 6. Random
-Sends each request to a random server
-
-Simple, but less intelligent load distribution
-
-⏱️ 7. Least Response Time
-Chooses the server with the lowest average response time
-
-Requires monitoring latency and server load
-
-📌 8. Source IP Affinity (Sticky Sessions)
-Routes requests from the same client IP to the same server
-
-Helps maintain session state without external storage
-
-🧠 9. Custom Rules
-Defined by specific business logic or metrics
-
-Examples: load by CPU usage, geolocation, or user type
-
-
+    - 🏋️ 4. Weighted Least Connections
+        - Combines weights and active connections
+        - Prioritizes stronger servers with fewer connections
+    - 🧩 5. IP Hash
+         - Uses client’s IP address hash to decide the server
+         - Ensures session persistence for the same client
+    - 🎲 6. Random
+        - Sends each request to a random server
+        - Simple, but less intelligent load distribution
+    - ⏱️ 7. Least Response Time
+        - Chooses the server with the lowest average response time
+        - Requires monitoring latency and server load
+    - 📌 8. Source IP Affinity (Sticky Sessions)
+        - Routes requests from the same client IP to the same server
+        - Helps maintain session state without external storage
+    - 🧠 9. Custom Rules
+        - Defined by specific business logic or metrics
+        - Examples: load by CPU usage, geolocation, or user type
 
 3. What is the difference between Layer 4 and Layer 7 load balancers?
+#### Ans:
+
+| Feature                 | **Layer 4 Load Balancer**                   | **Layer 7 Load Balancer**                   |
+| ----------------------- | ------------------------------------------- | ------------------------------------------- |
+| **OSI Layer**           | Transport Layer                             | Application Layer                           |
+| **Protocols Used**      | TCP, UDP                                    | HTTP, HTTPS, WebSocket                      |
+| **Routing Based On**    | IP address, port, protocol                  | URL, headers, cookies, query params, method |
+| **Speed**               | Faster (less processing)                    | Slower (more processing)                    |
+| **Flexibility**         | Less flexible                               | Highly flexible and content-aware           |
+| **Use Cases**           | Low-latency apps, database, video streaming | Web apps, API gateways, microservices       |
+| **Session Persistence** | Via source IP                               | Sticky sessions via cookies or headers      |
+| **SSL Termination**     | Usually not supported                       | Fully supported                             |
+
+🔍 In Short:
+
+Layer 4: Routes based on network-level info (IP/Port), fast and simple.
+
+Layer 7: Routes based on application-level info (URLs, headers), ideal for modern web applications.
+
 4. What are the differences between hardware and software load balancers?
 5. What is health checking in load balancers?
 6. How does a load balancer handle session persistence (sticky sessions)?
