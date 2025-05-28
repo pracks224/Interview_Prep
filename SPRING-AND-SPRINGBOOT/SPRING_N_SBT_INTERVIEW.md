@@ -52,6 +52,17 @@
   - `@Autowired`, `@Qualifier`, `@Primary`
 
 ---
+### Q.10 @primary vs @qualifier
+
+#### Ans :
+-  [More here](https://medium.com/@youeleven/understanding-primary-and-qualifier-annotations-in-spring-differentiating-bean-selection-de003735f4f9)
+-  @Qualifier is used to specify which bean to inject when multiple candidates exist.
+-  @Primary marks a bean as the default when no qualifier is specified.
+
+### Q.10 @component vs @bean
+
+- @Component is used to auto-detect and auto-register beans via classpath scanning, while @Bean is used in configuration classes to define beans manually.
+- 
 
 ## 4. Spring Boot Data Access
 - **Spring Data JPA**
