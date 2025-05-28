@@ -52,6 +52,14 @@
   - `@Autowired`, `@Qualifier`, `@Primary`
 
 ---
+### Q.11 Constructor Injection Vs Setter Injection
+
+- Constructor Injection makes dependencies immutable meaning once object created,its dependencies can not be changed.
+- Constructor Injection avoids null pointer exception , tesetble, Best suggested
+- Setter Injection, if Spring uses public setter methods to inject dependencies after object construction. You may need to change the dependency after construction
+- Field Injection used when Some libraries (e.g., some JPA providers, CDI, etc.) require a no-arg constructor, making constructor injection harder.
+
+
 ### Q.10 @primary vs @qualifier
 
 #### Ans :
