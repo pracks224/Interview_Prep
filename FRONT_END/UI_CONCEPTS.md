@@ -139,3 +139,52 @@ Web workers
 - Observables represent streams of data over time — like a sequence of events, async data, or multiple values.
 - They can emit zero or more values, either synchronously or asynchronously.
 - Observers subscribe to these streams to react to emitted data or events.
+
+### How do you optimize Angular app performance?
+
+#### Ans :
+
+- Use webworkers for heavy tasks, Move heavy computations to background threads.
+- Debounce Input Events; Don’t hit API on every keystroke
+- Use Production Build, Always build with --prod for minified, tree-shaken bundles. Tree Shaking & Lazy Imports .
+- You might import a big library like this:
+  ``` import { add, subtract, multiply } from 'math-lib'; ```
+  But if you only use add, tree shaking will remove subtract and multiply from the final bundle.
+  Angular uses Webpack and Terser for tree shaking during a production build
+- Use OnPush Change Detection,Prevents unnecessary checks across the component tree.
+  ```
+  @Component({ changeDetection: ChangeDetectionStrategy.OnPush})
+  ```
+
+- Use Lazy Loading , reduces the size of the main module
+  ```
+  const routes: Routes = [
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }];
+  ```
+
+- Avoid Unnecessary *ngIf and Loops.Use trackBy in *ngFor to avoid DOM re-creation
+  ``` <li *ngFor="let item of items; trackBy: trackByFn">{{ item.name }}</li> ```
+
+### Q. Explain a scenario where you improved the performance of an Angular application.
+### Q. how you would communicate between sibling components that do not have a direct parent-child relationship.
+
+Ans:
+- You have two components:
+- <ComponentA> — sends data and <ComponentB> — receives and reacts to that data
+- They are siblings under the same parent but don't talk directly.
+- Create a Shared Service ,then use it send data in COmponentA and read data in ComponentB
+-  ```
+   import { Injectable } from '@angular/core';
+    import { Subject } from 'rxjs';
+
+    @Injectable({ providedIn: 'root' })
+    export class CommunicationService {
+    private dataSubject = new Subject<string>();
+    data$ = this.dataSubject.asObservable();
+
+    sendData(data: string) {
+    this.dataSubject.next(data);
+    }
+    }
+
+   ```
