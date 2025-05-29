@@ -126,4 +126,16 @@ Web workers
 - This concept is particularly useful in micro-frontend architectures, where different parts of a web application can be developed, deployed, and updated independently.
 - One app (remote app) exposes the module and host application access the remote app.
 
-#### Angular Element
+<a id="angular"></a>
+
+## Angular
+
+#### What is Component ?
+
+##### Ans :
+
+#### Observables
+
+- Observables represent streams of data over time — like a sequence of events, async data, or multiple values.
+- They can emit zero or more values, either synchronously or asynchronously.
+- Observers subscribe to these streams to react to emitted data or events.
