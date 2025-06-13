@@ -6,5 +6,5 @@
 | Data Engineer | Kafka Topics/Partitions<br>Spark Transformations vs Actions                                                                                                               |
 | DSA           | Sliding Window<br>Binary Search<br>Leetcode #53 (Max Subarray)                                                                                                            |
 | Database      | ACID properties<br>Joins<br>Indexing<br>Query Optimization                                                                                                                |
-| Cloud/DevOps  | AWS EC2<br>Docker Basics<br>Jenkins CI/CD pipeline                                                                                                                        |
+| Cloud/DevOps  | AWS EC2<br>Docker Basics<br>Jenkins CI/CD pipeline<br> [GCP](https://github.com/pracks224/Interview_Prep/blob/main/CLOUD_AWS_AZURE_GCP/GCP_ALL_IN_ONE.md)                                                                                                                        |
 | System Design | CAP Theorem<br>Load Balancer<br>Caching Strategy<br>Designing Scalable Services                                                                                           |
