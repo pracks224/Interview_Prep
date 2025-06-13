@@ -1,3 +1,51 @@
+### Google Cloud Platform
+
+1. What is Cloud Computing?
+2. Types of Cloud COmputing
+3. Based on Service module and deploy model
+4. Service Module - Infrastrure as Service, Platform as service,Software as service . IAAS has access to the undeline OS, PAAS has access to data, SAAS has no aceess to undeline 
+5. Deploy model - Public,private and hybrid
+6. Why GCP ? live migration,automatic task scheduling, best pricing etc
+7. Custimizatuoin feature of GCP
+8. What are GCP services ? 1. compute services 2. storage services 3. Networking services 4.Machine learing services 5.Big data services 5. Idenitity and secuirty
+9. What are the compute services ? Compute engine,app engine and kuberetes engiene
+10. Storage services - cloud storage,Cloud Sql, Cloud Bigtable
+11. Networking services - VPN,CLoud Load balancing,Cloud CDN
+12. Bigdata services
+    - Big Query - A fully managed data analysis that enables business to analyze Big data
+    - Cloud Data flow -  A fully managed real time data processing services for batch and streaming
+    - Data Proc
+13. Idenity and Secuirty Services
+    - Cloud IAm
+    - Cloud Resource Manager
+    - Cloud Secuirty scnabber
+14.Machine Learning Services
+  - Cloud Machine learning
+  - Cloud Vision API
+  - Cloud Speech API
+15.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Why API Management needed?
 
 These are the metrics can easily find out using etc :
